@@ -116,7 +116,7 @@ NOTE: Users are advised that the above series of codes are not universals, those
 ==== List of calendar system and their code elements
 
 The list of items composing the content of the country code is initially defined in <<annex-system-codes>>.
-Additional and new entries will be listed by the ISO 34100/AG.
+Additional and new entries will be listed by the ISO 34003/AG.
 
 Data attributes provided in the list is defined in <<ts-data-model>>.
 
