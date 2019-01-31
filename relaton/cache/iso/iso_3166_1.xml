@@ -1,0 +1,117 @@
+<bibitem type="international-standard" id="ISO3166-1">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes</title>
+  <title format="text/plain" language="fr" script="Latn">Codes pour la représentation des noms de pays et de leurs subdivisions -- Partie 1: Codes de pays</title>
+  <uri type="src">https://www.iso.org/standard/63545.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:63545:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/06/35/63545.detail.rss</uri>
+  <docidentifier type="ISO">ISO 3166-1</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>3</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>92</substage>
+  </status>
+  <copyright>
+    <from>2013</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 3166-1:2006</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 3166-1:2006/Cor 1:2007</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/NP 3166-1</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes</title>
+      <title format="text/plain" language="fr" script="Latn">Codes pour la représentation des noms de pays et de leurs subdivisions -- Partie 1: Codes de pays</title>
+      <uri type="src">https://www.iso.org/standard/63545.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:63545:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/06/35/63545.detail.rss</uri>
+      <docidentifier type="ISO">ISO 3166-1:2013</docidentifier>
+      <date type="published">
+        <on>2013</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>3</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">ISO 3166-1:2013 is intended for use in any application requiring the expression of current country names in coded form; it also includes basic guidelines for its implementation and maintenance.</abstract>
+      <abstract format="plain" language="fr" script="Latn">L'ISO 3166-1:2013 est destinée à toute application nécessitant l'expression des noms de pays sous une forme codée; elle contient également des principes directeurs pour sa mise en application et sa mise à jour.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>92</substage>
+      </status>
+      <copyright>
+        <from>2013</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO 3166-1:2006</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO 3166-1:2006/Cor 1:2007</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO/NP 3166-1</formattedref>
+        </bibitem>
+      </relation>
+      <editorialgroup>
+        <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.30</code>
+        <text>Documents in administration, commerce and industry</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.30</code>
+    <text>Documents in administration, commerce and industry</text>
+  </ics>
+</bibitem>

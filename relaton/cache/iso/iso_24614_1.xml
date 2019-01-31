@@ -1,0 +1,84 @@
+<bibitem type="international-standard" id="ISO24614-1">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Language resource management -- Word segmentation of written texts -- Part 1: Basic concepts and general principles</title>
+  <uri type="src">https://www.iso.org/standard/41665.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:41665:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/16/41665.detail.rss</uri>
+  <docidentifier type="ISO">ISO 24614-1</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2010</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Language resource management -- Word segmentation of written texts -- Part 1: Basic concepts and general principles</title>
+      <uri type="src">https://www.iso.org/standard/41665.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:41665:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/04/16/41665.detail.rss</uri>
+      <docidentifier type="ISO">ISO 24614-1:2010</docidentifier>
+      <date type="published">
+        <on>2010</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">ISO 24614-1:2010 presents the basic concepts and general principles of word segmentation, and provides language-independent guidelines to enable written texts to be segmented, in a reliable and reproducible manner, into word segmentation units (WSU). The many applications and fields that need to segment texts into words — and thus to which ISO 24614-1:2010 can be applied — include translation, content management, speech technologies, computational linguistics and lexicography. </abstract>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>2010</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <editorialgroup>
+        <technical_committee number="37" type="TC">ISO/TC 37/SC 4Language resource management</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.10</code>
+        <text>Writing and transliteration</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="37" type="TC">ISO/TC 37/SC 4Language resource management</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.10</code>
+    <text>Writing and transliteration</text>
+  </ics>
+</bibitem>

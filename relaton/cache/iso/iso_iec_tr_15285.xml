@@ -1,0 +1,99 @@
+<bibitem type="international-standard" id="ISO/IECTR15285">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Information technology -- An operational model for characters and glyphs</title>
+  <uri type="src">https://www.iso.org/standard/27163.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:27163:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/02/71/27163.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC TR 15285</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>1998</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Information technology -- An operational model for characters and glyphs</title>
+      <uri type="src">https://www.iso.org/standard/27163.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:27163:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/02/71/27163.detail.rss</uri>
+      <docidentifier type="ISO">ISO/IEC TR 15285:1998</docidentifier>
+      <date type="published">
+        <on>1998</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Electrotechnical Commission</name>
+          <abbreviation>IEC</abbreviation>
+          <uri>www.iec.ch</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>1998</from>
+        <owner>
+          <organization>
+            <name>ISO/IEC</name>
+          </organization>
+        </owner>
+      </copyright>
+      <editorialgroup>
+        <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 2Coded character sets</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>35.240.30</code>
+        <text>IT applications in information, documentation and publishing</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 2Coded character sets</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>35.240.30</code>
+    <text>IT applications in information, documentation and publishing</text>
+  </ics>
+</bibitem>

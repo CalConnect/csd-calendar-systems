@@ -1,0 +1,89 @@
+<bibitem type="international-standard" id="ISO233-2">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Arabic characters into Latin characters -- Part 2: Arabic language -- Simplified transliteration</title>
+  <title format="text/plain" language="fr" script="Latn">Information et documentation -- Translittération des caractères arabes en caractères latins -- Partie 2: Langue arabe -- Translittération simplifiée</title>
+  <uri type="src">https://www.iso.org/standard/4118.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:4118:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/00/41/4118.detail.rss</uri>
+  <docidentifier type="ISO">ISO 233-2</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>1993</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Arabic characters into Latin characters -- Part 2: Arabic language -- Simplified transliteration</title>
+      <title format="text/plain" language="fr" script="Latn">Information et documentation -- Translittération des caractères arabes en caractères latins -- Partie 2: Langue arabe -- Translittération simplifiée</title>
+      <uri type="src">https://www.iso.org/standard/4118.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:4118:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/00/41/4118.detail.rss</uri>
+      <docidentifier type="ISO">ISO 233-2:1993</docidentifier>
+      <date type="published">
+        <on>1993</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">Establishes a simplified system for the transliteration. This simplification of the stringent rules established by ISO 233:1984 is especially intended to facilitate the processing of bibliographic information (e.g. catalogues, indices, citations, etc.). Annex A gives the diacritical signs used (taken from the code table of ISO 5436:1983).</abstract>
+      <abstract format="plain" language="fr" script="Latn">&#13;
+La présente partie de l'ISO 233 établit un système simplifié de translittération des caractères arabes en caractères latins. Version simplifiée de la norme rigoureuse ISO 233:1984, elle est destinée en particulier à faciliter le traitement de l'information bibliographique (catalogues, index, références, etc.).&#13;
+</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>1993</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <editorialgroup>
+        <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.10</code>
+        <text>Writing and transliteration</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.10</code>
+    <text>Writing and transliteration</text>
+  </ics>
+</bibitem>

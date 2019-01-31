@@ -1,0 +1,99 @@
+<bibitem type="international-standard" id="ISO259-2">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Gas cylinders -- Cylinders and tubes of composite construction -- Modal acoustic emission (MAE) testing for periodic inspection and testing -- Part 2: Data link and physical layer conformance test plan</title>
+  <title format="text/plain" language="fr" script="Latn">Bouteilles à gaz -- Bouteilles et tubes composites -- Essai par émission acoustique modale (EAM) pour les besoins du contrôle et des essais périodiques -- Partie 2: Plan de test de conformité des couches de liaison de données et physique</title>
+  <uri type="src">https://www.iso.org/standard/4162.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:4162:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/00/41/4162.detail.rss</uri>
+  <docidentifier type="ISO">ISO 259-2</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>1994</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 259:1984</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Gas cylinders -- Cylinders and tubes of composite construction -- Modal acoustic emission (MAE) testing for periodic inspection and testing -- Part 2: Data link and physical layer conformance test plan</title>
+      <title format="text/plain" language="fr" script="Latn">Bouteilles à gaz -- Bouteilles et tubes composites -- Essai par émission acoustique modale (EAM) pour les besoins du contrôle et des essais périodiques -- Partie 2: Plan de test de conformité des couches de liaison de données et physique</title>
+      <uri type="src">https://www.iso.org/standard/4162.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:4162:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/00/41/4162.detail.rss</uri>
+      <docidentifier type="ISO">ISO 259-2:1994</docidentifier>
+      <date type="published">
+        <on>1994</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">Specifies a simplified system for the transliteration of Hebrew characters into Latin characters. This simplification of the stringent rules established by ISO 259:1984 is especially intended to make easier the processing of bibliographic information.</abstract>
+      <abstract format="plain" language="fr" script="Latn">&#13;
+La présente partie de l'ISO 259 prescrit un système simplifié de translittération des caractères hébraïques en caractères latins. Cette simplification des prescriptions rigoureuses énoncées dans l'ISO 259:1984 est notamment destinée à faciliter le traitement de l'information bibliographique (catalogues, index, références, etc.).&#13;
+</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>1994</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO 259:1984</formattedref>
+        </bibitem>
+      </relation>
+      <editorialgroup>
+        <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.10</code>
+        <text>Writing and transliteration</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.10</code>
+    <text>Writing and transliteration</text>
+  </ics>
+</bibitem>

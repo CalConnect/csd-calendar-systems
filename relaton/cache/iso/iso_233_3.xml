@@ -1,0 +1,83 @@
+<bibitem type="international-standard" id="ISO233-3">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Arabic characters into Latin characters -- Part 3: Persian language -- Simplified transliteration</title>
+  <uri type="src">https://www.iso.org/standard/2398.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:2398:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/00/23/2398.detail.rss</uri>
+  <docidentifier type="ISO">ISO 233-3</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>1999</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Arabic characters into Latin characters -- Part 3: Persian language -- Simplified transliteration</title>
+      <uri type="src">https://www.iso.org/standard/2398.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:2398:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/00/23/2398.detail.rss</uri>
+      <docidentifier type="ISO">ISO 233-3:1999</docidentifier>
+      <date type="published">
+        <on>1999</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <status>
+        <stage>90</stage>
+        <substage>60</substage>
+      </status>
+      <copyright>
+        <from>1999</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <editorialgroup>
+        <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.10</code>
+        <text>Writing and transliteration</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.10</code>
+    <text>Writing and transliteration</text>
+  </ics>
+</bibitem>

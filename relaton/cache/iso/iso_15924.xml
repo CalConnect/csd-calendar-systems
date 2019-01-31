@@ -1,0 +1,95 @@
+<bibitem type="international-standard" id="ISO15924">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Information and documentation -- Codes for the representation of names of scripts</title>
+  <title format="text/plain" language="fr" script="Latn">Information et documentation -- Codes pour la représentation des noms d'écritures</title>
+  <uri type="src">https://www.iso.org/standard/29546.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:29546:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/02/95/29546.detail.rss</uri>
+  <docidentifier type="ISO">ISO 15924</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2004</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Information and documentation -- Codes for the representation of names of scripts</title>
+      <title format="text/plain" language="fr" script="Latn">Information et documentation -- Codes pour la représentation des noms d'écritures</title>
+      <uri type="src">https://www.iso.org/standard/29546.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:29546:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/02/95/29546.detail.rss</uri>
+      <docidentifier type="ISO">ISO 15924:2004</docidentifier>
+      <date type="published">
+        <on>2004</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">ISO 15924:2004 provides a code for the presentation of names of scripts. The codes were devised for use in terminology, lexicography, bibliography and linguistics, but they may be used for any application requiring the expression of scripts in coded form. ISO 15924:2004 also includes guidance on the use of script codes in some of these applications.</abstract>
+      <abstract format="plain" language="fr" script="Latn">L'ISO 15924:2004 fournit un code équivalent aux noms d'écritures.Les codets sont conçus principalement pour être utilisés en terminologie, en lexicographie, en bibliographie et en linguistique, mais ils conviennent également à tous les cas nécessitant l'identification des écritures au moyen d 'un code. L'ISO 15924:2004 contient également des renseignements sur la façon d'employer les codets dans certains de ces cas.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>2004</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <editorialgroup>
+        <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.10</code>
+        <text>Writing and transliteration</text>
+      </ics>
+      <ics>
+        <code>01.140.20</code>
+        <text>Information sciences</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.10</code>
+    <text>Writing and transliteration</text>
+  </ics>
+  <ics>
+    <code>01.140.20</code>
+    <text>Information sciences</text>
+  </ics>
+</bibitem>

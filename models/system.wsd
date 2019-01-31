@@ -3,12 +3,9 @@
 '******* CONFIGURATION ************************************************
 !include style.uml.inc
 
-class TransliterationSystem {
+class Calendar {
   +code: String
   +name: String
-  +sourceScript: iso15924Code
-  +targetScript: iso15924Code
-  +language: iso639Code
 }
 
 '******* CLASS RELATIONS **********************************************

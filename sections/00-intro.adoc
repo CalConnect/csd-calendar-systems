@@ -3,11 +3,13 @@
 :sectnums!:
 == Introduction
 
-A number of international applications require
-the identification of transcription systems, including for
-terminology, lexicography, bibliography, and linguistics,
-especially for reverse transliteration,
-computational linguistics and machine pronunciation.
+Calendars are an essential element for date tracking.
+
+With multiple calendar systems in common use across
+the international community, it is necessary for a number
+of applications to identify calendar systems used
+for particular dates and times, including for
+computing, archiving, communication and bibliography.
 
 This standard sets out the necessary procedures to maintain
-the registry of transliteration systems.
+the registry of calendar systems.

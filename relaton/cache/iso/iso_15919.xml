@@ -1,0 +1,83 @@
+<bibitem type="international-standard" id="ISO15919">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Devanagari and related Indic scripts into Latin characters</title>
+  <uri type="src">https://www.iso.org/standard/28333.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:28333:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/02/83/28333.detail.rss</uri>
+  <docidentifier type="ISO">ISO 15919</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2001</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Devanagari and related Indic scripts into Latin characters</title>
+      <uri type="src">https://www.iso.org/standard/28333.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:28333:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/02/83/28333.detail.rss</uri>
+      <docidentifier type="ISO">ISO 15919:2001</docidentifier>
+      <date type="published">
+        <on>2001</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>2001</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <editorialgroup>
+        <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.10</code>
+        <text>Writing and transliteration</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.10</code>
+    <text>Writing and transliteration</text>
+  </ics>
+</bibitem>

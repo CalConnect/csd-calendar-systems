@@ -1,0 +1,111 @@
+<bibitem type="international-standard" id="ISO/IEC10646-2">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Information technology -- Universal Multiple-Octet Coded Character Set (UCS) -- Part 2: Supplementary Planes</title>
+  <title format="text/plain" language="fr" script="Latn">Technologies de l'information -- Jeu universel de caractères codés sur plusieurs octets (JUC) -- Partie 2: Plans complémentaires</title>
+  <uri type="src">https://www.iso.org/standard/33208.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/32/33208.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 10646-2</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2001</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem>
+      <formattedref>ISO/IEC 10646:2003</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Information technology -- Universal Multiple-Octet Coded Character Set (UCS) -- Part 2: Supplementary Planes</title>
+      <title format="text/plain" language="fr" script="Latn">Technologies de l'information -- Jeu universel de caractères codés sur plusieurs octets (JUC) -- Partie 2: Plans complémentaires</title>
+      <uri type="src">https://www.iso.org/standard/33208.html</uri>
+      <uri type="obp"/>
+      <uri type="rss">https://www.iso.org/contents/data/standard/03/32/33208.detail.rss</uri>
+      <docidentifier type="ISO">ISO/IEC 10646-2:2001</docidentifier>
+      <date type="published">
+        <on>2001</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Electrotechnical Commission</name>
+          <abbreviation>IEC</abbreviation>
+          <uri>www.iec.ch</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <status>
+        <stage>95</stage>
+        <substage>99</substage>
+      </status>
+      <copyright>
+        <from>2001</from>
+        <owner>
+          <organization>
+            <name>ISO/IEC</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="updates">
+        <bibitem>
+          <formattedref>ISO/IEC 10646:2003</formattedref>
+        </bibitem>
+      </relation>
+      <editorialgroup>
+        <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 2Coded character sets</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>35.040.10</code>
+        <text>Coding of character sets</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 2Coded character sets</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>35.040.10</code>
+    <text>Coding of character sets</text>
+  </ics>
+</bibitem>

@@ -1,0 +1,97 @@
+<bibitem type="international-standard" id="ISO639-1">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Codes for the representation of names of languages -- Part 1: Alpha-2 code</title>
+  <title format="text/plain" language="fr" script="Latn">Codes pour la représentation des noms de langue -- Partie 1: Code alpha-2</title>
+  <uri type="src">https://www.iso.org/standard/22109.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:22109:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/02/21/22109.detail.rss</uri>
+  <docidentifier type="ISO">ISO 639-1</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2002</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 639:1988</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Codes for the representation of names of languages -- Part 1: Alpha-2 code</title>
+      <title format="text/plain" language="fr" script="Latn">Codes pour la représentation des noms de langue -- Partie 1: Code alpha-2</title>
+      <uri type="src">https://www.iso.org/standard/22109.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:22109:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/02/21/22109.detail.rss</uri>
+      <docidentifier type="ISO">ISO 639-1:2002</docidentifier>
+      <date type="published">
+        <on>2002</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">This part of ISO 639 provides a code consisting of language code elements comprising two-letter language identifiers for the representation of names of languages. The language identifiers according to this part of ISO 639 were devised originally for use in terminology, lexicography and linguistics, but may be adopted for any application requiring the expression of language in two-letter coded form, especially in computerized systems. The alpha-2 code was devised for practical use for most of the major languages of the world that are not only most frequently represented in the total body of the world's literature, but which also comprise a considerable volume of specialized languages and terminologies. Additional language identifiers are created when it becomes apparent that a significant body of documentation written in specialized languages and terminologies exists. Languages designed exclusively for machine use, such as computer-programming languages, are not included in this code.</abstract>
+      <abstract format="plain" language="fr" script="Latn">La présente partie de l'ISO 639 fournit un code composé de codets de langue formés avec des indicatifs de langue à deux lettres pour la représentation des noms de langue. Les indicatifs de langue figurant dans la présente partie de l'ISO 639 ont été conçus principalement pour être utilisés en terminologie, lexicographie et linguistique mais peuvent être adaptés à toute autre application dans laquelle il est nécessaire d'exprimer une langue sous la forme d'un code à deux lettres, notamment dans le cadre des systèmes informatiques. Le code alpha-2 a été créé pour un usage pratique pour la plupart des grandes langues du monde qui ne sont pas seulement les plus souvent représentées dans le corpus de la littérature mondiale, mais pour lesquelles il existe également un volume considérable de langues de spécialité et de terminologies. De nouveaux indicatifs de langue sont créés lorsqu'il devient évident qu'il existe un corpus significatif de documentation écrite dans des langues de spécialité et des terminologies. Les langages créés pour être utilisés exclusivement par des machines, comme les langages de programmation, ne sont pas inclus dans le présent code.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>2002</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO 639:1988</formattedref>
+        </bibitem>
+      </relation>
+      <editorialgroup>
+        <technical_committee number="37" type="TC">ISO/TC 37/SC 2Terminology workflow and language coding</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.20</code>
+        <text>Information sciences</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="37" type="TC">ISO/TC 37/SC 2Terminology workflow and language coding</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.20</code>
+    <text>Information sciences</text>
+  </ics>
+</bibitem>

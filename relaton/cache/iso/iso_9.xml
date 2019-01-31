@@ -1,0 +1,99 @@
+<bibitem type="international-standard" id="ISO9">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Cyrillic characters into Latin characters -- Slavic and non-Slavic languages</title>
+  <title format="text/plain" language="fr" script="Latn">Information et documentation -- Translittération des caractères cyrilliques en caractères latins -- Langues slaves et non slaves</title>
+  <uri type="src">https://www.iso.org/standard/3589.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:3589:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/00/35/3589.detail.rss</uri>
+  <docidentifier type="ISO">ISO 9</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>1995</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 9:1986</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Cyrillic characters into Latin characters -- Slavic and non-Slavic languages</title>
+      <title format="text/plain" language="fr" script="Latn">Information et documentation -- Translittération des caractères cyrilliques en caractères latins -- Langues slaves et non slaves</title>
+      <uri type="src">https://www.iso.org/standard/3589.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:3589:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/00/35/3589.detail.rss</uri>
+      <docidentifier type="ISO">ISO 9:1995</docidentifier>
+      <date type="published">
+        <on>1995</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>2</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">Cancels and replaces the first edition (1986). Establishes a system for the transliteration into Latin characters of Cyrillic characters constituting the alphabets of Slavic and non-Slavic languages. Table 3 includes in a single sequence, listed in the Cyrillic alphabetic order, the 118 single or diacritic-carrying characters that appear in one or another of the considered alphabets.</abstract>
+      <abstract format="plain" language="fr" script="Latn">&#13;
+La présente Norme internationale prescrit un système de translittération en caractères latins des caractères cyrilliques constituant les alphabets des langues slaves et non slaves, conformément aux principes de la conversion rigoureuse, afin de permettre l'échange international de l'information, notamment par des moyens électroniques. Pour la translittération des caractères cyrilliques slaves, les tableaux 1 et 2 reproduisent les tableaux publiés dans la première édition de l'ISO 9:1986; pour la translittération des caractères cyrilliques constituant les alphabets des langues non slaves, le tableau 3 reprend les translittérations des tableaux 1 et 2 pour tous les caractères semblables à ceux des langues slaves et fournit des équivalences pour tous les caractères supplémentaires introduits dans les alphabets des langues non slaves. La tableau 3 incorpore en une suite unique, dans un ordre dérivé de l'ordre alphabétique cyrillique, les 118 caractères simples ou diacrités qui apparaissent dans l'un ou l'autre des alphabets couverts. La liste des langues écrites dans ces alphabets est donnée dans l'annexe C.&#13;
+</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>1995</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO 9:1986</formattedref>
+        </bibitem>
+      </relation>
+      <editorialgroup>
+        <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.10</code>
+        <text>Writing and transliteration</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.10</code>
+    <text>Writing and transliteration</text>
+  </ics>
+</bibitem>

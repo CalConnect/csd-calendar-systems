@@ -1,9 +1,8 @@
-= CalConnect/ISO 34003
+= CalConnect/ISO Codes for calendar systems
 :docnumber: 34003
 :tc-document-number: 9999
 :edition: 1
-:ref-docnumber: 34003:2018(E)
-:copyright-year: 2018
+:copyright-year: 2019
 :language: en
 :title-intro-en: Date and time
 :title-main-en: Codes for calendar systems
@@ -16,27 +15,30 @@
 :technical-committee-number: 154
 :technical-committee: Processes, data elements and documents in commerce, industry and administration
 :workgroup-type: WG
-:workgroup-number: 4
-:workgroup: e-documents
+:workgroup-number: 5
+:workgroup: Date and time
 :secretariat: SAC
 :language: en
 :draft:
 :toc:
 :stem:
 :xrefstyle: short
-:imagesdir: models
+:imagesdir: images
+:docfile: iso-calendar-codes.adoc
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,html_alt
 :local-cache-only:
 :data-uri-image:
 
-include::sections/0a-foreword.adoc[]
-include::sections/0b-intro.adoc[]
-
+include::sections/00-foreword.adoc[]
+include::sections/00-intro.adoc[]
 include::sections/01-scope.adoc[]
 include::sections/02-norm-refs.adoc[]
 include::sections/03-termsdef.adoc[]
+include::sections/04-common.adoc[]
+include::sections/05-codes.adoc[]
 
-include::sections/04-codes.adoc[]
-//include::sections/05-date-time-representations.adoc[]
+include::sections/a1-maintenance.adoc[]
+//include::sections/a2-calendar-codes.adoc[]
 
-//include::sections/a1-annex.adoc[]
 include::sections/zz-references.adoc[]

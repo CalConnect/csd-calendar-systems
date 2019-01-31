@@ -1,0 +1,86 @@
+<bibitem type="international-standard" id="ISO11940-2">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Thai characters into Latin characters -- Part 2: Simplified transcription of Thai language</title>
+  <title format="text/plain" language="fr" script="Latn">Information et documentation -- Translittération des caractères thaï en caractères latins -- Partie 2: Transcription simplifiée de la langue thaï</title>
+  <uri type="src">https://www.iso.org/standard/29544.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:29544:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/02/95/29544.detail.rss</uri>
+  <docidentifier type="ISO">ISO 11940-2</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2007</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Thai characters into Latin characters -- Part 2: Simplified transcription of Thai language</title>
+      <title format="text/plain" language="fr" script="Latn">Information et documentation -- Translittération des caractères thaï en caractères latins -- Partie 2: Transcription simplifiée de la langue thaï</title>
+      <uri type="src">https://www.iso.org/standard/29544.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:29544:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/02/95/29544.detail.rss</uri>
+      <docidentifier type="ISO">ISO 11940-2:2007</docidentifier>
+      <date type="published">
+        <on>2007</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">ISO 11940-2:2007 includes pronunciation rules and conversion tables of Thai consonants and vowels. These rules are applied, in order, to each word that can be looked up or compared in the Dictionary of the Thai Royal Institute or a dictionary of Thai pronunciation. A short-long vowel is not distinguished in the simplified transcription system. The simplified transcription system does not include the pronunciation of the tone(s) of the word. Whenever the full pronunciation of each word is necessary or needed, conversion of long vowels can be devised and tone rules can be added to the system to achieve the full pronunciation of each word.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>2007</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <editorialgroup>
+        <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.10</code>
+        <text>Writing and transliteration</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.10</code>
+    <text>Writing and transliteration</text>
+  </ics>
+</bibitem>

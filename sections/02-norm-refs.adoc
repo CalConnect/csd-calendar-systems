@@ -5,4 +5,3 @@
 * [[[ISO5127,ISO 5127]]], _Information and documentation — Foundation and vocabulary_
 
 * [[[ISO15924,ISO 15924]]], _Information and documentation – Codes for the representation of names of scripts_
-_

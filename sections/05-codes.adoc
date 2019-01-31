@@ -1,9 +1,9 @@
 
-== Transliteration and romanization systems
+== Calendar systems
 
 === General
 
-Transliteration and romanization systems are used to convert writing systems
+Calendar systems are used to convert writing systems
 into other scripts, and in the case of romanization systems, into Roman script.
 
 
@@ -18,12 +18,12 @@ image::system.png[]
 
 ==== Code
 
-A code that identifies the transliteration or romanization system.
+A code that identifies the calendar system.
 
 
 ==== Name
 
-A name that represents the transliteration or romanization system.
+A name that represents the calendar system.
 
 
 ==== Source script code
@@ -39,7 +39,7 @@ The script code of the script used in the output text.
 ==== Language code
 
 The language code that identifies the source language being processed
-by the transliteration or romanization system.
+by the calendar system.
 
 
 ==== Remarks
@@ -49,22 +49,22 @@ Any further notes.
 
 === Code and identifier
 
-==== Principles for inclusion in the list of transliteration and romanization systems
+==== Principles for inclusion in the list of calendar systems
 
 ===== List
 
-The list of transliteration and romanization systems in this document includes known
-transliteration and romanization systems from official sources.
+The list of calendar systems in this document includes known
+calendar systems from official sources.
 
 
 ===== Source of names
 
-Names and description of transliteration and romanization systems are
+Names and description of calendar systems are
 obtained from authoritative sources.
 
 ===== Current status of names
 
-Transliteration and romanization systems listed in this document are intended to reflect the current situation, at the time of issue of the latest update of this document.
+Calendar systems listed in this document are intended to reflect the current situation, at the time of issue of the latest update of this document.
 
 
 
@@ -72,7 +72,7 @@ Transliteration and romanization systems listed in this document are intended to
 
 ===== Relationship with names
 
-Transliteration and romanization systems have codes in the following format:
+Calendar systems have codes in the following format:
 
 [source]
 ----
@@ -94,11 +94,11 @@ The following rules are to be adhered to for the assignment of the alphabetic co
 
 ===== User assigned code elements
 
-If users need code elements to represent transliteration and romanization systems not included in the physical time scale registry, the code prefix of `zz` can be used.
+If users need code elements to represent calendar systems not included in the physical time scale registry, the code prefix of `zz` can be used.
 
-The code length for the transliteration and romanization system identifier must be 3 letters.
+The code length for the calendar system identifier must be 3 letters.
 
-Such transliteration and romanization system identifiers are in the following format:
+Such calendar system identifiers are in the following format:
 
 [source]
 ----
@@ -113,7 +113,7 @@ zz[transliteration-and-romanization-system-identifier]
 NOTE: Users are advised that the above series of codes are not universals, those code elements are not compatible between different entities.
 
 
-==== List of transliteration and romanization system and their code elements
+==== List of calendar system and their code elements
 
 The list of items composing the content of the country code is initially defined in <<annex-system-codes>>.
 Additional and new entries will be listed by the ISO 34100/AG.

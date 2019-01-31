@@ -7,26 +7,26 @@
 
 A registration authority (ISO 34100/AG) has been appointed to operate under guidelines provided in this Annex. It has been entrusted with the following functions:
 
-. to add and eliminate transliteration or romanization system codes, in accordance with the rules in this document;
+. to add and eliminate calendar system codes, in accordance with the rules in this document;
 
 . to advise users and ISO member bodies regarding application of the codes;
 
-. to update and disseminate list of transliteration or romanization system codes;
+. to update and disseminate list of calendar system codes;
 
-. to maintain a reference list of transliteration or romanization system codes;
+. to maintain a reference list of calendar system codes;
 
 . to publish changes made to such information;
 
-. to administer the reservation of codes related to the list of transliteration or romanization system codes.
+. to administer the reservation of codes related to the list of calendar system codes.
 
 Changes to this part of ISO 34100 are decided by the ISO 34100/AG and become effective immediately upon publication.
 
 The criteria provided in <<registration-adding-tzauth>> to 6.5 shall be observed by the ISO 34100/AG for changes to the list of country names in this part of ISO 34100, and their code elements, and for reservations of code elements.
 
 [[registration-adding-tzauth]]
-=== Addition to the list of transliteration or romanization system codes
+=== Addition to the list of calendar system codes
 
-Additions to the list of transliteration or romanization system codes shall be made on the basis of information from upon the request of a member of ISO 34100/AG.
+Additions to the list of calendar system codes shall be made on the basis of information from upon the request of a member of ISO 34100/AG.
 
 The ISO 34100/AG will decide upon the addition, on the basis of the justification given for the actual requirements for international interchange. Code elements will be allocated accordingly.
 
@@ -38,15 +38,15 @@ Additions to the official and international time scale authorities require addit
 ////
 
 [[registration-adding-tz]]
-=== Addition to the list of transliteration or romanization system codes
+=== Addition to the list of calendar system codes
 
-Additions to the list of transliteration or romanization system codes shall be made only by the appropriate registered authority.
+Additions to the list of calendar system codes shall be made only by the appropriate registered authority.
 
 
 [[registration-removing-tzauth]]
-=== Deletion from the list of transliteration or romanization system codes
+=== Deletion from the list of calendar system codes
 
-Deletion from the list of transliteration or romanization system codes shall be made upon the request of a member of ISO 34100/AG.
+Deletion from the list of calendar system codes shall be made upon the request of a member of ISO 34100/AG.
 
 The ISO 34100/AG will decide upon the deletion, on the basis of the information received. The corresponding code element is reserved.
 
@@ -56,15 +56,15 @@ The part 3 of ISO 34100 standard provides the list of country names deleted from
 
 
 [[registration-deleting-tz]]
-=== Deletion of elements from the list of transliteration or romanization system codes
+=== Deletion of elements from the list of calendar system codes
 
-Deletion from the list of transliteration or romanization system codes shall be made only by the ISO 34100/AG or upon a request to it.
+Deletion from the list of calendar system codes shall be made only by the ISO 34100/AG or upon a request to it.
 
 The ISO 34100/AG will decide upon the deletion, on the basis of the information received. The corresponding code element is reserved.
 
 
 [[registration-modify-tz]]
-=== Alterations to elements on list of transliteration or romanization system codes
+=== Alterations to elements on list of calendar system codes
 
 Alterations to a registered element shall be made only by the ISO 34100/AG or upon a request to it.
 

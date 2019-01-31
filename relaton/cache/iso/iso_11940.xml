@@ -1,0 +1,85 @@
+<bibitem type="international-standard" id="ISO11940">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Thai</title>
+  <title format="text/plain" language="fr" script="Latn">Information et documentation -- Translittération du thaï</title>
+  <uri type="src">https://www.iso.org/standard/20574.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:20574:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/02/05/20574.detail.rss</uri>
+  <docidentifier type="ISO">ISO 11940</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>20</substage>
+  </status>
+  <copyright>
+    <from>1998</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Thai</title>
+      <title format="text/plain" language="fr" script="Latn">Information et documentation -- Translittération du thaï</title>
+      <uri type="src">https://www.iso.org/standard/20574.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:20574:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/02/05/20574.detail.rss</uri>
+      <docidentifier type="ISO">ISO 11940:1998</docidentifier>
+      <date type="published">
+        <on>1998</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <status>
+        <stage>90</stage>
+        <substage>20</substage>
+      </status>
+      <copyright>
+        <from>1998</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <editorialgroup>
+        <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.10</code>
+        <text>Writing and transliteration</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.10</code>
+    <text>Writing and transliteration</text>
+  </ics>
+</bibitem>

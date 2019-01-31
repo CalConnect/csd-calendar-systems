@@ -1,0 +1,89 @@
+<bibitem type="international-standard" id="ISO3602">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Documentation -- Romanization of Japanese (kana script)</title>
+  <title format="text/plain" language="fr" script="Latn">Documentation -- Romanisation du japonais (écriture en kana)</title>
+  <uri type="src">https://www.iso.org/standard/9029.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:9029:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/00/90/9029.detail.rss</uri>
+  <docidentifier type="ISO">ISO 3602</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>1989</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Documentation -- Romanization of Japanese (kana script)</title>
+      <title format="text/plain" language="fr" script="Latn">Documentation -- Romanisation du japonais (écriture en kana)</title>
+      <uri type="src">https://www.iso.org/standard/9029.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:9029:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/00/90/9029.detail.rss</uri>
+      <docidentifier type="ISO">ISO 3602:1989</docidentifier>
+      <date type="published">
+        <on>1989</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">Establishes a system for the romanization of the present-day Japanese written language. Unrestricted application for the system requires that the romanizer possess a detailed knowledge of the language in its present-day written form.</abstract>
+      <abstract format="plain" language="fr" script="Latn">&#13;
+La présente Norme internationale établit un système de romanisation pour la langue écrite japonaise actuelle. L'application complète du système exige que la personne effectuant la romanisation possède une connaissance approfondie de la langue dans sa forme écrite actuelle.&#13;
+</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>60</substage>
+      </status>
+      <copyright>
+        <from>1989</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <editorialgroup>
+        <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.10</code>
+        <text>Writing and transliteration</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.10</code>
+    <text>Writing and transliteration</text>
+  </ics>
+</bibitem>

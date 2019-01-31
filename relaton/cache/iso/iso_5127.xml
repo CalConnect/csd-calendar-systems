@@ -1,0 +1,102 @@
+<bibitem type="international-standard" id="ISO5127">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Information and documentation -- Foundation and vocabulary</title>
+  <uri type="src">https://www.iso.org/standard/59743.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:59743:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/05/97/59743.detail.rss</uri>
+  <docidentifier type="ISO">ISO 5127</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 5127:2001</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Information and documentation -- Foundation and vocabulary</title>
+      <uri type="src">https://www.iso.org/standard/59743.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:59743:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/05/97/59743.detail.rss</uri>
+      <docidentifier type="ISO">ISO 5127:2017</docidentifier>
+      <date type="published">
+        <on>2017</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>2</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">ISO 5127:2017 provides a concept system and general vocabulary for the field of documentation within the whole information field. It has been created with a balanced representation of major work areas in mind: documentation, libraries, archives, media, museums, records management, conservation as well as legal aspects of documentation. The scope of the vocabulary provided in this document corresponds to that of ISO/TC 46: standardization of practices relating to libraries, documentation and information centres, publishing, archives, records management, museum documentation, indexing and abstracting services, and information science.</abstract>
+      <status>
+        <stage>60</stage>
+        <substage>60</substage>
+      </status>
+      <copyright>
+        <from>2017</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO 5127:2001</formattedref>
+        </bibitem>
+      </relation>
+      <editorialgroup>
+        <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.040.01</code>
+        <text>Generalities. Terminology. Standardization. Documentation (Vocabularies)</text>
+      </ics>
+      <ics>
+        <code>01.140.20</code>
+        <text>Information sciences</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.040.01</code>
+    <text>Generalities. Terminology. Standardization. Documentation (Vocabularies)</text>
+  </ics>
+  <ics>
+    <code>01.140.20</code>
+    <text>Information sciences</text>
+  </ics>
+</bibitem>

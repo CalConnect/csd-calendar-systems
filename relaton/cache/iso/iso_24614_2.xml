@@ -1,0 +1,84 @@
+<bibitem type="international-standard" id="ISO24614-2">
+  <fetched>2019-01-31</fetched>
+  <title format="text/plain" language="en" script="Latn">Language resource management -- Word segmentation of written texts -- Part 2: Word segmentation for Chinese, Japanese and Korean</title>
+  <uri type="src">https://www.iso.org/standard/41666.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:41666:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/16/41666.detail.rss</uri>
+  <docidentifier type="ISO">ISO 24614-2</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2011</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-01-31</fetched>
+      <title format="text/plain" language="en" script="Latn">Language resource management -- Word segmentation of written texts -- Part 2: Word segmentation for Chinese, Japanese and Korean</title>
+      <uri type="src">https://www.iso.org/standard/41666.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:41666:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/04/16/41666.detail.rss</uri>
+      <docidentifier type="ISO">ISO 24614-2:2011</docidentifier>
+      <date type="published">
+        <on>2011</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">The basic concepts and general principles of word segmentation as defined in ISO 24614-1 apply to Chinese, Japanese and Korean. Text needs to be segmented into tokens, words, phrases or some other types of smaller textual units in order to perform certain computational applications on language resources, such as natural language processing, information retrieval and machine translation. ISO 24614-2:2011 is restricted to the segmentation of a text into words or other word segmentation units (WSUs). This task is distinct from morphological or syntactic analysis per se, although it greatly depends on morphosyntactic analysis. It is also different from the task of laying out a framework for constructing a lexicon and identifying its lexical entries, namely lemmas and lexemes. The frameworks for the latter tasks are provided by ISO 24611, ISO 24613 and ISO 24615.ISO 24614-2:2011 specifies rules for delineating WSUs for Chinese, Japanese and Korean. Some rules are common to all three languages, though each language also has its own distinct rules for identifying WSUs. The common features are discussed, then the distinct rules are laid out for Chinese, for Japanese and for Korean. </abstract>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>2011</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <editorialgroup>
+        <technical_committee number="37" type="TC">ISO/TC 37/SC 4Language resource management</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.10</code>
+        <text>Writing and transliteration</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="37" type="TC">ISO/TC 37/SC 4Language resource management</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.10</code>
+    <text>Writing and transliteration</text>
+  </ics>
+</bibitem>
