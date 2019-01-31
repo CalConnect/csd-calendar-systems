@@ -39,6 +39,6 @@ include::sections/04-common.adoc[]
 include::sections/05-codes.adoc[]
 
 include::sections/a1-maintenance.adoc[]
-//include::sections/a2-calendar-codes.adoc[]
+include::sections/a2-calendar-codes.adoc[]
 
 include::sections/zz-references.adoc[]

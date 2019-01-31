@@ -102,7 +102,7 @@ Such calendar system identifiers are in the following format:
 
 [source]
 ----
-zz[transliteration-and-romanization-system-identifier]
+zz[calendar-system-identifier]
 ----
 
 ////

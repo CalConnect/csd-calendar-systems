@@ -1,36 +1,36 @@
-﻿Calendar system code,English name,Names in other languages,Abbreviation,Specification,Usage populations,Application,Remarks,
-gre,Gregorian Calendar,,"AD (after), BC (before), CE (Common Era)",ISO 8601-1,"Largely global, predominant in Western countries",,,
-jul,Julian Calendar,,"AD (after), BC (before), OS (Old Style)",,Orthodox (Eastern) Christian (no longer used by civil governments),,,predominantly Russian Orthodox documents
-heb,Hebrew Calendar,Hebrew: הלוח העברי,AM,,"Israel, also used in publications elsewhere",,,
-his,Hijri-shamsi,Arabic: تقويم هجري شمسي; Persian: گاه‌شماری هجری خورشیدی; Pashto: لمريز لېږدیز کلیز‎,"AH, SH",,"Iran, Afghanistan",,Also known as Solar Hijri Calendar (abbrev.: SH),
-hiq,Hijri-qamari,Arabic: التقويم الهجري‎‎,AH (after Hijri) and BH (before Hijri),,Majority Islamic countries,,,
-cop,Coptic-EoM,Amharic: የኢትዮጵያ ዘመን አቆጣጠር),,,"Ethiopia, also globally in Ethiopian Catholic religious publications",,,
-ale,Alexandrian,Arabic: تقويم قبطي ; Egyptian Arabic: شهور قبطيه,,,"Egypt, used primarily in Coptic Christian religious publications",,,
-iry,Iranian-Yazdigird,,,,"Iran, Azerbaijan",,Note: Iran now uses the Hijri-shamsi calendar for the most part,
-irj,Iranian-Jalali,Persian: گاه‌شماری جلالی ; Persian: تقویم,,,"Iran, Azerbaijan",,Note: Iran now uses the Hijri-shamsi calendar for the most part,
-spa,Spanish,,,,,,"Note: No information, need to check with manuscript cataloguers; presumably a colonial or pre-colonial era calendar",
-ila,Ilahi,Bengali: বাংলা সাল,,,Bangladesh,,Type: civil calendar. Note: compare with the Bengali Calendar which is not a civil one.,
-hin,Hindu,"Hindi: हिन्दू पंचांग, Also known as: Panchanga, Hindi: पञ्चाङ्ग",,,India,,"Note: now largely replaced by the Indian Civil Calendar, many Indian publications now use Gregorian",
-vik,Vikram Sambat,Nepali: विक्रम सम्वत्,VS,,Nepal,,,
-ind,Indian Civil Calendar,"Hindi: भारतीय राष्ट्रीय पंचांग, Tamil: இந்தியத் தேசிய நாட்காட்டி",SE,,India,,,
-ben,Bengali Calendar,Bengali: বঙ্গাব্দ,,,"Eastern India, Bengali-speaking regions; also used in religious publications by the global Bengali community",,,
-vir,Vira Nirvana Sambat,Also known as: Jain calendar (religious and civil),,,"India, also used globally in Jain religious publications",,,
-vai,Vaisnava Calendar,"Also known as: Gaurabda calendar, Krishna consciousness calendar",,,Braj region of India,"Usage: mostly religious, some civil uses",,
-kur,Kurdish Calendar,Kurdish: Salnameya kurdî; Kurdish: ڕۆژژمێری کوردی Persian: گاه‌شماری کردی,,,"NW Iran, N/NW Iraq, W Syria, SE Turkey",,,
-zor,Zoroastrian Calendar,Persian: گاه‌شماری اوستایی نو,,,"Iran, Azerbaijan, also used globally in Zoroastrian religious publications",,,
-tib,Tibetan calendar,Tibetan: ལོ་ཐོ,,,"Tibet, with some use in the Tibetan community of northern India",,Type: lunisolar,
-chi,Chinese calendar,"Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历 or 阴历; English: Chinese Rural Calendar",,,China (mostly cultural and religious usage),,Type: lunisolar,
-min,Minguo Calendar,Traditional Chinese: 民國紀元,,,"China (mainland, 1912-1949), Taiwan (from 1912)",,Note: also used for official documents in the Republic of China,
-jap,Japanese Calendar,"Japanese: 日本の暦, English: Kōki",,,Japan (co-exists with Gregorian in daily usage),,Note: Used in official documents in Japan,
-jav,Javanese Calendar,"Indonesian: Kalendar Jawa; Malay, Jawi script: ڤانڠڬالن جاوا",,,"Java, Indonesia",,"Note: generally used in religious documents, usually alongside Hijri-qamari",
-bal,Balinese saka,Indonesian: Kalendar Bali,,,"Bali, Indonesia",,"Note: Civil calendar, continues in use on Bali",
-paw,Pawukon calendar,"Indonesian: Wuku; Malay, Jawi script: ووكو",,,"Bali, Indonesia",,"Note: Religious calendar, continues in use on Bali",
-tha,Thai calendar,Thai: ปฏิทินสุริยคติ,,,Thailand,,Type: solar calendar. Note: daily use largely replaced by Gregorian,
-bur,Burmese calendar,Also known as: Myanmar Calendar,"BE, ME",,Myanmar,,Note: civil calendar,
-bud,Buddhist Calendar,Khmer: ពុទ្ធសករាជ; Sinhala: බුද්ධ වර්‍ෂ or සාසන වර්‍ෂ,,,"Cambodia, Laos, Myanmar, Thailand",,Note: religious calendar often used alongside a civil calendar,
-juc,Juche Calendar,Korean: 주체연호,,,North Korea,,,
-fre,French Republican Calendar,French: calendrier républicain français,,,"France, French colonies, particularly Haiti",,Also known as: French Revolutionary Calendar,
-may,Maya Calendar,Spanish: calendario maya,,,"Central America, predominantly Mexico, Guatemala, Belize",,Also known as: pre-Columbian Meso-American calendar,
-azt,Aztec Calendar,,,,"Central America, predominantly Northern Mexico",,,
-bah,Bahai Calendar,,,,,Religious publications of the Bahai faith,,
-arm,Armenian Calendar,Armenian: Հայկական եկեղեցական տոմար,,,Armenia,,Note: also used selectively in global Armenian diaspora communities for religious use,
+﻿Calendar system code,English name,Names in other languages,Abbreviation,Specification,Usage populations,Application,Remarks
+gre,Gregorian Calendar,,"AD (after), BC (before), CE (Common Era)",ISO 8601-1,"Largely global, predominant in Western countries",,
+jul,Julian Calendar,,"AD (after), BC (before), OS (Old Style)",,Orthodox (Eastern) Christian (no longer used by civil governments),predominantly Russian Orthodox documents,
+heb,Hebrew Calendar,Hebrew: הלוח העברי,AM,,"Israel, also used in publications elsewhere",,
+his,Hijri-shamsi,Arabic: تقويم هجري شمسي; Persian: گاه‌شماری هجری خورشیدی; Pashto: لمريز لېږدیز کلیز‎,"AH, SH",,"Iran, Afghanistan",,Also known as Solar Hijri Calendar (abbrev.: SH)
+hiq,Hijri-qamari,Arabic: التقويم الهجري‎‎,AH (after Hijri) and BH (before Hijri),,Majority Islamic countries,,
+cop,Coptic-EoM,Amharic: የኢትዮጵያ ዘመን አቆጣጠር),,,"Ethiopia, also globally in Ethiopian Catholic religious publications",,
+ale,Alexandrian,Arabic: تقويم قبطي ; Egyptian Arabic: شهور قبطيه,,,"Egypt, used primarily in Coptic Christian religious publications",,
+iry,Iranian-Yazdigird,,,,"Iran, Azerbaijan",,Note: Iran now uses the Hijri-shamsi calendar for the most part
+irj,Iranian-Jalali,Persian: گاه‌شماری جلالی ; Persian: تقویم,,,"Iran, Azerbaijan",,Note: Iran now uses the Hijri-shamsi calendar for the most part
+spa,Spanish,,,,,,"Note: No information, need to check with manuscript cataloguers; presumably a colonial or pre-colonial era calendar"
+ila,Ilahi,Bengali: বাংলা সাল,,,Bangladesh,,Type: civil calendar. Note: compare with the Bengali Calendar which is not a civil one.
+hin,Hindu,"Hindi: हिन्दू पंचांग, Also known as: Panchanga, Hindi: पञ्चाङ्ग",,,India,,"Note: now largely replaced by the Indian Civil Calendar, many Indian publications now use Gregorian"
+vik,Vikram Sambat,Nepali: विक्रम सम्वत्,VS,,Nepal,,
+ind,Indian Civil Calendar,"Hindi: भारतीय राष्ट्रीय पंचांग, Tamil: இந்தியத் தேசிய நாட்காட்டி",SE,,India,,
+ben,Bengali Calendar,Bengali: বঙ্গাব্দ,,,"Eastern India, Bengali-speaking regions; also used in religious publications by the global Bengali community",,
+vir,Vira Nirvana Sambat,Also known as: Jain calendar (religious and civil),,,"India, also used globally in Jain religious publications",,
+vai,Vaisnava Calendar,"Also known as: Gaurabda calendar, Krishna consciousness calendar",,,Braj region of India,"Usage: mostly religious, some civil uses",
+kur,Kurdish Calendar,Kurdish: Salnameya kurdî; Kurdish: ڕۆژژمێری کوردی Persian: گاه‌شماری کردی,,,"NW Iran, N/NW Iraq, W Syria, SE Turkey",,
+zor,Zoroastrian Calendar,Persian: گاه‌شماری اوستایی نو,,,"Iran, Azerbaijan, also used globally in Zoroastrian religious publications",,
+tib,Tibetan calendar,Tibetan: ལོ་ཐོ,,,"Tibet, with some use in the Tibetan community of northern India",,Type: lunisolar
+chi,Chinese calendar,"Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历 or 阴历; English: Chinese Rural Calendar",,,China (mostly cultural and religious usage),,Type: lunisolar
+min,Minguo Calendar,Traditional Chinese: 民國紀元,,,"China (mainland, 1912-1949), Taiwan (from 1912)",,Note: also used for official documents in the Republic of China
+jap,Japanese Calendar,"Japanese: 日本の暦, English: Kōki",,,Japan (co-exists with Gregorian in daily usage),,Note: Used in official documents in Japan
+jav,Javanese Calendar,"Indonesian: Kalendar Jawa; Malay, Jawi script: ڤانڠڬالن جاوا",,,"Java, Indonesia",,"Note: generally used in religious documents, usually alongside Hijri-qamari"
+bal,Balinese saka,Indonesian: Kalendar Bali,,,"Bali, Indonesia",,"Note: Civil calendar, continues in use on Bali"
+paw,Pawukon calendar,"Indonesian: Wuku; Malay, Jawi script: ووكو",,,"Bali, Indonesia",,"Note: Religious calendar, continues in use on Bali"
+tha,Thai calendar,Thai: ปฏิทินสุริยคติ,,,Thailand,,Type: solar calendar. Note: daily use largely replaced by Gregorian
+bur,Burmese calendar,Also known as: Myanmar Calendar,"BE, ME",,Myanmar,,Note: civil calendar
+bud,Buddhist Calendar,Khmer: ពុទ្ធសករាជ; Sinhala: බුද්ධ වර්‍ෂ or සාසන වර්‍ෂ,,,"Cambodia, Laos, Myanmar, Thailand",,Note: religious calendar often used alongside a civil calendar
+juc,Juche Calendar,Korean: 주체연호,,,North Korea,,
+fre,French Republican Calendar,French: calendrier républicain français,,,"France, French colonies, particularly Haiti",,Also known as: French Revolutionary Calendar
+may,Maya Calendar,Spanish: calendario maya,,,"Central America, predominantly Mexico, Guatemala, Belize",,Also known as: pre-Columbian Meso-American calendar
+azt,Aztec Calendar,,,,"Central America, predominantly Northern Mexico",,
+bah,Bahai Calendar,,,,,Religious publications of the Bahai faith,
+arm,Armenian Calendar,Armenian: Հայկական եկեղեցական տոմար,,,Armenia,,Note: also used selectively in global Armenian diaspora communities for religious use
