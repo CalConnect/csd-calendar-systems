@@ -1,0 +1,110 @@
+
+[[AnnexA]]
+[appendix]
+== Registration
+
+=== Registration authority (ISO 34100/RA)
+
+A registration authority (ISO 34100/AG) has been appointed to operate under guidelines provided in this Annex. It has been entrusted with the following functions:
+
+. to add and eliminate transliteration or romanization system codes, in accordance with the rules in this document;
+
+. to advise users and ISO member bodies regarding application of the codes;
+
+. to update and disseminate list of transliteration or romanization system codes;
+
+. to maintain a reference list of transliteration or romanization system codes;
+
+. to publish changes made to such information;
+
+. to administer the reservation of codes related to the list of transliteration or romanization system codes.
+
+Changes to this part of ISO 34100 are decided by the ISO 34100/AG and become effective immediately upon publication.
+
+The criteria provided in <<registration-adding-tzauth>> to 6.5 shall be observed by the ISO 34100/AG for changes to the list of country names in this part of ISO 34100, and their code elements, and for reservations of code elements.
+
+[[registration-adding-tzauth]]
+=== Addition to the list of transliteration or romanization system codes
+
+Additions to the list of transliteration or romanization system codes shall be made on the basis of information from upon the request of a member of ISO 34100/AG.
+
+The ISO 34100/AG will decide upon the addition, on the basis of the justification given for the actual requirements for international interchange. Code elements will be allocated accordingly.
+
+////
+Additions to the official and international time scale authorities require additional criteria:
+
+* An official time scale authority must be endorsed by a body receiving direct authority by a member of the United Nations.
+* An international time scale authority must be endorsed by an international standardization body in liaison with the ISO 34100/AG.
+////
+
+[[registration-adding-tz]]
+=== Addition to the list of transliteration or romanization system codes
+
+Additions to the list of transliteration or romanization system codes shall be made only by the appropriate registered authority.
+
+
+[[registration-removing-tzauth]]
+=== Deletion from the list of transliteration or romanization system codes
+
+Deletion from the list of transliteration or romanization system codes shall be made upon the request of a member of ISO 34100/AG.
+
+The ISO 34100/AG will decide upon the deletion, on the basis of the information received. The corresponding code element is reserved.
+
+////
+The part 3 of ISO 34100 standard provides the list of country names deleted from the part 1 of ISO 34100 since its first edition in 1974. The traceability of country code elements and their status are also provided.
+////
+
+
+[[registration-deleting-tz]]
+=== Deletion of elements from the list of transliteration or romanization system codes
+
+Deletion from the list of transliteration or romanization system codes shall be made only by the ISO 34100/AG or upon a request to it.
+
+The ISO 34100/AG will decide upon the deletion, on the basis of the information received. The corresponding code element is reserved.
+
+
+[[registration-modify-tz]]
+=== Alterations to elements on list of transliteration or romanization system codes
+
+Alterations to a registered element shall be made only by the ISO 34100/AG or upon a request to it.
+
+A significant change of name may require the ISO 34100/AG to change the alpha code element concerned. The ISO 34100/AG, however, shall endeavor to maintain stability in the list of code elements.
+
+
+////
+=== Reservation of country code elements
+
+==== Introduction
+
+Some code elements are reserved
+—	for a limited period when their reservation is the result of the deletion (6.3) or the alteration (6.4) of a country name,
+—	for an indeterminate period when the reservation is the result of the application of international law (6.5.3) or of exceptional requests (6.5.4).
+
+==== Period of non-allocation
+
+Country code elements that the ISO 34100/AG has altered or deleted should not be reallocated during a period of at least fifty years after the change. The exact period is determined in each case on the basis of the extent to which the former code element was used.
+
+==== Period of non-use
+
+Certain country code elements existing at the time of the first publication of the ISO 34100 country codes and differing from those in this part of ISO 34100 should not be used for an indeterminate period to represent other country names. This provision applies to certain vehicle designations notified under the 1949 and 1968 Conventions on Road Traffic (see Bibliography).
+Code elements to which this provision applies should be included in the list of reserved code elements (see 6.5.6) and should not be reallocated during a period of at least fifty years after the date when the countries or organizations concerned have discontinued their use.
+
+==== Exceptional reserved code elements
+
+Code elements may be reserved, in exceptional cases, for country names which the ISO 34100/AG has decided not to include in this part of ISO 34100, but for which an interchange requirement exists. Before such code elements are reserved, advice from the relevant authority must be sought.
+
+==== Reallocation
+
+Before reallocating a former code element or a formerly reserved code element, the ISO 34100/AG shall consult, as appropriate, the authority or agency on whose behalf the code element was reserved, and consideration shall be given to difficulties which might arise from the reallocation.
+
+==== List of reserved code elements
+
+A list of reserved code elements is kept by the ISO 34100/AG secretariat.
+
+
+=== Advice regarding use of country code elements
+
+The ISO 34100/AG is available for consultation and assistance on the use of country names in coded form.
+The ISO 34100/AG does not administer or maintain lists of user-assigned code elements
+
+////

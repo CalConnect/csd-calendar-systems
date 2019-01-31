@@ -1,0 +1,9 @@
+
+[[annex-system-codes]]
+[appendix]
+== Alphabetical list of transliteration and romanization system in English and their code elements
+
+[format="csv",options="header"]
+|===
+include::../data/transliteration-codes.csv[]
+|===

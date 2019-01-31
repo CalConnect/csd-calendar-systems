@@ -1,0 +1,42 @@
+= CalConnect/ISO 34003
+:docnumber: 34003
+:tc-document-number: 9999
+:edition: 1
+:ref-docnumber: 34003:2018(E)
+:copyright-year: 2018
+:language: en
+:title-intro-en: Date and time
+:title-main-en: Codes for calendar systems
+:title-intro-fr: Date et l'heure
+:title-main-fr: Codes pour les systèmes de calendrier
+:doctype: standard
+:docstage: 00
+:docsubstage: 00
+:technical-committee-type: TC
+:technical-committee-number: 154
+:technical-committee: Processes, data elements and documents in commerce, industry and administration
+:workgroup-type: WG
+:workgroup-number: 4
+:workgroup: e-documents
+:secretariat: SAC
+:language: en
+:draft:
+:toc:
+:stem:
+:xrefstyle: short
+:imagesdir: models
+:local-cache-only:
+:data-uri-image:
+
+include::sections/0a-foreword.adoc[]
+include::sections/0b-intro.adoc[]
+
+include::sections/01-scope.adoc[]
+include::sections/02-norm-refs.adoc[]
+include::sections/03-termsdef.adoc[]
+
+include::sections/04-codes.adoc[]
+//include::sections/05-date-time-representations.adoc[]
+
+//include::sections/a1-annex.adoc[]
+include::sections/zz-references.adoc[]

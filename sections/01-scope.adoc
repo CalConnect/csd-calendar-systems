@@ -1,0 +1,9 @@
+
+:sectnums:
+== Scope
+
+This International Standard provides a code for the
+presentation of transliteration and romanization systems.
+
+The codes were devised for usage of any application requiring
+the expression of transcription and romanization systems in coded form.

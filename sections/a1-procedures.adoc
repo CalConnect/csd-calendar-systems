@@ -1,0 +1,138 @@
+
+[[AnnexA]]
+[appendix,subtype=normative]
+== Procedures for the ISO XXXXX Registration Authority and the Registration Authority’s Advisory Committee
+
+
+=== Registration Authority ISO XXXXX
+
+ISO has designated a Registration Authority for
+this International Standard, named ISO XXXXX/RA.
+
+ISO is responsible for the addition of script codes
+according to the procedures described in this
+annex. See 4.5.
+
+=== Responsibilities of the Registration Authority
+
+==== Application for the addition of new script
+
+codes and for the change of existing ones.
+ISO XXXXX/RA shall receive and review
+applications for the addition of new script codes
+and for the change of existing script codes. It shall
+suggest an assignment of a code when the
+relevant criteria are met in accordance with the
+rules given in A.3.3 and A.3.4, and inform the
+applicant of the result of ISO XXXXX/RA actions.
+
+==== Maintenance of list
+
+ISO XXXXX/RA shall maintain an accurate list of
+information associated with assigned script codes.
+If necessary, it shall safeguard any confidential
+information. It shall process updates of added
+script codes and distribute them on a regular basis
+to subscribers and other parties.
+
+==== Other general responsibilities
+
+ISO XXXXX/RA shall do the following:
+* handle all aspects of the registration process in accordance with good business practice;
+* indicate in its operations that it has been designated as ISO XXXXX/RA by ISO;
+* provide an annual summary report on activity to the ISO/TC 46 Secretariat;
+* provide advice on implementation and use of ISO XXXXX, as needed.
+
+=== Joint Advisory Committee ISO XXXXX/RA-JAC
+
+A Joint Advisory Committee named
+ISO XXXXX/RA-JAC was established to advise the
+ISO XXXXX/RA. It shall guide the application of the
+coding rules given in ISO XXXXX.
+
+==== Composition
+
+ISO XXXXX/RA-JAC is composed of:
+
+* 1 representative of the Registration Authority (see 4.5);
+* 1 representative of the ISO 639-2/RA;
+* 1 representative of ISO/TC 46 (nominated by ISO/TC 46);
+* 1 representative of ISO/TC 37 (nominated by ISO/TC 37);
+* 2 representatives of ISO/IEC JTC1/SC2 (nominated by ISO/IEC JTC1/SC2/WG2).
+
+The ISO technical committees may nominate
+substitute representatives.
+
+===== Membership
+
+The three technical committees may nominate
+substitute representatives. The representative of
+the Registration Authority will hold the chair. Up to
+five technical experts may be asked to participate
+as non-voting observers. The observers will be
+entitled to receive documents sent to the
+ISO XXXXX/RA-JAC membership and will be
+expected to provide comments in return.
+
+==== Working procedures within ISO XXXXX/RA-JAC
+
+ISO XXXXX/RA-JAC will work primarily by
+electronic correspondence and exceptionally by
+meeting. If a meeting is necessary, it shall
+preferably be held in conjunction with plenary
+meetings of ISO/IEC JTC1/SC2 and ISO/IEC
+JTC1/SC2/WG2 or ISO/TC 46 and ISO/TC 46/WG3.
+
+
+==== Additions and deletions to the list of
+entities, changes of codes
+Requests for additions, deletions, and changes of
+codes shall be supported by a justification. When
+ISO XXXXX/RA consults ISO XXXXX/RA-JAC about
+the proposed inclusion, deletion or change, and
+suggests a code, ISO XXXXX/RA-JAC is obliged to
+respond within one month.
+
+NOTE: In general, script codes shall be added to ISO 15924
+* when the script has been coded in ISO/IEC 10646, and
+* when the script is agreed, by experts in
+ISO 15924/RA-JAC, to be unique and a candidate
+for encoding in the UCS.
+
+This does not mean that the script will be encoded in the
+UCS. Undeciphered scripts, such as Phaistos or
+Rongorongo, are considered candidates but may not be
+encoded because of their controversial nature (Phaistos
+is known only from a single document, and Rongorongo
+is so complex that without a decipherment it may not be
+technically feasible to encode it in the near future).
+
+==== Reservation of codes
+
+When a request for inclusion of a new entity has
+been rejected, ISO XXXXX/RA may reserve the
+requested code for the use of the applicant and
+other possible users. ISO XXXXX/RA will keep a
+record of such reservations.
+
+==== Creation of script codes
+
+The creation of script codes is subject to the rules
+described in ISO XXXXX, 4.1.
+
+==== Voting procedures
+
+Each member of ISO XXXXX/RA-JAC has one vote
+and voting is obligatory. Voting shall be conducted
+by electronic mail (e-mail) or in a meeting. Failure
+to reply is considered as an abstention. An abstention
+shall not prevent the addition of a script code
+to ISO XXXXX. A vote must be unanimous for it to
+pass. If an unanimous vote cannot be reached, a
+second vote will be conducted. The letter ballot
+shall be accompanied by all comments received.
+At least four positive votes are required to pass.
+Any amendments to ISO XXXXX shall be approved
+following the voting rules before revisions are
+published.
+

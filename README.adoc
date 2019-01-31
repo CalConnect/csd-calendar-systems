@@ -1,0 +1,43 @@
+= ISO Cantonese Romanization Document
+
+== Fetching the document
+
+[source,sh]
+----
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/iso-cantonese-romanization
+----
+
+== Installing build tools
+
+=== macOS
+
+From anywhere on your computer (this only works on macOS!)
+[source,sh]
+----
+bash <(curl -s https://raw.githubusercontent.com/riboseinc/metanorma-macos-setup/master/metanorma-setup)
+----
+
+
+=== Windows
+
+. Install https://www.ruby-lang.org/en/[Ruby]
+. Install node and Google's https://github.com/GoogleChrome/puppeteer[puppeteer]
+. Run `bundle` to install dependent Ruby gems
+
+== Building the document (HTML + Word)
+
+[source,sh]
+----
+make clean all
+----
+
+Your document will be created in the same directory.
+
+== Iterating the document (HTML)
+
+It's easiest to generate the HTML to iterate on the document.
+
+[source,sh]
+----
+make html open
+----

@@ -1,0 +1,173 @@
+
+// From Erich Kesse, Digital Library Project Officer, SOAS University of London
+
+. Gregorian Calendar
+** Abbreviation: AD (after) and BC (before)
+** Also known as Common Era, abbrev.: CE
+** Geolocation: largely global, predominant in Western countries
+
+. Julian Calendar
+** Abbreviation: similar to Gregorian, AD (after) and BC (before)
+** Also known as Old Style, abbrev.: OS
+** Geolocation: Orthodox (Eastern) Christian (no longer used by civil governments)
+** Application: predominantly Russian Orthodox documents
+
+. Hebrew Calendar
+** Hebrew: הלוח העברי
+** Abbreviation: AM
+** Geolocation: Israel, also used in publications elsewhere
+
+. Hijri-shamsi
+** Arabic: تقويم هجري شمسي; Persian: گاه‌شماری هجری خورشیدی; Pashto: لمريز لېږدیز کلیز‎
+** Abbreviations: AH
+** Also known as Solar Hijri Calendar, abbrev.: SH
+** Geolocation: Iran, Afghanistan
+
+. Hijri-qamari
+** Arabic: التقويم الهجري‎‎
+** Abbreviations: AH (after Hijri) and BH (before Hijri)
+** Geolocation: majority Islamic countries
+
+. Coptic-EoM
+** Amharic: የኢትዮጵያ ዘመን አቆጣጠር)
+** Geolocation: Ethiopia, also globally in Ethiopian Catholic religious publications
+
+. Alexandrian
+** Arabic: تقويم قبطي ; Egyptian Arabic: شهور قبطيه
+** Geolocation: Egypt, used primarily in Coptic Christian religious publications
+
+. Iranian-Yazdigird
+** Geolocation: Iran, Azerbaijan
+** Note: Iran now uses the Hijri-shamsi calendar for the most part
+
+. Iranian-Jalali
+** Persian: گاه‌شماری جلالی ; Persian: تقویم
+** Geolocation: Iran, Azerbaijan
+** Note:: Iran now uses the Hijri-shamsi calendar for the most part
+
+. Spanish
+** Note:: No information, need to check with manuscript cataloguers; presumably a colonial or pre-colonial era calendar
+
+. Ilahi
+** Bengali: বাংলা সাল
+** Type of calendar: civil calendar
+** Geolocation: Bangladesh
+** Note: compare with the Bengali Calendar which is not a civil one
+
+. Hindu
+** Hindi: हिन्दू पंचांग
+** Also known as: Panchanga, Hindi: पञ्चाङ्ग
+** Geolocation: India
+** Note: now largely replaced by the Indian Civil Calendar, many Indian publications now use Gregorian
+
+
+
+. Vikram Sambat
+** Nepali: विक्रम सम्वत्
+** Abbreviation: VS
+** Geolocation: Nepal
+
+. Indian Civil Calendar
+** Hindi: भारतीय राष्ट्रीय पंचांग, Tamil: இந்தியத் தேசிய நாட்காட்டி
+** Abbreviation: SE
+** Geolocation: India
+
+. Bengali Calendar
+** Bengali: বঙ্গাব্দ
+** Geolocation: Eastern India, Bengali-speaking regions; also used in religious publications by the global Bengali community
+
+. Vira Nirvana Sambat
+** Also known as: Jain calendar (religious and civil)
+** Geolocation: India, also used globally in Jain religious publications
+
+. Vaisnava Calendar
+** Also known as: Gaurabda calendar, Krishna consciousness calendar
+** Usage: mostly religious, some civil uses
+** Geolocation: Braj region of India
+
+. Kurdish Calendar
+** Kurdish: Salnameya kurdî; Kurdish: ڕۆژژمێری کوردی Persian: گاه‌شماری کردی
+** Geolocation: NW Iran, N/NW Iraq, W Syria, SE Turkey
+
+. Zoroastrian Calendar
+** Persian: گاه‌شماری اوستایی نو
+** Geolocation: Iran, Azerbaijan, also used globally in Zoroastrian religious publications
+
+. Tibetan calendar
+** Tibetan: ལོ་ཐོ
+** Type: lunisolar
+** Geolocation: Tibet, with some use in the Tibetan community of northern India
+
+. Chinese calendar
+** Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历 or 阴历
+** Type: lunisolar
+** Also known as: Chinese Rural Calendar
+** Geolocation: China (mostly cultural and religious usage)
+
+. Minguo Calendar
+** Traditional Chinese: 民國紀元
+** Geolocation: China (mainland, 1912-1949), Taiwan (from 1912)
+** Note: also used for official documents in the Republic of China
+
+. Japanese Calendar
+** Japanese: 日本の暦
+** Also known as: Kōki
+** Geolocation: Japan (co-exists with Gregorian in daily usage)
+** Note: Used in official documents in Japan
+
+. Javanese Calendar
+** Indonesian: Kalendar Jawa; Malay, Jawi script: ڤانڠڬالن جاوا
+** Geolocation: Java, Indonesia
+** Note: generally used in religious documents, usually alongside Hijri-qamari
+
+. Balinese saka
+** Indonesian: Kalendar Bali
+** Geolocation: Bali, Indonesia
+** Note: Civil calendar, continues in use on Bali
+
+. Pawukon calendar
+** Indonesian: Wuku; Malay, Jawi script: ووكو
+** Geolocation: Bali, Indonesia
+** Note: Religious calendar, continues in use on Bali
+
+. Thai calendar
+** Thai: ปฏิทินสุริยคติ
+** Type: solar
+** Geolocation: Thailand
+** Note: daily use largely replaced by Gregorian
+
+. Burmese calendar
+** Abbreviation: BE, ME
+** Also known as: Myanmar Calendar
+** Geolocation: Myanmar
+** Note: civil calendar
+
+. Buddhist Calendar
+** Khmer: ពុទ្ធសករាជ; Sinhala: බුද්ධ වර්‍ෂ or සාසන වර්‍ෂ
+** Geolocation: Cambodia, Laos, Myanmar, Thailand
+** Note: religious calendar often used alongside a civil calendar
+
+. Juche Calendar
+** Korean: 주체연호
+** Geolocation: North Korea
+
+. French Republican Calendar
+** French: calendrier républicain français
+** Also known as: French Revolutionary Calendar)
+** Geolocation: France, French colonies, particularly Haiti
+
+. Maya Calendar
+** Spanish: calendario maya
+** Also known as: pre-Columbian Meso-American calendar
+** Geolocation: Central America, predominantly Mexico, Guatemala, Belize
+
+. Aztec Calendar
+** Geolocation: Central America, predominantly Northern Mexico
+
+. Bahai Calendar
+** Application: religious publications of the Bahai faith
+
+. Armenian Calendar
+** Armenian: Հայկական եկեղեցական տոմար
+** Geolocation: Armenia
+** Note: also used selectively in global Armenian diaspora communities for religious use

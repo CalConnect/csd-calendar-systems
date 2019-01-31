@@ -1,0 +1,122 @@
+
+== Transliteration and romanization systems
+
+=== General
+
+Transliteration and romanization systems are used to convert writing systems
+into other scripts, and in the case of romanization systems, into Roman script.
+
+
+
+[[ts-data-model]]
+=== Data model and attributes
+
+==== General
+
+image::system.png[]
+
+
+==== Code
+
+A code that identifies the transliteration or romanization system.
+
+
+==== Name
+
+A name that represents the transliteration or romanization system.
+
+
+==== Source script code
+
+The script code of the script used in the source text.
+
+
+==== Target script code
+
+The script code of the script used in the output text.
+
+
+==== Language code
+
+The language code that identifies the source language being processed
+by the transliteration or romanization system.
+
+
+==== Remarks
+
+Any further notes.
+
+
+=== Code and identifier
+
+==== Principles for inclusion in the list of transliteration and romanization systems
+
+===== List
+
+The list of transliteration and romanization systems in this document includes known
+transliteration and romanization systems from official sources.
+
+
+===== Source of names
+
+Names and description of transliteration and romanization systems are
+obtained from authoritative sources.
+
+===== Current status of names
+
+Transliteration and romanization systems listed in this document are intended to reflect the current situation, at the time of issue of the latest update of this document.
+
+
+
+==== Principles for allocation of code elements
+
+===== Relationship with names
+
+Transliteration and romanization systems have codes in the following format:
+
+[source]
+----
+[system-code]
+----
+
+[example]
+`iso-slv` for <<ISO9>>, the international standard for transliteration of Cyrillic characters into Latin characters for Slavic and non-Slavic languages.
+
+
+===== Construction of the alphabetic code
+
+The following rules are to be adhered to for the assignment of the alphabetic code:
+
+* The alphabetic code uses combinations, in upper case, of 3 fixed letters of the 26-character Latin alphabet, allowing for close to stem:[3^26] combinations.
+
+* Codes shall encourage descriptive and distinguishable alphabetic names.
+
+
+===== User assigned code elements
+
+If users need code elements to represent transliteration and romanization systems not included in the physical time scale registry, the code prefix of `zz` can be used.
+
+The code length for the transliteration and romanization system identifier must be 3 letters.
+
+Such transliteration and romanization system identifiers are in the following format:
+
+[source]
+----
+zz[transliteration-and-romanization-system-identifier]
+----
+
+////
+[example]
+`xx-unece-cet` is an example of a user-assigned private code for a physical time scale published by the UN/ECE.
+////
+
+NOTE: Users are advised that the above series of codes are not universals, those code elements are not compatible between different entities.
+
+
+==== List of transliteration and romanization system and their code elements
+
+The list of items composing the content of the country code is initially defined in <<annex-system-codes>>.
+Additional and new entries will be listed by the ISO 34100/AG.
+
+Data attributes provided in the list is defined in <<ts-data-model>>.
+

@@ -1,0 +1,17 @@
+@startuml
+
+'******* CONFIGURATION ************************************************
+!include style.uml.inc
+
+class TransliterationSystem {
+  +code: String
+  +name: String
+  +sourceScript: iso15924Code
+  +targetScript: iso15924Code
+  +language: iso639Code
+}
+
+'******* CLASS RELATIONS **********************************************
+
+
+@enduml

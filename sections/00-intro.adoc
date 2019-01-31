@@ -1,0 +1,13 @@
+[[introduction]]
+
+:sectnums!:
+== Introduction
+
+A number of international applications require
+the identification of transcription systems, including for
+terminology, lexicography, bibliography, and linguistics,
+especially for reverse transliteration,
+computational linguistics and machine pronunciation.
+
+This standard sets out the necessary procedures to maintain
+the registry of transliteration systems.

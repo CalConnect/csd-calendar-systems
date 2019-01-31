@@ -1,0 +1,260 @@
+
+[[calendar-codes]]
+== Calendar systems
+
+. Gregorian Calendar
+** Abbreviation: AD (after) and BC (before)
+** Also known as Common Era, abbrev.: CE
+** Geolocation: largely global, predominant in Western countries
+
+. Julian Calendar
+** Abbreviation: similar to Gregorian, AD (after) and BC (before)
+** Also known as Old Style, abbrev.: OS
+** Geolocation: Orthodox (Eastern) Christian (no longer used by civil governments)
+** Application: predominantly Russian Orthodox documents
+
+. Hebrew Calendar
+** Hebrew: הלוח העברי
+** Abbreviation: AM
+** Geolocation: Israel, also used in publications elsewhere
+
+. Hijri-shamsi
+** Arabic: تقويم هجري شمسي; Persian: گاه‌شماری هجری خورشیدی; Pashto: لمريز لېږدیز کلیز‎
+** Abbreviations: AH
+** Also known as Solar Hijri Calendar, abbrev.: SH
+** Geolocation: Iran, Afghanistan
+
+. Hijri-qamari
+** Arabic: التقويم الهجري‎‎
+** Abbreviations: AH (after Hijri) and BH (before Hijri)
+** Geolocation: majority Islamic countries
+
+. Coptic-EoM
+** Amharic: የኢትዮጵያ ዘመን አቆጣጠር)
+** Geolocation: Ethiopia, also globally in Ethiopian Catholic religious publications
+
+. Alexandrian
+** Arabic: تقويم قبطي ; Egyptian Arabic: شهور قبطيه
+** Geolocation: Egypt, used primarily in Coptic Christian religious publications
+
+. Iranian-Yazdigird
+** Geolocation: Iran, Azerbaijan
+** Note: Iran now uses the Hijri-shamsi calendar for the most part
+
+. Iranian-Jalali
+** Persian: گاه‌شماری جلالی ; Persian: تقویم
+** Geolocation: Iran, Azerbaijan
+** Note:: Iran now uses the Hijri-shamsi calendar for the most part
+
+. Spanish
+** Note:: No information, need to check with manuscript cataloguers; presumably a colonial or pre-colonial era calendar
+
+. Ilahi
+** Bengali: বাংলা সাল
+** Type of calendar: civil calendar
+** Geolocation: Bangladesh
+** Note: compare with the Bengali Calendar which is not a civil one
+
+. Hindu
+** Hindi: हिन्दू पंचांग
+** Also known as: Panchanga, Hindi: पञ्चाङ्ग
+** Geolocation: India
+** Note: now largely replaced by the Indian Civil Calendar, many Indian publications now use Gregorian
+
+
+
+. Vikram Sambat
+** Nepali: विक्रम सम्वत्
+** Abbreviation: VS
+** Geolocation: Nepal
+
+. Indian Civil Calendar
+** Hindi: भारतीय राष्ट्रीय पंचांग, Tamil: இந்தியத் தேசிய நாட்காட்டி
+** Abbreviation: SE
+** Geolocation: India
+
+. Bengali Calendar
+** Bengali: বঙ্গাব্দ
+** Geolocation: Eastern India, Bengali-speaking regions; also used in religious publications by the global Bengali community
+
+. Vira Nirvana Sambat
+** Also known as: Jain calendar (religious and civil)
+** Geolocation: India, also used globally in Jain religious publications
+
+. Vaisnava Calendar
+** Also known as: Gaurabda calendar, Krishna consciousness calendar
+** Usage: mostly religious, some civil uses
+** Geolocation: Braj region of India
+
+. Kurdish Calendar
+** Kurdish: Salnameya kurdî; Kurdish: ڕۆژژمێری کوردی Persian: گاه‌شماری کردی
+** Geolocation: NW Iran, N/NW Iraq, W Syria, SE Turkey
+
+. Zoroastrian Calendar
+** Persian: گاه‌شماری اوستایی نو
+** Geolocation: Iran, Azerbaijan, also used globally in Zoroastrian religious publications
+
+. Tibetan calendar
+** Tibetan: ལོ་ཐོ
+** Type: lunisolar
+** Geolocation: Tibet, with some use in the Tibetan community of northern India
+
+. Chinese calendar
+** Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历 or 阴历
+** Type: lunisolar
+** Also known as: Chinese Rural Calendar
+** Geolocation: China (mostly cultural and religious usage)
+
+. Minguo Calendar
+** Traditional Chinese: 民國紀元
+** Geolocation: China (mainland, 1912-1949), Taiwan (from 1912)
+** Note: also used for official documents in the Republic of China
+
+. Japanese Calendar
+** Japanese: 日本の暦
+** Also known as: Kōki
+** Geolocation: Japan (co-exists with Gregorian in daily usage)
+** Note: Used in official documents in Japan
+
+. Javanese Calendar
+** Indonesian: Kalendar Jawa; Malay, Jawi script: ڤانڠڬالن جاوا
+** Geolocation: Java, Indonesia
+** Note: generally used in religious documents, usually alongside Hijri-qamari
+
+. Balinese saka
+** Indonesian: Kalendar Bali
+** Geolocation: Bali, Indonesia
+** Note: Civil calendar, continues in use on Bali
+
+. Pawukon calendar
+** Indonesian: Wuku; Malay, Jawi script: ووكو
+** Geolocation: Bali, Indonesia
+** Note: Religious calendar, continues in use on Bali
+
+. Thai calendar
+** Thai: ปฏิทินสุริยคติ
+** Type: solar
+** Geolocation: Thailand
+** Note: daily use largely replaced by Gregorian
+
+. Burmese calendar
+** Abbreviation: BE, ME
+** Also known as: Myanmar Calendar
+** Geolocation: Myanmar
+** Note: civil calendar
+
+. Buddhist Calendar
+** Khmer: ពុទ្ធសករាជ; Sinhala: බුද්ධ වර්‍ෂ or සාසන වර්‍ෂ
+** Geolocation: Cambodia, Laos, Myanmar, Thailand
+** Note: religious calendar often used alongside a civil calendar
+
+. Juche Calendar
+** Korean: 주체연호
+** Geolocation: North Korea
+
+. French Republican Calendar
+** French: calendrier républicain français
+** Also known as: French Revolutionary Calendar)
+** Geolocation: France, French colonies, particularly Haiti
+
+. Maya Calendar
+** Spanish: calendario maya
+** Also known as: pre-Columbian Meso-American calendar
+** Geolocation: Central America, predominantly Mexico, Guatemala, Belize
+
+. Aztec Calendar
+** Geolocation: Central America, predominantly Northern Mexico
+
+. Bahai Calendar
+** Application: religious publications of the Bahai faith
+
+. Armenian Calendar
+** Armenian: Հայկական եկեղեցական տոմար
+** Geolocation: Armenia
+** Note: also used selectively in global Armenian diaspora communities for religious use
+
+
+
+////
+4.1 Structure of the alphabetic script codes
+
+The alphabetic script codes are created from the original script name in the language commonly used for it, transliterated or transcribed into Latin letters. If a country, where the script concerned has the status of a national script, requests a certain script code, preference is given to this code whenever possible. The four-letter codes shall be written with an initial capital Latin letter and final small Latin letters (taken from the range Aaaa to Zzzz). This serves to help differentiate script codes from language codes and country codes: for example, Mong mon MON or Mong mn MN would refer to a book in the Mongolian script, in the Mongolian language, originating in Mongolia.
+
+
+4.2 Structure of the numeric script codes
+The numeric script codes have been assigned to provide some measure of mnemonicity to the codes used. The following ranges have been used:
+000–099 Hieroglyphic and cuneiform scripts 100–199 Right-to-left alphabetic scripts 200–299 Left-to-right alphabetic scripts
+300–399 Alphasyllabic scripts
+400–499 Syllabic scripts
+500–599 Ideographic scripts
+600–699 Undeciphered scripts
+700–799 (unassigned)
+800–899 (unassigned)
+900–999 Private use, aliases, special codes
+NOTE 1 ISO/IEC 10646 uses the character-glyph model (defined in ISO/IEC TR 15285:1998) to classify the characters used to write different languages. ISO 15924 does not attempt to apply the character-glyph model, because it is sometimes important to identify certain script variants regardless of the encoding a given text may employ. For example, a Syriac book may be written in one of the three variants of the Syriac script (Estrangelo, Eastern, Western). Identification of such script variants, while outside the scope of ISO/IEC 10646, is relevant to the content of script
+
+
+
+
+codes. For example, a user ordering a book through interlibrary loan may prefer, or may wish to exclude, the Gaelic variant of the Latin script for reasons of ease of legibility or familiarity with one of the variants.
+NOTE 2 These classifications reflect the chief attribute of the scripts so classified, and are not necessarily comprehensive of the ways in which the scripts are used. For example, while Ogham may be written from left to right, it is also written vertically from bottom to top. Similarly, the Hangul (Hangu ̆l, Hangeul) alphabet is sometimes written in vertical columns, and the letters of its alphabet are arranged in syllabic clusters.
+NOTE 3 Within each category, numeric identifiers assigned to scripts have followed a principle of chronology, and genetic relationship, though this principle cannot be established by any hard and fast rule, since scripts may have many different charac- teristics. Codes have been assigned by spacing them out so that scripts encoded in future may be assigned to appropriate places in the range.
+4.3 Relation of the script codes to other ISO standards
+The four-letter codes are derived from ISO 639-2 where the name of a script and the name of a language using the script are identical (example: Gujara ̄tı ̄ ISO 639 guj, ISO 15924 Gujr). In cases where there is no identity, the script name may have a unique form.
+Examples: Korean kor, Hangul (Hangu ̆ l, Hangeul) Hang;Punjabipan,Gurmukhı ̄Guru;Dhivehidiv, Thaana Thaa
+Where possible, the first three letters of the four- letter code corresponds to the three-letter code. Preference is given to the Bibliographical codes given in ISO 639-2 in deriving the codes specified in this International Standard.
+4.4 Adaptation of the script codes
+When adapting this International Standard to other scripts (for example Cyrillic or Greek), codes shall be formed according to the principles of this International Standard.
+4.5 Addition of new script codes
+For the purpose of allocating additional script codes, ISO has designated a Maintenance Agency for ISO 15924, the Unicode Consortium (Box
+
+
+
+
+391476, Mountain View, CA 94039-1476, USA) as the Registration Authority.
+http://www.unicode.org/iso15924
+ISO maintains a list of Maintenance Agencies and Registration Authorities on the Internet at the address
+http://www.iso.ch/mara
+The ISO list identifies the Registration Authority and where the Registration Authority has published materials related to this International Standard on the Internet.
+4.6 Application of script codes
+Script codes can be used in the following particular instances.
+4.6.1 To indicate generally the scripts in which documents are or have been written or recorded.
+Example:
+   <META HTTP-EQUIV="Content-Language"
+     CONTENT="ga, ru">
+     <META NAME="Content-Script"
+     CONTENT="Latg, Cyrl">
+4.6.2 To indicate the script specified in document holding records (order records, bibliographic records, etc.).
+Examples:
+— In bibliographies:
+Röyte pomerantsen: Jewish folk humor. New York: Schocken Books, 1965. xxvi, 203 p.; 20 cm. In Yiddish (Latn) and English.
+Kroatisch-Deutsch und Deutsch-Kroatisch: mit einem Anhang der wichtigeren Neubildungen des Kroatischen und Deutschen. Berlin: Axel Juncker, 1941. vi, 302, 314, 32 p.; 15 cm. In Croatian (Latn) and German (Latf).
+
+
+-- In catelog records
+
+Uniform Title: Title:
+Edition: Published:
+Description:
+Tipit.aka. Suttapit.aka. Majjhima- nika ̄ya. Hindi & Pali.
+Suttapit.ake Majjhimanika ̄ yapa ̄ li = Majjhima nika ̄ya: Mu ̄ lapariya ̄ya- vaggo, Sı ̄hana ̄ davaggo ca, Hindı ̄- anuva ̄dasahito / padha ̄nasampa ̄- dako Sva ̄m ̄ı Dva ̄rika ̄da ̄sas ́a ̄strı ̄.
+1. sam. skaran. a
+Va ̄ra ̄n.as ̄ı: Bauddhabha ̄ratı ̄, 1989- <1993>
+23 cm
+
+Series:
+LC Call No.: Notes:
+Language(s): Other authors: Other titles:
+Bauddhabha ̄ ratı ̄granthama ̄ la ̄; 22- <23-25>
+BQ1313.H5D93 1989
+In Pali (Deva); introduction in English and Hindi; translation in Hindi. Theravada Buddhist canon. 1. Mu ̄lapan.n.asakam. (3 v.) — 4. Majjhimapan. n. a ̄ sakam. — 5. Uparipa- n.n.a ̄sakam. .
+hi, en, pi
+Dwarikadas Shastri, Swami Majjhima nika ̄ya
+
+
+4.6.3 To indicate the script used by an application. Example:
+“Laser Syriac: The fonts supplied in this package are coded according to collection 85 of Annex A of ISO/IEC 10646-1:2000 and provide a complete set of glyphs in all three of the styles used to write Syriac (Syre, Syrn, Syrj).”
+4.7 Changes of script codes
+In order to preserve the integrity of data coded using the codes set forth in this International Standard, it is intended that the four-letter and numeric codes specified herein shall not be changed unless there be extraordinarily compelling reasons to do so.
+
+////
