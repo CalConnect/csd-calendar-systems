@@ -3,7 +3,7 @@
 :sectnums!:
 == Introduction
 
-Calendars are an essential element for date tracking.
+Calendars are an essential element in date tracking.
 
 With multiple calendar systems in common use across
 the international community, it is necessary for a number

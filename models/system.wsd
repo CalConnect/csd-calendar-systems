@@ -1,8 +1,5 @@
 @startuml
 
-Calendar system code,English name,Names in other languages,Abbreviation,Specification,Usage populations,Application,Remarks
-
-
 '******* CONFIGURATION ************************************************
 !include style.uml.inc
 

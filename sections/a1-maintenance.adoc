@@ -30,17 +30,18 @@ Additions to the list of calendar system codes shall be made on the basis of inf
 
 The ISO 34003/AG will decide upon the addition, on the basis of the justification given for the actual requirements for international interchange. Code elements will be allocated accordingly.
 
+A calendar to be included must fulfill the following criteria:
+
+* The calendar system must have seen significant use in its history
+  or in current use.
+
+
 ////
 Additions to the official and international time scale authorities require additional criteria:
 
 * An official time scale authority must be endorsed by a body receiving direct authority by a member of the United Nations.
 * An international time scale authority must be endorsed by an international standardization body in liaison with the ISO 34003/AG.
 ////
-
-[[registration-adding-tz]]
-=== Addition to the list of calendar system codes
-
-Additions to the list of calendar system codes shall be made only by the appropriate registered authority.
 
 
 [[registration-removing-tzauth]]
