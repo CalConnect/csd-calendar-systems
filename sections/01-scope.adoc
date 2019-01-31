@@ -2,8 +2,10 @@
 :sectnums:
 == Scope
 
-This International Standard provides a code for the
-presentation of calendar systems.
+This document provides a list of codes to represent
+calendar systems and the corresponding maintenance
+procedures.
 
 The codes were devised for usage of any application requiring
-the expression of calendar systems in coded form.
+the expression of calendar systems in coded form, including
+for data interchange.
