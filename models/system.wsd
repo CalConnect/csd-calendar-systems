@@ -7,7 +7,7 @@ class Calendar {
   +code: String
   +name: String
   +abbreviation: String[0..*]
-  +localizedName: String[0..*]
+  +localizedName: LocalizedString[0..*]
   +specification: URI[0..*]
   +usagePopulations: String[0..*]
   +usageApplications: String[0..*]

@@ -1,6 +1,7 @@
 ﻿Calendar system code,English name,Names in other languages,Abbreviation,Specification,Usage populations,Application,Remarks
 gre,Gregorian Calendar,,"AD (after), BC (before), CE (Common Era)",ISO 8601-1,"Largely global, predominant in Western countries",,
 jul,Julian Calendar,,"AD (after), BC (before), OS (Old Style)",,Orthodox (Eastern) Christian (no longer used by civil governments),predominantly Russian Orthodox documents,
+chi,Chinese calendar,"Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历 or 阴历; English: Chinese Rural Calendar",,,China (mostly cultural and religious usage),,Type: lunisolar
 heb,Hebrew Calendar,Hebrew: הלוח העברי,AM,,"Israel, also used in publications elsewhere",,
 his,Hijri-shamsi,Arabic: تقويم هجري شمسي; Persian: گاه‌شماری هجری خورشیدی; Pashto: لمريز لېږدیز کلیز‎,"AH, SH",,"Iran, Afghanistan",,Also known as Solar Hijri Calendar (abbrev.: SH)
 hiq,Hijri-qamari,Arabic: التقويم الهجري‎‎,AH (after Hijri) and BH (before Hijri),,Majority Islamic countries,,
@@ -19,7 +20,6 @@ vai,Vaisnava Calendar,"Also known as: Gaurabda calendar, Krishna consciousness c
 kur,Kurdish Calendar,Kurdish: Salnameya kurdî; Kurdish: ڕۆژژمێری کوردی Persian: گاه‌شماری کردی,,,"NW Iran, N/NW Iraq, W Syria, SE Turkey",,
 zor,Zoroastrian Calendar,Persian: گاه‌شماری اوستایی نو,,,"Iran, Azerbaijan, also used globally in Zoroastrian religious publications",,
 tib,Tibetan calendar,Tibetan: ལོ་ཐོ,,,"Tibet, with some use in the Tibetan community of northern India",,Type: lunisolar
-chi,Chinese calendar,"Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历 or 阴历; English: Chinese Rural Calendar",,,China (mostly cultural and religious usage),,Type: lunisolar
 min,Minguo Calendar,Traditional Chinese: 民國紀元,,,"China (mainland, 1912-1949), Taiwan (from 1912)",,Note: also used for official documents in the Republic of China
 jap,Japanese Calendar,"Japanese: 日本の暦, English: Kōki",,,Japan (co-exists with Gregorian in daily usage),,Note: Used in official documents in Japan
 jav,Javanese Calendar,"Indonesian: Kalendar Jawa; Malay, Jawi script: ڤانڠڬالن جاوا",,,"Java, Indonesia",,"Note: generally used in religious documents, usually alongside Hijri-qamari"

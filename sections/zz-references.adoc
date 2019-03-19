@@ -2,11 +2,6 @@
 [bibliography]
 == Bibliography
 
-
-* [[[ISO24614-1,ISO 24614-1]]], _Language resource management -- Word segmentation of written texts -- Part 1: Basic concepts and general principles_
-
-* [[[ISO24614-2,ISO 24614-2]]], _Language resource management -- Word segmentation of written texts -- Part 2: Word segmentation for Chinese, Japanese and Korean_
-
 * [[[ISO639-1,ISO 639-1]]], _Codes for the representation of names of languages -- Part 1: Alpha-2 code_
 * [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
 
@@ -17,33 +12,8 @@
 * [[[ISO15285,ISO/IEC TR 15285]]], _Information technology -- An operational model for characters and glyphs_
 
 
-* [[[ISO9,ISO 9]]], _Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages_
+* [[[ISO34000,ISO 34000]]], _Date and time -- Concepts and vocabulary_
 
-* [[[ISO233,ISO 233]]], _Documentation – Transliteration of Arabic characters into Latin characters_
+* [[[ISO8601-1,ISO 8601-1]]], _Date and time -- Representations for information interchange -- Part 1: Basic rules_
 
-* [[[ISO233-2,ISO 233-2]]], _Information and documentation – Transliteration of Arabic characters into Latin characters – Part 2: Arabic language – Simplified transliteration_
-
-* [[[ISO233-3,ISO 233-3]]], _Information and documentation – Transliteration of Arabic characters into Latin characters – Part 3: Persian language – Simplified transliteration_
-
-* [[[ISO259,ISO 259]]], _Documentation – Transliteration of Hebrew characters into Latin characters_
-
-* [[[ISO259-2,ISO 259-2]]], _Documentation – Transliteration of Hebrew characters into Latin characters. – Part 2: Simplified transliteration_
-
-* [[[ISO843,ISO 843]]], _Information and documentation – Conversion of Greek characters into Latin characters_
-
-* [[[ISO3602,ISO 3602]]], _Documentation — Romanization of Japanese (kana script)_
-
-* [[[ISO7098,ISO 7098]]], _Information and documentation – Romanization of Chinese_
-
-* [[[ISO9984,ISO 9984]]], _Information and documentation – Transliteration of Georgian characters into Latin characters_
-
-* [[[ISO9985,ISO 9985]]], _Information and documentation – Transliteration of Armenian characters into Latin characters_
-
-* [[[ISO11940,ISO 11940]]], _Information and documentation – Transliteration of Thai_
-
-* [[[ISO11940-2,ISO 11940-2]]], _Information and documentation – Transliteration of Thai characters into Latin characters – Part 2: Simplified transcription of Thai language__
-
-* [[[ISO15919,ISO 15919]]], _Information and documentation – Transliteration of Devanagari and related Indic scripts into Latin characters_
-
-* [[[ISO20674-1,ISO 20674-1]]], _Transliteration of scripts in use in Thailand – Part 1: Transliteration of Akson-Thai-Noi_
 

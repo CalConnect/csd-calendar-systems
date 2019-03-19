@@ -1,8 +1,9 @@
 
 [[terms]]
-//[source=ISO5127]
+[source=ISO34000]
 == Terms and Definitions
 
+////
 === transliteration
 
 operation which consists of representing the characters of an entirely alphabetical character or alphanumeric character writing system by the characters of the conversion alphabet
@@ -17,6 +18,7 @@ script conversion from non-Roman to Roman script by means of transliteration, tr
 
 [.source]
 <<ISO5127,clause="3.1.6.14">>
+////
 
 
 ////
@@ -37,6 +39,7 @@ particular graphic representation or class of representations of a set of charac
 <<ISO5127,clause="3.1.6.02">>
 
 
+[[term-code]]
 === code
 
 data representation in different forms according to a pre-established set of rules
@@ -61,6 +64,12 @@ combination of characters used to represent the name of a script
 <<ISO15924,clause="3.8">>
 
 
+=== calendar code
+
+_code_ (<<term-code>>) used to represent a calendar system
+
+
+////
 
 === transliteration system
 
@@ -85,7 +94,6 @@ combination of characters used to represent the name
 of a romanization system
 
 
-////
 
 === transliterated text
 

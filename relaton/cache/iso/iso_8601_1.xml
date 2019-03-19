@@ -1,0 +1,95 @@
+<bibitem type="international-standard" id="ISO8601-1">
+  <fetched>2019-02-18</fetched>
+  <title format="text/plain" language="en" script="Latn">Date and time -- Representations for information interchange -- Part 1: Basic rules</title>
+  <title format="text/plain" language="fr" script="Latn">Date et heure -- Représentations pour l'échange d'information -- Partie 1: Règles de base</title>
+  <uri type="src">https://www.iso.org/standard/70907.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/09/70907.detail.rss</uri>
+  <docidentifier type="ISO">ISO 8601-1</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>60</stage>
+    <substage>00</substage>
+  </status>
+  <copyright>
+    <from>2019</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 8601:2004</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2019-02-18</fetched>
+      <title format="text/plain" language="en" script="Latn">Date and time -- Representations for information interchange -- Part 1: Basic rules</title>
+      <title format="text/plain" language="fr" script="Latn">Date et heure -- Représentations pour l'échange d'information -- Partie 1: Règles de base</title>
+      <uri type="src">https://www.iso.org/standard/70907.html</uri>
+      <uri type="obp"/>
+      <uri type="rss">https://www.iso.org/contents/data/standard/07/09/70907.detail.rss</uri>
+      <docidentifier type="ISO">ISO 8601-1</docidentifier>
+      <date type="published">
+        <on>2019</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <status>
+        <stage>60</stage>
+        <substage>00</substage>
+      </status>
+      <copyright>
+        <from>2019</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO 8601:2004</formattedref>
+        </bibitem>
+      </relation>
+      <editorialgroup>
+        <technical_committee number="154" type="TC">ISO/TC 154Processes, data elements and documents in commerce, industry and administration</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>01.140.30</code>
+        <text>Documents in administration, commerce and industry</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="154" type="TC">ISO/TC 154Processes, data elements and documents in commerce, industry and administration</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.140.30</code>
+    <text>Documents in administration, commerce and industry</text>
+  </ics>
+</bibitem>
