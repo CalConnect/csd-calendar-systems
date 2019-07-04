@@ -1,5 +1,5 @@
 <bibitem type="international-standard" id="ISO639-1">
-  <fetched>2019-01-31</fetched>
+  <fetched>2019-07-05</fetched>
   <title format="text/plain" language="en" script="Latn">Codes for the representation of names of languages -- Part 1: Alpha-2 code</title>
   <title format="text/plain" language="fr" script="Latn">Codes pour la représentation des noms de langue -- Partie 1: Code alpha-2</title>
   <uri type="src">https://www.iso.org/standard/22109.html</uri>
@@ -37,7 +37,7 @@
   </relation>
   <relation type="instance">
     <bibitem type="international-standard">
-      <fetched>2019-01-31</fetched>
+      <fetched>2019-07-05</fetched>
       <title format="text/plain" language="en" script="Latn">Codes for the representation of names of languages -- Part 1: Alpha-2 code</title>
       <title format="text/plain" language="fr" script="Latn">Codes pour la représentation des noms de langue -- Partie 1: Code alpha-2</title>
       <uri type="src">https://www.iso.org/standard/22109.html</uri>

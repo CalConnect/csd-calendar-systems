@@ -1,5 +1,5 @@
 <bibitem type="international-standard" id="ISO/IEC10646-2">
-  <fetched>2019-01-31</fetched>
+  <fetched>2019-07-05</fetched>
   <title format="text/plain" language="en" script="Latn">Information technology -- Universal Multiple-Octet Coded Character Set (UCS) -- Part 2: Supplementary Planes</title>
   <title format="text/plain" language="fr" script="Latn">Technologies de l'information -- Jeu universel de caractères codés sur plusieurs octets (JUC) -- Partie 2: Plans complémentaires</title>
   <uri type="src">https://www.iso.org/standard/33208.html</uri>
@@ -45,7 +45,7 @@
   </relation>
   <relation type="instance">
     <bibitem type="international-standard">
-      <fetched>2019-01-31</fetched>
+      <fetched>2019-07-05</fetched>
       <title format="text/plain" language="en" script="Latn">Information technology -- Universal Multiple-Octet Coded Character Set (UCS) -- Part 2: Supplementary Planes</title>
       <title format="text/plain" language="fr" script="Latn">Technologies de l'information -- Jeu universel de caractères codés sur plusieurs octets (JUC) -- Partie 2: Plans complémentaires</title>
       <uri type="src">https://www.iso.org/standard/33208.html</uri>

@@ -1,0 +1,8 @@
+---
+metanorma:
+  deploy:
+    email: "travis-ci@metanorma.org"
+relaton:
+  collection:
+    name: Date and time -- Codes for calendar systems
+    organization: CalConnect/ISO

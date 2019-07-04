@@ -1,0 +1,44 @@
+= CalConnect/ISO Codes for calendar systems
+:docnumber: 34300
+:tc-document-number: 9999
+:edition: 1
+:copyright-year: 2019
+:language: en
+:title-intro-en: Date and time
+:title-main-en: Codes for calendar systems
+:title-intro-fr: Date et l'heure
+:title-main-fr: Codes pour les systèmes de calendrier
+:doctype: standard
+:docstage: 20
+:docsubstage: 00
+:technical-committee-type: TC
+:technical-committee-number: 154
+:technical-committee: Processes, data elements and documents in commerce, industry and administration
+:workgroup-type: WG
+:workgroup-number: 5
+:workgroup: Date and time
+:secretariat: SAC
+:language: en
+:draft:
+:toc:
+:stem:
+:xrefstyle: short
+:imagesdir: images
+:docfile: iso-34300.adoc
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections-iso/00-foreword.adoc[]
+include::sections/00-intro.adoc[]
+include::sections/01-scope.adoc[]
+include::sections/02-norm-refs.adoc[]
+include::sections/03-termsdef.adoc[]
+include::sections/04-common.adoc[]
+include::sections/05-codes.adoc[]
+
+include::sections/a1-maintenance.adoc[]
+include::sections/a2-calendar-codes.adoc[]
+
+include::sections/zz-references.adoc[]

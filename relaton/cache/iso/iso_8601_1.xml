@@ -1,9 +1,8 @@
 <bibitem type="international-standard" id="ISO8601-1">
-  <fetched>2019-02-18</fetched>
+  <fetched>2019-07-05</fetched>
   <title format="text/plain" language="en" script="Latn">Date and time -- Representations for information interchange -- Part 1: Basic rules</title>
-  <title format="text/plain" language="fr" script="Latn">Date et heure -- Représentations pour l'échange d'information -- Partie 1: Règles de base</title>
   <uri type="src">https://www.iso.org/standard/70907.html</uri>
-  <uri type="obp"/>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:70907:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/09/70907.detail.rss</uri>
   <docidentifier type="ISO">ISO 8601-1</docidentifier>
   <contributor>
@@ -20,7 +19,7 @@
   <script>Latn</script>
   <status>
     <stage>60</stage>
-    <substage>00</substage>
+    <substage>60</substage>
   </status>
   <copyright>
     <from>2019</from>
@@ -37,13 +36,12 @@
   </relation>
   <relation type="instance">
     <bibitem type="international-standard">
-      <fetched>2019-02-18</fetched>
+      <fetched>2019-07-05</fetched>
       <title format="text/plain" language="en" script="Latn">Date and time -- Representations for information interchange -- Part 1: Basic rules</title>
-      <title format="text/plain" language="fr" script="Latn">Date et heure -- Représentations pour l'échange d'information -- Partie 1: Règles de base</title>
       <uri type="src">https://www.iso.org/standard/70907.html</uri>
-      <uri type="obp"/>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:70907:en</uri>
       <uri type="rss">https://www.iso.org/contents/data/standard/07/09/70907.detail.rss</uri>
-      <docidentifier type="ISO">ISO 8601-1</docidentifier>
+      <docidentifier type="ISO">ISO 8601-1:2019</docidentifier>
       <date type="published">
         <on>2019</on>
       </date>
@@ -59,9 +57,10 @@
       <language>en</language>
       <language>fr</language>
       <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">This document specifies representations of dates of the Gregorian calendar and times based on the 24-hour clock, as well as composite elements of them, as character strings for use in information interchange. It is also applicable for representing times and time shifts based on Coordinated Universal Time (UTC).This document excludes the representation of date elements from non-Gregorian calendars or times not from the 24-hour clock. This document does not address character encoding of representations specified in this document.</abstract>
       <status>
         <stage>60</stage>
-        <substage>00</substage>
+        <substage>60</substage>
       </status>
       <copyright>
         <from>2019</from>

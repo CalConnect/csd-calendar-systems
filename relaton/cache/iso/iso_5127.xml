@@ -1,5 +1,5 @@
 <bibitem type="international-standard" id="ISO5127">
-  <fetched>2019-01-31</fetched>
+  <fetched>2019-07-05</fetched>
   <title format="text/plain" language="en" script="Latn">Information and documentation -- Foundation and vocabulary</title>
   <uri type="src">https://www.iso.org/standard/59743.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:59743:en</uri>
@@ -36,7 +36,7 @@
   </relation>
   <relation type="instance">
     <bibitem type="international-standard">
-      <fetched>2019-01-31</fetched>
+      <fetched>2019-07-05</fetched>
       <title format="text/plain" language="en" script="Latn">Information and documentation -- Foundation and vocabulary</title>
       <uri type="src">https://www.iso.org/standard/59743.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:59743:en</uri>

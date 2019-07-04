@@ -1,5 +1,5 @@
 <bibitem type="international-standard" id="ISO3166-1">
-  <fetched>2019-01-31</fetched>
+  <fetched>2019-07-05</fetched>
   <title format="text/plain" language="en" script="Latn">Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes</title>
   <title format="text/plain" language="fr" script="Latn">Codes pour la représentation des noms de pays et de leurs subdivisions -- Partie 1: Codes de pays</title>
   <uri type="src">https://www.iso.org/standard/63545.html</uri>
@@ -42,12 +42,12 @@
   </relation>
   <relation type="obsoletes">
     <bibitem>
-      <formattedref>ISO/NP 3166-1</formattedref>
+      <formattedref>ISO/DIS 3166-1</formattedref>
     </bibitem>
   </relation>
   <relation type="instance">
     <bibitem type="international-standard">
-      <fetched>2019-01-31</fetched>
+      <fetched>2019-07-05</fetched>
       <title format="text/plain" language="en" script="Latn">Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes</title>
       <title format="text/plain" language="fr" script="Latn">Codes pour la représentation des noms de pays et de leurs subdivisions -- Partie 1: Codes de pays</title>
       <uri type="src">https://www.iso.org/standard/63545.html</uri>
@@ -95,7 +95,7 @@
       </relation>
       <relation type="obsoletes">
         <bibitem>
-          <formattedref>ISO/NP 3166-1</formattedref>
+          <formattedref>ISO/DIS 3166-1</formattedref>
         </bibitem>
       </relation>
       <editorialgroup>

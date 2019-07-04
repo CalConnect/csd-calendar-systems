@@ -1,19 +1,30 @@
-sudo: required
 language: ruby
-rvm:
-  - 2.5.1
-cache: bundler
-before_install:
-  - travis_retry sudo apt-get update
-  - travis_retry sudo apt-get install -y curl git make ruby-bundler ruby-dev libxml2-dev libxslt-dev npm
-  - travis_retry gem install bundler
-  - travis_retry gem install nokogiri -v '1.8.5'
-  - sudo bash -c "curl -L https://github.com/riboseinc/plantuml-install/raw/master/ubuntu.sh | bash"
-  - travis_retry npm install puppeteer
+dist: xenial
 env:
   global:
-    - JAVA_OPTS="java.awt.headless=true"
-    - PLANTUML_URL=http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
+    - COMMIT_AUTHOR_EMAIL="$(yq r metanorma.yml metanorma.deploy.email)";
+rvm:
+  - 2.5
+cache: bundler
+addons:
+  apt:
+    update: true
+  snaps:
+    - jq
+    - yq
+    - name: node
+      confinement: classic # or devmode
+      channel: 10/stable
+before_install:
+  - gem update --system
+  - gem install bundler
+  - npm install -g puppeteer
+  - sudo bash -c "curl -L https://raw.githubusercontent.com/metanorma/metanorma-linux-setup/master/ubuntu.sh | bash"
 script:
-  - plantuml -testdot
-  - make clean all publish deploy
+  - make clean all publish
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: bash -c "curl -L https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/deploy-to-gh-pages.sh | bash"
+  on:
+    branch: master
