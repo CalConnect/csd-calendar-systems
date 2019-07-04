@@ -1,43 +1,63 @@
-= ISO Cantonese Romanization Document
+= CalConnect Standard: Date and time -- Codes for calendar systems
+
+This work item belongs to TC DATETIME.
+
+image:https://travis-ci.com/CalConnect/csd-calendar-systems.svg?branch=master["Build Status", link="https://travis-ci.com/calconnect/csd-calendar-systems"]
+
+This document is available in its rendered forms here:
+
+* https://calconnect.github.io/csd-calendar-systems/[CalConnect Standard: Date and time -- Codes for calendar systems]
+
 
 == Fetching the document
 
 [source,sh]
 ----
-git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/iso-cantonese-romanization
+git clone https://github.com/CalConnect/csd-calendar-systems/
 ----
 
-== Installing build tools
+== Installing Build Tools
 
-=== macOS
+See https://www.metanorma.com/author/topics/install/
 
-From anywhere on your computer (this only works on macOS!)
+
+== Running via Docker or locally
+
+If you have installed the build tools locally, and wish to run the
+locally-installed compilation tools, there is nothing further to set.
+
+If you don't want to deal with local dependencies, use the docker
+version by:
+
 [source,sh]
 ----
-bash <(curl -s https://raw.githubusercontent.com/riboseinc/metanorma-macos-setup/master/metanorma-setup)
+export METANORMA_DOCKER=1
 ----
 
+The `Makefile` will automatically choose the proper command to
+execute.
 
-=== Windows
 
-. Install https://www.ruby-lang.org/en/[Ruby]
-. Install node and Google's https://github.com/GoogleChrome/puppeteer[puppeteer]
-. Run `bundle` to install dependent Ruby gems
-
-== Building the document (HTML + Word)
+== Building The Document
 
 [source,sh]
 ----
 make clean all
 ----
 
-Your document will be created in the same directory.
+The following outputs will be built:
 
-== Iterating the document (HTML)
+* CSD XML (https://github.com/calconnect/metanorma-model-csd) (`[filename].xml`)
+* HTML (`[filename].html`)
+* PDF (`[filename].pdf`)
+* Word DOC (`[filename].doc`)
 
-It's easiest to generate the HTML to iterate on the document.
+
+== Iterating the document
 
 [source,sh]
 ----
-make html open
+make html
+open cc-*.html
 ----
+
