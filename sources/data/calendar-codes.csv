@@ -21,7 +21,7 @@ hiq,Hijri-qamari,Arabic: التقويم الهجري‎‎,AH (after Hijri) and 
 his,Hijri-shamsi,Arabic: تقويم هجري شمسي; Persian: گاه‌شماری هجری خورشیدی; Pashto: لمريز لېږدیز کلیز‎,"AH, SH",,"Iran, Afghanistan",,Also known as Solar Hijri Calendar (abbrev.: SH)
 ila,Ilahi,Bengali: বাংলা সাল,,,Bangladesh,,Type: civil calendar. Note: compare with the Bengali Calendar which is not a civil one.
 ind,Indian Civil Calendar,"Hindi: भारतीय राष्ट्रीय पंचांग, Tamil: இந்தியத் தேசிய நாட்காட்டி",SE,,India,,
-irj,Iranian-Jalali,Persian: گاه‌شماری جلالی ; Persian: تقویم,,,"Iran, Azerbaijan",,Note: Iran now uses the Hijri-shamsi calendar for the most part
+irj,Iranian-Jalali,Persian: گاه‌شماری جلالی تقویم,,,"Iran, Azerbaijan",,Note: Iran now uses the Hijri-shamsi calendar for the most part
 iry,Iranian-Yazdigird,,,,"Iran, Azerbaijan",,Note: Iran now uses the Hijri-shamsi calendar for the most part
 jap,Japanese Calendar,"Japanese: 日本の暦, English: Kōki",,,Japan (co-exists with Gregorian in daily usage),,Note: Used in official documents in Japan
 jav,Javanese Calendar,"Indonesian: Kalendar Jawa; Malay, Jawi script: ڤانڠڬالن جاوا",,,"Java, Indonesia",,"Note: generally used in religious documents, usually alongside Hijri-qamari"
@@ -46,4 +46,3 @@ vai,Vaisnava Calendar,"Also known as: Gaurabda calendar, Krishna consciousness c
 vik,Vikram Sambat,Nepali: विक्रम सम्वत्,VS,,Nepal,,
 vir,Vira Nirvana Sambat,Also known as: Jain calendar (religious and civil),,,"India, also used globally in Jain religious publications",,
 zor,Zoroastrian Calendar,Persian: گاه‌شماری اوستایی نو,,,"Iran, Azerbaijan, also used globally in Zoroastrian religious publications",,
-,,,,,,,
