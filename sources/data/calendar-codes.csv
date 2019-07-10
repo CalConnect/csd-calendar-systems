@@ -1,48 +1,70 @@
 ﻿Calendar system code,English name,Names in other languages,Abbreviation,Specification,Usage populations,Application,Remarks
-ale,Alexandrian,Arabic: تقويم قبطي ; Egyptian Arabic: شهور قبطيه,,,"Egypt, used primarily in Coptic Christian religious publications",,
+aka,Akan calendar,,,,,,
+ale,Alexandrian,Arabic: تقويم قبطي ; Egyptian Arabic: شهور قبطيه,,,Egypt,Religious publications of the Coptic Christian faith,
 arm,Armenian Calendar,Armenian: Հայկական եկեղեցական տոմար,,,Armenia,,Note: also used selectively in global Armenian diaspora communities for religious use
-azt,Aztec Calendar,,,,"Central America, predominantly Northern Mexico",,
-bah,Bahai Calendar,,,,,Religious publications of the Bahai faith,
-bal,Balinese saka,Indonesian: Kalendar Bali,,,"Bali, Indonesia",,"Note: Civil calendar, continues in use on Bali"
-ben,Bengali Calendar,Bengali: বঙ্গাব্দ,,,"Eastern India, Bengali-speaking regions; also used in religious publications by the global Bengali community",,
-bud,Buddhist Calendar,Khmer: ពុទ្ធសករាជ; Sinhala: බුද්ධ වර්‍ෂ or සාසන වර්‍ෂ,,,"Cambodia, Laos, Myanmar, Thailand",,Note: religious calendar often used alongside a civil calendar
-bur,Burmese calendar,Also known as: Myanmar Calendar,"BE, ME",,Myanmar,,Note: civil calendar
-ccj,CCSDS Julian Day,Also known as: CCSDS JD.,,"Count of days of the Gregorian calendar. Linear count by day according to the epoch of Oct 15, 1582.",,,
-chi,Chinese calendar,"Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历 or 阴历; English: Chinese Rural Calendar",,,China (mostly cultural and religious usage),,Type: lunisolar
-cjd,CNES Julian Day,Also known as: CNES JD.,,"Introduced by the CCSDS. Linear count by day according to the epoch of 0h Jan 1, 1958.",,,
-cjs,Chiljungsan,Korean: 칠정산,,,Korea,Mostly cultural and religious usage,
-cop,Coptic-EoM,Amharic: የኢትዮጵያ ዘመን አቆጣጠር),,,"Ethiopia, also globally in Ethiopian Catholic religious publications",,
-djd,Dublin Julian Day,Also known as: Dublin JD.,,"Introduced by the CNES. Linear count by day according to the epoch of 0h Jan 1, 1950.",,,
-fre,French Republican Calendar,French: calendrier républicain français,,,"France, French colonies, particularly Haiti",,Also known as: French Revolutionary Calendar
-gre,Gregorian Calendar,,"AD (after), BC (before), CE (Common Era)",ISO 8601-1,"Largely global, predominant in Western countries",,
-heb,Hebrew Calendar,Hebrew: הלוח העברי,AM,,"Israel, also used in publications elsewhere",,
-hin,Hindu,"Hindi: हिन्दू पंचांग, Also known as: Panchanga, Hindi: पञ्चाङ्ग",,,India,,"Note: now largely replaced by the Indian Civil Calendar, many Indian publications now use Gregorian"
-hiq,Hijri-qamari,Arabic: التقويم الهجري‎‎,AH (after Hijri) and BH (before Hijri),,Majority Islamic countries,,
-his,Hijri-shamsi,Arabic: تقويم هجري شمسي; Persian: گاه‌شماری هجری خورشیدی; Pashto: لمريز لېږدیز کلیز‎,"AH, SH",,"Iran, Afghanistan",,Also known as Solar Hijri Calendar (abbrev.: SH)
-ila,Ilahi,Bengali: বাংলা সাল,,,Bangladesh,,Type: civil calendar. Note: compare with the Bengali Calendar which is not a civil one.
+asr,Assyrian calendar,,,,,,
+ast,Astronomical year numbering,,,"Linear count of year with year 0 set to proleptic Gregorian year 1 BC, month and day according to Gregorian calendar",,,
+azt,Aztec Calendar,English: Mexica calendar,,,"Central America, predominantly Northern Mexico (TODO: more specific.)",,
+bah,Bahá'í Calendar,English: Badíʿ Calendar,,,,Religious publications of the Bahai faith,
+bal,Balinese saka,Indonesian: Kalendar Bali,,,"Bali, Indonesia",Civil calendar,Note: In use on Bali
+ben,Bengali Calendar,Bengali: বঙ্গাব্দ,,,"Eastern India, Bengali-speaking regions (TODO: more specific.)",,Note: also used in religious publications by the global Bengali community
+ber,Berber calendar,,,,,,
+bor,Borana calendar,,,,,,
+bud,Buddhist Calendar,Khmer: ពុទ្ធសករាជ; Sinhala: බුද්ධ වර්‍ෂ or සාසන වර්‍ෂ,,,"Cambodia, Laos, Myanmar, Thailand",Religious calendar,Note: often used alongside a civil calendar
+bur,Burmese calendar,English: Myanmar Calendar,"BE, ME",,Myanmar,Civil calendar,
+ccj,CCSDS Julian Day,English: CCSDS JD,,"Linear count by day according to the epoch of 0h Jan 1, 1958.",,,
+chi,Chinese calendar,"Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历, 阴历; English: Chinese Rural Calendar",,,China,Cultural usage,Type: lunisolar
+cseb,Celestial Stems and Earthly Branches,Traditional Chinese:  干支曆; Simplified Chinese: 干支历; English: ganzhi,,,,Cultural usage,
+cjd,CNES Julian Day,English: CNES JD,,"Linear count by day according to the epoch of 0h Jan 1, 1950.",,,Introduced by the CCSDS.
+cjs,Chiljungsan,Korean: 칠정산,,,Korea,Cultural usage,
+cop,Coptic-EoM,Amharic: የኢትዮጵያ ዘመን አቆጣጠር),,,Ethiopia,,Note: also globally in Ethiopian Catholic religious publications
+djd,Dublin Julian Day,English: Dublin JD,,"Linear count by day according to the epoch of noon Dec 31, 1899.",,,Introduced by the CNES. 
+fas,Fasli Calendar,Urdu: فصلی‎ ; Arabic: فصلى‎,,,,,
+fre,French Republican Calendar,French: calendrier républicain français; English: French Revolutionary Calendar,,,"France, French colonies, Haiti (TODO: more specific)",,
+gae,Gaelic calendar,,,,,,
+gre,Gregorian Calendar,,"AD (after), BC (before), CE (Common Era)",ISO 8601-1,Global,,
+heb,Hebrew Calendar,Hebrew: הלוח העברי,AM,,Israel,,Note: also used in publications elsewhere
+hin,Hindu,Hindi: हिन्दू पंचांग; English: Panchanga; Hindi: पञ्चाङ्ग,,,India,Religious calendar,Note: largely replaced by the Indian Civil Calendar
+hiq,Hijri-qamari,Arabic: التقويم الهجري‎‎,AH (after Hijri) and BH (before Hijri),,TODO: Majority of Islamic countries,,
+his,Hijri-shamsi,Arabic: تقويم هجري شمسي; Persian: گاه‌شماری هجری خورشیدی; Pashto: لمريز لېږدیز کلیز‎; English: Solar Hijri Calendar,"AH, SH",,"Iran, Afghanistan",,
+igb,IlahiIgbo calendar,Igbo: Ògụ́àfọ̀ Ị̀gbò,,,,,
+ila,Ilahi,Bengali: বাংলা সাল,,,Bangladesh,Civil calendar,Note: compare with the Bengali Calendar which is not a civil one.
 ind,Indian Civil Calendar,"Hindi: भारतीय राष्ट्रीय पंचांग, Tamil: இந்தியத் தேசிய நாட்காட்டி",SE,,India,,
-irj,Iranian-Jalali,Persian: گاه‌شماری جلالی تقویم,,,"Iran, Azerbaijan",,Note: Iran now uses the Hijri-shamsi calendar for the most part
-iry,Iranian-Yazdigird,,,,"Iran, Azerbaijan",,Note: Iran now uses the Hijri-shamsi calendar for the most part
-jap,Japanese Calendar,"Japanese: 日本の暦, English: Kōki",,,Japan (co-exists with Gregorian in daily usage),,Note: Used in official documents in Japan
-jav,Javanese Calendar,"Indonesian: Kalendar Jawa; Malay, Jawi script: ڤانڠڬالن جاوا",,,"Java, Indonesia",,"Note: generally used in religious documents, usually alongside Hijri-qamari"
-jdm,Modified Julian day,Also known as: Modified JD.,,"Introduced by NASA in 1979. Linear count by day according to the epoch of 0h May 24, 1968.",,,
-jdr,Reduced Julian day,Also known as: Reduced JD.,,"Introduced by SAO in 1957. Linear count by day according to the epoch of 0h Nov 17, 1858.",,,
-jdt,Truncated Julian day,Also known as: Truncated JD.,,"Introduced by the IAU in 1955. Linear count by day according to the epoch of 12h Dec 31, 1899.",,,
-jld,Julian date,Also known as: JD.,,"Linear count by day according to the epoch of 12h Nov 16, 1858.",,,
+irj,Iranian-Jalali,Persian: گاه‌شماری جلالی تقویم,,,"Iran, Azerbaijan",,Note: Iran now uses the Hijri-shamsi calendar for the most part.
+iry,Iranian-Yazdigird,,,,"Iran, Azerbaijan",,Note: Iran now uses the Hijri-shamsi calendar for the most part.
+jap,Japanese Calendar,Japanese: 日本の暦; English: Kōki,,,Japan,Civil calendar,Note: Used in official documents in Japan
+jav,Javanese Calendar,"Indonesian: Kalendar Jawa; Malay, Jawi script: ڤانڠڬالن جاوا",,,"Java, Indonesia",Religious calendar,Note: usually used alongside Hijri-qamari
+jdm,Modified Julian day,English: Modified JD,,"Linear count by day according to the epoch of 0h Nov 17, 1858.",,,Introduced by NASA in 1979. 
+jdr,Reduced Julian day,English: Reduced JD,,"Linear count by day according to the epoch of noon Nov 16, 1858.",,,Introduced by SAO in 1957. 
+jdt,Truncated Julian day,English: Truncated JD,,"Linear count by day according to the epoch of 0h May 24, 1968.",,,Introduced by the IAU in 1955. 
+jld,Julian date,English: JD,,"Count of days. Linear count by day according to the epoch of noon Jan 1, 4713 BC.",,,
 juc,Juche Calendar,Korean: 주체연호,,,North Korea,,
-jul,Julian Calendar,,"AD (after), BC (before), OS (Old Style)",,Orthodox (Eastern) Christian (no longer used by civil governments),predominantly Russian Orthodox documents,
-kur,Kurdish Calendar,Kurdish: Salnameya kurdî; Kurdish: ڕۆژژمێری کوردی Persian: گاه‌شماری کردی,,,"NW Iran, N/NW Iraq, W Syria, SE Turkey",,
-lid,Lilian date,,,"Count of days of the Common Era. Linear count by day according to the epoch of Jan 1, 1 proleptic Gregorian calendar.",,,
-mar,Mars Sol Date,,,"Linear count of Martian days according to the epoch of 12h Dec 29, 1873.",,,
-may,Maya Calendar,Spanish: calendario maya,,,"Central America, predominantly Mexico, Guatemala, Belize",,Also known as: pre-Columbian Meso-American calendar
-min,Minguo Calendar,Traditional Chinese: 民國紀元,,,"Linear count of year with epoch from Gregorian year 1912, month and day according to Gregorian calendar",,
-paw,Pawukon calendar,"Indonesian: Wuku; Malay, Jawi script: ووكو",,,"Bali, Indonesia",,"Note: Religious calendar, continues in use on Bali"
-rad,Rata Die,,,"Count of Martian days. Linear count by day according to the epoch of 12h Jan 1, 4713 BC.",,,
+jul,Julian Calendar,,"AD (after), BC (before), OS (Old Style)",,Orthodox Christian (TODO: more specific),Religious publications of the Orthodox Christian faith,
+kur,Kurdish Calendar,Kurdish: Salnameya kurdî; Kurdish: ڕۆژژمێری کوردی ; Persian: گاه‌شماری کردی,,,"NW Iran, N/NW Iraq, W Syria, SE Turkey (TODO: more specific)",,
+lid,Lilian date,,,"Count of days of the Gregorian calendar. Linear count by day according to the epoch of Oct 15, 1582.",,,
+lit,Lithuanian calendar,,,,,,
+mar,Mars Sol Date,,,"Linear count of Martian days according to the epoch of noon Dec 29, 1873.",,,
+mal,Malayalam calendar,English: Kollam Era,,,,,
+mac,Ancient Macedonian calendar,,,,,,
+mui,Muisca calendar,,,,,,Type: lunisolar
+may,Maya Calendar,Spanish: calendario maya; English: pre-Columbian Meso-American calendar,,,"Central America, predominantly Mexico, Guatemala, Belize (TODO: more specific)",,
+mel,Melanau calendar,Malay: Bulan Melanau,,,,,
+min,Minguo Calendar,Traditional Chinese: 民國紀元; Simplified Chinese: 民国纪年,,"Linear count of year with epoch from Gregorian year 1912, month and day according to Gregorian calendar",China,,
+mon,Mongol Calendar,,,,,Cultural usage,Type: lunisolar
+nan,Nanakshahi,Punjabi: ਨਾਨਕਸ਼ਾਹੀ,,,,,
+nep,Nepal Sambat,Nepalese: नेपाल सम्बत,,,,,Type: lunar
+paw,Pawukon calendar,"Indonesian: Wuku; Malay, Jawi script: ووكو",,,"Bali, Indonesia",Religious calendar,Note: In use on Bali
+rad,Rata Die,,R.D.,"Count of days of the Common Era. Linear count by day according to the epoch of Jan 1, 1 proleptic Gregorian calendar.",,,
+rum,Rumi calendar,,,,,,Note: solar Ottoman calendar based on the Julian calendar
 spa,Spanish,,,,,,"Note: No information, need to check with manuscript cataloguers; presumably a colonial or pre-colonial era calendar"
-tha,Thai calendar,Thai: ปฏิทินสุริยคติ,,,Thailand,,Type: solar calendar. Note: daily use largely replaced by Gregorian
-tib,Tibetan calendar,Tibetan: ལོ་ཐོ,,,"Tibet, with some use in the Tibetan community of northern India",,Type: lunisolar
-unx,Unix time,Linear count similar to POSIX time,,"Linear count by seconds according to the epoch of 0h Jan 1, 1970.",,,
-vai,Vaisnava Calendar,"Also known as: Gaurabda calendar, Krishna consciousness calendar",,,Braj region of India,"Usage: mostly religious, some civil uses",
-vik,Vikram Sambat,Nepali: विक्रम सम्वत्,VS,,Nepal,,
-vir,Vira Nirvana Sambat,Also known as: Jain calendar (religious and civil),,,"India, also used globally in Jain religious publications",,
-zor,Zoroastrian Calendar,Persian: گاه‌شماری اوستایی نو,,,"Iran, Azerbaijan, also used globally in Zoroastrian religious publications",,
+som,Somali calendar,Somali: Soomaali tiro ammin,,,,,
+tam,Tamil calendar,Tamil: தமிழ் மாதங்கள்,,,,,
+tai,Thai lunar calendar,Thai: ปฏิทินจันทรคติ ; English: Tai calendar,,,Thailand,Cultural usage,Type: lunar
+tha,Thai solar calendar,Thai: ปฏิทินสุริยคติ,,,Thailand,Cultural usage,Type: solar calendar.
+tib,Tibetan calendar,Tibetan: ལོ་ཐོ; Simplified Chinese: 藏历; Traditional Chinese: 藏曆,,,Tibet Autonomous Region of China,Cultural usage,Type: lunisolar
+unx,Unix time,,,"Linear count of seconds according to the epoch of 0h Jan 1, 1970.",,,Note: Similar to POSIX time.
+vai,Vaisnava Calendar,"English: Gaurabda calendar, Krishna consciousness calendar",,,Braj region of India,Religious calendar,Note: some civil uses
+vik,Vikram Sambat,Nepali: विक्रम सम्वत्; English: Vikrami calendar,VS,,Nepal,,
+vir,Vira Nirvana Sambat,English: Jain calendar (religious and civil),,,India,,Note: used globally in Jain religious publications
+yor,Yoruba calendar,Yoruba: KṒJṒDÁ; English: Kojoda,,,,,
+zor,Zoroastrian Calendar,Persian: گاه‌شماری اوستایی نو,,,"Iran, Azerbaijan",,Note: used globally in Zoroastrian religious publications

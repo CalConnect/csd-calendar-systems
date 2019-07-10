@@ -99,12 +99,12 @@
 ** Geolocation: Tibet, with some use in the Tibetan community of northern India
 
 . Chinese calendar
-** Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历 or 阴历
+** Hant: 農曆, 陰曆; Hans: 农历 or 阴历
 ** Type: lunisolar
 ** Also known as: Chinese Rural Calendar
 
 . Minguo Calendar
-** Traditional Chinese: 民國紀元
+** Hant: 民國紀元
 
 . Japanese Calendar
 ** Japanese: 日本の暦
