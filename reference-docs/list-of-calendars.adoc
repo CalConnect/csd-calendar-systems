@@ -102,12 +102,9 @@
 ** Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历 or 阴历
 ** Type: lunisolar
 ** Also known as: Chinese Rural Calendar
-** Geolocation: China (mostly cultural and religious usage)
 
 . Minguo Calendar
 ** Traditional Chinese: 民國紀元
-** Geolocation: China (mainland, 1912-1949), Taiwan (from 1912)
-** Note: also used for official documents in the Republic of China
 
 . Japanese Calendar
 ** Japanese: 日本の暦
