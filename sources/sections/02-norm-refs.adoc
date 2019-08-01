@@ -2,6 +2,13 @@
 [bibliography]
 == Normative References
 
+* [[[ISO639-1,ISO 639-1]]], _Codes for the representation of names of languages -- Part 1: Alpha-2 code_
+* [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
+
+* [[[ISO3166-1,ISO 3166-1]]], _Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes_
+
 * [[[ISO5127,ISO 5127]]], _Information and documentation — Foundation and vocabulary_
 
 * [[[ISO15924,ISO 15924]]], _Information and documentation – Codes for the representation of names of scripts_
+
+* [[[ISO34000,ISO 34000]]], _Date and time -- Concepts and vocabulary_

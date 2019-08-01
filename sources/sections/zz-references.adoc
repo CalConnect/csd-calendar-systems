@@ -2,18 +2,10 @@
 [bibliography]
 == Bibliography
 
-* [[[ISO639-1,ISO 639-1]]], _Codes for the representation of names of languages -- Part 1: Alpha-2 code_
-* [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
-
-* [[[ISO3166-1,ISO 3166-1]]], _Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes_
-
 * [[[ISO10646-2,ISO/IEC 10646-2]]], _Information technology -- Universal Multiple-Octet Coded Character Set (UCS) -- Part 2: Supplementary Planes_
 
 * [[[ISO15285,ISO/IEC TR 15285]]], _Information technology -- An operational model for characters and glyphs_
 
-
-* [[[ISO34000,ISO 34000]]], _Date and time -- Concepts and vocabulary_
-
 * [[[ISO8601-1,ISO 8601-1]]], _Date and time -- Representations for information interchange -- Part 1: Basic rules_
 
-
+* [[[IAUGA23Julian,The XXIIIrd International Astronomical Union General Assembly]]], _The XXIIIrd International Astronomical Union General Assembly_, 1997. Available at: https://www.iers.org/IERS/EN/Science/Recommendations/resolutionB1.html
