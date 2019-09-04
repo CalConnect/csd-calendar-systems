@@ -1,6 +1,7 @@
 
+//[source=ISO34000]
+
 [[terms]]
-[source=ISO34000]
 == Terms and Definitions
 
 ////

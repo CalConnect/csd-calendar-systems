@@ -1,0 +1,65 @@
+name: CalendarSystem
+modelType: class
+definition: |
+  This represents a calendar system. Calendar systems are
+  used to identify and mark days within a year.
+attributes:
+  code:
+    definition: Unique identifying code of this calendar era.
+    type: CharacterString
+  name:
+    definition: Name of this calendar era.
+    type: LocalizedString
+    cardinality:
+      min: 0
+      max: "*"
+  description:
+    definition: |
+      Localized versions of the calendar system names tagged with
+      script codes (<<ISO15924>>) and language codes (<<ISO639-1>>).
+    type: LocalizedString
+    cardinality:
+      min: 0
+      max: "*"
+  abbreviation:
+    definition: Abbreviation of this calendar era. Multiple abbreviations are accepted.
+    type: LocalizedString
+    cardinality:
+      min: 0
+      max: "*"
+  specification:
+    definition: A URI that provides the full specification of this calendar system.
+    type: URI
+    cardinality:
+      min: 0
+      max: 1
+  basis:
+    definition: Calendar eras that apply to this calendar system.
+    type: CalendarEra
+    cardinality:
+      min: 1
+      max: "*"
+  toJulianDay:
+    definition: Mechanism to convert a calendar date in this calendar system to a calendar date in the Julian Date system.
+    type: CharacterString
+    cardinality:
+      min: 0
+      max: "*"
+  fromJulianDay:
+    definition: Mechanism to convert a calendar date in the Julian Date system to a calendar date in this calendar system.
+    type: CharacterString
+    cardinality:
+      min: 0
+      max: "*"
+  usagePopulation:
+    definition: Populations that this calendar system is relevant to.
+    type: LocalizedString
+    cardinality:
+      min: 0
+      max: "*"
+  usageApplications:
+    definition: Applications that this calendar system is relevant to.
+    type: LocalizedString
+    cardinality:
+      min: 0
+      max: "*"

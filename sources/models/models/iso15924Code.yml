@@ -1,0 +1,5 @@
+name: iso15924Code
+modelType: class
+definition: |
+  The <<ISO15924>> code list is used in this document to represent
+  scripts.

@@ -1,0 +1,17 @@
+name: CalendarSystem
+title: Calendar system and era models
+caption: Calendar system and era models in UML
+imports:
+  CalendarSystem:
+  CalendarEra:
+groups:
+  # - - AddressProfile
+  # - - FormTemplate
+  #   - DisplayTemplate
+relations:
+  - source: CalendarEra
+    target: CalendarSystem
+    direction: 'up'
+  # - source: FormTemplate
+  #   target: DisplayTemplate
+  #   direction: '[hidden]right'

@@ -1,0 +1,12 @@
+[[data-models]]
+== Calendar system models overview
+
+The data models are arranged as shown in the following
+structure.
+
+[datamodel]
+....
+include::../models/views/TopDown.yml[]
+....
+
+

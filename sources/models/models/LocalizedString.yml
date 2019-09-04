@@ -1,0 +1,9 @@
+name: LocalizedString
+modelType: class
+definition: |
+  This represents a localized string with corresponding
+  localization information.
+attributes:
+  tag:
+    definition: Localization information
+    type: LocalizedTag

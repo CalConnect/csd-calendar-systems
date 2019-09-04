@@ -1,0 +1,11 @@
+name: DataTypes
+title: Data types
+caption: Data types used in this document
+directive: ix-data-types
+imports:
+  iso15924Code:
+  iso639Code:
+  LocalizedTag:
+  LocalizedString:
+  JulianDate:
+  CalendarDate:

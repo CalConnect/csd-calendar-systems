@@ -1,81 +1,28 @@
 
-== Calendar systems
+[[codes]]
+== Codes and identifiers
 
-=== General
+=== Principles for inclusion in the list of calendar systems
 
-Calendar systems are used to identify and mark days within a year.
-
-
-[[ts-data-model]]
-=== Data model and attributes
-
-==== General
-
-image::system.png[]
-
-
-==== Code
-
-A code that identifies the calendar system.
-
-
-==== Name
-
-A name that represents the calendar system.
-
-==== Abbreviation
-
-The abbreviation of the name of the calendar system.
-
-
-==== Localized name
-
-Localized versions of the calendar names tagged with
-script codes (<<ISO15924>>) and language codes (<<ISO639-1>>).
-
-
-==== Specification
-
-URI that represents the specification of this calendar system.
-
-
-==== Usage population
-
-Description on the usage populations of this calendar system.
-
-==== Usage applications
-
-Description on the usage applications of this calendar system.
-
-==== Notes
-
-Descriptive notes and remarks about this calendar system.
-
-
-=== Code and identifier
-
-==== Principles for inclusion in the list of calendar systems
-
-===== List
+==== List
 
 The list of calendar systems in this document includes known
 calendar systems from bibliographic sources.
 
-
-===== Source of names
+==== Source of names
 
 Names and description of calendar systems are
 obtained from authoritative sources.
 
-===== Current status of names
+==== Current status of names
 
 Calendar systems listed in this document are intended to reflect the current situation, at the time of issue of the latest update of this document.
 
 
 
-==== Principles for allocation of code elements
+=== Principles for allocation of code elements
 
-===== Relationship with names
+==== Relationship with names
 
 Calendar systems have codes in the following format:
 
@@ -85,10 +32,11 @@ Calendar systems have codes in the following format:
 ----
 
 [example]
-`gre` for the Gregorian calendar, defined in <<ISO8601-1>>.
+`gre` for the Gregorian calendar, whose specification is
+provided in <<ISO8601-1>>.
 
 
-===== Construction of the alphabetic code
+==== Construction of the alphabetic code
 
 The following rules are to be adhered to for the assignment of the alphabetic code:
 
@@ -97,7 +45,7 @@ The following rules are to be adhered to for the assignment of the alphabetic co
 * Codes shall encourage descriptive and distinguishable alphabetic names.
 
 
-===== User assigned code elements
+==== User assigned code elements
 
 If users need code elements to represent calendar systems not included in the calendar code registry, the code prefix of `zz` can be used.
 
@@ -118,10 +66,10 @@ zz[calendar-system-identifier]
 NOTE: Users are advised that the above series of codes are not universals, those code elements are not compatible between different entities.
 
 
-==== List of calendar system and their code elements
+=== List of calendar system and their code elements
 
 The list of items composing the content of the country code is initially defined in <<annex-system-codes>>.
 Additional and new entries will be listed by the ISO 34300/AG.
 
-Data attributes provided in the list is defined in <<ts-data-model>>.
+Data attributes provided in the list is defined in <<codes>>.
 

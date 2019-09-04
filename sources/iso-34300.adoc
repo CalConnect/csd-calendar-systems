@@ -9,7 +9,7 @@
 :title-intro-fr: Date et l'heure
 :title-main-fr: Codes pour les systèmes de calendrier
 :doctype: standard
-:docstage: 20
+:docstage: 00
 :docsubstage: 00
 :technical-committee-type: TC
 :technical-committee-number: 154
@@ -35,8 +35,10 @@ include::sections/00-intro.adoc[]
 include::sections/01-scope.adoc[]
 include::sections/02-norm-refs.adoc[]
 include::sections/03-termsdef.adoc[]
-include::sections/04-common.adoc[]
-include::sections/05-codes.adoc[]
+include::sections/04-overview.adoc[]
+include::sections/05-common.adoc[]
+include::sections/06-models.adoc[]
+include::sections/07-codes.adoc[]
 
 include::sections/a1-maintenance.adoc[]
 include::sections/a2-calendar-codes.adoc[]

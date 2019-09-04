@@ -1,0 +1,27 @@
+
+[[common-data]]
+== Data types
+
+=== Core data types
+
+These are the core data types used within this document.
+
+// defined in <<ISO19103,clause="7.2">>,
+// including:
+
+* `CharacterString`
+* `DateTime`, `Date`, `Time`
+* `Number`, `Integer`, `Decimal`, `Real`
+* `Vector`
+* `Boolean`
+
+=== Common data types
+
+The following data models are used by other data models specified in
+this document.
+
+[datamodel]
+....
+include::../models/views/DataTypes.yml[]
+....
+

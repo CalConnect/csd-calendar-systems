@@ -1,0 +1,26 @@
+name: CalendarDate
+modelType: class
+definition: |
+  This represents a date reference in a calendar system.
+attributes:
+  era:
+    definition: Code of calendar era
+    type: CharacterString
+    cardinality:
+      min: 0
+      max: 1
+  year:
+    definition: Ordinal number of year in the calendar era
+    type: Integer
+    cardinality:
+      min: 0
+      max: 1
+  month:
+    definition: Ordinal number of month in the calendar year
+    type: Integer
+    cardinality:
+      min: 0
+      max: 1
+  day:
+    definition: Ordinal number of day in the previous date reference construct
+    type: Integer
