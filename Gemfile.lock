@@ -1,4 +1,14 @@
 GIT
+  remote: https://github.com/metanorma/metanorma-iso
+  revision: 8bef05fe316bee9929ea4e1c4d54c788392220ba
+  specs:
+    metanorma-iso (1.3.1)
+      asciidoctor (~> 1.5.7)
+      isodoc (~> 1.0.0)
+      metanorma-standoc (~> 1.3.0)
+      ruby-jing
+
+GIT
   remote: https://github.com/metanorma/metanorma-standoc
   revision: 9e3f87a082e38af35a086d4baa769c50b2a14a56
   branch: feature/datamodel
@@ -112,11 +122,6 @@ GEM
     metanorma-ietf (1.0.6)
       isodoc (~> 1.0.0)
       metanorma-standoc (~> 1.3.0)
-    metanorma-iso (1.3.1)
-      asciidoctor (~> 1.5.7)
-      isodoc (~> 1.0.0)
-      metanorma-standoc (~> 1.3.0)
-      ruby-jing
     metanorma-itu (0.2.1)
       asciidoctor (~> 1.5.7)
       htmlentities (~> 4.3.4)
@@ -236,6 +241,7 @@ PLATFORMS
 
 DEPENDENCIES
   metanorma-cli
+  metanorma-iso!
   metanorma-standoc!
   pry
   relaton-cli
