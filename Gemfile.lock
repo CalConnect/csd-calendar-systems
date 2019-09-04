@@ -1,6 +1,6 @@
 GIT
-  remote: https://github.com/metanorma/metanorma-standoc.git
-  revision: c4ecd4c5b7d4609fb86b5ff44bd77357f2a914ab
+  remote: https://github.com/metanorma/metanorma-standoc
+  revision: 37333cbb6f339bed450906d251a8fe9ec325c22e
   branch: feature/datamodel
   specs:
     metanorma-standoc (1.3.1)
