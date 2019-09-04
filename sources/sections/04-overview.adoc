@@ -1,3 +1,4 @@
+
 [[data-models]]
 == Calendar system models overview
 
@@ -8,5 +9,3 @@ structure.
 ....
 include::../models/views/TopDown.yml[]
 ....
-
-
