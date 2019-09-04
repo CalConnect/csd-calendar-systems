@@ -33,12 +33,6 @@ attributes:
     cardinality:
       min: 0
       max: 1
-  basis:
-    definition: Calendar eras that apply to this calendar system.
-    type: CalendarEra
-    cardinality:
-      min: 1
-      max: "*"
   toJulianDay:
     definition: Mechanism to convert a calendar date in this calendar system to a calendar date in the Julian Date system.
     type: CharacterString
@@ -63,3 +57,23 @@ attributes:
     cardinality:
       min: 0
       max: "*"
+relations:
+  - target: CalendarEra
+    relationship:
+      source:
+        type: aggregation
+        attributes:
+          eras:
+            cardinality:
+              min: 0
+              max: "*"
+      target:
+        type: direct
+        attribute:
+          eras:
+            cardinality:
+              min: 1
+              max: "*"
+    action:
+      verb: comprises
+      direction: target
