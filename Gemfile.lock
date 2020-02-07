@@ -1,14 +1,4 @@
 GIT
-  remote: https://github.com/metanorma/metanorma-iso
-  revision: 9e0e19f8fbd1802c605769e76531b7bd377a8fa8
-  specs:
-    metanorma-iso (1.3.3)
-      asciidoctor (~> 1.5.7)
-      isodoc (~> 1.0.0)
-      metanorma-standoc (~> 1.3.0)
-      ruby-jing
-
-GIT
   remote: https://github.com/metanorma/metanorma-standoc
   revision: c11f0efd3b6944cc5d28d070487698e4d0f72eca
   branch: feature/datamodel
@@ -36,7 +26,6 @@ GEM
     camertron-eprun (1.1.1)
     cldr-plurals-runtime-rb (1.0.1)
     cnccs (0.1.4)
-    coderay (1.1.2)
     concurrent-ruby (1.1.5)
     faraday (0.16.2)
       multipart-post (>= 1.2, < 3)
@@ -125,6 +114,10 @@ GEM
     metanorma-ietf (1.0.6)
       isodoc (~> 1.0.0)
       metanorma-standoc (~> 1.3.0)
+    metanorma-iso (1.3.15)
+      isodoc (~> 1.0.0)
+      metanorma-standoc (~> 1.3.0)
+      ruby-jing
     metanorma-itu (0.2.5)
       asciidoctor (~> 1.5.7)
       htmlentities (~> 4.3.4)
@@ -166,7 +159,6 @@ GEM
       roman-numerals
       ruby-jing
       twitter_cldr
-    method_source (0.9.2)
     mime-types (3.3)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.0904)
@@ -176,9 +168,6 @@ GEM
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     optout (0.0.2)
-    pry (0.12.2)
-      coderay (~> 1.1.0)
-      method_source (~> 0.9.0)
     public_suffix (4.0.1)
     rake (12.3.3)
     relaton (0.5.5)
@@ -249,10 +238,8 @@ PLATFORMS
 
 DEPENDENCIES
   metanorma-cli
-  metanorma-iso!
   metanorma-standoc!
-  pry
   relaton-cli
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
