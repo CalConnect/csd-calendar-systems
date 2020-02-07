@@ -15,9 +15,6 @@
 :fullname_2: Jeffrey Lau
 :surname_2: Lau
 :givenname_2: Jeffrey
-:fullname_3: Peter Tam
-:surname_3: Tam
-:givenname_3: Peter
 :draft:
 :toc:
 :stem:
