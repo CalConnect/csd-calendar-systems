@@ -1,20 +1,21 @@
-= CalConnect Standard: Date and time -- Codes for calendar systems
+= CalConnect/ISO 34300: Date and time -- Codes for calendar systems
 
-This work item belongs to TC DATETIME.
+This work item belongs to CalConnect TC DATETIME and ISO/TC 154/WG 5.
 
-image:https://travis-ci.com/CalConnect/csd-calendar-systems.svg?branch=master["Build Status", link="https://travis-ci.com/calconnect/csd-calendar-systems"]
+image:https://gitlab.com/calconnect/tc-datetime/csd-calendar-sytems/badges/master/pipeline.svg["Build Status (master)", link="https://gitlab.com/calconnect/tc-datetime/csd-calendar-sytems/pipelines"]
 
 This document is available in its rendered forms here:
 
-* https://calconnect.github.io/csd-calendar-systems/[CalConnect Standard: Date and time -- Codes for calendar systems]
+* https://calconnect.github.io/csd-calendar-systems/[CC/ISO 34300: Date and time -- Codes for calendar systems]
 
 
 == Fetching the document
 
 [source,sh]
 ----
-git clone https://github.com/CalConnect/csd-calendar-systems/
+git clone https://gitlab.com/calconnect/tc-datetime/csd-calendar-sytems
 ----
+
 
 == Installing Build Tools
 
@@ -31,7 +32,7 @@ version by:
 
 [source,sh]
 ----
-export METANORMA_DOCKER=1
+export METANORMA_DOCKER=metanorma/metanorma
 ----
 
 The `Makefile` will automatically choose the proper command to
@@ -42,12 +43,14 @@ execute.
 
 [source,sh]
 ----
-make clean all
+make
 ----
 
 The following outputs will be built:
 
-* CSD XML (https://github.com/calconnect/metanorma-model-csd) (`[filename].xml`)
+* Document index at `documents.html`
+* ISO 34300 at `documents/iso-34300.html`
+* CC 34300 at `documents/iso-34300.html`
 * HTML (`[filename].html`)
 * PDF (`[filename].pdf`)
 * Word DOC (`[filename].doc`)
@@ -57,7 +60,7 @@ The following outputs will be built:
 
 [source,sh]
 ----
-make html
-open cc-*.html
+make
+open documents/iso-34300.html
+open documents/cc-34300.html
 ----
-
