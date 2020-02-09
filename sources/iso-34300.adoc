@@ -2,14 +2,14 @@
 :docnumber: 34300
 :tc-document-number: 9999
 :edition: 1
-:copyright-year: 2019
+:copyright-year: 2020
 :language: en
 :title-intro-en: Date and time
 :title-main-en: Codes for calendar systems
 :title-intro-fr: Date et l'heure
 :title-main-fr: Codes pour les systèmes de calendrier
 :doctype: standard
-:docstage: 00
+:docstage: 20
 :docsubstage: 00
 :technical-committee-type: TC
 :technical-committee-number: 154
