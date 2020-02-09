@@ -1,5 +1,5 @@
 image:
-  name: ribose/metanorma
+  name: metanorma/mn
   entrypoint: [""]
 
 cache:
@@ -8,9 +8,22 @@ cache:
 build:
   stage: build
   script:
-    - bundle
+    - bundle install
     - make clean all
-    - mkdir -p public && mv *.doc *.xml *.html public/
+    - make published
+    - mv published public
   artifacts:
     paths:
       - public
+
+pages:
+  dependencies:
+    - build
+  stage: deploy
+  script:
+    - 'curl --location --output artifacts.zip --header "JOB-TOKEN: $CI_JOB_TOKEN" "https://gitlab.com/api/v4/projects/$CI_PROJECT_ID/jobs/artifacts/master/download?job=build"'
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

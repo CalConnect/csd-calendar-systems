@@ -1,35 +1,35 @@
 #!make
 SHELL := /bin/bash
-# Ensure the xml2rfc cache directory exists locally
-IGNORE := $(shell mkdir -p $(HOME)/.cache/xml2rfc)
 
-SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
-ifeq ($(SRC),ll)
-SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
+MAIN_ADOC_SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
+ifeq ($(MAIN_ADOC_SRC),ll)
+MAIN_ADOC_SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
 endif
 
+# CSV_SRC := $(wildcard sources/data/*.csv)
+CSV_SRC := sources/data/codes.csv
+
+ALL_ADOC_SRC := $(ADOC_SRC) $(wildcard sources/sections*/*.adoc)
+ALL_SRC      := $(ALL_ADOC_SRC) $(CSV_SRC)
+
+DERIVED_ADOC   := $(patsubst %.csv,%.adoc,$(CSV_SRC))
+ADOC_GENERATOR := scripts/split_codes.rb
+
+FORMATS := $(shell yq r metanorma.yml metanorma.formats | tr -d '[:space:]' | tr -s '-' ' ')
+ifeq ($(FORMATS),null)
 FORMAT_MARKER := mn-output-
-FORMATS := $(shell grep "$(FORMAT_MARKER)" $(SRC) | cut -f 2 -d ' ' | tr ',' '\n' | sort | uniq | tr '\n' ' ')
+FORMATS := $(shell grep "$(FORMAT_MARKER)" $(MAIN_ADOC_SRC) | cut -f 2 -d ' ' | tr ',' '\n' | sort | uniq | tr '\n' ' ')
+endif
 
-XML  := $(patsubst sources/%,documents/%,$(patsubst %.adoc,%.xml,$(SRC)))
-
-XMLRFC3  := $(patsubst %.xml,%.v3.xml,$(XML))
-HTML := $(patsubst %.xml,%.html,$(XML))
-DOC  := $(patsubst %.xml,%.doc,$(XML))
-PDF  := $(patsubst %.xml,%.pdf,$(XML))
-TXT  := $(patsubst %.xml,%.txt,$(XML))
-NITS := $(patsubst %.adoc,%.nits,$(wildcard sources/draft-*.adoc))
-WSD  := $(wildcard sources/models/*.wsd)
-XMI	 := $(patsubst sources/models/%,sources/xmi/%,$(patsubst %.wsd,%.xmi,$(WSD)))
-PNG	 := $(patsubst sources/models/%,sources/images/%,$(patsubst %.wsd,%.png,$(WSD)))
-
-COMPILE_CMD_LOCAL := bundle exec metanorma $$FILENAME
-COMPILE_CMD_DOCKER := docker run -v "$$(pwd)":/metanorma/ ribose/metanorma "metanorma $$FILENAME"
+INPUT_XML   := $(patsubst %.adoc,%.xml,$(MAIN_ADOC_SRC))
+OUTPUT_XML  := $(patsubst sources/%,documents/%,$(patsubst %.adoc,%.xml,$(MAIN_ADOC_SRC)))
+OUTPUT_HTML := $(patsubst %.xml,%.html,$(OUTPUT_XML))
 
 ifdef METANORMA_DOCKER
-  COMPILE_CMD := echo "Compiling via docker..."; $(COMPILE_CMD_DOCKER)
+  PREFIX_CMD := echo "Running via docker..."; docker run -v "$$(pwd)":/metanorma/ $(METANORMA_DOCKER)
+
 else
-  COMPILE_CMD := echo "Compiling locally..."; $(COMPILE_CMD_LOCAL)
+  PREFIX_CMD := echo "Running locally..."; bundle exec
 endif
 
 _OUT_FILES := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
@@ -40,50 +40,47 @@ all: documents.html
 documents:
 	mkdir -p $@
 
-documents/%.xml: documents sources/images sources/%.xml
+documents/%.xml: sources/%.xml | documents
 	export GLOBIGNORE=sources/$*.adoc; \
 	mv sources/$(addsuffix .*,$*) documents; \
 	unset GLOBIGNORE
 
-%.xml %.html:	%.adoc | bundle
-	FILENAME=$^; \
-	${COMPILE_CMD}
+# Build canonical XML output
+# If XML file is provided, copy it over
+# Otherwise, build it using adoc
+%.xml %.html: %.adoc $(ALL_ADOC_SRC) $(DERIVED_ADOC) | bundle
+	BUILT_TARGET=$(shell yq r metanorma.yml metanorma.source.built_targets[$@]); \
+	if [ "$$BUILT_TARGET" != "null" ]; then \
+		if [ -f "$$BUILT_TARGET" ] && [ "$${BUILT_TARGET##*.}" == "xml" ]; then \
+			cp "$$BUILT_TARGET" $@; \
+		else \
+			${PREFIX_CMD} metanorma $$BUILT_TARGET; \
+			cp "$${BUILT_TARGET//adoc/xml}" $@; \
+		fi; \
+	else \
+		${PREFIX_CMD} metanorma $<; \
+	fi
 
-documents.rxl: $(XML)
-	bundle exec relaton concatenate \
+# Build derivative output
+sources/%.html sources/%.doc sources/%.pdf:	sources/%.xml
+	BUILT_TYPE=$(shell yq r metanorma.yml metanorma.source.built_type[$<]); \
+	if [ "$$BUILT_TYPE" != "null" ]; then \
+		${PREFIX_CMD} metanorma -t $$BUILT_TYPE $<; \
+	else \
+		${PREFIX_CMD} metanorma $<; \
+	fi
+
+sources/data/codes.adoc: sources/data/codes.csv $(ADOC_GENERATOR)
+	scripts/split_codes.rb $< $@
+
+documents.rxl: $(OUTPUT_XML)
+	${PREFIX_CMD} relaton concatenate \
 	  -t "$(shell yq r metanorma.yml relaton.collection.name)" \
 		-g "$(shell yq r metanorma.yml relaton.collection.organization)" \
 		documents $@
 
 documents.html: documents.rxl
-	bundle exec relaton xml2html documents.rxl
-
-# %.v3.xml %.xml %.html %.doc %.pdf %.txt: sources/images %.adoc | bundle
-# 	FILENAME=$^; \
-# 	${COMPILE_CMD}
-#
-# documents/draft-%.nits:	documents/draft-%.txt
-# 	VERSIONED_NAME=`grep :name: draft-$*.adoc | cut -f 2 -d ' '`; \
-# 	cp $^ $${VERSIONED_NAME}.txt && \
-# 	idnits --verbose $${VERSIONED_NAME}.txt > $@ && \
-# 	cp $@ $${VERSIONED_NAME}.nits && \
-# 	cat $${VERSIONED_NAME}.nits
-
-%.nits:
-
-%.adoc:
-
-nits: $(NITS)
-
-sources/images: $(PNG)
-
-sources/images/%.png: sources/models/%.wsd
-	plantuml -tpng -o ../images/ $<
-
-sources/xmi: $(XMI)
-
-sources/xmi/%.xmi: sources/models/%.wsd
-	plantuml -xmi:star -o ../xmi/ $<
+	${PREFIX_CMD} relaton xml2html documents.rxl
 
 define FORMAT_TASKS
 OUT_FILES-$(FORMAT) := $($(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
@@ -105,7 +102,7 @@ $(foreach FORMAT,$(FORMATS),$(eval $(FORMAT_TASKS)))
 open: open-html
 
 clean:
-	rm -rf documents documents.html documents.rxl published *_images $(OUT_FILES)
+	rm -rf documents documents.{html,rxl} published *_images $(OUT_FILES)
 
 bundle:
 	if [ "x" == "${METANORMA_DOCKER}x" ]; then bundle; fi
@@ -139,7 +136,7 @@ endef
 
 $(foreach FORMAT,$(FORMATS),$(eval $(WATCH_TASKS)))
 
-serve: $(NODE_BIN_DIR)/live-server revealjs-css reveal.js sources/images
+serve: $(NODE_BIN_DIR)/live-server revealjs-css reveal.js
 	export PORT=$${PORT:-8123} ; \
 	port=$${PORT} ; \
 	for html in $(HTML); do \
@@ -159,5 +156,4 @@ publish: published
 published: documents.html
 	mkdir -p $@ && \
 	cp -a documents $@/ && \
-	cp $< $@/index.html; \
-	if [ -d "sources/images" ]; then cp -a sources/images $@/; fi
+	cp $< $@/index.html;
