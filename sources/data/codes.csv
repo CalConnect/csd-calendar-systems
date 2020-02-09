@@ -16,7 +16,7 @@ ccj,CCSDS Julian Day,,CCSDS JD,"Linear count by day according to the epoch of 0h
 chi,Chinese calendar,"Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历, 阴历; English: Chinese Rural Calendar",,,China,Cultural usage,Type: lunisolar
 cjd,CNES Julian Day,,CNES JD,"Linear count by day according to the epoch of 0h Jan 1, 1950.",,,Note: Introduced by the CCSDS.
 cjs,Chiljungsan,Korean: 칠정산,,,Korea,Cultural usage,
-cop,Coptic-EoM,Amharic: የኢትዮጵያ ዘመን አቆጣጠር),,,Ethiopia,,Note: Used in Ethiopian Catholic publications
+cop,Coptic-EoM,Amharic: የኢትዮጵያ ዘመን አቆጣጠር,,,Ethiopia,,Note: Used in Ethiopian Catholic publications
 cseb,Celestial Stems and Earthly Branches,Traditional Chinese:  干支曆; Simplified Chinese: 干支历; English: ganzhi,,,,Cultural usage,
 dan,Dangun giwon,"Korean: 단군기원 , 단기;, Traditional Chinese: 檀君紀元, 檀紀",,Linear count of year with epoch from Gregorian year 2334BC,Korea,Cultural usage,
 djd,Dublin Julian Day,,Dublin JD,"Linear count by day according to the epoch of noon Dec 31, 1899.",,,Note: Introduced by the CNES.

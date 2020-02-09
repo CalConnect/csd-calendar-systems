@@ -3,7 +3,4 @@
 [appendix]
 == Alphabetical list of calendar systems in English and their code elements
 
-[format="csv",options="header"]
-|===
-include::../data/calendar-codes.csv[]
-|===
+include::../data/codes.adoc[]
