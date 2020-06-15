@@ -5,7 +5,4 @@
 The data models are arranged as shown in the following
 structure.
 
-[datamodel]
-....
-include::../models/views/TopDown.yml[]
-....
+[datamodel_diagram,./uml/views/TopDown.yml]

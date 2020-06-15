@@ -1,7 +1,7 @@
 
 [[AnnexA]]
 [appendix]
-== Registration
+== Calendar system authority
 
 === Registration authority (ISO {docnumber}/RA)
 
@@ -24,9 +24,11 @@ Changes to the content of the list of codes becomes effective immediately upon p
 The criteria provided in <<registration-adding-tzauth>> to <<registration-modify-tz>> shall be observed by the ISO {docnumber}/AG for changes to the list of code elements, and for reservations of code elements.
 
 
+////
 === Advisory group (ISO {docnumber}/AG)
 
 An advisory group (ISO {docnumber}/AG) has been appointed to ensure the operations of the registration authority (ISO {docnumber}/RA) are in accordance with guidelines provided in this Annex.
+////
 
 
 [[registration-adding-tzauth]]

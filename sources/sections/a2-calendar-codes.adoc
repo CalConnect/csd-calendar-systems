@@ -3,4 +3,28 @@
 [appendix]
 == Alphabetical list of calendar systems in English and their code elements
 
-include::../data/codes.adoc[]
+[yaml2text,data/codes.yaml,data]
+----
+{data.*,key,EOY}
+.{data[key].name_en}
+[%noheader,cols="h,1"]
+|===
+| Calendar system code | {key}
+
+| English name | {data[key].name_en}
+
+| Names in other languages | {data[key].names_other}
+
+| Abbreviation | {data[key].abbrev}
+
+| Specification | {data[key].spec}
+
+| Usage populations | {data[key].usage_populations}
+
+| Application | {data[key].application}
+
+| Remarks | {data[key].remarks}
+|===
+
+{EOY}
+----

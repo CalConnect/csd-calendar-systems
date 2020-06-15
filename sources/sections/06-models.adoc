@@ -1,9 +1,8 @@
 [[data-models]]
 == Data models
 
-[datamodel]
-....
-include::../models/views/CalendarSystem.yml[]
-....
+[datamodel_diagram,./uml/views/CalendarSystem.yml]
 
+[datamodel_attributes_table,./uml/models/CalendarSystem.yml]
 
+[datamodel_attributes_table,./uml/models/CalendarEra.yml]

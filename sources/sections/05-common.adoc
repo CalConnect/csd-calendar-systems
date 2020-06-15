@@ -20,8 +20,16 @@ These are the core data types used within this document.
 The following data models are used by other data models specified in
 this document.
 
-[datamodel]
-....
-include::../models/views/DataTypes.yml[]
-....
+[datamodel_diagram,./uml/views/DataTypes.yml]
 
+[datamodel_attributes_table,./uml/models/iso15924Code.yml]
+
+[datamodel_attributes_table,./uml/models/iso639Code.yml]
+
+[datamodel_attributes_table,./uml/models/LocalizedTag.yml]
+
+[datamodel_attributes_table,./uml/models/LocalizedString.yml]
+
+[datamodel_attributes_table,./uml/models/JulianDate.yml]
+
+[datamodel_attributes_table,./uml/models/CalendarDate.yml]
