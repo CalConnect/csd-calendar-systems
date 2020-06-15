@@ -1,7 +1,7 @@
 ---
 metanorma:
   deploy:
-    email: "travis-ci@metanorma.org"
+    email: "ci@metanorma.org"
 relaton:
   collection:
     name: Date and time -- Codes for calendar systems

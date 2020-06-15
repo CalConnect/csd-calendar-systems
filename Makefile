@@ -5,7 +5,7 @@ SHELL := /bin/bash
 # Ensure the xml2rfc cache directory exists locally
 IGNORE := $(shell mkdir -p $(HOME)/.cache/xml2rfc)
 
-SRC := $(lastword $(shell yq r metanorma.yml metanorma.source.files))
+SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-)
 
 ifeq ($(SRC),null)
 SRC :=
@@ -65,6 +65,7 @@ documents/%.html: documents/%.xml | documents
 	${PREFIX_CMD} metanorma $<
 
 documents/%.xml: sources/%.xml | documents
+	mkdir -p $(dir $@)
 	mv $< $@
 
 # Build canonical XML output
@@ -173,3 +174,17 @@ published: documents.html
 	mkdir -p $@ && \
 	cp -a documents $@/ && \
 	cp $< $@/index.html;
+
+#
+# PDF
+#
+
+PDFTEXT := $(patsubst %.pdf,%.txt,$(subst /pdfs,/text,$(wildcard reference-docs/pdfs/*.pdf)))
+
+pdf2text: $(PDFTEXT)
+
+reference-docs/text:
+	mkdir -p $@
+
+reference-docs/text/%.txt: reference-docs/pdfs/%.pdf | reference-docs/text
+	ps2ascii "$<" "$@"
