@@ -175,16 +175,3 @@ published: documents.html
 	cp -a documents $@/ && \
 	cp $< $@/index.html;
 
-#
-# PDF
-#
-
-PDFTEXT := $(patsubst %.pdf,%.txt,$(subst /pdfs,/text,$(wildcard reference-docs/pdfs/*.pdf)))
-
-pdf2text: $(PDFTEXT)
-
-reference-docs/text:
-	mkdir -p $@
-
-reference-docs/text/%.txt: reference-docs/pdfs/%.pdf | reference-docs/text
-	ps2ascii "$<" "$@"

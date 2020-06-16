@@ -15,10 +15,6 @@
 :fullname_2: Jeffrey Lau
 :surname_2: Lau
 :givenname_2: Jeffrey
-:draft:
-:toc:
-:stem:
-:xrefstyle: short
 :docfile: cc-34300.adoc
 :imagesdir: images
 :mn-document-class: csd

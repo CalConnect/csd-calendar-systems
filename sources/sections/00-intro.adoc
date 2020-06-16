@@ -1,6 +1,4 @@
 [[introduction]]
-
-:sectnums!:
 == Introduction
 
 Calendars are an essential element in date tracking.

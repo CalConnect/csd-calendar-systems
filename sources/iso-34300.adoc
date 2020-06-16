@@ -19,10 +19,6 @@
 :workgroup: Date and time
 :secretariat: SAC
 :language: en
-:draft:
-:toc:
-:stem:
-:xrefstyle: short
 :imagesdir: images
 :docfile: iso-34300.adoc
 :mn-document-class: iso
