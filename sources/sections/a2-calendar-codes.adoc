@@ -1,8 +1,9 @@
 
 [[annex-system-codes]]
-[appendix]
+[appendix,obligation=informative]
 == Alphabetical list of calendar systems in English and their code elements
 
+////
 [yaml2text,data/codes.yaml,data]
 ----
 {data.*,key,EOY}
@@ -28,3 +29,4 @@
 
 {EOY}
 ----
+////

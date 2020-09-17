@@ -1,54 +1,59 @@
 
 [[AnnexA]]
 [appendix]
-== Calendar system authority
+== Registration
 
 === Registration authority (ISO {docnumber}/RA)
 
-A registration authority (ISO {docnumber}/RA) has been appointed to operate under guidelines provided in this Annex. It has been entrusted with the following functions:
+A registration authority (ISO {docnumber}/RA) has been appointed to operate under guidelines provided in this Annex.
 
-. to add and eliminate calendar system and calendar era codes, in accordance with the rules in this document;
+It has been entrusted with the following functions with regard to the list of calendar systems and calendar eras, together with code assignments and information associated with each entry:
 
-. to advise users and ISO member bodies regarding application of the codes;
+. to add and eliminate these entries, in accordance with the rules in this document;
 
-. to update and disseminate list of calendar system and calendar era codes;
+. to advise users and ISO member bodies regarding application of such information;
 
-. to maintain a reference list of calendar system and calendar era codes;
+. to update and disseminate such information;
 
-. to publish changes made to such information;
+. to maintain a reference list of such information;
 
-. to administer the reservation of codes related to the list of calendar system and calendar era codes.
+. to publish changes made to such information and the history of changes allowing traceability;
 
-Changes to the content of the list of codes becomes effective immediately upon publication.
+. to administer the reservation of the codes.
 
-The criteria provided in <<registration-adding-tzauth>> to <<registration-modify-tz>> shall be observed by the ISO {docnumber}/AG for changes to the list of code elements, and for reservations of code elements.
+Changes to the content of the list of entries becomes effective
+immediately upon publication.
+
+The criteria provided in <<registration-adding-tzauth>> to <<registration-modify-tz>>
+shall be observed by the ISO {docnumber}/RA for changes to the list of
+calendar systems and calendar eras, their code assignments and associated information,
+and for reservations of code elements.
 
 
-////
 === Advisory group (ISO {docnumber}/AG)
 
 An advisory group (ISO {docnumber}/AG) has been appointed to ensure the operations of the registration authority (ISO {docnumber}/RA) are in accordance with guidelines provided in this Annex.
-////
 
+
+=== Operations on list of calendar systems and calendar eras and their codes
 
 [[registration-adding-tzauth]]
-=== Addition to the list of calendar system and calendar era codes
+==== Registration of a new calendar system and calendar era
 
-Additions to the list of calendar system and calendar era codes shall be made on the basis of information from upon the request of a member of ISO {docnumber}/AG.
+Additions to the list of calendar systems and calendar eras shall be made on the basis of information from upon the request of a member of ISO {docnumber}/AG.
 
-The ISO {docnumber}/AG will decide upon the addition, on the basis of the justification given for the actual requirements for interchange or encoding. Code elements will be allocated accordingly.
+A calendar system is eligible for registration
+if it meets the requirements stated in <<scsa-requirements>>.
 
-Basic eligibility for a calendar system to be assigned a calendar system code is one of:
+The proposer is responsible for providing justification to the
+ISO {docnumber}/AG regarding the eligibility of such addition.
 
-* The system has been approved for official use at some level of government (current or historic);
+The ISO {docnumber}/AG will decide upon the addition, on the
+basis of eligibility and usage justification.
 
-* The system has had significant use in history;
+Code elements will be allocated by the ISO {docnumber}/AG at its
+discretion.
 
-* The system is in current use.
-
-
-A calendar era to be assigned a calendar era code has to be associated
-with at least one eligible calendar system.
 Since a calendar system requires at least one calendar era, the application
 and assignment of calendar system and calendar era codes can be performed
 at once.
@@ -61,25 +66,33 @@ Additions to the official and international time scale authorities require addit
 * An international time scale authority must be endorsed by an international standardization body in liaison with the ISO {docnumber}/AG.
 ////
 
+==== Modification of a calendar system or calendar era code
+
+Modifications of a code within the list of calendar systems and calendar eras
+shall be made upon the request of a member of ISO {docnumber}/AG.
+
+The ISO {docnumber}/AG will decide upon the modification, on the basis of the information received.
+
+The previously assigned code is reserved after modification for
+backwards-compatibility purposes.
+
 
 [[registration-removing-tzauth]]
-=== Deletion from the list of calendar system and calendar era codes
+=== Removal from the list of calendar system and calendar era codes
 
-Deletion from the list of calendar system and calendar era codes shall be made upon the request of a member of ISO {docnumber}/AG.
+Removal of a code from the list of calendar systems and calendar eras shall be made upon the request of a member of ISO {docnumber}/AG.
 
 The ISO {docnumber}/AG will decide upon the deletion, on the basis of the information received. The corresponding code element is reserved.
 
-////
-The part 3 of ISO {docnumber} standard provides the list of country names deleted from the part 1 of ISO {docnumber} since its first edition in 1974. The traceability of country code elements and their status are also provided.
-////
 
 
 [[registration-deleting-tz]]
-=== Deletion of elements from the list of calendar system and calendar era codes
+=== Removal of elements from the list of calendar system and calendar era codes
 
 Deletion from the list of calendar system and calendar era codes shall be made only by the ISO {docnumber}/AG or upon a request to it.
 
 The ISO {docnumber}/AG will decide upon the deletion, on the basis of the information received. The corresponding code element is reserved.
+
 
 
 [[registration-modify-tz]]
@@ -90,40 +103,45 @@ Alterations to a registered element shall be made only by the ISO {docnumber}/AG
 A significant change of name may require the ISO {docnumber}/AG to change the alpha code element concerned. The ISO {docnumber}/AG, however, shall endeavor to maintain stability in the list of code elements.
 
 
-////
-=== Reservation of country code elements
+
+[[reservation]]
+=== Reservation of code elements
 
 ==== Introduction
 
-Some code elements are reserved
-—	for a limited period when their reservation is the result of the deletion (6.3) or the alteration (6.4) of a country name,
-—	for an indeterminate period when the reservation is the result of the application of international law (6.5.3) or of exceptional requests (6.5.4).
+Some code elements are reserved:
+
+* for a limited period when their reservation is the result of
+  the deprecation (<<registration-removing-tzauth>>) or the alteration (<<registration-modify-tz>>)
+  of an entry;
+
+* for an indeterminate period when the reservation is the result of
+  the application of international law or of
+  exceptional requests (<<reservation-exceptional>>).
 
 ==== Period of non-allocation
 
-Country code elements that the ISO {docnumber}/AG has altered or deleted should not be reallocated during a period of at least fifty years after the change. The exact period is determined in each case on the basis of the extent to which the former code element was used.
+Code elements that the ISO {docnumber}/AG has altered or deleted should not be reallocated during a period of at least ten years after the change.
 
-==== Period of non-use
+The exact period is determined in each case on the basis of the extent to which the former code element was used.
 
-Certain country code elements existing at the time of the first publication of the ISO {docnumber} country codes and differing from those in this part of ISO {docnumber} should not be used for an indeterminate period to represent other country names. This provision applies to certain vehicle designations notified under the 1949 and 1968 Conventions on Road Traffic (see Bibliography).
-Code elements to which this provision applies should be included in the list of reserved code elements (see 6.5.6) and should not be reallocated during a period of at least fifty years after the date when the countries or organizations concerned have discontinued their use.
 
-==== Exceptional reserved code elements
+[[reservation-exceptional]]
+==== Exceptional reservations
 
-Code elements may be reserved, in exceptional cases, for country names which the ISO {docnumber}/AG has decided not to include in this part of ISO {docnumber}, but for which an interchange requirement exists. Before such code elements are reserved, advice from the relevant authority must be sought.
+Code elements may be reserved, in exceptional cases, for calendar systems and calendar eras which the ISO {docnumber}/AG has decided not to include in the lists maintained by ISO {docnumber}/RA, but for which an interchange or encoding requirement exists.
 
 ==== Reallocation
 
 Before reallocating a former code element or a formerly reserved code element, the ISO {docnumber}/AG shall consult, as appropriate, the authority or agency on whose behalf the code element was reserved, and consideration shall be given to difficulties which might arise from the reallocation.
 
+
 ==== List of reserved code elements
 
-A list of reserved code elements is kept by the ISO {docnumber}/AG secretariat.
+A list of reserved code elements is kept by the ISO {docnumber}/RA.
 
 
-=== Advice regarding use of country code elements
+=== Advice regarding use of code elements
 
-The ISO {docnumber}/AG is available for consultation and assistance on the use of country names in coded form.
-The ISO {docnumber}/AG does not administer or maintain lists of user-assigned code elements
+The ISO {docnumber}/AG is available for consultation and assistance on the use of codes for calendar systems and calendar eras.
 
-////

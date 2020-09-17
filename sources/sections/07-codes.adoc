@@ -2,22 +2,30 @@
 [[codes]]
 == Codes and identifiers
 
-=== Principles for inclusion in the list of calendar systems
+[[scsa-requirements]]
+=== Requirements
 
-==== List
+==== General
 
-The list of calendar systems in this document includes known
-calendar systems from bibliographic sources.
+A calendar system is eligible for assignment of an entry based on its usage of date identification and the need for international interchange.
 
-==== Source of names
+Usage of a calendar system is determined by at least one of the following conditions, by presentation of evidence:
 
-Names and description of calendar systems are
-obtained from authoritative sources.
+* The system has been approved for official use at some level of government (current, historic, or will be in the near future);
 
-==== Current status of names
+* The system has been used to identify with dates, such as in bibliographic information (current, historic, or will be in the near future).
 
-Calendar systems listed in this document are intended to reflect the current situation, at the time of issue of the latest update of this document.
+Justification should be given to indicate that international interchange is necessary.
 
+A similar set of requirements apply to the registration of calendar eras. A calendar era entry must be associated
+with at least one calendar system entry.
+
+
+////
+==== Current systems
+
+A calendar system may be marked with usage
+////
 
 
 === Principles for allocation of code elements
@@ -32,7 +40,7 @@ Calendar systems have codes in the following format:
 ----
 
 [example]
-`gre` for the Gregorian calendar, whose specification is
+`gregorian` or `gre` for the Gregorian calendar, whose specification is
 provided in <<ISO8601-1>>.
 
 
@@ -40,9 +48,13 @@ provided in <<ISO8601-1>>.
 
 The following rules are to be adhered to for the assignment of the alphabetic code:
 
-* The alphabetic code uses combinations, in upper case, of 3 fixed letters of the 26-character Latin alphabet, allowing for close to stem:[3^26] combinations.
+* The alphabetic code uses combinations, in lower case, of between 3 and 20 fixed letters of the 26-character Latin alphabet.
 
 * Codes shall encourage descriptive and distinguishable alphabetic names.
+
+An additional short alias for the alphabetic code composed of 3 fixed letters of the 26-character Latin alphabet is allowed.
+
+//, allowing for close to stem:[3^26] combinations.
 
 
 ==== User assigned code elements
