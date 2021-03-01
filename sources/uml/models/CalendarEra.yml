@@ -32,6 +32,12 @@ attributes:
   referenceDate:
     definition: Date of current calendar era at the day referred to by `referenceJulianDate`.
     type: CalendarDate
+    cardinality:
+      min: 0
+      max: "*"
   referenceJulianDate:
     definition: Julian date that marks the beginning of this calendar era.
     type: JulianDate
+    cardinality:
+      min: 0
+      max: "*"
