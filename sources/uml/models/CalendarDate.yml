@@ -16,11 +16,23 @@ attributes:
       min: 0
       max: 1
   month:
-    definition: Ordinal number of month in the calendar year; or (in relevant calendars), a string with the nominal number of the month in the calendar year, followed by "b" for the second month in the calendar year with the same nominal number
-    type: Integer | CharacterString
+    definition: Nominal number of month in the calendar year (note that in some calendars, nominal and ordinal month numbers can differ)
+    type: Integer
+    cardinality:
+      min: 0
+      max: 1
+  monthleapflag:
+    definition: Flag indicating if the month is a leap month (second month in a row with the same nominal number)
+    type: Boolean
     cardinality:
       min: 0
       max: 1
   day:
-    definition: Ordinal number of day in the previous date reference construct; or (in relevant calendars), a string with the nominal number of the day in the previous date reference construct, followed by "b" for the second day in the previous date reference construct with the same nominal number
-    type: Integer | CharacterString
+    definition: Nominal number of day in the previous date reference construct (note that in some calendars, nominal and ordinal day numbers can differ)
+    type: Integer
+  dayleapflag:
+    definition: Flag indicating if the day is a leap day (second day in a row with the same nominal number)
+    type: Boolean
+    cardinality:
+      min: 0
+      max: 1
