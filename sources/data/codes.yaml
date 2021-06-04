@@ -105,7 +105,7 @@ fre:
   usage_populations: 'France, French colonies, Haiti (TODO: more specific)'
 gae:
   name_en: Gaelic calendar
-gre:
+gregorian:
   name_en: Gregorian Calendar
   abbrev: AD (after), BC (before), CE (Common Era)
   spec: ISO 8601-1
@@ -289,13 +289,16 @@ tha:
   names_other: 'Thai: ปฏิทินสุริยคติ'
   usage_populations: Thailand
   application: Cultural usage
-  remarks: 'Type: solar calendar.'
-tib:
-  name_en: Tibetan calendar
-  names_other: 'Tibetan: ལོ་ཐོ; Simplified Chinese: 藏历; Traditional
-    Chinese: 藏曆'
-  usage_populations: Tibet Autonomous Region of China
+  remarks: 'Type: solar'
+tibetan-phugpa:
+  name_en: Tibetan calendar (Phugpa calculations)
+  names_other: 'Tibetan: ཕུག་ལུགས་ལོ་ཐོ།'
   application: Cultural usage
+  remarks: 'Type: lunisolar'
+tibetan-tsurphu:
+  name_en: Tibetan calendar (Tsurphu calculations)
+  application: Cultural usage
+  names_other: 'Tibetan: མཚུར་ཕུའི་ལོ་ཐོ།'
   remarks: 'Type: lunisolar'
 tjd:
   name_en: Truncated Julian day
