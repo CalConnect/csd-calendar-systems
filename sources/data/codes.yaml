@@ -138,12 +138,13 @@
     amh-Ethi: የኢትዮጵያ ዘመን አቆጣጠር
   usage_populations: Ethiopia
   remarks: 'Used in Ethiopian Catholic publications'
-- code: cseb
-  name: Celestial Stems and Earthly Branches
+- code: cstb
+  name: Celestial Stems and Terrestrial Branches
+  abbrev: CSTB
   names_other:
-    eng-Latn: Ganzhi calendar
-    zho-Hant: 干支曆
-    zho-Hans: 干支历
+    eng-Latn: Ganzhi year numbering
+    zho-Hant: 干支紀年
+    zho-Hans: 干支纪年
   application: Cultural
 - code: dangun
   name: Dangun giwon
