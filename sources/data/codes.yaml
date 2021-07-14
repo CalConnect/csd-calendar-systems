@@ -132,7 +132,7 @@
     kor-Hang: 칠정산
   usage_populations: Korea
   application: Cultural
-coptic-eom:
+- code: coptic-eom
   name: Coptic-EoM
   names_other:
     amh-Ethi: የኢትዮጵያ ዘመን አቆጣጠር
@@ -163,7 +163,7 @@ coptic-eom:
   names_other:
     urd-Arab: فصلی‎
     ara-Arab: فصلى‎
-french-republican:
+- code: french-republican
   name: French Republican calendar
   names_other:
     fra-Latn: calendrier républicain français
@@ -190,13 +190,13 @@ french-republican:
   usage_populations: India
   application: Religious
   remarks: 'Largely replaced by the Indian Civil calendar in daily use'
-hijri-qamari:
+- code: hijri-qamari
   name: Hijri-qamari
   names_other:
     ara-Arab: التقويم الهجري‎‎
   abbrev: AH (after Hijri) and BH (before Hijri)
   remarks: 'Used in many Islamic countries'
-hijri-shamsi:
+- code: hijri-shamsi
   name: Hijri-shamsi
   names_other:
     ara-Arab: تقويم هجري شمسي
@@ -230,13 +230,13 @@ hijri-shamsi:
     tam-Taml: இந்தியத் தேசிய நாட்காட்டி
   abbrev: SE
   usage_populations: India
-iranian-jalali:
+- code: iranian-jalali
   name: Iranian-Jalali
   names_other:
     fas-Arab: گاه‌شماری جلالی تقویم
   usage_populations: Iran, Azerbaijan
   remarks: 'Iran now mostly uses the Hijri-shamsi calendar.'
-iranian-yazdigird:
+- code: iranian-yazdigird
   name: Iranian-Yazdigird
   usage_populations: Iran, Azerbaijan
   remarks: 'Iran now mostly uses the Hijri-shamsi calendar.'
@@ -294,7 +294,7 @@ iranian-yazdigird:
   name: Malayalam calendar
   names_other:
     eng-Latn: Kollam Era
-mars-sol:
+- code: mars-sol
   name: Mars Sol Date
   spec: Linear count of Martian days according to the epoch of noon Dec
     29, 1873.
@@ -365,7 +365,7 @@ mars-sol:
 - code: spanish
   name: Spanish
   remarks: 'Presumably a colonial or pre-colonial era calendar'
-thai-lunar:
+- code: thai-lunar
   name: Thai lunar calendar
   names_other:
     tha-Thai: ปฏิทินจันทรคติ
@@ -377,20 +377,20 @@ thai-lunar:
   name: Tamil calendar
   names_other:
     tam-Taml: தமிழ் மாதங்கள்
-thai-solar:
+- code: thai-solar
   name: Thai solar calendar
   names_other:
     tha-Thai: ปฏิทินสุริยคติ
   usage_populations: Thailand
   application: Cultural
   remarks: 'Type: solar'
-tibetan-phugpa:
+- code: tibetan-phugpa
   name: Tibetan calendar (Phugpa calculations)
   names_other:
     bod-Tibt: ཕུག་ལུགས་ལོ་ཐོ།
   application: Cultural
   remarks: 'Type: lunisolar'
-tibetan-tsurphu:
+- code: tibetan-tsurphu
   name: Tibetan calendar (Tsurphu calculations)
   application: Cultural
   names_other:
