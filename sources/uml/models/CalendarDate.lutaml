@@ -9,9 +9,15 @@ class CalendarDate {
     }
   }
 
+  +yearCycleNumber: Integer[0..1] {
+    definition {
+      Number of the year cycle (can be 0 or negative), used for calendar where year identification follows a cyclic pattern (ex: in a calendar where years follow a 60 years cycle, use this field to indicate the number of the current 60 years cycle). A CalendarDate cannot have both era and yearCycleNumber
+    }
+  }
+
   +year: Integer[0..1] {
     definition {
-      Ordinal number of year in the calendar era
+      Ordinal number of year in the calendar era or year cycle
     }
   }
 
