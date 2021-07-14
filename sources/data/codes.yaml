@@ -308,12 +308,13 @@
   names_other:
     mal-Latn: Bulan Melanau
 - code: minguo
-  name: Minguo calendar
+  name: Minguo year numbering
   names_other:
     zho-Hant: 民國紀元; 民國紀年
     zho-Hans: 民国纪元; 民国纪年
   spec: Linear count of year with epoch from Gregorian year 1912, month
     and day according to Gregorian calendar
+  remarks: From January 1, 1912 to September 30, 1949.
   usage_populations: China
 - code: mjd
   name: Modified Julian day
