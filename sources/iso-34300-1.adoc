@@ -8,7 +8,7 @@
 :title-intro-en: Date and time
 :title-main-en: Codes for calendar systems
 :title-part-en: Guidelines for maintenance
-:title-intro-fr: Date et l'heure
+:title-intro-fr: Date et heure
 :title-main-fr: Codes pour les systèmes de calendrier
 :title-part-fr: Lignes directrices pour la maintenance
 :doctype: international-standard

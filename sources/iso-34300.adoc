@@ -6,7 +6,7 @@
 :language: en
 :title-intro-en: Date and time
 :title-main-en: Codes for calendar systems
-:title-intro-fr: Date et l'heure
+:title-intro-fr: Date et heure
 :title-main-fr: Codes pour les systèmes de calendrier
 :doctype: international-standard
 :docstage: 20
