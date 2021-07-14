@@ -113,11 +113,10 @@
     * [[[CCSDSTC,CCSDS 301.0-B-4]]], CCSDS RECOMMENDED STANDARD 301.0-B-4.
       _Recommendation for Space Data System Standards: TIME CODE FORMATS_
 - code: chinese
-  name: Chinese calendar
+  name: Chinese traditional calendar
   names_other:
-    eng-Latn: Chinese Rural calendar
-    zho-Hant: 農曆; 陰曆
-    zho-Hans: 农历; 阴历
+    zho-Hant: 農曆; 夏曆
+    zho-Hans: 农历; 夏历
   usage_populations: China
   application: Cultural
   remarks: 'Type: lunisolar'
