@@ -20,16 +20,19 @@ These are the core data types used within this document.
 The following data models are used by other data models specified in
 this document.
 
-[datamodel_diagram,./uml/views/DataTypes.yml]
+[lutaml_diagram]
+----
+include ../uml/views/DataTypes.lutaml
+----
 
-[datamodel_attributes_table,./uml/models/iso15924Code.yml]
+[lutaml_datamodel_attributes_table,./uml/models/iso15924Code.lutaml]
 
-[datamodel_attributes_table,./uml/models/iso639Code.yml]
+[lutaml_datamodel_attributes_table,./uml/models/iso639Code.lutaml]
 
-[datamodel_attributes_table,./uml/models/LocalizedTag.yml]
+[lutaml_datamodel_attributes_table,./uml/models/LocalizedTag.lutaml]
 
-[datamodel_attributes_table,./uml/models/LocalizedString.yml]
+[lutaml_datamodel_attributes_table,./uml/models/LocalizedString.lutaml]
 
-[datamodel_attributes_table,./uml/models/JulianDate.yml]
+[lutaml_datamodel_attributes_table,./uml/models/JulianDate.lutaml]
 
-[datamodel_attributes_table,./uml/models/CalendarDate.yml]
+[lutaml_datamodel_attributes_table,./uml/models/CalendarDate.lutaml]

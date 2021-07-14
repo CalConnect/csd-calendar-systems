@@ -5,4 +5,7 @@
 The data models are arranged as shown in the following
 structure.
 
-[datamodel_diagram,./uml/views/TopDown.yml]
+[lutaml_diagram]
+----
+include ../uml/views/TopDown.lutaml
+----

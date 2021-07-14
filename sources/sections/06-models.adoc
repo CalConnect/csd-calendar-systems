@@ -1,8 +1,11 @@
 [[data-models]]
 == Data models
 
-[datamodel_diagram,./uml/views/CalendarSystem.yml]
+[lutaml_diagram]
+----
+include ../uml/views/CalendarSystem.lutaml
+----
 
-[datamodel_attributes_table,./uml/models/CalendarSystem.yml]
+[lutaml_datamodel_attributes_table,./uml/models/CalendarSystem.lutaml]
 
-[datamodel_attributes_table,./uml/models/CalendarEra.yml]
+[lutaml_datamodel_attributes_table,./uml/models/CalendarEra.lutaml]
