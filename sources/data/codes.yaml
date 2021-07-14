@@ -267,8 +267,7 @@
 - code: julian
   name: Julian calendar
   abbrev: AD (after), BC (before), OS (Old Style)
-  usage_populations: 'Orthodox Christian'
-  application: Religious
+  application: Historic civil time.
 - code: koki
   name: Japanese Imperial Year
   names_other:
