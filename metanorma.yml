@@ -2,10 +2,10 @@
 metanorma:
   source:
     files:
-      - sources/iso-34300.adoc
-      - sources/iso-34398.adoc
-      # - sources/iso-34399.adoc
-      - sources/cc-34300.adoc
+      #- sources/iso-34300.adoc
+      - sources/iso-34300-1.adoc
+      - sources/iso-34300-2.adoc
+      #- sources/cc-34300.adoc
 
   collection:
     name: Date and time -- Codes for calendar systems

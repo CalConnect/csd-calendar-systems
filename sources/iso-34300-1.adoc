@@ -1,0 +1,508 @@
+= Guidelines for the maintenance of ISO 34300
+:docnumber: 34300
+:partnumber: 1
+:tc-document-number: 9999
+:edition: 1
+:copyright-year: 2021
+:language: en
+:title-intro-en: Date and time
+:title-main-en: Codes for calendar systems
+:title-part-en: Guidelines for maintenance
+:title-intro-fr: Date et l'heure
+:title-main-fr: Codes pour les systèmes de calendrier
+:title-part-fr: Lignes directrices pour la maintenance
+:doctype: international-standard
+:docstage: 20
+:docsubstage: 00
+:technical-committee-type: TC
+:technical-committee-number: 154
+:technical-committee: Processes, data elements and documents in commerce, industry and administration
+:workgroup-type: WG
+:workgroup-number: 5
+:workgroup: Date and time
+:secretariat: SAC
+:language: en
+:imagesdir: images
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections-iso/00-foreword.adoc[]
+
+== Scope
+
+This document provides guidelines for the maintenance of ISO 34300 codes
+for the ISO 34300 registration authority.
+
+[bibliography]
+== Normative references
+
+
+== Terms and definitions
+
+=== ISO 34300 registration authority
+alt:[ISO 34300/RA]
+
+registration authority for ISO 34300 codes and associated data elements
+
+=== ISO 34300 advisory group
+alt:[ISO 34300/AG]
+
+group that provides advice to the ISO 34300/RA on item registration
+
+
+== Role of the ISO 34300/RA
+
+A registration authority (ISO 34300/RA) has been appointed to operate under
+guidelines provided in this document.
+
+It has been entrusted with the following functions with regard to the list of
+calendar systems and calendar eras, together with code assignments and
+information associated with each entry:
+
+. to add and eliminate these entries, in accordance with the rules in this
+document;
+
+. to advise users and ISO member bodies regarding application of such
+information;
+
+. to update and disseminate such information;
+
+. to maintain a reference list of such information;
+
+. to publish changes made to such information and the history of changes
+allowing traceability;
+
+. to administer the reservation of the codes.
+
+Changes to the content of the list of entries becomes effective immediately upon
+publication.
+
+The criteria provided in <<registration-adding-tzauth>> to
+<<registration-modify-tz>> shall be observed by the ISO 34300/RA for
+changes to the list of calendar systems and calendar eras, their code
+assignments and associated information, and for reservations of code elements.
+
+
+// 3166/MA
+// In developing ISO 34300, consideration was given to the maintenance of ISO 34300 and the // use of the codes contained therein.
+// Provision was made in ISO 34300 and by the ISO Council for a Maintenance Agency (ISO 34300/// RA) with the following functions:
+// a) to add and to eliminate country and country subdivision names and to assign code // elements as needed, in accordance with the rules provided in ISO 34300;
+// b) to advise users regarding the application of the codes;
+// c) to update and disseminate lists of country and country subdivision names, code elements // and their definitions;
+// d) to maintain a reference list of all country and country subdivision code elements used // and their period of use;
+// e) to publish updates announcing changes to the ISO 34300 in accordance with a);
+// f) to administer the reservation of country or subdivision code elements.
+
+
+== Role of the ISO 34300/AG
+
+An advisory group (ISO 34300/AG) has been appointed to ensure the
+operations of the registration authority (ISO 34300/RA) are in accordance
+with guidelines provided in this document.
+
+== Composition of the ISO 34300/AG
+
+=== Voting members
+
+==== General
+
+The ISO 34300/AG voting membership consists of:
+
+* ISO 34300/AG Convenor
+* ISO 34300/AG Vice-Convenor
+
+* at least 10 to 17 individually named members representing voting member bodies
+as follows:
+
+** five to eight standing members from international organizations other than
+ISO;
+
+** five standing members from within ISO/TC 154 participating member bodies
+(P-members);
+
+** four (maximum) rotating members from within ISO/TC 154 participating member
+bodies (P-members).
+
+ISO/TC 154 should review the membership structure of the ISO 34300/AG at regular
+intervals to ensure that its members fulfil their obligations (see 4.1).
+
+Recommendations for changes to the structure shall be submitted to ISO/TC 154
+for consideration and, if approved, will be implemented by the time of the next
+plenary meeting.
+
+The ISO 34300/AG membership list is available on the ISO 34300/AG ISO Documents
+website.
+
+
+==== International organization (other than ISO) standing members
+
+A minimum of five and not more than eight international organizations that are
+not within ISO may be appointed to ISO 34300/AG.
+
+These international organizations are selected based on the role that they can
+play in achieving the greatest use and promotion of ISO 34300. These
+international organizations are appointed by ISO/TC 154 as standing members.
+These international organizations are required to be existing
+Category A liaisons to ISO/TC 154.
+
+==== ISO P-members
+
+===== Standing ISO P-members
+
+Five standing P-members may be appointed to consecutive terms in the ISO
+34300/AG. These members should reflect the greatest responsibility and
+productivity within the technical committee structure for this purpose. The
+P-members are selected by ISO/TC 154 for three-year periods which can be renewed
+automatically for consecutive terms. The composition of the standing members is
+established by ISO/TC 154.
+
+
+===== Rotating ISO P-members
+
+Any P-members from ISO/TC 154 who are not standing members may apply to be a
+rotating P-member of ISO 34300/AG. ISO/TC 154 selects up to four P-members
+amongst the candidates taking into account the following considerations.
+
+* Up to four rotating P-members may sit on the ISO 34300/AG at one time.
+* Each year, two new members are selected for a period of two years, and two
+members (who have completed their two-year membership) leave the ISO 34300/AG.
+
+NOTE: Members leaving the ISO 34300/AG may be re-elected an indefinite number of
+times. It is recognised that all willing P-members have an opportunity to serve
+on the ISO 34300/AG.
+
+* Members should be selected in view of the best linguistic diversity and
+geographical representation, for example amongst:
+
+** African states,
+
+** Asia and Pacific states,
+
+** European states,
+
+** North and South American states.
+
+* Where insufficient nominations are received, the relevant number of seats on
+the ISO 34300/AG may remain unassigned.
+
+At the first election, four members will be elected, of which two will serve two
+years before leaving and being replaced whilst the other two will serve three
+years before leaving and being replaced. Those leaving after two years shall be
+selected by the drawing of lots.
+
+
+=== Non-voting members
+
+==== Associate members
+
+At the proposal of the Secretary-General of ISO, other ISO/TC 154 P-members and
+international organizations may be associated with the work of the ISO 34300/RA.
+
+An associate member body has the same status as an ordinary member but does not
+participate in voting.
+
+==== Members for information
+
+These members of the ISO 34300/RA are non-voting members participating directly
+or indirectly in the maintenance of ISO 34300.
+
+
+== Secretariat of the ISO 34300/AG
+
+The ISO 34300/AG is served by a secretariat (ISO 34300/AGS), as designated by
+the ISO Council.
+
+
+== Responsibilities of ISO 34300/AG members
+
+=== Voting members
+
+Voting member bodies shall have one vote each and shall nominate within their
+respective organizations:
+
+* one person to act as the representative voting member;
+* one person to act as a substitute to its representative in case of
+unavailability.
+
+These representatives should preferably be chosen to have the expertise
+necessary to understand ISO 34300 issues.
+
+The ISO 34300/RA shall decide upon additions to and deletions from the list of country and country-subdivision code elements in ISO 34300 under conditions specified in Clause 5, and upon the assignment , reservation alteration or deletion of code elements. Members are expected to vote, respond and comment without delay within specified time limits on ISO 34300/RA matters and attend meetings of the ISO 34300/RA, as required.
+
+
+Members that recurrently fail to perform these duties will be reminded by the ISO 34300/AGS of their obligations. However, in the event that the member repeatedly fails to respond, it may result in the downgrade or removal of the member, e.g. downgraded to an Associate Member.
+
+
+
+=== ISO 34300/AGS
+
+The ISO 34300/AGS is responsible for the administration of maintenance
+procedures, including updating and maintaining the ISO 34300/AG membership list;
+calling meetings of ISO 34300/AG voting and/or non-voting members when
+necessary, preparing meeting agendas and providing the minutes from meetings;
+
+* voting procedures;
+* preparation of material for external contacts;
+* advice to users regarding application of the set of the officially assigned
+  ISO 34300 code elements;
+* publication and dissemination of results of the maintenance procedures.
+
+The ISO3166/AGS is also responsible for maintaining an efficient arrangement
+concerning communication and documentation to ISO 34300/AG members and other
+interested parties. On behalf of the ISO 34300/AG members and without affecting
+the functions of the ISO-SG, the ISO 34300/AGS may contact governmental
+organizations, non-governmental organizations and experts at a working level
+when needed for the advancement of ISO 34300.
+
+
+=== Officers of the ISO 34300/AG
+
+The ISO 34300/AGS in coordination with the ISO/TC 154 Secretariat shall nominate
+a permanent Chair and Vice-chair to be the officers of the ISO 34300/AG.
+
+These two officers shall be representatives of the two different membership
+groups:
+
+* one from the ISO P-members;
+
+* one from non-ISO international organizations.
+
+These nominations will be submitted to ISO/TC 154 for approval.
+
+When necessary, the vice-convenor replaces the convenor and assumes their
+responsibilities.
+
+In accordance with ISO's neutrality policy, the convenor will not have a vote on
+ISO 34300/AG matters. Therefore, if the appointment of the convenor leaves a
+voting member vacancy from one of its member bodies, the member body shall name
+a new member to the ISO 34300/AG.
+
+After the appointment of new officers, the outgoing and incoming officers should
+ensure a smooth and efficient handling of the work with the support of the ISO
+34300/AGS during a transitional period.
+
+
+== Working procedure
+
+=== Principles
+
+The maintenance procedure shall be as expedient as possible. It generally
+functions by means of communication technologies. When any of the ISO 34300/AG
+voting members or the ISO-SG consider that a meeting is required, the ISO
+34300/AGS consults the ISO 34300/AG members about the convening of such a
+meeting.
+
+As a general principle, to ensure continuity and stability in the system, code
+elements shall be changed only for compelling reasons.
+
+=== Consultation
+
+Before opening any vote, a consultation period of at least ten working days
+shall be conducted amongst the ISO 34300/AG members. ISO 34300/AG members are
+invited to provide comments concerning the subject of consultation during this
+period. Based on findings from this consultation, a vote may be initiated.
+
+
+=== Voting procedures
+
+Each voting member of the ISO 34300/AG shall have one vote (see 2.1). Votes
+shall be cast by the nominated representative or the substitute of each voting
+member. Members shall actively cast their votes, i.e. yes, no or abstention.
+
+Agreement on proposed changes shall be obtained by means of communication
+technologies or at a meeting of the ISO 34300/AG, provided that the matter has
+been included in the draft agenda of the meeting.
+
+In cases of urgency, the ISO 34300/AGS may obtain the agreement on the proposed
+changes from the members of the ISO 34300/AG by remote communication; these
+agreements shall be confirmed in writing.
+
+The length of the reply period shall be six working days but at the request of
+the Convenor or at least one ISO 34300/RA voting member, the reply period may be
+extended. For the purposes of the ISO 34300/RA, the term "working days" shall
+exclude Saturdays and Sundays. The term "working days" shall also exclude the
+last five days of December.
+
+The vote will only be approved if there is a two-thirds majority and at least
+eight positive votes.
+
+When there is a two-thirds majority of positive votes, but fewer than eight
+positive votes because of the high number of abstentions, a second round of
+voting is held. After the second round, there will be no further ballots on the
+same proposal. Recorded abstentions do not count. Voting members not fulfilling
+their responsibilities by casting an active vote will be reminded of their
+responsibilities (see 4.1).
+
+
+== Publication and dissemination of information
+
+=== Updating of ISO 34300
+
+After approval by the members of the ISO 34300/AG, the ISO 34300/RA will update
+and publish the appropriate registrations, with all agreed corrections, if any.
+
+The ISO 34300/AGS may consult individual ISO 34300/AG members directly
+concerning particular problems of implementation raised by users or potential
+users.
+
+
+=== Advice to users and promotion of ISO 34300
+
+Subject to these Terms of Reference and in consultation with the ISO-SG, the ISO
+34300/AGS acts as a centre for the reception, storage and dissemination of
+information relevant to users and potential users of ISO 34300, thereby seeking
+to promote its widest possible use.
+
+The ISO 34300/AG is also available for consultation and assistance on the use of
+codes for calendar systems and calendar eras.
+
+
+[appendix]
+== Maintenance procedures for registration items
+
+=== Operations on list of calendar systems and calendar eras and their codes
+
+==== General process
+
+The terms of reference provided in this document applies to the maintenance of
+ISO 34300.
+
+Upon a request for changing a registration item, the procedure
+for treating such requests is the following.
+
+. The ISO 34300/AG verifies that the request is supported by justification
+meeting all of the criteria.
+
+. The ISO 34300/AG initiates a consultation of its members about the proposed
+update and possible changes necessary.
+
+. Following the consultation, the ISO 34300/AG voting members are asked to vote
+on the change.
+
+.. If ISO 34300/AG voting confirms adoption of the change, the change proceeds.
+
+.. Otherwise, the request is rejected and the party that made the request
+informed.
+
+
+[[registration-adding-tzauth]]
+==== Registration of a new calendar system and calendar era
+
+Additions to the list of calendar systems and calendar eras shall be made on the
+basis of information from upon the request of a member of ISO 34300/AG.
+
+A calendar system is eligible for registration if it meets the requirements
+stated in ISO 34300.
+// <<scsa-requirements>>.
+
+NOTE: Meeting the criteria is necessary for consideration but might not be
+sufficient for inclusion in ISO 34300.
+
+The proposer is responsible for providing justification to the ISO 34300/AG
+regarding the eligibility of such addition.
+
+The ISO 34300/AG will decide upon the addition, on the basis of eligibility and
+usage justification.
+
+Code elements will be allocated by the ISO 34300/AG at its discretion.
+
+Since a calendar system requires at least one calendar era, the application and
+assignment of calendar system and calendar era codes can be performed at once.
+
+
+////
+Additions to the official and international time scale authorities require additional criteria:
+
+* An official time scale authority must be endorsed by a body receiving direct authority by a member of the United Nations.
+* An international time scale authority must be endorsed by an international standardization body in liaison with the ISO 34300/AG.
+////
+
+==== Modification of a calendar system or calendar era code
+
+Modifications of a code within the list of calendar systems and calendar eras
+shall be made upon the request of a member of ISO 34300/AG.
+
+The ISO 34300/AG will decide upon the modification, on the basis of the
+information received.
+
+The previously assigned code is reserved after modification for
+backwards-compatibility purposes.
+
+
+[[registration-removing-tzauth]]
+=== Removal from the list of calendar system and calendar era codes
+
+Removal of a code from the list of calendar systems and calendar eras shall be made upon the request of a member of ISO 34300/AG.
+
+The ISO 34300/AG will decide upon the deletion, on the basis of the information received. The corresponding code element is reserved.
+
+
+
+[[registration-deleting-tz]]
+=== Removal of elements from the list of calendar system and calendar era codes
+
+Deletion from the list of calendar system and calendar era codes shall be made only by the ISO 34300/AG or upon a request to it.
+
+The ISO 34300/AG will decide upon the deletion, on the basis of the information received. The corresponding code element is reserved.
+
+
+
+[[registration-modify-tz]]
+=== Alterations to elements on list of calendar system and calendar era codes
+
+Alterations to a registered element shall be made only by the ISO 34300/AG or upon a request to it.
+
+A significant change of name may require the ISO 34300/AG to change the alpha code element concerned. The ISO 34300/AG, however, shall endeavor to maintain stability in the list of code elements.
+
+
+
+[[reservation]]
+=== Reservation of code elements
+
+==== Introduction
+
+Some code elements are reserved:
+
+* for a limited period when their reservation is the result of
+  the deprecation (<<registration-removing-tzauth>>) or the alteration (<<registration-modify-tz>>)
+  of an entry;
+
+* for an indeterminate period when the reservation is the result of
+  the application of international law or of
+  exceptional requests (<<reservation-exceptional>>).
+
+==== Period of non-allocation
+
+Code elements that the ISO 34300/AG has altered or deleted should not be reallocated during a period of at least ten years after the change.
+
+The exact period is determined in each case on the basis of the extent to which the former code element was used.
+
+
+[[reservation-exceptional]]
+==== Exceptional reservations
+
+Code elements may be reserved, in exceptional cases, for calendar systems and
+calendar eras which the ISO 34300/AG has decided not to include in the lists
+maintained by ISO 34300/RA, but for which an interchange or encoding requirement
+exists.
+
+==== Reallocation
+
+Before reallocating a former code element or a formerly reserved code element,
+the ISO 34300/AG shall consult, as appropriate, the authority or agency on whose
+behalf the code element was reserved, and consideration shall be given to
+difficulties which might arise from the reallocation.
+
+
+==== User-assigned code elements
+
+ISO 34300/RA and ISO 34300/AG do not keep a record of the notifications
+concerning user-assigned code elements received.
+
+
+==== List of reserved code elements
+
+A list of reserved code elements is kept by the ISO 34300/RA.
+
