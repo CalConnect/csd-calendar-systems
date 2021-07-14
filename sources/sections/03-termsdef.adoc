@@ -1,52 +1,17 @@
 
-//[source=ISO34000]
-
-[[terms]]
+[source=ISO34000]
 == Terms and Definitions
 
-////
-=== transliteration
-
-operation which consists of representing the characters of an entirely alphabetical character or alphanumeric character writing system by the characters of the conversion alphabet
-
-[.source]
-<<ISO5127,clause="3.1.6.11">>
-
-
-=== romanization
-
-script conversion from non-Roman to Roman script by means of transliteration, transcription <activity> or both
-
-[.source]
-<<ISO5127,clause="3.1.6.14">>
-////
-
-
-////
-=== writing system
-
-system for writing a language, including the script and character set used
-
-[.source]
-<<ISO5127,clause="3.1.6.01">>
-////
-
-
-=== script
-
-particular graphic representation or class of representations of a set of characters used to write one or more languages
-
-[.source]
-<<ISO5127,clause="3.1.6.02">>
-
-
-[[term-code]]
 === code
 
 data representation in different forms according to a pre-established set of rules
 
 [.source]
 <<ISO639-2>>
+
+=== calendar code
+
+{{code}} used to represent a calendar system
 
 
 === language code
@@ -63,55 +28,3 @@ combination of characters used to represent the name of a script
 
 [.source]
 <<ISO15924,clause="3.8">>
-
-
-=== calendar code
-
-_code_ (<<term-code>>) used to represent a calendar system
-
-
-////
-
-=== transliteration system
-
-system for transliteration of a source script to a target script
-
-
-=== romanization system
-
-system for romanization of a source script to a target script
-
-//system for representing a word <orthographic word> in a writing system
-//through romanization
-
-=== transliteration system code
-
-combination of characters used to represent the name
-of a transliteration system
-
-=== romanization system code
-
-combination of characters used to represent the name
-of a romanization system
-
-
-
-=== transliterated text
-
-text output of a transliteration system on a transliteration source
-
-=== transliteration script
-
-script form produced by a transliteration system on the transliteration source
-
-
-=== source language
-
-language used in the transliteration source
-
-=== source script
-
-script used in the transliteration source
-
-////
-

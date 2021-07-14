@@ -1,13 +1,17 @@
 [[introduction]]
 == Introduction
 
-Calendars are an essential element in date tracking.
+Calendar systems are essential to the tracking of dates and events.
 
-With multiple calendar systems in common use across
-the international community, it is necessary for a number
-of applications to identify calendar systems used
-for particular dates and times, including for
-computing, archiving, communication and bibliography.
+Date and time tracking applications, such as in computing, archiving,
+communication and bibliography, all depend on the accurate identification
+of calendar systems for their performance. Moreover, accuracy of
+date and time tracking is often paramount to important activities
+from civilian to military use.
 
-This standard sets out the necessary procedures to maintain
-the registry of calendar systems.
+This document describes methods to unambiguously define calendar systems,
+their properties, and provides a mechanism to assign unique identifiers
+to these data elements.
+
+This document also sets out the necessary procedures to maintain
+an international registry of calendar systems.

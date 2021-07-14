@@ -1,7 +1,7 @@
 == Scope
 
-This document provides a list of codes to represent
-calendar systems and the corresponding maintenance
+This document provides a list of codes to represent calendar systems, metadata
+to support the usage of those codes, and the corresponding maintenance
 procedures.
 
 The codes were devised for usage of any application requiring

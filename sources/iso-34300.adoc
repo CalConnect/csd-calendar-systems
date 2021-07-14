@@ -8,7 +8,7 @@
 :title-main-en: Codes for calendar systems
 :title-intro-fr: Date et l'heure
 :title-main-fr: Codes pour les systèmes de calendrier
-:doctype: standard
+:doctype: international-standard
 :docstage: 20
 :docsubstage: 00
 :technical-committee-type: TC
@@ -20,9 +20,8 @@
 :secretariat: SAC
 :language: en
 :imagesdir: images
-:docfile: iso-34300.adoc
 :mn-document-class: iso
-:mn-output-extensions: xml,html,doc,rxl
+:mn-output-extensions: xml,html,doc,pdf,rxl
 :local-cache-only:
 :data-uri-image:
 

@@ -1,0 +1,49 @@
+class CalendarEra {
+
+  definition {
+    This represents a calendar era.
+
+    NOTE: calendar eras within a calendar system may overlap, and is therefore
+    unnecessary to have an end reference date.
+  }
+
+  +code: CharacterString {
+    definition {
+      Unique identifying code of this calendar era.
+    }
+  }
+
+  +name: LocalizedString[0..*] {
+    definition {
+      Name of this calendar era.
+    }
+  }
+
+  +description: LocalizedString[0..*] {
+    definition {
+      Localized versions of the calendar era names tagged with
+      script codes (<<ISO15924>>) and language codes (<<ISO639-1>>).
+    }
+  }
+
+  +abbreviation: LocalizedString[0..*] {
+    definition {
+      Abbreviation of this calendar era. Multiple abbreviations are accepted.
+    }
+  }
+
+  +referenceDate: CalendarDate[0..*] {
+    definition {
+      Date of current calendar era at the day referred to by `referenceJulianDate`.
+    }
+  }
+
+  +referenceJulianDate: JulianDate[0..*] {
+    definition {
+      Julian date that marks the beginning of this calendar era.
+    }
+  }
+
+}
+
+

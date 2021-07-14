@@ -1,0 +1,23 @@
+diagram CalendarSystem {
+  title {
+    Calendar system and era models
+  }
+
+  import ../models/CalendarSystem.lutaml
+  import ../models/CalendarEra.lutaml
+}
+
+# imports:
+#   CalendarSystem:
+#   CalendarEra:
+# groups:
+#   # - - AddressProfile
+#   # - - FormTemplate
+#   #   - DisplayTemplate
+# relations:
+#   - source: CalendarEra
+#     target: CalendarSystem
+#     direction: 'up'
+#   # - source: FormTemplate
+#   #   target: DisplayTemplate
+#   #   direction: '[hidden]right'

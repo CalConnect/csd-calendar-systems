@@ -1,0 +1,14 @@
+class LocalizedString {
+
+  definition {
+    This represents a localized string with corresponding
+    localization information.
+  }
+
+  +tag: LocalizedTag {
+    definition {
+      Localization information.
+    }
+  }
+
+}

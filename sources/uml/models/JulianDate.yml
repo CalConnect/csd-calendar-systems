@@ -1,8 +1,0 @@
-name: JulianDate
-modelType: class
-definition: |
-  This represents a reference to a day in the Julian Date system.
-attributes:
-  number:
-    definition: Number of days since Julian Date 0.
-    type: Integer

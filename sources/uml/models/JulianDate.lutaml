@@ -1,0 +1,12 @@
+class JulianDate {
+  definition {
+    This represents a reference to a day in the Julian Date system.
+  }
+
+  +number: Integer {
+    definition {
+      Number of days since Julian Date 0.
+    }
+  }
+
+}

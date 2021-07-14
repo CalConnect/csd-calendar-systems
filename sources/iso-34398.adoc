@@ -1,0 +1,422 @@
+= Guidelines for the maintenance of ISO 34300
+:docnumber: 34398
+:tc-document-number: 9999
+:edition: 1
+:copyright-year: 2021
+:language: en
+:title-intro-en: Date and time
+:title-main-en: Guidelines for maintenance of codes for calendar systems
+:title-intro-fr: Date et l'heure
+:title-main-fr: Lignes directrices pour la maintenance des codes pour les systèmes de calendrier
+:doctype: international-standard
+:docstage: 20
+:docsubstage: 00
+:technical-committee-type: TC
+:technical-committee-number: 154
+:technical-committee: Processes, data elements and documents in commerce, industry and administration
+:workgroup-type: WG
+:workgroup-number: 5
+:workgroup: Date and time
+:secretariat: SAC
+:language: en
+:imagesdir: images
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections-iso/00-foreword.adoc[]
+
+== Scope
+
+== Normative references
+
+== Terms and definitions
+
+
+== Role of the Registration Authority
+
+In developing ISO 34300, consideration was given to the maintenance of ISO 34300 and the use of the codes contained therein.
+Provision was made in ISO 34300 and by the ISO Council for a Maintenance Agency (ISO 34300/MA) with the following functions:
+a) to add and to eliminate country and country subdivision names and to assign code elements as needed, in accordance with the rules provided in ISO 34300;
+b) to advise users regarding the application of the codes;
+c) to update and disseminate lists of country and country subdivision names, code elements and their definitions;
+d) to maintain a reference list of all country and country subdivision code elements used and their period of use;
+e) to publish updates announcing changes to the ISO 34300 in accordance with a);
+f) to administer the reservation of country or subdivision code elements.
+
+
+== Composition of the ISO 34300 Maintenance Agency (ISO 34300/MA) 2.1 Voting members
+
+
+==== General membership
+The ISO 34300/MA membership consists of
+* ISO 34300/MA Chair (non-voting member)
+* ISO 34300/MA Vice-Chair
+* ISO 34300/MA Secretary (ISO 34300/MAS) (non-voting member)
+* at least 10 to 17 individually named members representing voting member bodies as follows:
+** five to eight standing members from international organizations other than ISO;
+** five standing members from within ISO/TC 46 participating member bodies (P-members);
+** four (maximum) rotating members from within ISO/TC 46 participating member bodies (P-
+members).
+ISO/TC 46 should review the membership structure of the ISO 34300/MA at regular intervals to ensure that its members fulfil their obligations (see 4.1). Recommendations for changes to the structure shall be submitted to ISO/TC 46 for consideration and, if approved, will be implemented by the time of the next plenary meeting.
+1
+
+The ISO 34300/MA membership list is available on the ISO 34300/MA ISO Documents website.
+
+
+==== International organization (other than ISO) standing members
+A minimum of five and not more than eight international organizations that are not within ISO may be appointed to ISO 34300/MA. These international organizations are selected based on the role that they can play in achieving the greatest use and promotion of ISO 34300. These international organizations are appointed by ISO/TC 46 as standing members.
+
+
+==== ISO P-members
+
+
+===== Standing ISO P-members
+Five standing P-members may be appointed to consecutive terms in the ISO 34300/MA. These members should reflect the greatest responsibility and productivity within the technical committee structure for this purpose. The P-members are selected by ISO/TC 46 for three-year periods which can be renewed automatically for consecutive terms. The composition of the standing members is established by ISO/TC 46.
+
+
+===== Rotating ISO P-members
+Any P-members from ISO/TC 46 who are not standing members may apply to be a rotating P-member of ISO 34300/MA. ISO/TC 46 selects up to four P-members amongst the candidates taking into account the following considerations.
+* Up to four rotating P-members may sit on the ISO 34300/MA at one time.
+* Each year, two new members are selected for a period of two years, and two members (who have
+completed their two-year membership) leave the ISO 34300/MA.
+NOTE Members leaving the ISO 34300/MA may be re-elected an indefinite number of times. It is recognised that all willing P-members have an opportunity to serve on the ISO 34300/MA.
+* Members should be selected in view of the best linguistic diversity and geographical representation, for example amongst:
+** African states,
+** Asia and Pacific states,
+** European states,
+** North and South American states.
+* Where insufficient nominations are received, the relevant number of seats on the ISO 34300/MA may remain unassigned.
+At the first election, four members will be elected, of which two will serve two years before leaving and being replaced whilst the other two will serve three years before leaving and being replaced. Those leaving after two years shall be selected by the drawing of lots.
+
+
+=== Non-voting members
+
+
+==== Associate Members
+At the proposal of the Secretary-General of ISO, other ISO/TC 46 P-members and international organizations may be associated with the work of the ISO 34300/MA. An associate member body has the same status as an ordinary member but does not participate in voting.
+The ISO 34300/MA membership list is available on the ISO 34300/MA ISO Documents website.
+2
+
+Terms of Reference for the maintenance of ISO 34300 2.2.2 Members for information
+These members of the ISO 34300/MA are non-voting members participating directly or indirectly in the maintenance of ISO 34300. For those participating as experts for the maintenance of ISO 34300-2, see B.2.2.
+The ISO 34300/MA membership list is available on the ISO 34300/MA ISO Documents website.
+
+
+== Secretariat
+The ISO 34300/MA is served by a secretariat (ISO 34300/MAS), as designated by the ISO Council. (See also 4.2 and 4.3.)
+
+
+== Responsibilities
+
+=== Voting members
+
+Voting member bodies shall have one vote each and shall nominate within their respective organizations:
+
+* one person to act as the representative voting member;
+* one person to act as a substitute to its representative in case of unavailability.
+
+These representatives should preferably be chosen to have the expertise necessary to understand ISO 34300
+issues.
+
+==== The ISO 34300/MA shall decide upon additions to and deletions from the list of country and country-subdivision code elements in ISO 34300 under conditions specified in Clause 5, and upon the assignment , reservation alteration or deletion of code elements. Members are expected to vote, respond and comment without delay within specified time limits on ISO 34300/MA matters and attend meetings of the ISO 34300/MA, as required.
+
+
+==== Members that recurrently fail to perform these duties will be reminded by the ISO 34300/MAS of their obligations. However, in the event that the member repeatedly fails to respond, it may result in the downgrade or removal of the member, e.g. downgraded to an Associate Member.
+
+
+=== ISO Secretary-General (ISO-SG)
+
+
+==== The ISO-SG is responsible for contacting relevant national authorities regarding code elements
+proposed by the ISO 34300/MA, and arranges for publication and dissemination of updates to ISO 34300.
+
+
+==== Most functions of the ISO-SG concerning updating of ISO 34300 are delegated to the ISO 34300/MA in the interest of accelerating the updating procedures. [ISO Council Resolution 9/1975 amended by ISO Council Resolution 43/1978, e) refers.]
+
+
+==== In accordance with Council resolution 53/1969, the ISO-SG is also responsible for liaison with governmental and major non-governmental international organizations. The liaison will be established and maintained as required by the organization concerned.
+
+
+=== 4.3.1
+* 
+Secretariat (ISO 34300/MAS)
+The ISO 34300/MAS is responsible for the administration of maintenance procedures, including updating and maintaining the ISO 34300/MA membership list;
+calling meetings of ISO 34300/MA voting and/or non-voting members when necessary, preparing meeting agendas and providing the minutes from meetings;
+3
+
+* voting procedures;
+* preparation of material for external contacts to be executed by the Secretary-General of ISO;
+* advice to users regarding application of the set of the officially assigned ISO 34300 code elements;
+* publication and dissemination of results of the maintenance procedures.
+
+
+==== The ISO3166/MAS is also responsible for maintaining an efficient arrangement concerning communication and documentation to ISO 34300/MA members and other interested parties. On behalf of the ISO 34300/MA members and without affecting the functions of the ISO-SG, the ISO 34300/MAS may contact governmental organizations, non-governmental organizations and experts at a working level when needed for the advancement of ISO's country coding system.
+
+
+=== Officers of the ISO 34300/MA
+
+The ISO 34300/MAS in coordination with the ISO/TC 46 Secretariat shall nominate a permanent Chair
+and Vice-chair to be the officers of the ISO 34300/MA.
+
+These two officers shall be representatives of the two different membership groups
+* one from the ISO P-members;
+* one from the (non-ISO) International Organizations.
+
+These nominations will be submitted to ISO/TC 46 for approval.
+
+The stipulations regarding appointment and responsibilities of the Chair of ISO technical committees and subcommittees given in the ISO/IEC Directives, Part 1, apply as appropriate. When necessary the Vice-chair replaces the Chair and assumes their responsibilities.
+
+In accordance with ISO's neutrality policy, the Chair will not have a vote on ISO 34300/MA matters. Therefore, if the appointment of the Chair leaves a voting member vacancy from one of its member bodies, the member body shall name a new member to the ISO 34300/MA.
+
+
+==== After the appointment of new officers, the outgoing and incoming officers should ensure a smooth and efficient handling of the work with the support of the ISO 34300/MAS during a transitional period.
+
+== Working procedure
+
+=== Principles
+
+
+The maintenance procedure shall be as expedient as possible. It generally
+functions by means of communication technologies. When the ISO 34300/MAS or any
+of the ISO 34300/MA voting members or the ISO-SG consider that a meeting is
+required, the ISO 34300/MAS consults the ISO 34300/MA members about the
+convening of such a meeting.
+
+As a general principle, to ensure continuity and stability in the system, code
+elements shall be changed only for compelling reasons.
+
+Working procedures relevant to particular parts of ISO 34300 are given in Annex
+A (ISO 34300-1), Annex B (ISO 34300-2) and Annex C (ISO 34300-3).
+
+=== Consultation
+
+Before opening any vote, a consultation period of at least ten working days
+shall be conducted amongst the ISO 34300/MA members. ISO 34300/MA members are
+invited to provide comments concerning the subject of consultation during this
+period. Based on findings from this consultation, a vote may be initiated. 4
+
+
+=== Voting procedures
+
+Each voting member of the ISO 34300/MA shall have one vote (see 2.1). Votes
+shall be cast by the nominated representative or the substitute of each voting
+member. Members shall actively cast their votes, i.e. yes, no or abstention.
+
+
+Agreement on proposed changes shall be obtained by means of communication
+technologies or at a meeting of the ISO 34300/MA, provided that the matter has
+been included in the draft agenda of the meeting. In cases of urgency, the ISO
+34300/MAS may obtain the agreement on the proposed changes from the Members of
+the ISO 34300/MA by telephone; these agreements shall be confirmed in writing.
+
+The length of the reply period shall be six working days but at the request of
+the Chair or at least one ISO 34300/MA voting member, the reply period may be
+extended. For the purposes of the ISO 34300/MA, the term "working days" shall
+exclude Saturdays and Sundays. The term "working days" shall also exclude the
+last five days of December.
+
+
+The vote will only be approved if there is a two-thirds majority and at least
+eight positive votes.
+
+* When there is a two-thirds majority of positive votes, but fewer than eight
+positive votes because of the high number of abstentions, a second round of
+voting is held. After the second round, there will be no further ballots on the
+same proposal. Recorded abstentions do not count. Voting members not fulfilling
+their responsibilities by casting an active vote will be reminded of their
+responsibilities (see 4.1).
+
+
+== Publication and dissemination of information
+
+=== Updating of ISO 34300
+
+
+==== After approval by the members of the ISO 34300/MA, an ISO 34300 update, with all agreed corrections, if any, is published.
+
+NOTE The codes defined in ISO 34300 are published on ISO “Online Browsing Platform” (OBP) at: www.iso.org/obp. The information on the OBP is always the most current version of 3166 and users can sign up for notifications to be informed when changes are released.
+
+
+==== The ISO 34300/MAS may consult individual ISO 34300/MA members directly or, where required, through the ISO-SG concerning particular problems of implementation raised by users or potential users.
+The approved ISO 34300 update becomes effective upon publication on the OBP.
+Advice to users and promotion of ISO 34300
+Subject to these Terms of Reference and in consultation with the ISO-SG, the ISO 34300/MAS acts as a centre for the reception, storage and dissemination of information relevant to users and potential users of ISO 34300, thereby seeking to promote its widest possible use.
+5
+
+[appendix]
+== Maintenance procedures specific to ISO 34300
+
+A.1 General
+A.1.1 Applicability of Terms of Reference for the maintenance of ISO 34300-1
+Common rules for the maintenance of all parts of ISO 34300 are established in the Terms of reference for the maintenance of ISO 34300.
+Decoding table of ISO 34300-1 alpha-2 codes is available at: https://www.iso.org/obp/ui/#iso:pub:PUB500001:en
+NOTE It has become necessary to develop and adhere to more stringent rules for the maintenance of all parts of ISO 34300. The rules have been optimized to reflect the fact that codes already allocated in the past should not be regarded as setting a precedent for future ones..
+A.1.2 Particular aspects for the maintenance of ISO 34300-1
+This annex gives guidelines describing procedures specific to the maintenance of ISO 34300-1. Since the content of ISO 34300-1 is largely determined by United Nations (UN) source documents concerning UN Member States, the rules for maintaining this part of ISO 34300 are designed to react efficiently to changes in these sources.
+A.2 Changes to the list of country names and code elements in ISO 34300-1 A.2.1 Addition of entries to ISO 34300-1
+A.2.1.1 Addition of UN Member States to ISO 34300-1
+A.2.1.1.1 New UN Member States
+As soon as a country has been accepted as a Member State of the United Nations (UN), the ISO 34300/MAS is immediately informed by the UN Department for General Assembly and Conference Management. The UN Statistics Division (UNSD); the UNSD - notifies the ISO 34300/MAS of the numerical code element assigned for the new UN Member State.
+NOTE The United Nations Terminology Database Unit (UNTERM) and the United Nations Statistics Division (UNSD) provide essential inputs to the ISO 34300/MA.
+A.2.1.1.2 Creation of ISO 34300-1 codes for new UN Member States
+A.2.1.1.2.1 New ISO 34300-1 codes
+When the ISO 34300/MAS receives notification of the new UN Member State, the ISO 34300/MA examines whether or not a new alpha-2 and alpha-3 code elements can be created based on the notification information, as well as with any information available from contactwith the authorities of the new UN Member State.
+The procedure for creating a new ISO 34300-1 code is as follows:
+a) The ISO 34300/MAS initiates a consultation with its ISO 34300/MA Chair and its members, to choose suitable alphabetic code elements based on the information provided by the UNTERM as well as any information available from the UN Member State.
+b) When agreement has been reached amongst the ISO 34300/MA voting members on the proposed code elements, the ISO 34300/MAS informs the ISO-SG (see 4.2.2).
+ 6
+
+c) The ISO-SG (see 4.2.2), contacts the competent authorities of the UN Member State concerned, if possible, regarding the proposed alphabetic code elements.
+d) If the ISO-SG (see 4.2.2) receives a positive response from the competent authorities of the UN Member State concerned, or there is no response within six weeks, the agreed new code elements are published (see 6.1.1).
+A.2.1.2 Additions of dependent areas to be considered by the ISO 34300/MA
+A.2.1.2.1 Criteria for consideration for inclusion in ISO 34300-1
+A.2.1.2.1.1 Autonomy and self-government
+A dependent area for which the inclusion in ISO 34300-1 may be considered, shall be defined as all of the following:
+a) an area of particular geopolitical interest, whose territory is, following international law, under the sovereignty of a UN Member State;
+b) an area which is physically separated from its parent country (i.e. it does not have direct borders with its parent country, and it should neither be an exclave of the parent country nor an island within the territorial waters of the parent country; although the minimum geographical distance between the parent country and the dependent area concerned cannot be defined exactly, this distance should be considered in conjunction with the application of interchange requirements, see A.2.1.2.1.2);
+c) an area which enjoys significant autonomy and self-government.
+Note that meeting these criteria is necessary for consideration but might not be sufficient for inclusion in ISO 34300-1.
+A.2.1.2.1.2 Interchange requirements
+An interchange requirement exists between the dependent area for which a code element is requested and other physical locations. For the purposes of ISO 34300-1, the term interchange requirement includes a stated and proven necessity to move physical objects (e.g. goods in freight containers) or non-physical objects (e.g. ICT systems) from one physical location to another where the geographical separation causes problems in using the country code element of the parent country name for the separated dependent area concerned.
+A.2.1.2.1.3 Credibility of request
+The request for the inclusion of a name of a dependent area in the list of entries of ISO 34300-1 or in the list of reserved code elements shall originate from the competent office of the national government or of the ISO Member Body of the country holding sovereignty over the area. The competent office shall
+a) provide a written statement;
+b) state explicitly that the request originates from their competent office for such matters and that the national government or ISO Member Body has reviewed the criteria outlined in A.2.1.2.1.1 and A.2.1.2.1.2 and considers that the dependent area meets those requirements;
+c) agree explicitly with and support the request (a mere statement that the request is tolerated by the government is not sufficient).
+A.2.1.2.2 Requests
+When a request for addition of a new dependent area is received, the procedure for treating such requests is the following.
+7
+
+a) The ISO 34300/MAS verifies that the request is supported by justification meeting all of the criteria described in A.2.1.2.1.
+b) The ISO 34300/MAS initiates a consultation of the ISO 34300/MA Chair and its ISO 34300/MA members about the proposed inclusion and possible suitable alphabetic code elements.
+c) Following the consultation, the ISO 34300/MA voting members are asked to vote on the inclusion and the chosen suitable alphabetic code elements.
+1)
+2)
+
+A.2.1.3
+If the ISO 34300/MA voting members agree to add the entry to ISO 34300-1, the UNSD is asked to assign a numeric-3 code element and alphabetic code elements are then suggested to the proposer of the request.
+If the ISO 34300/MA voting members do not agree to include this entry, the request is rejected and the party that made the request informed.
+Additions of other areas of particular geopolitical interest to be considered by the ISO 34300/MA
+Voting members of ISO 34300/MA may request the addition of a new entry to ISO 34300-1 for an area of particular geopolitical interest that does not qualify as a dependent area as defined in A.2.1.2.1.1.
+If the ISO 34300/MA votes in favour to add such an entry to ISO 34300-1, the alpha-2 and alpha-3 corresponding code elements shall be chosen as carefully as possible, and if not already assigned, a numeric-3 code element requested from the UNSD. Or if not agreed by the UNSD, a user-assigned numeric-3 code element can be chosen by ISO 34300/MA.
+
+A.2.2 Deletion of entries from ISO 34300-1 (see also Annex C)
+
+A.2.2.1 When the ISO 34300/MAS is informed by the UN Department for General Assembly and Conference Management or by the UNSD that a country name or the numeric code element of a member state has been deleted from the UNTERM database or UNSD M49 list, the ISO 34300/MAS then immediately informs the ISO 34300/MA members about the deletion of the country name or the numeric code element of the member state and a consultation is initiated of the ISO 34300/MA Chair and its members about possible consequences for ISO 34300.
+A.2.2.2 When a request for deletion of a country code element from the list is received, supported by a justification for the request:
+a) the ISO 34300/MAS consults the ISO 34300/MA voting members about the deletion;
+b) the ISO 34300/MAS informs the applicant of the decision taken by the ISO 34300/MA voting members.
+A.2.2.3 If the deletion of a country code element from the ISO 34300-1 list has been agreed, a new ISO 34300- 3 code element is created by the ISO 34300/MA and an update to ISO 34300-3 is published as soon as possible by the ISO 34300/MAS.
+A.2.3 Modification of entries to ISO 34300-1
+A.2.3.1 When the UN Department for General Assembly and Conference Management or UNSD receives notification of a change of a country name or the numeric code of a member state appearing in the UNTERM database or UNSD M49 list, it immediately informs the ISO 34300/MAS of these changes:
+a) if authorities responsible for the administration of the country concerned request a change in the country code elements, or if the ISO 34300/MA agrees that there are other compelling reasons for a change, the ISO 34300/MAS then consults the ISO 34300/MA members about alternative code elements to represent the country name (see A.3);
+b) if agreement is reached by the ISO 34300/MA voting members after contact with the competent authorities as described in A.2.1.1, the new code elements are published (see 6.1.1);
+
+c) if the change of a country name does not necessitate a change of code elements, the alteration of the name will nonetheless be included in its next update or revision of ISO 34300-1 (see 6.1.1).
+A.2.3.2 When there is a change of a country name or numeric code element of a member state not appearing in the UNTERM database or UNSD M49 list:
+a) the ISO 34300/MAS establishes the source and credibility of the change and notes whether there is a request for a change of code elements for the country name concerned;
+b) the ISO 34300/MAS liaises with UNTERM and UNSD on the change;
+c) if the change appears to be bona fide, the ISO 34300/MAS informs the ISO 34300/MA members of the fact and, if a change in code elements has been requested or there are other compelling reasons for a change, consults the ISO 34300/MA voting members about alternative code elements to represent the country name;
+d) when agreement has been reached after contact with the pertinent authorities as described in A.2.1.1, the new code elements are published (see 6.1.1);
+A.3 Principles for assigning code elements
+A.3.1 When assigning alphabetic code elements to names of countries, dependencies and other areas of particular geopolitical interest, the ISO 34300/MA should attempt to obtain the greatest possible degree of visual association between the code elements and the short names of the countries, dependencies and other areas of particular geopolitical interest concerned.
+A.3.2 In this context, the term "visual association" should refer not only to the short name as such but also to the use of a particular code element in an application where it is frequently seen by a large number of people. Examples are the road vehicle designations notified under the 1949 and 1968 Conventions on Road Traffic , marking of freight containers, postal use, use in television and other media and use as a basis for standard currency and location codes.
+A.3.3 Where different language versions of short names exist, these should be taken into consideration in assigning alphabetic code elements. Besides the national name version, the names as expressed in the predominant foreign language used in the country should be taken into account. In a first instance, this consideration refers to the official languages of ISO 34300, English and French, but may also, when relevant, include other languages such as Arabic, German and Spanish.
+A.3.4 Only the "core" names should be used as the basis for code element assignment. Any reference in the full names to political and religious epithets and forms of government, such as "Democratic", "Republic", "People's", "Kingdom" should be avoided in the assignment of code elements.
+A.3.5 The alpha-2 code elements should, wherever possible, consist of the initial letter of the name, selected according to the principles set out above, and another significant letter. It is of advantage if the third letter in an alpha-3 code element could be an extension of the corresponding alpha-2 code element but this should not be a limiting factor if a more convenient alpha-3 code element could be found.
+A.3.6 If governments and international organizations express wishes that a particular code element should be used to represent short names of countries, dependencies and other areas of particular geopolitical interest, the ISO 34300/MA should consider such wishes within the framework of the general principles set out above; if such wishes cannot be met, the government or organization concerned should be informed thereof and an alternative solution should be proposed. Wishes emanating from governments and national institutions should be entertained only to the extent that they refer to their own countries, dependencies and other areas of particular geopolitical interest.
+A.3.7 If no suitable letter combinations are available, the ISO 34300/MA is entitled to assign code elements at its discretion.
+
+A.4 Reservation of code elements
+A.4.1 Transitional reservations
+When an ISO 34300-1 code element is changed, the previous code element for the country name concerned should be reserved for a period of at least fifty years after the change-over was published; the exact period is determined in each case on the basis of the extent to which the previous code element was used. Previous code elements are shown in the Remarks of the list part of ISO 34300-1 during a period to be specified by the ISO 34300/MA, the minimum being five years.
+Transitional reservations are listed in the OBP.
+A.4.2 Indeterminate reservations
+In the following cases, existing alphabetic code elements which differ from those included in ISO 34300-1 may be reserved for an indeterminate period of time and, during that period, should not be used to designate country names in ISO 34300-1:
+a) country designations notified under the Conventions on Road Traffic (1949 and 1968);
+b) code elements assigned by the World Intellectual Property Organization(WIPO) to some specified organizations issuing or registering industrial property titles;
+c) code elements assigned in ISO/IEC 7501-1, Identification cards — Machine readable travel documents — Part 1: Machine readable passport.
+Indeterminate reservations are listed in the OBP.
+A.4.3 Exceptional reservations
+Requests for additions to the list of exceptional reservations from ISO/TCs or other bodies will be submitted to the ISO 34300/MA by the ISO 34300/MAS for review and vote.
+Exceptional reservations are listed in the OBP.
+A.4.4 User-assigned code elements
+ISO 34300/MA and its ISO 34300/MAS do not keep a record of the notifications concerning user-assigned code elements received.
+
+
+Annex B
+Maintenance procedures specific to ISO 34300-2: Country subdivision code
+B.1 General
+B.1.1 Applicability of Terms of reference for the maintenance of ISO 34300-2
+Common rules for the maintenance of all parts of ISO 34300 are established in the Terms of reference for the maintenance of ISO 34300. This annex gives guidelines and describes procedures specific to the maintenance of ISO 34300-2.
+B.1.2 Relationship with ISO 34300-1
+Main entries of ISO 34300-2 are in one-to-one correspondence with ISO 34300-1 entries, and have the same name. All changes to short names of countries and alpha-2 code elements contained in ISO 34300-1 are reflected in ISO 34300-2.
+B.1.3 Sources of ISO 34300-2 content
+Contrary to ISO 34300-1, to which the United Nations Organization provides authoritative input information, there is no unique authoritative input source for the complete list of subdivision names in ISO 34300-2. Consequently the content of the list of country subdivision names and code elements in ISO 34300-2 will be derived with preference to a UN source, or if such a source is unavailable from any suitable and verifiable input source. The correctness of information fed into the updating process of ISO 34300-2 shall be verified by the group of experts for the maintenance of ISO 34300-2 established by the ISO 34300/MA.
+
+B.2 Group of experts for the maintenance of ISO 34300-2 (ISO 34300-2 Task Force)
+
+B.2.1 Tasks
+
+The ISO 34300/MA entrusts the group of experts with the following tasks:
+ compile information on changes in the structure and names of administrative subdivisions of countries;
+ actively contact the relevant authorities in the countries concerned;
+ establish permanent contacts with experts in the countries concerned;
+ verify the information gathered;
+ propose ISO 34300 subdivision code elements;
+ prepare an update to ISO 34300-2 to be published by ISO at regular intervals or at least once a year.
+
+B.2.2 Membership
+
+Members of the group of experts are generally nominated by ISO member bodies and are part of the group of members for information (see 2.2.2). The ISO 34300/MA may add new members to the group of experts at its own discretion. The Chair of the ISO 34300/MA shall be a member of the group of experts by default. The ISO 34300/MAS shall maintain the membership list.
+
+B.3 Working procedure
+B.3.1 Compilation of information
+
+Information on changes in the list of subdivision code elements and names in ISO 34300-2 shall be gathered by the members of the group of experts.
+
+To work more efficiently, the work may be divided amongst subgroups of experts, e.g.
+* America and Oceania;
+* Europe and North Africa;
+* Asia and South Africa.
+
+The composition of these subgroups is agreed by the ISO 34300/MA.
+
+Experts shall make proposed changes directly to the draft update made available by the ISO 34300/MAS who then consolidates the information into a draft update proposal for ISO 34300-2.
+
+B.3.2 Verification of information
+
+The ISO 34300/MAS shall circulate draft update proposals for ISO 34300-2 amongst the ISO 34300/MA members for verification and further comments through a consultation period of at least 10 days. A compilation of comments received in the verification phase shall be circulated to the members of the group of experts together with information on decisions taken by the ISO 34300/MAS. The ISO 34300/MAS shall base its decisions on the consensus principle, i.e. only changes to names and code elements of country subdivision on which a far-reaching consensus has been reached within the group of experts shall be included in draft update of ISO 34300-2.
+
+B.3.3 Formal approval
+
+The result of the verification phase shall be forwarded to the ISO 34300/MA in the form of a draft update of ISO 34300-2. The draft update of ISO 34300-2 shall be submitted to a vote amongst the voting members of the ISO 34300/MA in accordance with 5.3.
+
+B.3.4 Frequency of publication
+
+Due to the large amount of work involved in compiling and verifying the information on country subdivisions the ISO 34300-2 update should be published on a annual basis. This periodicity entails that the ISO 34300/MAS should circulate the draft ISO 34300-2 update for approval amongst the ISO 34300/MA voting members.
+
+
+Annex C
+Maintenance procedures particular to ISO 34300-3: Code for formerly used names of countries
+C.1 General
+C.1.1 Applicability of Terms of reference for the maintenance of ISO 34300-3
+Common rules for the maintenance of all parts of ISO 34300 are established in the Terms of reference for the maintenance of ISO 34300. This annex gives guidelines and describes procedures specific to the maintenance of ISO 34300-3.
+C.1.2 Relationship with ISO 34300-1
+Deletions of country names from ISO 34300-1 shall lead to the addition of such deleted names as new entries in the list of code elements for formerly used names of countries to ISO 34300-3. The ISO 34300/MAS shall ensure that the updating processes for ISO 34300-1 and ISO 34300-3 are synchronized.
+C.2 Working procedure
+C.2.1 Proposal for deletion of country name from ISO 34300-1
+When an ISO 34300/MA vote on a draft ISO 34300-1 update results in the deletion of a country code element or entry from ISO 34300-1, the ISO 34300/MAS shall simultaneously submit a corresponding draft ISO 34300-3 update to the ISO 34300/MA for vote.
+C.2.2 Agreement of deletion of a country name from ISO 34300-1
+When the ISO 34300/MA agrees to the proposed deletion of a country name or entry from ISO 34300-1, it shall simultaneously cast a vote on the corresponding draft ISO 34300-3 update.
+C.2.3 Publication of ISO 34300-3 update
+Whenever possible, the ISO 34300/MAS shall publish an ISO 34300-3 update on the date when the corresponding deletion of a country name from ISO 34300-1 takes effect.
+
+Bibliography
+[1] The United Nations Multilingual Terminology Database is available at http://unterm.un.org/ [accessed 2 December 2019].
+[2] The UNSD (M49) list is available at https://unstats.un.org/unsd/methodology/m49/ [accessed 2 December 2019].
+[3] ISO maintains a glossary of FAQs at: https://www.iso.org/glossary.html for definitions of working terms, e.g. P-member.
+   14
+

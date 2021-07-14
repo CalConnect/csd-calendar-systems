@@ -7,6 +7,7 @@ on:
     branches: [ master ]
   pull_request:
     paths-ignore:
+      - .github/workflows/test.yml
       - .github/workflows/macos.yml
       - .github/workflows/ubuntu.yml
       - .github/workflows/windows.yml
@@ -16,42 +17,28 @@ jobs:
     runs-on: ubuntu-latest
     container: docker://metanorma/mn
     steps:
-      - uses: actions/checkout@master
-      - name: Checkout submodules
-        shell: bash
-        run: |
-          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-          git submodule sync --recursive
-          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
-      - name: Setup fonts
-        run: |
-          # We need to do this to install mscorefonts
-          apt-add-repository -y contrib
-          apt-get update
-          echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
-          apt-get install -y ttf-mscorefonts-installer
-          curl -Ls https://raw.githubusercontent.com/metanorma/vista-fonts-installer/master/vista-fonts-installer.sh | bash
-      - uses: actions/setup-go@v2-beta
+      - name: Checkout code
+        uses: actions/checkout@v2
         with:
-          go-version: '^1.13.1'
-      - name: Install yq
+          token: ${{ secrets.METANORMA_CI_PAT_TOKEN || github.token }}
+          submodules: true
+
+      - name: Install gems from local Gemfile
         run: |
-          GO111MODULE=on go get github.com/mikefarah/yq/v3
-          ln -s $GOPATH/bin/yq /usr/local/bin/yq
-      - name: Instal gems from local Gemfile
-        run: |
-          curl -LO --retry 3 https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/gemfile-to-bundle-add.sh | bash
+          curl -L --retry 3 https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/gemfile-to-bundle-add.sh | bash
+          fontist update
+
       - name: Build document in the Metanorma container
         env:
           LC_ALL: C.UTF-8
           LANG: C.UTF-8
           LANGUAGE: C.UTF-8
-        run: |
-          make clean all publish
+        run: metanorma site generate .
+
       - uses: actions/upload-artifact@master
         with:
-          name: published
-          path: published
+          name: site
+          path: site
 
   deploy-gh-pages:
     if: github.ref == 'refs/heads/master'
@@ -61,12 +48,12 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/download-artifact@v1
       with:
-        name: published
+        name: site
     - name: Deploy to GH Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.GH_DEPLOY_KEY }}
-        publish_dir: ./published
+        publish_dir: ./site
         force_orphan: true
         user_name: ${{ github.actor }}
         user_email: ${{ format('{0}@users.noreply.github.com', github.actor) }}

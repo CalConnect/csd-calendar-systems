@@ -9,3 +9,5 @@
 * [[[ISO8601-1,ISO 8601-1]]], _Date and time -- Representations for information interchange -- Part 1: Basic rules_
 
 * [[[IAUGA23Julian,The XXIIIrd International Astronomical Union General Assembly]]], _The XXIIIrd International Astronomical Union General Assembly_, 1997. Available at: https://www.iers.org/IERS/EN/Science/Recommendations/resolutionB1.html
+
+* [[[ISO34000,ISO 34000]]]

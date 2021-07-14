@@ -1,0 +1,91 @@
+= CalConnect/ISO Codes for calendar systems
+:docnumber: 34399
+:tc-document-number: 9999
+:edition: 1
+:copyright-year: 2021
+:language: en
+:title-intro-en: Date and time
+:title-main-en: Registration list for codes for calendar systems
+:title-intro-fr: Date et l'heure
+:title-main-fr: Liste d'enregistrement des codes pour les systèmes de calendrier
+:doctype: international-standard
+:docstage: 20
+:docsubstage: 00
+:technical-committee-type: TC
+:technical-committee-number: 154
+:technical-committee: Processes, data elements and documents in commerce, industry and administration
+:workgroup-type: WG
+:workgroup-number: 5
+:workgroup: Date and time
+:secretariat: SAC
+:language: en
+:imagesdir: images
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections-iso/00-foreword.adoc[]
+
+== Scope
+
+This document provides the current registered calendar system codes and their
+relevant elements for the ISO 34000/RA.
+
+[bibliography]
+== Normative references
+
+* [[[ISO34300,ISO 34300]]]
+
+== Terms and definitions
+
+== Registered calendar systems
+
+[yaml2text,data/codes.yaml,calendars]
+----
+hello
+
+{% for calendar in calendars %}
+=== `{{ calendar.code }}:` {{ calendar.name }}
+
+.{{ calendar.name }}
+[%noheader,cols="a,2a"]
+|===
+h| Calendar system code | {{ calendar.code }}
+
+h| English name | {{ calendar.name }}
+
+h| Names in other languages
+|
+{% for other_name in calendar.names_other %}
+{{ other_name[0] }}:: {{ other_name[1] }}
+
+{% endfor %}
+
+h| Abbreviation | {{ calendar.abbrev }}
+
+h| Specification | {{ calendar.spec }}
+
+h| Usage populations | {{ calendar.usage_populations }}
+
+h| Application | {{ calendar.application }}
+
+h| Remarks | {{ calendar.remarks }}
+
+|===
+
+{% endfor %}
+----
+
+[bibliography]
+== Bibliography
+
+* [[[ISO34000,ISO 34000]]]
+
+[yaml2text,data/codes.yaml,calendars]
+----
+{% for calendar in calendars %}
+{{ calendar.ref }}
+
+{% endfor %}
+----

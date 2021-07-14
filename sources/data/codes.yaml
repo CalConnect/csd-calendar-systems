@@ -1,335 +1,438 @@
 ---
-aka:
-  name_en: Akan calendar
-ale:
-  name_en: Alexandrian
-  names_other: 'Arabic: تقويم قبطي ; Egyptian Arabic: شهور قبطيه'
+- code: akan
+  name: Akan calendar
+  spec: 'See: <<AKAN>>'
+  ref: |
+    * [[[AKAN,Forty Days; The Akan Calendar]]], BARTLE, Philip F.W.. _Forty
+    Days; The Akan Calendar_. Africa: Journal of the International African
+    Institute. Edinburgh University Press. 48 (1): 80–84.
+- code: alexandrian
+  name: Alexandrian calendar
+  name_others:
+    eng-Latn: Coptic calendar
+    ara-Arab: تقويم قبطي
+    arz-Arab: شهور قبطيه
+  spec: 'See: <<COPTIC>>'
+  ref: |
+    * [[[COPTIC,Der koptische Heiligenkalender]]], KOSACK, Wolfgang. _Der
+    koptische Heiligenkalender: Deutsch - Koptisch - Arabisch nach den besten
+    Quellen neu bearbeitet und vollständig herausgegeben mit Index Sanctorum
+    koptischer Heiliger, Index der Namen auf Koptisch, Koptische
+    Patriarchenliste, Geografische Liste._ Verlag Christoph Brunner. 2012.
   usage_populations: Egypt
   application: Religious publications of the Coptic Christian faith
-arm:
-  name_en: Armenian Calendar
-  names_other: 'Armenian: Հայկական եկեղեցական տոմար'
+- code: armenian
+  name: Armenian calendar
+  name_others:
+    hye-Armn: 'Հայկական եկեղեցական տոմար'
+  ref: |
+    * [[[ARMENIAN,GIPPERT]]], GIPPERT, Jost. _Old Armenian and Caucasian
+    Calendar Systems_. In: The Annual of The Society for The Study of Caucasia,
+    1, 1989, 3-12.
+  spec: 'See: <<ARMENIAN>>.'
   usage_populations: Armenia
-  remarks: 'Note: Used by Armenian diaspora communities for religious use'
-asr:
-  name_en: Assyrian calendar
-ast:
-  name_en: Astronomical year numbering
-  spec: Linear count of year with year 0 set to proleptic Gregorian year
-    1 BC, month and day according to Gregorian calendar
-azt:
-  name_en: Aztec Calendar
-  names_other: 'English: Mexica calendar'
-  usage_populations: 'Central America, predominantly Northern Mexico (TODO: more
-    specific.)'
-bah:
-  name_en: Bahá'í Calendar
-  names_other: 'English: Badíʿ Calendar'
+  remarks: 'Used by Armenian diaspora communities'
+- code: assyrian
+  name: Assyrian calendar
+  name_others:
+    syc-Syrc: ܣܘܼܪܓܵܕ݂ܵܐ ܐܵܬ݂ܘܿܪܵܝܵܐ‎
+  ref: |
+    * [[[ASSYRIAN,PAULISSIAN]]], PAULISSIAN, Robert. _Tasheeta d'zoyakha d'rish
+    sheta Khatta d'Atoraye w'Bawlaye (Part II)_. In: Journal of Assyrian
+    Academic Studies, 13 (2): 35. 1999.
+  spec: 'See: <<ASSYRIAN>>.'
+- code: ast
+  name: Astronomical year numbering
+  spec: |
+    Linear count of year with year 0 set to proleptic Gregorian year 1 BC, month
+    and day according to Gregorian calendar. See <<AST>>.
+  ref: |
+    * [[[AST,CASSINI]]], CASSINI, Jacques. _Tables Astronomiques_. 1740.
+- code: aztec
+  name: Aztec calendar
+  name_others:
+    eng-Latn: Mexica Calendar
+  ref: |
+    * [[[AZTEC,TENA]]], TENA, Rafael. _The Mexica Calendar and the
+    Chronography_. In: INAH-CONACULTA. 2008.
+  spec: 'See <<AZTEC>>'
+  usage_populations: Central America, predominantly Northern Mexico
+- code: badi
+  name: Badíʿ calendar
+  names_other:
+    eng-Latn: Bahá'í calendar
   application: Religious publications of the Bahai faith
-bal:
-  name_en: Balinese saka
-  names_other: 'Indonesian: Kalendar Bali'
+- code: bali
+  name: Balinese saka
+  names_other:
+    ind-Latn: Kalendar Bali'
   usage_populations: Bali, Indonesia
   application: Civil calendar
-  remarks: 'Note: In use in Bali'
-ben:
-  name_en: Bengali Calendar
-  names_other: 'Bengali: বঙ্গাব্দ'
-  usage_populations: 'Eastern India, Bengali-speaking regions (TODO: more specific.)'
-  remarks: 'Note: Used by the global Bengali community for religious use'
-ber:
-  name_en: Berber calendar
-bor:
-  name_en: Borana calendar
-bud:
-  name_en: Buddhist Calendar
-  names_other: 'Khmer: ពុទ្ធសករាជ; Sinhala: බුද්ධ වර්‍ෂ or සාසන වර්‍ෂ'
+  remarks: 'In use in Bali'
+- code: bengali
+  name: Bengali calendar
+  names_other:
+    ben-Beng: বঙ্গাব্দ
+  usage_populations: 'Eastern India, Bengali-speaking regions'
+  remarks: 'Used by the global Bengali community for religious use'
+- code: berber
+  name: Berber calendar
+  ref: |
+    * [[[BERBER,IDRIS]]], IDRIS, H. R., _Fêtes chrétiennes célébrées en Ifrîqiya
+    à l'époque ziride_. In: Revue Africaine, 98 (1954), pp. 261–276.
+  spec: 'See: <<BERBER>>.'
+- code: borana
+  name: Borana calendar
+  ref: |
+    * [[[BORANA,DOYLE]]], DOYLE, Laurance R. _The Borana Calendar
+    REINTERPRETED_. In: Current Anthropology. University of California, Santa
+    Cruz.
+  spec: 'See: <<BORANA>>.'
+- code: bud
+  name: Buddhist calendar
+  names_other:
+    eng-Latn: Calendar of the Lord Buddha
+    san-Deva: बौद्ध पंचांग
+    khm-Khmr: ពុទ្ធសករាជ
+    sin-Sinh: බුද්ධ වර්‍ෂ; සාසන වර්‍ෂ
   usage_populations: Cambodia, Laos, Myanmar, Thailand
-  application: Religious calendar
-  remarks: 'Note: often used alongside a civil calendar'
-bur:
-  name_en: Burmese calendar
-  names_other: 'English: Myanmar Calendar'
+  application: Religious
+- code: burmese
+  name: Burmese calendar
+  names_other:
+    mya-Mymr: မြန်မာသက္ကရာဇ်
+    eng-Latn: Myanmar calendar
   abbrev: BE, ME
   usage_populations: Myanmar
   application: Civil calendar
-ccj:
-  name_en: CCSDS Julian Day
+- code: ccj
+  name: CCSDS Julian Day
   abbrev: CCSDS JD
-  spec: Linear count by day according to the epoch of 0h Jan 1, 1958.
-chi:
-  name_en: Chinese calendar
-  names_other: 'Traditional Chinese: 農曆, 陰曆; Simplified Chinese: 农历,
-    阴历; English: Chinese Rural Calendar'
+  spec: Linear count by day according to the epoch of 0h Jan 1, 1958. See <<CCSDSTC>>.
+  ref: |
+    * [[[CCSDSTC,CCSDS 301.0-B-4]]], CCSDS RECOMMENDED STANDARD 301.0-B-4.
+      _Recommendation for Space Data System Standards: TIME CODE FORMATS_
+- code: chinese
+  name: Chinese calendar
+  names_other:
+    eng-Latn: Chinese Rural calendar
+    zho-Hant: 農曆; 陰曆
+    zho-Hans: 农历; 阴历
   usage_populations: China
-  application: Cultural usage
+  application: Cultural
   remarks: 'Type: lunisolar'
-cjd:
-  name_en: CNES Julian Day
+- code: cjd
+  name: CNES Julian Day
   abbrev: CNES JD
   spec: Linear count by day according to the epoch of 0h Jan 1, 1950.
-  remarks: 'Note: Introduced by the CCSDS.'
-cjs:
-  name_en: Chiljungsan
-  names_other: 'Korean: 칠정산'
+  remarks: 'Introduced by the CNES.'
+- code: chiljungsan
+  name: Chiljungsan
+  names_other:
+    kor-Hang: 칠정산
   usage_populations: Korea
-  application: Cultural usage
-cop:
-  name_en: Coptic-EoM
-  names_other: 'Amharic: የኢትዮጵያ ዘመን አቆጣጠር'
+  application: Cultural
+coptic-eom:
+  name: Coptic-EoM
+  names_other:
+    amh-Ethi: የኢትዮጵያ ዘመን አቆጣጠር
   usage_populations: Ethiopia
-  remarks: 'Note: Used in Ethiopian Catholic publications'
-cseb:
-  name_en: Celestial Stems and Earthly Branches
-  names_other: 'Traditional Chinese:  干支曆; Simplified Chinese: 干支历;
-    English: ganzhi'
-  application: Cultural usage
-dan:
-  name_en: Dangun giwon
-  names_other: 'Korean: 단군기원 , 단기;, Traditional Chinese: 檀君紀元, 檀紀'
+  remarks: 'Used in Ethiopian Catholic publications'
+- code: cseb
+  name: Celestial Stems and Earthly Branches
+  names_other:
+    eng-Latn: Ganzhi calendar
+    zho-Hant: 干支曆
+    zho-Hans: 干支历
+  application: Cultural
+- code: dangun
+  name: Dangun giwon
+  names_other:
+    kor-Hang: 단군기원; 단기
+    zho-Hant: 檀君紀元; 檀紀
   spec: Linear count of year with epoch from Gregorian year 2334BC
   usage_populations: Korea
-  application: Cultural usage
-djd:
-  name_en: Dublin Julian Day
+  application: Cultural
+- code: djd
+  name: Dublin Julian Day
   abbrev: Dublin JD
   spec: Linear count by day according to the epoch of noon Dec 31, 1899.
-  remarks: 'Note: Introduced by the CNES.'
-fas:
-  name_en: Fasli Calendar
-  names_other: 'Urdu: فصلی‎ ; Arabic: فصلى‎'
-fre:
-  name_en: French Republican Calendar
-  names_other: 'French: calendrier républicain français; English: French
-    Revolutionary Calendar'
-  usage_populations: 'France, French colonies, Haiti (TODO: more specific)'
-gae:
-  name_en: Gaelic calendar
-gregorian:
-  name_en: Gregorian Calendar
+  remarks: 'Introduced by the IAU in 1955.'
+- code: fasli
+  name: Fasli calendar
+  names_other:
+    urd-Arab: فصلی‎
+    ara-Arab: فصلى‎
+french-republican:
+  name: French Republican calendar
+  names_other:
+    fra-Latn: calendrier républicain français
+    eng-Latn: French Revolutionary calendar
+  usage_populations: 'France, Haiti'
+- code: gaelic
+  name: Gaelic calendar
+- code: gregorian
+  name: Gregorian calendar
   abbrev: AD (after), BC (before), CE (Common Era)
-  spec: ISO 8601-1
+  spec: 'See <<ISO34000>>.'
   usage_populations: Global
-heb:
-  name_en: Hebrew Calendar
-  names_other: 'Hebrew: הלוח העברי'
+- code: hebrew
+  name: Hebrew calendar
+  names_other:
+    heb-Hebr: הלוח העברי
   abbrev: AM
   usage_populations: Israel
-hin:
-  name_en: Hindu
-  names_other: 'Hindi: हिन्दू पंचांग; English: Panchanga; Hindi: पञ्चाङ्ग'
+- code: hindu
+  name: Hindu
+  names_other:
+    hin-Deva: हिन्दू पंचांग; पञ्चाङ्ग
+    eng-Latn: Panchanga
   usage_populations: India
-  application: Religious calendar
-  remarks: 'Note: Largely replaced by the Indian Civil Calendar in daily use'
-hiq:
-  name_en: Hijri-qamari
-  names_other: 'Arabic: التقويم الهجري‎‎'
+  application: Religious
+  remarks: 'Largely replaced by the Indian Civil calendar in daily use'
+hijri-qamari:
+  name: Hijri-qamari
+  names_other:
+    ara-Arab: التقويم الهجري‎‎
   abbrev: AH (after Hijri) and BH (before Hijri)
-  remarks: 'Note: Used in many Islamic countries'
-his:
-  name_en: Hijri-shamsi
-  names_other: 'Arabic: تقويم هجري شمسي; Persian: گاه‌شماری هجری خورشیدی;
-    Pashto: لمريز لېږدیز کلیز‎; English: Solar Hijri Calendar'
+  remarks: 'Used in many Islamic countries'
+hijri-shamsi:
+  name: Hijri-shamsi
+  names_other:
+    ara-Arab: تقويم هجري شمسي
+    per-Arab: گاه‌شماری هجری خورشیدی
+    pus-Arab: لمريز لېږدیز کلیز‎
+    eng-Latn: Solar Hijri calendar
   abbrev: AH, SH
   usage_populations: Iran, Afghanistan
-hua:
-  name_en: Huangdi calendar
-  names_other: 'Traditional Chinese: 黃帝紀元, 軒轅紀年; Simplified Chinese:
-    黄帝纪元, 轩辕纪年'
+- code: hua
+  name: Huangdi calendar
+  names_other:
+    zho-Hant: 黃帝紀元; 軒轅紀年
+    zho-Hans: 黄帝纪元, 轩辕纪年
   spec: Linear count of year with epoch from Gregorian year 2698BC
   application: Historic calendar, cultural usage
-igb:
-  name_en: IlahiIgbo calendar
-  names_other: 'Igbo: Ògụ́àfọ̀ Ị̀gbò'
-ila:
-  name_en: Ilahi
-  names_other: 'Bengali: বাংলা সাল'
+- code: igbo
+  name: Igbo calendar
+  names_other:
+    ibo-Latn: Ògụ́àfọ̀ Ị̀gbò
+- code: ilahi
+  name: Ilahi
+  names_other:
+    ben-Beng: বাংলা সাল
   usage_populations: Bangladesh
   application: Civil calendar
-  remarks: 'Note: compare with the Bengali Calendar which is not a civil one.'
-ind:
-  name_en: Indian Civil Calendar
-  names_other: 'Hindi: भारतीय राष्ट्रीय पंचांग, Tamil: இந்தியத் தேசிய
-    நாட்காட்டி'
+  remarks: 'compare with the Bengali calendar which is not a civil one.'
+- code: ind
+  name: Indian Civil calendar
+  names_other:
+    hin-Devi: भारतीय राष्ट्रीय पंचांग
+    tam-Taml: இந்தியத் தேசிய நாட்காட்டி
   abbrev: SE
   usage_populations: India
-irj:
-  name_en: Iranian-Jalali
-  names_other: 'Persian: گاه‌شماری جلالی تقویم'
+iranian-jalali:
+  name: Iranian-Jalali
+  names_other:
+    fas-Arab: گاه‌شماری جلالی تقویم
   usage_populations: Iran, Azerbaijan
-  remarks: 'Note: Iran now mostly uses the Hijri-shamsi calendar.'
-iry:
-  name_en: Iranian-Yazdigird
+  remarks: 'Iran now mostly uses the Hijri-shamsi calendar.'
+iranian-yazdigird:
+  name: Iranian-Yazdigird
   usage_populations: Iran, Azerbaijan
-  remarks: 'Note: Iran now mostly uses the Hijri-shamsi calendar.'
-jap:
-  name_en: Japanese Calendar
-  names_other: 'Japanese: 和暦'
+  remarks: 'Iran now mostly uses the Hijri-shamsi calendar.'
+- code: jap
+  name: Japanese calendar
+  names_other:
+    jap-Jpan: 和暦
   usage_populations: Japan
   application: Civil calendar
-  remarks: 'Note: Used in official documents in Japan'
-jav:
-  name_en: Javanese Calendar
-  names_other: 'Indonesian: Kalendar Jawa; Malay, Jawi script: ڤانڠڬالن
-    جاوا'
+  remarks: 'Used in official documents in Japan'
+- code: javanese
+  name: Javanese calendar
+  names_other:
+    ind-Latn: Kalendar Jawa
+    mal-Arab: ڤانڠڬالن جاوا'
   usage_populations: Java, Indonesia
-  application: Religious calendar
-  remarks: 'Note: Usually used alongside Hijri-qamari'
-jld:
-  name_en: Julian date
+  application: Religious
+  remarks: 'Usually used alongside Hijri-qamari'
+- code: jld
+  name: Julian date
   abbrev: JD
   spec: <<IAUGA23Julian,clause="Resolution B1">>
-juc:
-  name_en: Juche Calendar
-  names_other: 'Korean: 주체연호'
+- code: juche
+  name: Juche calendar
+  names_other:
+    kor-Hang: 주체연호
   usage_populations: North Korea
-jul:
-  name_en: Julian Calendar
+- code: julian
+  name: Julian calendar
   abbrev: AD (after), BC (before), OS (Old Style)
-  usage_populations: 'Orthodox Christian (TODO: more specific)'
-  application: Religious publications of the Orthodox Christian faith
-kok:
-  name_en: Japanese Imperial Year
-  names_other: 'Japanese: 神武天皇即位紀元,  皇紀; English: Kōki, Japanese Imperial
-    Year'
+  usage_populations: 'Orthodox Christian'
+  application: Religious
+- code: koki
+  name: Japanese Imperial Year
+  names_other:
+    jap-Jpan: 神武天皇即位紀元; 皇紀
+    eng-Latn: Japanese Imperial Year; Kōki'
   spec: Linear count of year with epoch from Gregorian year 660BC, month
     and day according to Gregorian calendar
-kur:
-  name_en: Kurdish Calendar
-  names_other: 'Kurdish: Salnameya kurdî; Kurdish: ڕۆژژمێری کوردی ;
-    Persian: گاه‌شماری کردی'
-  usage_populations: 'NW Iran, N/NW Iraq, W Syria, SE Turkey (TODO: more specific)'
-lid:
-  name_en: Lilian date
+- code: kurdish
+  name: Kurdish calendar
+  names_other:
+    kur-Arab: ڕۆژژمێری کوردی
+    fas-Arab: گاه‌شماری کردی'
+  usage_populations: 'Iran, Iraq, Syria, Turkey.'
+- code: lilian
+  name: Lilian date
   spec: Count of days of the Gregorian calendar. Linear count by day according
     to the epoch of Oct 15, 1582.
-lit:
-  name_en: Lithuanian calendar
-mac:
-  name_en: Ancient Macedonian calendar
-mal:
-  name_en: Malayalam calendar
-  names_other: 'English: Kollam Era'
-mar:
-  name_en: Mars Sol Date
+- code: lit
+  name: Lithuanian calendar
+- code: macedonian
+  name: Ancient Macedonian calendar
+- code: malayalam
+  name: Malayalam calendar
+  names_other:
+    eng-Latn: Kollam Era
+mars-sol:
+  name: Mars Sol Date
   spec: Linear count of Martian days according to the epoch of noon Dec
     29, 1873.
-may:
-  name_en: Maya Calendar
-  names_other: 'Spanish: calendario maya; English: pre-Columbian Meso-American
-    calendar'
-  usage_populations: 'Central America, predominantly Mexico, Guatemala, Belize (TODO:
-    more specific)'
-mel:
-  name_en: Melanau calendar
-  names_other: 'Malay: Bulan Melanau'
-min:
-  name_en: Minguo Calendar
-  names_other: 'Traditional Chinese: 民國紀元, 民國紀年; Simplified Chinese:
-    民国纪元, 民国纪年'
+- code: maya
+  name: Maya calendar
+  names_other:
+    spa-Latn: calendario maya
+    eng-Latn: pre-Columbian Meso-American calendar
+  usage_populations: 'Central America, predominantly Mexico, Guatemala, Belize.'
+- code: melanau
+  name: Melanau calendar
+  names_other:
+    mal-Latn: Bulan Melanau
+- code: minguo
+  name: Minguo calendar
+  names_other:
+    zho-Hant: 民國紀元; 民國紀年
+    zho-Hans: 民国纪元; 民国纪年
   spec: Linear count of year with epoch from Gregorian year 1912, month
     and day according to Gregorian calendar
   usage_populations: China
-mjd:
-  name_en: Modified Julian day
+- code: mjd
+  name: Modified Julian day
   abbrev: Modified JD, MJD
   spec: <<IAUGA23Julian,clause="Resolution B1">>
-  remarks: 'Note: Introduced by NASA in 1979.'
-mon:
-  name_en: Mongol Calendar
-  application: Cultural usage
+- code: mongol
+  name: Mongol calendar
+  application: Cultural
   remarks: 'Type: lunisolar'
-mui:
-  name_en: Muisca calendar
+- code: muisca
+  name: Muisca calendar
   remarks: 'Type: lunisolar'
-nan:
-  name_en: Nanakshahi
-  names_other: 'Punjabi: ਨਾਨਕਸ਼ਾਹੀ'
-nep:
-  name_en: Nepal Sambat
-  names_other: 'Nepalese: नेपाल सम्बत'
+- code: nan
+  name: Nanakshahi
+  names_other:
+    pan-Devi: ਨਾਨਕਸ਼ਾਹੀ
+- code: nepal
+  name: Nepal Sambat
+  names_other:
+    nep-Devi: नेपाल सम्बत
   remarks: 'Type: lunar'
-paw:
-  name_en: Pawukon calendar
-  names_other: 'Indonesian: Wuku; Malay, Jawi script: ووكو'
+- code: pawukon
+  name: Pawukon calendar
+  names_other:
+    ind-Latn: Wuku
+    mal-Arab: ووكو'
   usage_populations: Bali, Indonesia
-  application: Religious calendar
-  remarks: 'Note: In use in Bali'
-rad:
-  name_en: Rata Die
+  application: Religious
+  remarks: 'In use in Bali'
+- code: rad
+  name: Rata Die
   abbrev: R.D.
   spec: Count of days of the Common Era. Linear count by day according
     to the epoch of Jan 1, 1 proleptic Gregorian calendar.
-rjd:
-  name_en: Reduced Julian day
+- code: rjd
+  name: Reduced Julian day
   abbrev: Reduced JD
   spec: Linear count by day according to the epoch of noon Nov 16, 1858.
-  remarks: 'Note: Introduced by SAO in 1957.'
-rum:
-  name_en: Rumi calendar
-  remarks: 'Note: solar Ottoman calendar based on the Julian calendar'
-som:
-  name_en: Somali calendar
-  names_other: 'Somali: Soomaali tiro ammin'
+  remarks: 'Introduced by SAO in 1957.'
+- code: rumi
+  name: Rumi calendar
+  remarks: 'solar Ottoman calendar based on the Julian calendar'
+- code: somali
+  name: Somali calendar
+  names_other:
+    som-Latn: Soomaali tiro ammin
   usage_populations: Somalia
-spa:
-  name_en: Spanish
-  remarks: 'Note: Presumably a colonial or pre-colonial era calendar'
-tai:
-  name_en: Thai lunar calendar
-  names_other: 'Thai: ปฏิทินจันทรคติ ; English: Tai calendar'
+- code: spanish
+  name: Spanish
+  remarks: 'Presumably a colonial or pre-colonial era calendar'
+thai-lunar:
+  name: Thai lunar calendar
+  names_other:
+    tha-Thai: ปฏิทินจันทรคติ
+    eng-Latn: Tai calendar
   usage_populations: Thailand
-  application: Cultural usage
+  application: Cultural
   remarks: 'Type: lunar'
-tam:
-  name_en: Tamil calendar
-  names_other: 'Tamil: தமிழ் மாதங்கள்'
-tha:
-  name_en: Thai solar calendar
-  names_other: 'Thai: ปฏิทินสุริยคติ'
+- code: tamil
+  name: Tamil calendar
+  names_other:
+    tam-Taml: தமிழ் மாதங்கள்
+thai-solar:
+  name: Thai solar calendar
+  names_other:
+    tha-Thai: ปฏิทินสุริยคติ
   usage_populations: Thailand
-  application: Cultural usage
+  application: Cultural
   remarks: 'Type: solar'
 tibetan-phugpa:
-  name_en: Tibetan calendar (Phugpa calculations)
-  names_other: 'Tibetan: ཕུག་ལུགས་ལོ་ཐོ།'
-  application: Cultural usage
+  name: Tibetan calendar (Phugpa calculations)
+  names_other:
+    bod-Tibt: ཕུག་ལུགས་ལོ་ཐོ།
+  application: Cultural
   remarks: 'Type: lunisolar'
 tibetan-tsurphu:
-  name_en: Tibetan calendar (Tsurphu calculations)
-  application: Cultural usage
-  names_other: 'Tibetan: མཚུར་ཕུའི་ལོ་ཐོ།'
+  name: Tibetan calendar (Tsurphu calculations)
+  application: Cultural
+  names_other:
+    bod-Tibt: མཚུར་ཕུའི་ལོ་ཐོ།
   remarks: 'Type: lunisolar'
-tjd:
-  name_en: Truncated Julian day
+- code: tjd
+  name: Truncated Julian day
   abbrev: Truncated JD
   spec: Linear count by day according to the epoch of 0h May 24, 1968.
-  remarks: 'Note: Introduced by the IAU in 1955.'
-unx:
-  name_en: Unix time
+  remarks: 'Introduced by the IAU in 1955.'
+- code: unix
+  name: Unix time
   spec: Linear count of seconds according to the epoch of 0h Jan 1, 1970.
-  remarks: 'Note: Similar to POSIX time.'
-vai:
-  name_en: Vaisnava Calendar
-  names_other: 'English: Gaurabda calendar, Krishna consciousness calendar'
+  remarks: 'Similar to POSIX time.'
+- code: vaisnava
+  name: Vaisnava calendar
+  names_other:
+    eng-Latn: Gaurabda calendar; Krishna consciousness calendar
   usage_populations: Braj region of India
-  application: Religious calendar
-  remarks: 'Note: Sometimes used as civil calendar.'
-vik:
-  name_en: Vikram Sambat
-  names_other: 'Nepali: विक्रम सम्वत्; English: Vikrami calendar'
+  application: Religious
+  remarks: 'Sometimes used as civil calendar.'
+- code: vikrami
+  name: Vikram Sambat
+  names_other:
+    nep-Devi: विक्रम सम्वत्
+    eng-Latn: Vikrami calendar
   abbrev: VS
   usage_populations: Nepal
-vir:
-  name_en: Vira Nirvana Sambat
-  names_other: 'English: Jain calendar (religious and civil)'
+- code: vira
+  name: Vira Nirvana Sambat
+  names_other:
+    eng-Latn: Jain calendar
   usage_populations: India
-  remarks: 'Note: Used in Jain religious publications.'
-yor:
-  name_en: Yoruba calendar
-  names_other: 'Yoruba: KṒJṒDÁ; English: Kojoda'
-zor:
-  name_en: Zoroastrian Calendar
-  names_other: 'Persian: گاه‌شماری اوستایی نو'
+  remarks: 'Use for civil and religious purposes.'
+- code: yoruba
+  name: Yoruba calendar
+  names_other:
+    yor-Latn: KṒJṒDÁ
+    eng-Latn: Kojoda
+- code: zoroastrian
+  name: Zoroastrian calendar
+  names_other:
+    fas-Arab: گاه‌شماری اوستایی نو
   usage_populations: Iran, Azerbaijan
-  remarks: 'Note: Used in Zoroastrian religious publications.'
+  remarks: 'Used in Zoroastrian religious publications.'

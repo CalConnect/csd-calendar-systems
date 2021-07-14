@@ -1,0 +1,19 @@
+class LocalizedTag {
+
+  definition {
+    The LocalizedTag is a data structure used to tag a text
+    with the script, language and transcription codes.
+  }
+
+  +lang: iso639Code {
+    definition {
+      ISO 639-2 code for identification of language.
+    }
+  }
+
+  +script: iso15924Code {
+    definition {
+      ISO 15924 code for identification of script.
+    }
+  }
+}

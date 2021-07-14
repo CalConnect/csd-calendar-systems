@@ -1,5 +1,0 @@
-name: iso639Code
-modelType: class
-definition: |
-  The <<ISO639-2>> code list is used in this document to represent
-  languages.

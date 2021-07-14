@@ -1,0 +1,86 @@
+class CalendarSystem {
+
+  definition {
+    This represents a calendar system. Calendar systems are
+    used to identify and mark days within a year.
+  }
+
+  +code: CharacterString {
+    definition {
+      Unique identifying code of this calendar era.
+    }
+  }
+
+  +name: LocalizedString[0..*] {
+    definition {
+      Name of this calendar era.
+    }
+  }
+
+  +description: LocalizedString[0..*] {
+    definition {
+      Localized versions of the calendar system names tagged with
+      script codes (<<ISO15924>>) and language codes (<<ISO639-1>>).
+    }
+  }
+
+  +abbreviation: LocalizedString[0..*] {
+    definition {
+      Abbreviation of this calendar era. Multiple abbreviations are accepted.
+    }
+  }
+
+  +specification: URI[0..1] {
+    definition {
+      A URI that provides the full specification of this calendar system.
+    }
+  }
+
+  +toJulianDay: CharacterString[0..*] {
+    definition {
+      Mechanism to convert a calendar date in this calendar system to a calendar
+      date in the Julian Date system.
+    }
+  }
+
+  +fromJulianDay: CharacterString[0..*] {
+    definition {
+      Mechanism to convert a calendar date in the Julian Date system to a
+      calendar date in this calendar system.
+    }
+  }
+
+  +usagePopulation: LocalizedString[0..*] {
+    definition {
+      Populations that this calendar system is relevant to.
+    }
+  }
+  +usageApplications: LocalizedString[0..*] {
+    definition {
+      Applications that this calendar system is relevant to.
+    }
+  }
+
+  # relations:
+  # - target: CalendarEra
+  #   relationship:
+  #     source:
+  #       type: aggregation
+  #       attributes:
+  #         eras:
+  #           cardinality:
+  #             min: 0
+  #             max: *
+  #     target:
+  #       type: direct
+  #       attribute:
+  #         eras:
+  #           cardinality:
+  #             min: 1
+  #             max: *
+  #   action:
+  #     verb: comprises
+  #     direction: target
+
+}
+

@@ -1,8 +1,10 @@
 ---
 metanorma:
-  deploy:
-    email: "ci@metanorma.org"
-relaton:
+  source:
+    files:
+      - sources/iso-34300.adoc
+      - sources/cc-34300.adoc
+
   collection:
     name: Date and time -- Codes for calendar systems
     organization: CalConnect/ISO

@@ -1,0 +1,42 @@
+class CalendarDate {
+  definition {
+    This represents a date reference in a calendar system.
+  }
+
+  +era: CharacterString[0..1] {
+    definition {
+      Code of the calendar era
+    }
+  }
+
+  +year: Integer[0..1] {
+    definition {
+      Ordinal number of year in the calendar era
+    }
+  }
+
+  +month: Integer[0..1] {
+    definition {
+      Nominal number of month in the calendar year (note that in some calendars, nominal and ordinal month numbers can differ)
+    }
+  }
+
+  +monthLeapFlag: Boolean[0..1] {
+    definition {
+      Flag indicating if the month is a leap month (second month in a row with the same nominal number)
+    }
+  }
+
+  +day: Integer[0..1] {
+    definition {
+      Nominal number of day in the previous date reference construct (note that in some calendars, nominal and ordinal day numbers can differ)
+    }
+  }
+
+  +dayLeapFlag: Boolean[0..1] {
+    definition {
+      Flag indicating if the day is a leap day (second day in a row with the same nominal number)
+    }
+  }
+
+}
