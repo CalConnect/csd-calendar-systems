@@ -1,6 +1,6 @@
 = CalConnect/ISO Codes for calendar systems
 :docnumber: 34300
-:partnumber: 2
+:partnumber: B
 :tc-document-number: 9999
 :edition: 1
 :copyright-year: 2021
