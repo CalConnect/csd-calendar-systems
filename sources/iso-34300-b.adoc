@@ -1,4 +1,4 @@
-= CalConnect/ISO Codes for calendar systems
+= CalConnect/ISO Registration list of calendar system codes
 :docnumber: 34300
 :partnumber: B
 :tc-document-number: 9999
