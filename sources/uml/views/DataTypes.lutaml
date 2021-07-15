@@ -1,12 +1,10 @@
 diagram DataTypes {
-  title {
-    Data types used in this document
-  }
+  title "Data types used in this document"
 
-  import ../models/iso639Code.lutaml
-  import ../models/iso639Code.lutaml
-  import ../models/LocalizedTag.lutaml
-  import ../models/LocalizedString.lutaml
-  import ../models/JulianDate.lutaml
-  import ../models/CalendarDate.lutaml
+  include uml/models/iso639Code.lutaml
+  include uml/models/iso639Code.lutaml
+  include uml/models/LocalizedTag.lutaml
+  include uml/models/LocalizedString.lutaml
+  include uml/models/JulianDate.lutaml
+  include uml/models/CalendarDate.lutaml
 }

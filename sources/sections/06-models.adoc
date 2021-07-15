@@ -2,9 +2,9 @@
 == Data models
 
 [lutaml_diagram]
-----
-include ../uml/views/CalendarSystem.lutaml
-----
+....
+include::../uml/views/CalendarSystem.lutaml[]
+....
 
 [lutaml_datamodel_attributes_table,./uml/models/CalendarSystem.lutaml]
 

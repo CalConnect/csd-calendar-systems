@@ -61,26 +61,26 @@ class CalendarSystem {
     }
   }
 
-  # relations:
-  # - target: CalendarEra
-  #   relationship:
-  #     source:
-  #       type: aggregation
-  #       attributes:
-  #         eras:
-  #           cardinality:
-  #             min: 0
-  #             max: *
-  #     target:
-  #       type: direct
-  #       attribute:
-  #         eras:
-  #           cardinality:
-  #             min: 1
-  #             max: *
-  #   action:
-  #     verb: comprises
-  #     direction: target
+  ** relations:
+  ** - target: CalendarEra
+  **   relationship:
+  **     source:
+  **       type: aggregation
+  **       attributes:
+  **         eras:
+  **           cardinality:
+  **             min: 0
+  **             max: *
+  **     target:
+  **       type: direct
+  **       attribute:
+  **         eras:
+  **           cardinality:
+  **             min: 1
+  **             max: *
+  **   action:
+  **     verb: comprises
+  **     direction: target
 
 }
 

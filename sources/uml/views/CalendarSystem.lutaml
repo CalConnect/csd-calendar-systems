@@ -1,23 +1,21 @@
 diagram CalendarSystem {
-  title {
-    Calendar system and era models
-  }
+  title "Calendar system and era models"
 
-  import ../models/CalendarSystem.lutaml
-  import ../models/CalendarEra.lutaml
+  include uml/models/CalendarSystem.lutaml
+  include uml/models/CalendarEra.lutaml
 }
 
-# imports:
-#   CalendarSystem:
-#   CalendarEra:
-# groups:
-#   # - - AddressProfile
-#   # - - FormTemplate
-#   #   - DisplayTemplate
-# relations:
-#   - source: CalendarEra
-#     target: CalendarSystem
-#     direction: 'up'
-#   # - source: FormTemplate
-#   #   target: DisplayTemplate
-#   #   direction: '[hidden]right'
+// imports:
+//   CalendarSystem:
+//   CalendarEra:
+// groups:
+//   # - - AddressProfile
+//   # - - FormTemplate
+//   #   - DisplayTemplate
+// relations:
+//   - source: CalendarEra
+//     target: CalendarSystem
+//     direction: 'up'
+//   # - source: FormTemplate
+//   #   target: DisplayTemplate
+//   #   direction: '[hidden]right'

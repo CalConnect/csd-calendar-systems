@@ -21,9 +21,9 @@ The following data models are used by other data models specified in
 this document.
 
 [lutaml_diagram]
-----
-include ../uml/views/DataTypes.lutaml
-----
+....
+include::../uml/views/DataTypes.lutaml[]
+....
 
 [lutaml_datamodel_attributes_table,./uml/models/iso15924Code.lutaml]
 

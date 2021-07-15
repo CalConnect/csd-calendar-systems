@@ -1,16 +1,14 @@
 diagram TopDown {
-  title {
-    Calendar system model overview in UML
-  }
+  title "Calendar system model overview in UML"
 
-  import ../models/CalendarSystem.lutaml
-  import ../models/CalendarEra.lutaml
+  include uml/models/CalendarSystem.lutaml
+  include uml/models/CalendarEra.lutaml
 }
 
-# relations:
-#   - source: CalendarEra
-#     target: CalendarSystem
-#     direction: 'up'
-# fidelity:
-#   hideMembers: true
-#   hideOtherClasses: true
+//  relations:
+//    - source: CalendarEra
+//      target: CalendarSystem
+//      direction: 'up'
+//  fidelity:
+//    hideMembers: true
+//    hideOtherClasses: true

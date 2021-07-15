@@ -6,6 +6,6 @@ The data models are arranged as shown in the following
 structure.
 
 [lutaml_diagram]
-----
-include ../uml/views/TopDown.lutaml
-----
+....
+include::../uml/views/TopDown.lutaml[]
+....
