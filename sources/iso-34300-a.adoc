@@ -70,8 +70,8 @@ register containing {{ISO 34300 registration item,ISO 34300 registration items}}
 === ISO 34300 advisory group
 alt:[ISO 34300/AG]
 
-group that provides advice to the {{ISO 34300/RA}} on the contents of the
-{{ISO 34300 register}}
+group that provides advice to the {{ISO 34300 registration authority}} on the
+contents of the {{ISO 34300 register}}
 
 === ISO 34300 registration item
 
@@ -111,8 +111,8 @@ registration items within the ISO 34300 register.
 It is responsible for informing the applicant of the
 result of ISO 34300/RA actions.
 
-It shall propose a practical mechanism to apply the proposed change assignment of a code when the relevant criteria are met
-according to the rules given in A.3.3 and A.3.4, and
+It shall propose a practical mechanism to apply the proposed change assignment
+when the relevant criteria are met according to ISO 34300.
 
 After approval by the members of the ISO 34300/AG, the ISO 34300/RA will update
 and publish the appropriate registrations, with all agreed corrections, if any.
