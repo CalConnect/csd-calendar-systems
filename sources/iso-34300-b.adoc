@@ -46,8 +46,6 @@ relevant elements for the ISO 34000/RA.
 
 [yaml2text,data/codes.yaml,calendars]
 ----
-hello
-
 {% for calendar in calendars %}
 === `{{ calendar.code }}:` {{ calendar.name }}
 
