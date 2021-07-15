@@ -316,10 +316,10 @@ required.
 // member, e.g. downgraded to an Associate Member.
 
 
-==== Officers of the ISO 34300/AG
+==== Officers
 
-ISO/TC 154 shall nominate a convenor and vice-convenor to be the officers of the
-ISO 34300/AG.
+Officers of the ISO 34300/AG include its convenor and vice-convenor. Both roles
+are nominated by ISO/TC 154.
 
 These two officers shall be representatives of the two different membership
 groups:
