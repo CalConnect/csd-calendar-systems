@@ -6,7 +6,7 @@
 :language: en
 :title-intro-en: Date and time
 :title-main-en: Codes for calendar systems
-:title-intro-fr: Date et l'heure
+:title-intro-fr: Date et heure
 :title-main-fr: Codes pour les systèmes de calendrier
 :doctype: international-standard
 :docstage: 20
@@ -35,7 +35,7 @@ include::sections/05-common.adoc[]
 include::sections/06-models.adoc[]
 include::sections/07-codes.adoc[]
 
-include::sections/a1-maintenance.adoc[]
+//include::sections/a1-maintenance.adoc[]
 //include::sections/a2-calendar-codes.adoc[]
 
 include::sections/zz-references.adoc[]

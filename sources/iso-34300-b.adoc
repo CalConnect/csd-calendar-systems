@@ -1,13 +1,16 @@
-= CalConnect/ISO Codes for calendar systems
-:docnumber: 34399
+= CalConnect/ISO Registration list of calendar system codes
+:docnumber: 34300
+:partnumber: B
 :tc-document-number: 9999
 :edition: 1
 :copyright-year: 2021
 :language: en
 :title-intro-en: Date and time
-:title-main-en: Registration list for codes for calendar systems
-:title-intro-fr: Date et l'heure
-:title-main-fr: Liste d'enregistrement des codes pour les systèmes de calendrier
+:title-main-en: Codes for calendar systems
+:title-part-en: Registration list
+:title-intro-fr: Date et heure
+:title-main-fr: Codes pour les systèmes de calendrier
+:title-part-en: Liste d'enregistrement
 :doctype: international-standard
 :docstage: 20
 :docsubstage: 00

@@ -113,11 +113,10 @@
     * [[[CCSDSTC,CCSDS 301.0-B-4]]], CCSDS RECOMMENDED STANDARD 301.0-B-4.
       _Recommendation for Space Data System Standards: TIME CODE FORMATS_
 - code: chinese
-  name: Chinese calendar
+  name: Chinese traditional calendar
   names_other:
-    eng-Latn: Chinese Rural calendar
-    zho-Hant: 農曆; 陰曆
-    zho-Hans: 农历; 阴历
+    zho-Hant: 農曆; 夏曆
+    zho-Hans: 农历; 夏历
   usage_populations: China
   application: Cultural
   remarks: 'Type: lunisolar'
@@ -132,18 +131,19 @@
     kor-Hang: 칠정산
   usage_populations: Korea
   application: Cultural
-coptic-eom:
+- code: coptic-eom
   name: Coptic-EoM
   names_other:
     amh-Ethi: የኢትዮጵያ ዘመን አቆጣጠር
   usage_populations: Ethiopia
   remarks: 'Used in Ethiopian Catholic publications'
-- code: cseb
-  name: Celestial Stems and Earthly Branches
+- code: cstb
+  name: Celestial Stems and Terrestrial Branches
+  abbrev: CSTB
   names_other:
-    eng-Latn: Ganzhi calendar
-    zho-Hant: 干支曆
-    zho-Hans: 干支历
+    eng-Latn: Ganzhi year numbering
+    zho-Hant: 干支紀年
+    zho-Hans: 干支纪年
   application: Cultural
 - code: dangun
   name: Dangun giwon
@@ -163,7 +163,7 @@ coptic-eom:
   names_other:
     urd-Arab: فصلی‎
     ara-Arab: فصلى‎
-french-republican:
+- code: french-republican
   name: French Republican calendar
   names_other:
     fra-Latn: calendrier républicain français
@@ -190,13 +190,13 @@ french-republican:
   usage_populations: India
   application: Religious
   remarks: 'Largely replaced by the Indian Civil calendar in daily use'
-hijri-qamari:
+- code: hijri-qamari
   name: Hijri-qamari
   names_other:
     ara-Arab: التقويم الهجري‎‎
   abbrev: AH (after Hijri) and BH (before Hijri)
   remarks: 'Used in many Islamic countries'
-hijri-shamsi:
+- code: hijri-shamsi
   name: Hijri-shamsi
   names_other:
     ara-Arab: تقويم هجري شمسي
@@ -230,13 +230,13 @@ hijri-shamsi:
     tam-Taml: இந்தியத் தேசிய நாட்காட்டி
   abbrev: SE
   usage_populations: India
-iranian-jalali:
+- code: iranian-jalali
   name: Iranian-Jalali
   names_other:
     fas-Arab: گاه‌شماری جلالی تقویم
   usage_populations: Iran, Azerbaijan
   remarks: 'Iran now mostly uses the Hijri-shamsi calendar.'
-iranian-yazdigird:
+- code: iranian-yazdigird
   name: Iranian-Yazdigird
   usage_populations: Iran, Azerbaijan
   remarks: 'Iran now mostly uses the Hijri-shamsi calendar.'
@@ -267,8 +267,7 @@ iranian-yazdigird:
 - code: julian
   name: Julian calendar
   abbrev: AD (after), BC (before), OS (Old Style)
-  usage_populations: 'Orthodox Christian'
-  application: Religious
+  application: Historic civil time.
 - code: koki
   name: Japanese Imperial Year
   names_other:
@@ -294,7 +293,7 @@ iranian-yazdigird:
   name: Malayalam calendar
   names_other:
     eng-Latn: Kollam Era
-mars-sol:
+- code: mars-sol
   name: Mars Sol Date
   spec: Linear count of Martian days according to the epoch of noon Dec
     29, 1873.
@@ -309,12 +308,13 @@ mars-sol:
   names_other:
     mal-Latn: Bulan Melanau
 - code: minguo
-  name: Minguo calendar
+  name: Minguo year numbering
   names_other:
     zho-Hant: 民國紀元; 民國紀年
     zho-Hans: 民国纪元; 民国纪年
   spec: Linear count of year with epoch from Gregorian year 1912, month
     and day according to Gregorian calendar
+  remarks: From January 1, 1912 to September 30, 1949.
   usage_populations: China
 - code: mjd
   name: Modified Julian day
@@ -365,7 +365,7 @@ mars-sol:
 - code: spanish
   name: Spanish
   remarks: 'Presumably a colonial or pre-colonial era calendar'
-thai-lunar:
+- code: thai-lunar
   name: Thai lunar calendar
   names_other:
     tha-Thai: ปฏิทินจันทรคติ
@@ -377,20 +377,20 @@ thai-lunar:
   name: Tamil calendar
   names_other:
     tam-Taml: தமிழ் மாதங்கள்
-thai-solar:
+- code: thai-solar
   name: Thai solar calendar
   names_other:
     tha-Thai: ปฏิทินสุริยคติ
   usage_populations: Thailand
   application: Cultural
   remarks: 'Type: solar'
-tibetan-phugpa:
+- code: tibetan-phugpa
   name: Tibetan calendar (Phugpa calculations)
   names_other:
     bod-Tibt: ཕུག་ལུགས་ལོ་ཐོ།
   application: Cultural
   remarks: 'Type: lunisolar'
-tibetan-tsurphu:
+- code: tibetan-tsurphu
   name: Tibetan calendar (Tsurphu calculations)
   application: Cultural
   names_other:
