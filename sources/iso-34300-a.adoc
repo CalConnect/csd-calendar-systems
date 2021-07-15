@@ -499,6 +499,7 @@ received.
 
 The corresponding code element is reserved.
 
+[[registration-modify-cal]]
 ==== Modification of associated data elements to registered calendar systems and calendar era codes
 
 The ISO 34300/AG will decide upon the proposed modification based on information
