@@ -1,8 +1,8 @@
 diagram CalendarSystem {
   title "Calendar system and era models"
 
-  include uml/models/CalendarSystem.lutaml
-  include uml/models/CalendarEra.lutaml
+  include ../models/CalendarSystem.lutaml
+  include ../models/CalendarEra.lutaml
 }
 
 // imports:

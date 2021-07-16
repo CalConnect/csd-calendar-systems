@@ -1,8 +1,8 @@
 diagram TopDown {
   title "Calendar system model overview in UML"
 
-  include uml/models/CalendarSystem.lutaml
-  include uml/models/CalendarEra.lutaml
+  include ../models/CalendarSystem.lutaml
+  include ../models/CalendarEra.lutaml
 }
 
 //  relations:

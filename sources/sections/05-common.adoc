@@ -6,9 +6,6 @@
 
 These are the core data types used within this document.
 
-// defined in <<ISO19103,clause="7.2">>,
-// including:
-
 * `CharacterString`
 * `DateTime`, `Date`, `Time`
 * `Number`, `Integer`, `Decimal`, `Real`
@@ -22,17 +19,17 @@ this document.
 
 [lutaml_diagram]
 ....
-include::../uml/views/DataTypes.lutaml[]
+include::../views/DataTypes.lutaml[]
 ....
 
-[lutaml_datamodel_attributes_table,./uml/models/iso15924Code.lutaml]
+[lutaml_datamodel_attributes_table,../models/iso15924Code.lutaml]
 
-[lutaml_datamodel_attributes_table,./uml/models/iso639Code.lutaml]
+[lutaml_datamodel_attributes_table,../models/iso639Code.lutaml]
 
-[lutaml_datamodel_attributes_table,./uml/models/LocalizedTag.lutaml]
+[lutaml_datamodel_attributes_table,../models/LocalizedTag.lutaml]
 
-[lutaml_datamodel_attributes_table,./uml/models/LocalizedString.lutaml]
+[lutaml_datamodel_attributes_table,../models/LocalizedString.lutaml]
 
-[lutaml_datamodel_attributes_table,./uml/models/JulianDate.lutaml]
+[lutaml_datamodel_attributes_table,../models/JulianDate.lutaml]
 
-[lutaml_datamodel_attributes_table,./uml/models/CalendarDate.lutaml]
+[lutaml_datamodel_attributes_table,../models/CalendarDate.lutaml]

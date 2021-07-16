@@ -7,5 +7,5 @@ structure.
 
 [lutaml_diagram]
 ....
-include::../uml/views/TopDown.lutaml[]
+include::../views/TopDown.lutaml[]
 ....

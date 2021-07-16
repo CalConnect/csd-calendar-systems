@@ -3,9 +3,9 @@
 
 [lutaml_diagram]
 ....
-include::../uml/views/CalendarSystem.lutaml[]
+include::../views/CalendarSystem.lutaml[]
 ....
 
-[lutaml_datamodel_attributes_table,./uml/models/CalendarSystem.lutaml]
+[lutaml_datamodel_attributes_table,./models/CalendarSystem.lutaml]
 
-[lutaml_datamodel_attributes_table,./uml/models/CalendarEra.lutaml]
+[lutaml_datamodel_attributes_table,./models/CalendarEra.lutaml]

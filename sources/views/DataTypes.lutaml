@@ -1,0 +1,10 @@
+diagram DataTypes {
+  title "Data types used in this document"
+
+  include ../models/iso639Code.lutaml
+  include ../models/iso639Code.lutaml
+  include ../models/LocalizedTag.lutaml
+  include ../models/LocalizedString.lutaml
+  include ../models/JulianDate.lutaml
+  include ../models/CalendarDate.lutaml
+}
