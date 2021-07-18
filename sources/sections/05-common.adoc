@@ -22,14 +22,14 @@ this document.
 include::../views/DataTypes.lutaml[]
 ....
 
-[lutaml_datamodel_attributes_table,../models/iso15924Code.lutaml]
+[lutaml_uml_attributes_table,./views/Models.lutaml, iso15924Code]
 
-[lutaml_datamodel_attributes_table,../models/iso639Code.lutaml]
+[lutaml_uml_attributes_table,./views/Models.lutaml, iso639Code]
 
-[lutaml_datamodel_attributes_table,../models/LocalizedTag.lutaml]
+[lutaml_uml_attributes_table,./views/Models.lutaml, LocalizedTag]
 
-[lutaml_datamodel_attributes_table,../models/LocalizedString.lutaml]
+[lutaml_uml_attributes_table,./views/Models.lutaml, LocalizedString]
 
-[lutaml_datamodel_attributes_table,../models/JulianDate.lutaml]
+[lutaml_uml_attributes_table,./views/Models.lutaml, JulianDate]
 
-[lutaml_datamodel_attributes_table,../models/CalendarDate.lutaml]
+[lutaml_uml_attributes_table,./views/Models.lutaml, CalendarDate]

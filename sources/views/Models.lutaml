@@ -1,0 +1,12 @@
+diagram DataTypes {
+  title "Models used in this document"
+
+  include ../models/CalendarDate.lutaml
+  include ../models/iso15924Code.lutaml
+  include ../models/iso639Code.lutaml
+  include ../models/JulianDate.lutaml
+  include ../models/LocalizedString.lutaml
+  include ../models/LocalizedTag.lutaml
+  include ../models/CalendarSystem.lutaml
+  include ../models/CalendarEra.lutaml
+}

@@ -6,6 +6,6 @@
 include::../views/CalendarSystem.lutaml[]
 ....
 
-[lutaml_datamodel_attributes_table,./models/CalendarSystem.lutaml]
+[lutaml_uml_attributes_table,./views/Models.lutaml, CalendarSystem]
 
-[lutaml_datamodel_attributes_table,./models/CalendarEra.lutaml]
+[lutaml_uml_attributes_table,./views/Models.lutaml, CalendarEra]
