@@ -46,7 +46,7 @@ jobs:
     needs: test-docker
     steps:
     - uses: actions/checkout@master
-    - uses: actions/download-artifact@v1
+    - uses: actions/download-artifact@v4.1.7
       with:
         name: site
     - name: Deploy to GH Pages
