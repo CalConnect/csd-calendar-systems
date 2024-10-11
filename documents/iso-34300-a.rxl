@@ -1,18 +1,22 @@
 <bibdata type="standard">
-<title language="en" format="text/plain" type="main">Date and time — Codes for calendar systems</title>
+<title language="en" format="text/plain" type="main">Date and time — Codes for calendar systems — Guidelines for maintenance</title>
 
 <title language="en" format="text/plain" type="title-intro">Date and time</title>
 
 <title language="en" format="text/plain" type="title-main">Codes for calendar systems</title>
 
+<title language="en" format="text/plain" type="title-part">Guidelines for maintenance</title>
 
 
-<title language="fr" format="text/plain" type="main">Date et heure — Codes pour les systèmes de calendrier</title>
+
+<title language="fr" format="text/plain" type="main">Date et heure — Codes pour les systèmes de calendrier — Lignes directrices pour la maintenance</title>
 
 <title language="fr" format="text/plain" type="title-intro">Date et heure</title>
 
 <title language="fr" format="text/plain" type="title-main">Codes pour les systèmes de calendrier</title>
-<docidentifier type="ISO" primary="true">ISO/AWI 34300</docidentifier><docidentifier type="iso-reference">ISO/AWI 34300:2020(E)</docidentifier><docidentifier type="URN">urn:iso:std:iso:34300:stage-20.00:en</docidentifier><docidentifier type="iso-undated">ISO/AWI 34300</docidentifier><docidentifier type="iso-with-lang">ISO/AWI 34300(en)</docidentifier><docnumber>34300</docnumber><contributor><role type="author"/><organization>
+
+<title language="fr" format="text/plain" type="title-part">Lignes directrices pour la maintenance</title>
+<docidentifier type="ISO" primary="true">ISO/AWI 34300-A</docidentifier><docidentifier type="iso-reference">ISO/AWI 34300-A:2021(E)</docidentifier><docidentifier type="URN">urn:iso:std:iso:34300:-A:stage-20.00:en</docidentifier><docidentifier type="iso-undated">ISO/AWI 34300-A</docidentifier><docidentifier type="iso-with-lang">ISO/AWI 34300-A(en)</docidentifier><docnumber>34300</docnumber><contributor><role type="author"/><organization>
 <name>International Organization for Standardization</name>
 <abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>Technical committee</description></role><organization>
 <name>International Organization for Standardization</name>
@@ -34,6 +38,6 @@
 <name>International Organization for Standardization</name>
 <subdivision><organization>
 <name>Date and time</name>
-<identifier>WG 5</identifier></organization></subdivision></organization></contributor><edition>1</edition><language>en</language><script>Latn</script><status><stage abbreviation="AWI">20</stage><substage>00</substage></status><copyright><from>2020</from><owner><organization>
+<identifier>WG 5</identifier></organization></subdivision></organization></contributor><edition>1</edition><language>en</language><script>Latn</script><status><stage abbreviation="AWI">20</stage><substage>00</substage></status><copyright><from>2021</from><owner><organization>
 <name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>international-standard</doctype><editorialgroup><agency>ISO</agency><technical-committee number="154" type="TC">Processes, data elements and documents in commerce, industry and administration</technical-committee><workgroup number="5" type="WG">Date and time</workgroup><secretariat>SAC</secretariat></editorialgroup><approvalgroup><agency>ISO</agency><technical-committee number="154" type="TC">Processes, data elements and documents in commerce, industry and administration</technical-committee><workgroup number="5" type="WG">Date and time</workgroup></approvalgroup><structuredidentifier><project-number>ISO 34300</project-number></structuredidentifier><stagename abbreviation="AWI">International Standard</stagename></ext></bibdata>
+<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>international-standard</doctype><editorialgroup><agency>ISO</agency><technical-committee number="154" type="TC">Processes, data elements and documents in commerce, industry and administration</technical-committee><workgroup number="5" type="WG">Date and time</workgroup><secretariat>SAC</secretariat></editorialgroup><approvalgroup><agency>ISO</agency><technical-committee number="154" type="TC">Processes, data elements and documents in commerce, industry and administration</technical-committee><workgroup number="5" type="WG">Date and time</workgroup></approvalgroup><structuredidentifier><project-number part="A">ISO 34300</project-number></structuredidentifier><stagename abbreviation="AWI">International Standard</stagename></ext></bibdata>

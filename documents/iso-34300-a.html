@@ -1,0 +1,2096 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>
+  <!--
+@charset "UTF-8";
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline; }
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Cambria",serif; }
+
+code, pre, tt, kbd, samp {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none; }
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Courier New",monospace !important;
+  font-variant-ligatures: none; }
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 0.8em; }
+
+sub, sup {
+  font-size: 0.75em; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cambria",serif; }
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Cambria",serif; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote::before, blockquote::after, q::before, q::after {
+    content: '';
+    content: none; }
+
+.h2Annex {
+  font-family: "Cambria",serif; }
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto; }
+  dl dt p, dl dd p {
+    margin-top: 0; }
+  dl dt {
+    grid-column-start: 1; }
+  dl dd {
+    grid-column-start: 2; }
+
+b, strong {
+  font-weight: bold; }
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333; }
+
+a.FootnoteRef + a.FootnoteRef::before {
+  content: ", ";
+  vertical-align: super; }
+
+a.TableFootnoteRef + a.TableFootnoteRef::before {
+  content: ", ";
+  vertical-align: super; }
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super; }
+
+.addition {
+  color: blue; }
+
+.deletion {
+  color: red;
+  text-decoration: line-through; }
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before; }
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after; }
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em; }
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all; }
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%; }
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%; }
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none; }
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none; }
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none; }
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400; }
+
+a.anchor::before {
+  content: "\00A7";
+  font-size: .85em;
+  display: block;
+  padding-top: .1em; }
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none; }
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible; }
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out; }
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 3px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+
+.active, .collapsible:hover {
+  background-color: #555; }
+
+.collapsible:after {
+  content: '\25bc';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px; }
+
+.active:after {
+  content: "\25b2"; }
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0; }
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0; }
+
+#standard-band {
+  background-color: #0AC442; }
+
+#standard {
+  border-bottom: solid 3px #0AC442; }
+
+#directive-band {
+  background-color: #540D6E; }
+
+#directive {
+  border-bottom: solid 3px #540D6E; }
+
+#guide-band {
+  background-color: #D183C9; }
+
+#guide {
+  border-bottom: solid 3px #D183C9; }
+
+#specification-band {
+  background-color: #65AFFF; }
+
+#specification {
+  border-bottom: solid 3px #65AFFF; }
+
+#report-band {
+  background-color: #3A405A; }
+
+#report {
+  border-bottom: solid 3px #3A405A; }
+
+#amendment-band {
+  background-color: #F26430; }
+
+#amendment {
+  border-bottom: solid 3px #F26430; }
+
+#corrigendum-band {
+  background-color: #C84630; }
+
+#corrigendum {
+  border-bottom: solid 3px #C84630; }
+
+#administrative-band {
+  background-color: #BFAE48; }
+
+#administrative {
+  border-bottom: solid 3px #BFAE48; }
+
+#advisory-band {
+  background-color: #BD9391; }
+
+#advisory {
+  border-bottom: solid 3px #BD9391; }
+
+#proposal-band {
+  background-color: #39A0ED; }
+
+#proposal {
+  border-bottom: solid 3px #39A0ED; }
+
+#working-draft-band {
+  background-color: #2D7393; }
+
+#working-draft {
+  border-bottom: solid 3px #2D7393; }
+
+#committee-draft-band {
+  background-color: #2A6B7C; }
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C; }
+
+#draft-standard-band {
+  background-color: #1C7F7A; }
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A; }
+
+#final-draft-band {
+  background-color: #53C170; }
+
+#final-draft {
+  border-bottom: solid 3px #53C170; }
+
+#published-band {
+  background-color: #069E2D; }
+
+#published {
+  border-bottom: solid 3px #069E2D; }
+
+#withdrawn-band {
+  background-color: #004E64; }
+
+#withdrawn {
+  border-bottom: solid 3px #004E64; }
+
+#cancelled-band {
+  background-color: #2E382E; }
+
+#cancelled {
+  border-bottom: solid 3px #2E382E; }
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: -internal-root-color;
+  background-color: #ffffff; }
+  body main {
+    margin: 0 3em 0 6em; }
+  body main {
+    margin: 0; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.3; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none; }
+
+/* New CSS */
+body {
+  margin-left: 298px;
+  margin-right: 2em; }
+
+main {
+  padding-left: 4em;
+  padding-right: 2em; }
+
+.title-section, .prefatory-section {
+  padding-left: 4em;
+  padding-top: 2em; }
+
+.coverpage_docnumber, .coverpage_techcommittee {
+  text-align: right;
+  font-size: 0.9em;
+  line-height: 0.5em; }
+
+.doctitle-en, .doctitle-fr {
+  margin-top: 2em;
+  text-align: left; }
+
+.doctitle-en {
+  padding-left: 3em;
+  margin-left: -3em;
+  /*padding-top: 2em;*/
+  padding-bottom: 2em; }
+
+.doctitle-en span {
+  font-size: 2em;
+  line-height: 1.5em; }
+
+.doctitle-fr span {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-style: italic; }
+
+.doctitle-part {
+  margin-top: 1em; }
+
+span.title, span.subtitle, span.part {
+  font-weight: 800; }
+
+span.partlabel {
+  display: block; }
+
+.coverpage_docstage {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.coverpage_warning {
+  font-size: 0.9em;
+  font-style: italic;
+  padding-bottom: 1em; }
+
+.boilerplate-copyright p {
+  margin-top: 1em;
+  display: block;
+  font-size: 0.9em; }
+
+/* TYPOGRAPHY */
+h1, .h1 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+h2, .h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin-bottom: 1em; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.2; }
+
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+p.zzSTDTitle1 {
+  font-weight: 700;
+  font-size: 1.5em; }
+
+p.zzSTDTitle2 {
+  font-size: 1.5em; }
+
+span.obligation {
+  font-weight: 400; }
+
+a {
+  color: black;
+  text-decoration-color: black; }
+
+h2 p, .h2 p {
+  display: inline; }
+
+ul > li {
+  list-style: none; }
+
+ul > li > p:first-child::before {
+  content: "\2014";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  margin-right: 0.5em; }
+
+li p {
+  margin-bottom: 0.6em;
+  line-height: 1.2; }
+
+p.AltTerms {
+  margin-bottom: 0; }
+
+p.Terms {
+  margin-top: 0em; }
+
+/* Navigation*/
+#toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: "Cambria",serif;
+  font-weight: 400; }
+  #toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+      padding: 5px 10px; }
+    #toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+      text-decoration: none;
+      display: block; }
+      #toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+        box-shadow: none;
+        color: black; }
+  #toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+    padding-left: 30px; }
+  #toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+    padding-left: 50px; }
+  #toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+    padding-left: 70px; }
+  #toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+    padding-left: 90px; }
+  #toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+    padding-left: 110px; }
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: #f7f7f7;
+    box-shadow: inset -5px 0px 10px -5px #f7f7f7 !important; }
+    #toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+      color: black; }
+  @media print {
+    #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+      background: white;
+      box-shadow: none !important; }
+    #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+      color: black; } }
+  @media screen and (max-width: 768px) {
+    #toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+      padding: 0 1.5em;
+      overflow: visible; } }
+  #toc .toc-active,
+  #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+  #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    box-shadow: 0px 1px 0px 0px black !important;
+    background: none; }
+  #toc li::before, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li::before {
+    content: " ";
+    display: none; }
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%; }
+
+nav {
+  line-height: 1.2em; }
+  @media screen and (min-width: 768px) {
+    nav {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 278px;
+      font-size: 0.9em;
+      overflow: auto;
+      padding: 0 0 0 20px;
+      background-color: #f7f7f7; } }
+  @media print {
+    nav {
+      position: relative;
+      width: auto;
+      font-size: 0.9em;
+      overflow: auto;
+      padding: 0;
+      margin-right: 0;
+      background-color: white; } }
+#toggle {
+  border-right: solid black 1px;
+  margin-left: -4em;
+  margin-top: -2em; }
+  @media screen and (min-width: 768px) {
+    #toggle {
+      position: fixed;
+      height: 100%;
+      width: 30px;
+      background-color: #f7f7f7;
+      color: black !important;
+      cursor: pointer;
+      z-index: 100; }
+      #toggle span {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%); } }
+  @media screen and (max-width: 768px) {
+    #toggle {
+      display: none; } }
+  @media print {
+    #toggle {
+      display: none; } }
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px; }
+  .rule.toc {
+    display: none; }
+  h1.toc-contents {
+    margin-top: 1em; }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0;
+    margin: 0; } }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-left: 2em; }
+  main {
+    padding: 0; }
+  .title-section, .prefatory-section {
+    padding-left: 0;
+    padding-top: 0;
+    width: 100%; } }
+
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: 1.0em; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+div.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  div.figure .FigureTitle, div.figure .figure-title {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+  div.figure > img, div.figure > svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
+table div.figure {
+  padding: 0;
+  margin: 0; }
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102; }
+  .document-type-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-type-band {
+      display: none; } }
+  .document-type-band .document-type {
+    top: 20px; }
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d; }
+  .document-stage-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-stage-band {
+      display: none; } }
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 210px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+  writing-mode: vertical-rl; }
+
+#governance-band p.document-type {
+  font-weight: 400;
+  height: 230px !important; }
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px; }
+
+#standard-band {
+  background-color: #0ac442; }
+
+#standard {
+  border-bottom: solid 3px #0ac442; }
+
+#governance {
+  border-bottom: solid 3px #750697; }
+
+#governance-band {
+  background-color: #750697; }
+
+#guide {
+  border-bottom: solid 3px #48a0e7; }
+
+#guide-band {
+  background-color: #48a0e7; }
+
+.coverpage-maturity {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase; }
+
+#working-draft {
+  border-bottom: solid 3px #fda706; }
+
+#working-draft-band {
+  background-color: #fda706; }
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd; }
+
+#committee-draft-band {
+  background-color: #fd06fd; }
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906; }
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906; }
+
+#standard {
+  border-bottom: solid 3px #0ac442; }
+
+#standard-band {
+  background-color: #0ac442; }
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13; }
+
+#obsolete-band {
+  background-color: #7e0d13; }
+
+/* 3 Other styles */
+/*
+  3.2 Links
+*/
+a {
+  color: black;
+  text-decoration-color: black; }
+
+/*
+    3.3 Lists
+*/
+ul, ol {
+  margin-left: 2em; }
+
+#toc-list ul {
+  margin-bottom: 0.25em; }
+
+#toc-list ol li {
+  list-style-type: none; }
+
+/* https://github.com/metanorma/metanorma-iso/issues/319 : force a) parentheses for ordered lists */
+ol[class="alphabet"] {
+  counter-reset: alphabet; }
+
+ol[class="arabic"] {
+  counter-reset: arabic; }
+
+ol[class="roman"] {
+  counter-reset: roman; }
+
+ol[class="alphabet_upper"] {
+  counter-reset: alphabet_upper; }
+
+ol[class="roman_upper"] {
+  counter-reset: roman_upper; }
+
+ol[class="alphabet"] ol[class="alphabet"] {
+  counter-reset: alphabet2; }
+
+ol[class="arabic"] ol[class="arabic"] {
+  counter-reset: arabic2; }
+
+ol[class="roman"] ol[class="roman"] {
+  counter-reset: roman2; }
+
+ol[class="alphabet_upper"] ol[class="alphabet_upper"] {
+  counter-reset: alphabet_upper2; }
+
+ol[class="roman_upper"] ol[class="roman_upper"] {
+  counter-reset: roman_upper2; }
+
+ol {
+  counter-reset: alphabet; }
+
+ol > li {
+  list-style: none;
+  position: relative; }
+
+ol > li::before {
+  position: absolute;
+  left: -1.4em; }
+
+ol[class="roman"] > li::before {
+  left: -2.0em; }
+
+ol[class="roman_upper"] > li::before {
+  left: -2.3em; }
+
+ol[class="alphabet"] > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") "; }
+
+ol[class="arabic"] > li::before {
+  counter-increment: arabic;
+  content: counter(arabic, decimal) ") "; }
+
+ol[class="roman"] > li::before {
+  counter-increment: roman;
+  content: counter(roman, lower-roman) ") "; }
+
+ol[class="alphabet_upper"] > li::before {
+  counter-increment: alphabet_upper;
+  content: counter(alphabet_upper, upper-alpha) ") "; }
+
+ol[class="roman_upper"] > li::before {
+  counter-increment: roman_upper;
+  content: counter(roman_upper, upper-roman) ") "; }
+
+ol > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") "; }
+
+ol[class="alphabet"] ol[class="alphabet"] > li::before {
+  counter-increment: alphabet2;
+  content: counter(alphabet2, lower-alpha) ") "; }
+
+ol[class="arabic"] ol[class="arabic"] > li::before {
+  counter-increment: arabic2;
+  content: counter(arabic2, decimal) ") "; }
+
+ol[class="roman"] ol[class="roman"] > li::before {
+  counter-increment: roman2;
+  content: counter(roman2, lower-roman) ") "; }
+
+ol[class="alphabet_upper"] ol[class="alphabet_upper"] > li::before {
+  counter-increment: alphabet_upper2;
+  content: counter(alphabet_upper2, upper-alpha) ") "; }
+
+ol[class="roman_upper"] ol[class="roman_upper"] > li::before {
+  counter-increment: roman_upper2;
+  content: counter(roman_upper2, upper-roman) ") "; }
+
+/*
+3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0; }
+
+/*
+3.5 Bibliograhy
+*/
+p.Biblio, p.NormRef {
+  margin-top: 1em;
+  margin-left: 2em; }
+
+/*
+3.6 Source Code + figures
+*/
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: 1.0em; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+pre {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none; }
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left; }
+
+.figure-title, .FigureTitle, .SourceTitle, .AdmonitionTitle, .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+/*
+3.7 Notes
+*/
+.Note, .note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Note p, .note p {
+  margin: 0; }
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Admonition p, .zzHelp p {
+  margin: 0; }
+
+div.zzHelp {
+  color: green;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+/*
+3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 0.5em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+  color: #424242;
+  padding-left: 2em;
+  color: black;
+  padding-left: 0.5em; }
+  .example p {
+    margin: 0; }
+  .example .example-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -1.5em; }
+  .example .example-title {
+    margin-top: 0; }
+  .example pre,
+  .example .pseudocode {
+    background: none; }
+
+/*
+3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em; }
+  table, table th, table td {
+    border: 1px solid black;
+    font-size: 0.95em; }
+  table th, table td {
+    padding: 1em; }
+  table td.header {
+    font-weight: 400; }
+
+td,
+th {
+  padding: 1em !important; }
+
+table.rouge-line-table td, table.rouge-line-table th {
+  padding: 0em !important; }
+
+td > p:first-child, th > p:first-child {
+  margin-top: 0em; }
+
+td > p:last-child, th > p:last-child {
+  margin-bottom: 0em; }
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 800;
+  font-size: 1.1em; }
+
+.TableFootnote {
+  text-align: left !important; }
+
+/*
+table.modspec {
+  @include table($border: none !important);
+  text-align: left;
+
+  color: #010d16;
+
+  tr:nth-child(even) {
+    background: #ffffff
+  }
+  tr:nth-child(odd) {
+    background: #ffffff
+  }
+
+  thead tr th {
+    background-color: #5d99d6;
+  }
+
+  td, th {
+    padding: 1em;
+  }
+
+  td.header {
+    font-weight: 400;
+  }
+}
+*/
+/*
+3.10 Footnotes
+*/
+a.footnote-number, a.TableFootnoteRef, span.TableFootnoteRef {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.footnote {
+  font-size: 0.9em; }
+
+sup a {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+#footnote_box {
+  font-size: 0.9em;
+  background: white;
+  padding: 0 10px;
+  margin: 10px;
+  border: 1px solid #888;
+  -moz-box-shadow: 0px 0px 5px #888;
+  -webkit-box-shadow: 0px 0px 5px #888;
+  box-shadow: 0px 0px 5px #888; }
+
+ol.footnotes-list, aside.footnote {
+  margin-left: 1em; }
+
+ol.footnotes-list li, aside.footnote {
+  font-size: 0.9em;
+  vertical-align: top;
+  list-style: decimal;
+  margin-bottom: 1em; }
+
+ol.footnotes-list:first-child {
+  margin-top: 2em; }
+
+ol.footnotes-list p, aside.footnote p {
+  display: inline; }
+
+ol > li > p::before {
+  content: "";
+  display: none; }
+
+/*
+3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f7f7f7;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+3.12 Formulas
+*/
+.formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+dl.formula_dl {
+  background-color: #f7f7f7;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+/*
+Keywords
+*/
+span.keyword {
+  font-weight: 600; }
+
+.Admonition, .admonition {
+  background-color: #ffb3b3;
+  /* color: #47430c;*/
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Admonition p, .admonition p {
+  margin: 0; }
+
+/* Collapse TOC */
+.collapse-group {
+  display: flex;
+  align-items: center;
+  position: relative; }
+
+.collapse-button {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  background-image: url('data:image/svg+xml,<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="rgba(0,0,0,.54)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>'); }
+
+.collapse {
+  display: none; }
+
+.expand {
+  transform: rotateZ(-180deg); }
+
+-->
+</style><style><!--pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+--></style><title>Date and time — Codes for calendar systems — Part A: Guidelines for maintenance</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</link></link></head><body lang="en" xml:lang="en"><div class="title-section"><div id="toggle"> <span>•</span> </div>
+
+<p class="coverpage_docnumber">ISO/AWI 34300-A </p>
+    
+
+
+<p class="coverpage_docnumber">First edition</p>
+
+
+
+
+
+
+
+
+<p class="coverpage_techcommittee">ISO/TC 154/WG 5</p>
+
+
+<p class="coverpage_techcommittee"><a name="CVP_Secretariat_Loca" id="CVP_Secretariat_Loca">Secretariat</a>: SAC</p>
+
+
+<div class="doctitle-en"><div><span class="title">Date and time — </span><span class="subtitle">Codes for calendar systems —</span>
+  
+</div><div class="doctitle-part">
+  <span class="partlabel">Part A: </span>
+  <span class="part">Guidelines for maintenance</span>
+  
+</div>
+
+
+</div>
+
+<div class="doctitle-fr"><div><span class="title">Date et heure — </span><span class="subtitle">Codes pour les systèmes de calendrier —</span>
+  
+  </div><div>
+  <span class="partlabel">Partie A: </span>
+  <span class="part">Lignes directrices pour la maintenance</span>
+  
+</div>
+
+
+</div>
+
+<div class="coverpage_docstage">
+  
+  <p>AWI stage</p>
+  
+</div>
+
+
+<div class="coverpage_warning">
+  <div class="boilerplate-license">
+
+<div id="_warning_for_wds_and_cds"><h1 class="IntroTitle"><a class="anchor" href="#_warning_for_wds_and_cds"></a><a class="header" href="#_warning_for_wds_and_cds">Warning for WDs and CDs</a></h1>
+
+<p id="_77616240-d3c7-12bd-abe6-f0df62e81d4f">This document is not an ISO International Standard. It is distributed for review and comment. It is subject to change without notice and may not be referred to as an International Standard.</p>
+
+<p id="_87adaa1e-c5fe-db08-1c44-79762ac4e62b">Recipients of this draft are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.</p>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div><br /><div class="prefatory-section"><div class="boilerplate-copyright">
+
+<div id="_240cc6fc-ea89-52c9-57df-ed2dab09d6de">
+<p id="boilerplate-year">© <span class="std_publisher">ISO </span><span class="date">2021</span></p>
+
+<p id="boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
+
+<p id="boilerplate-address" style="text-align:left;">ISO copyright office<br /> CP 401 • Ch. de Blandonnet 8 <br /> CH-1214 Vernier, Geneva <br /> Phone: +41 22 749 01 11 <br /> Email:  <a href="mailto:copyright@iso.org">copyright@iso.org</a><br /> Website: www.iso.org</p>
+
+<p id="boilerplate-place">Published in Switzerland</p>
+</div>
+</div>
+
+<nav>
+
+  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_5c71860b-f3c6-449e-8c2d-e6a37a7bf45a"></a><a class="header" href="#_5c71860b-f3c6-449e-8c2d-e6a37a7bf45a">Contents</a></h1><ul><li class="h1"><a href="#_4bb8670f-ffbb-40d2-8ed9-610a1c3c3f9b">      
+  
+  Foreword
+</a></li>
+<li class="h1"><a href="#_4a1ded31-6639-47a5-b4ee-f0fb5e69ab61">      
+  
+  1  Scope
+</a></li>
+<li class="h1"><a href="#_71df6228-aaae-4ddc-a2df-7ee592ea4f19">      2  Normative references</a></li>
+<li class="h1"><a href="#_cb467a09-0af7-4a53-ab9e-60aae4fd170e">      
+  
+  3  Terms and definitions
+</a></li>
+<li class="h1"><div class="collapse-group"><a href="#_4b258c9b-07c8-4a73-818b-caeba6ab137a">
+  
+  4  ISO 34300 registration authority
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_97562fb4-9017-44d1-864b-2909d9379c80">      
+  
+  4.1  General
+</a>
+</li><li class="h2"><a href="#_e074eec9-abb4-42bd-97f2-6796f65ffea5">      
+  
+  4.2  Responsibilities
+</a></li><li class="h2"><a href="#_1bc48ddf-c491-440e-849a-503755140d0b">      
+  
+  4.3  Other responsibilities
+</a></li></ul></li>
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_06aed47a-2371-40eb-b340-2cbf3ce67744">
+  
+  5  ISO 34300 advisory group
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_685c6113-1cc2-4923-b3bb-f0db36e07c81">      
+  
+  5.1  General
+</a>
+</li><li class="h2"><a href="#_3341b2fc-2f17-4c8d-a48d-4426f303ab28">      
+  
+  5.2  Responsibilities
+</a></li><li class="h2"><a href="#_0cf33d2d-ab64-4e68-82ee-d7c7084c5000">      
+  
+  5.3  Voting members
+</a></li><li class="h2"><a href="#_86f9de3d-df3d-4ef1-910c-1634a06b4639">      
+  
+  5.4  Non-voting members
+</a></li><li class="h2"><a href="#_4ae0ee60-8d7c-47be-a6ae-c0d20df938a4">      
+  
+  5.5  Member responsibilities
+</a></li></ul></li>
+
+
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_43da31f1-07bd-4274-8c53-942918d099a8">
+  
+  6  Working procedure
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_a29a8124-1af3-4fcd-9ba8-45c6a233e8e8">      
+  
+  6.1  Principles
+</a>
+</li><li class="h2"><a href="#_f29e8171-2c21-4176-aac8-256a4a5cec40">      
+  
+  6.2  Consultation phase and procedure
+</a></li><li class="h2"><a href="#_b51d81fe-51b5-46e3-a7b8-eea372fc27db">      
+  
+  6.3  Consensus phase and procedure
+</a></li><li class="h2"><a href="#_7826a8b3-3b22-4654-88e3-86f65980e593">      
+  
+  6.4  Reporting
+</a></li></ul></li>
+
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_80a250ff-6c12-4d2f-9edd-1b6bdccc9ae0">
+  
+  
+    Annex A
+     
+    <span class="obligation">(normative)</span>
+     
+     
+    Maintenance procedures for the ISO 34300 register
+  
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_9581bf0b-dc13-4c86-a8b7-fadb150d2d91">      
+  
+  A.1  General
+</a>
+</li><li class="h2"><a href="#_6aca3240-0cab-4eeb-bdc2-358a06102afa">      
+  
+  A.2  Change requests
+</a></li><li class="h2"><a href="#_5813c005-345e-4d51-8c07-cbe7b79bab70">      
+  
+  A.3  Reservation of code elements
+</a></li></ul></li>
+
+
+
+
+<li class="h1"><a href="#_fd2c64d1-2ee9-4392-9a69-5aa40f702ef1">      Bibliography</a></li></ul></div>
+
+</nav>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority">
+
+
+</div><br /><br /><div id="_543fe901-d4f4-6f93-de13-1181217d1922"><h1 class="ForewordTitle" id="_4bb8670f-ffbb-40d2-8ed9-610a1c3c3f9b"><a class="anchor" href="#_543fe901-d4f4-6f93-de13-1181217d1922"></a><a class="header" href="#_543fe901-d4f4-6f93-de13-1181217d1922">Foreword</a></h1><p id="_af04a30c-6da7-69ff-6b0b-8b89283f2084">ISO (the International Organization for Standardization) is a worldwide federation of national standards bodies (ISO member bodies). The work of preparing International Standards is normally carried out through ISO technical committees. Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee. International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.</p><p id="_f1083fe6-457b-ed9f-a5a1-091fed6f8b06">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular the different approval criteria needed for the different types of ISO documents should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see www.iso.org/directives).</p><p id="_9e049049-8b46-3d3e-97b9-eebd6fb12fcb">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see www.iso.org/patents).</p><p id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p><p id="_de7c4d87-54d1-49a0-0f1e-4d3fa697e2c0">For an explanation on the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see the following URL: www.iso.org/iso/foreword.html.</p><p id="_979638ff-4690-54f1-927d-cf4ea0d2b2e2">This document was prepared by Technical Committee ISO/TC 154, <i>Processes, data elements and documents in commerce, industry and administration</i>.</p><p id="_432f946f-3adc-15a7-e097-fa935cd35ff5">This document is amongst a series of International Standards dealing with the conversion of systems of writing produced by Technical Committee ISO/TC 154, <i>Processes, data elements and documents in commerce, industry and administration</i>, WG 5 <i>Date and time</i>.</p><p id="_397ec012-859c-dd50-8ac1-f4212334f327">This is the first edition of this document.</p></div><p class="zzSTDTitle1"><span class="boldtitle">Date and time — Codes for calendar systems — </span><span class="nonboldtitle">Part A:</span> <span class="boldtitle">Guidelines for maintenance</span></p><div id="_scope"><h1 id="_4a1ded31-6639-47a5-b4ee-f0fb5e69ab61"><a class="anchor" href="#_scope"></a><a class="header" href="#_scope">1  Scope</a></h1><p id="_0e7e47f3-45d0-6c60-dc03-a51310711831">This document provides guidelines for the maintenance of ISO 34300 codes for the ISO 34300 registration authority.</p></div><div><h1 id="_71df6228-aaae-4ddc-a2df-7ee592ea4f19">2  Normative references</h1>
+<p id="_21ac2b92-2fe6-317d-983c-a478441ede9f">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+
+<p id="ISO19135-1" class="NormRef">ISO 19135-1, <i><span class="stddocTitle">Geographic information — Procedures for item registration — Part 1: Fundamentals</span></i></p>
+</div><div id="_terms_and_definitions"><h1 id="_cb467a09-0af7-4a53-ab9e-60aae4fd170e"><a class="anchor" href="#_terms_and_definitions"></a><a class="header" href="#_terms_and_definitions">3  Terms and definitions</a></h1><p id="_0da6ca68-ecc9-b4a3-26a2-cdb6aef1b772">For the purposes of this document, the following terms and definitions apply.</p><p id="_13af5450-a71d-e945-782d-afffb0a645ab">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p><div class="ul_wrap"><ul id="_3fb63b94-5696-f10f-fa14-8fb905c53d98"><li><p id="_9bcbd305-1125-3ee7-507a-f9b9cd78c680">ISO Online browsing platform: available at <a href="https://www.iso.org/obp">https://www.iso.org/obp</a></p>
+</li>
+<li><p id="_16dd7b4f-969c-d0e1-c933-d9185c774137">IEC Electropedia: available at <a href="https://www.electropedia.org">https://www.electropedia.org</a></p>
+</li>
+</ul></div><div id="term-code"><h2 class="TermNum" id="_0b7d9212-fdc1-4460-8198-923d7f13b21a"><a class="anchor" href="#term-code"></a><a class="header" href="#term-code">3.1</a></h2></div><p class="Terms" style="text-align:left;"><b>code</b></p>
+<p id="_5e8ab9a7-4328-7608-d746-6c540cd00967">data representation in different forms according to a pre-established set of rules</p>
+
+
+ <p>[SOURCE: <a href="#ISO639-2"><span class="stdpublisher">ISO </span><span class="stddocNumber">639</span>-<span class="stddocPartNumber">2</span></a>]</p><div id="term-registration-item"><h2 class="TermNum" id="_0bcd69f6-d3fa-45b4-bef0-0a57d983e002"><a class="anchor" href="#term-registration-item"></a><a class="header" href="#term-registration-item">3.2</a></h2></div><p class="Terms" style="text-align:left;"><b>registration item</b></p>
+<p id="_c957b0a7-d0b0-fe7f-484c-22800c555c3b">data element in a register</p>
+ <div id="term-registration-code"><h2 class="TermNum" id="_c4c65fcf-9f6c-4b9b-ac90-1decbb0bc9d4"><a class="anchor" href="#term-registration-code"></a><a class="header" href="#term-registration-code">3.3</a></h2></div><p class="Terms" style="text-align:left;"><b>registration code</b></p>
+<p id="_e08a8c1e-fc6c-943b-d95f-fc63396cc912">code that identifies a <i>registration item</i> (<a href="#term-registration-item"><span class="citesec">3.2</span></a>) within a register</p>
+ <div id="term-ISO-34300-registration-authority"><h2 class="TermNum" id="_d9ad3c87-d0c5-4b92-a696-6764f29793f2"><a class="anchor" href="#term-ISO-34300-registration-authority"></a><a class="header" href="#term-ISO-34300-registration-authority">3.4</a></h2></div><p class="Terms" style="text-align:left;"><b>ISO 34300 registration authority</b></p><p class="AltTerms" style="text-align:left;">ISO 34300/RA</p>
+
+
+
+<p id="_ac86090a-34fb-70ff-7321-aac9713de370">registration authority that manages the <i>ISO 34300 register</i> (<a href="#term-ISO-34300-register"><span class="citesec">3.5</span></a>)</p>
+ <div id="term-ISO-34300-register"><h2 class="TermNum" id="_34c6e696-0fa2-4f66-81a6-e7175500098a"><a class="anchor" href="#term-ISO-34300-register"></a><a class="header" href="#term-ISO-34300-register">3.5</a></h2></div><p class="Terms" style="text-align:left;"><b>ISO 34300 register</b></p>
+<p id="_656a4ea1-0e4a-3571-f07d-13686e61defb">register containing <i>ISO 34300 registration items</i> (<a href="#term-ISO-34300-registration-item"><span class="citesec">3.7</span></a>)</p>
+ <div id="term-ISO-34300-advisory-group"><h2 class="TermNum" id="_bfe53a58-7f2e-4099-bde3-761a05de050f"><a class="anchor" href="#term-ISO-34300-advisory-group"></a><a class="header" href="#term-ISO-34300-advisory-group">3.6</a></h2></div><p class="Terms" style="text-align:left;"><b>ISO 34300 advisory group</b></p><p class="AltTerms" style="text-align:left;">ISO 34300/AG</p>
+
+
+
+<p id="_c3a52a17-17a4-3f62-e50c-fd1f3d9ef7d9">group that provides advice to the <i>ISO 34300 registration authority</i> (<a href="#term-ISO-34300-registration-authority"><span class="citesec">3.4</span></a>) on the contents of the  <i>ISO 34300 register</i> (<a href="#term-ISO-34300-register"><span class="citesec">3.5</span></a>)</p>
+ <div id="term-ISO-34300-registration-item"><h2 class="TermNum" id="_d68903a9-022f-461e-bd87-f958136a39f5"><a class="anchor" href="#term-ISO-34300-registration-item"></a><a class="header" href="#term-ISO-34300-registration-item">3.7</a></h2></div><p class="Terms" style="text-align:left;"><b>ISO 34300 registration item</b></p>
+<p id="_637a0bfe-b908-bdd0-9623-268804c1fb0c">registration item identified by a registration code unique to the <i>ISO 34300 register</i> (<a href="#term-ISO-34300-register"><span class="citesec">3.5</span></a>)</p>
+ </div><div id="_iso_34300_registration_authority_2"><h1 id="_4b258c9b-07c8-4a73-818b-caeba6ab137a"><a class="anchor" href="#_iso_34300_registration_authority_2"></a><a class="header" href="#_iso_34300_registration_authority_2">4  ISO 34300 registration authority</a></h1><div id="_general"><h2 id="_97562fb4-9017-44d1-864b-2909d9379c80"><a class="anchor" href="#_general"></a><a class="header" href="#_general">4.1  General</a></h2>
+
+<p id="_10135077-b81e-23dd-3df0-d215174a2fc8">ISO has designated a Registration Authority for this International Standard (ISO 34300/RA) to operate under guidelines provided in this document.</p>
+
+<p id="_d6aa51a5-9610-c727-3d35-c7489f08608c">ISO 34300 defines the ISO 34300 register, which contains ISO 34300 registration items. Requirements of the ISO 34300 registration item and relevant data models used to represent calendars and calendar eras are also provided in the same document.</p>
+</div><div id="_responsibilities"><h2 id="_e074eec9-abb4-42bd-97f2-6796f65ffea5"><a class="anchor" href="#_responsibilities"></a><a class="header" href="#_responsibilities">4.2  Responsibilities</a></h2>
+
+<div id="_maintenance_of_the_iso_34300_register"><h3><a class="anchor" href="#_maintenance_of_the_iso_34300_register"></a><a class="header" href="#_maintenance_of_the_iso_34300_register">4.2.1  Maintenance of the ISO 34300 register</a></h3>
+
+<p id="_5d78e992-30f8-0c1a-24dc-06f4a524ccc2">The ISO 34300/RA is responsible for the maintenance of the ISO 34300 register, including code assignments for individual registration items and the information associated with each.</p>
+
+<p id="_fdb84c3e-4c24-9ccf-6141-04fa9719f23d">The ISO 34300/RA is also responsible for administering reservations of the codes in the register.</p>
+</div>
+
+<div id="_handling_data_change_requests_for_the_iso_34300_register"><h3><a class="anchor" href="#_handling_data_change_requests_for_the_iso_34300_register"></a><a class="header" href="#_handling_data_change_requests_for_the_iso_34300_register">4.2.2  Handling data change requests for the ISO 34300 register</a></h3>
+
+<p id="_2be85e2a-d0da-468e-6ae9-26550b0b27c8">ISO 34300/RA is responsible for receiving and reviewing applications for data change requests, including the addition, modification and elimination of registration items within the ISO 34300 register.</p>
+
+<p id="_d1b3b77e-9cf7-5e1b-ba6a-4704e259ab2c">It is responsible for informing the applicant of the result of ISO 34300/RA actions.</p>
+
+<p id="_63bc95cd-41ab-b836-7213-f1fa45b2fef3">It shall propose a practical mechanism to apply the proposed change assignment when the relevant criteria are met according to ISO 34300.</p>
+
+<p id="_0b122eff-53b8-0207-fbd5-d36d7d574d5d">After approval by the members of the ISO 34300/AG, the ISO 34300/RA will update and publish the appropriate registrations, with all agreed corrections, if any.</p>
+
+<p id="_6aad785a-f90a-df78-e2d7-685100b6c5c6">Data changes performed to the ISO 34300 register should be kept for traceability.</p>
+</div>
+
+<div id="_publisher_of_iso_34300_register"><h3><a class="anchor" href="#_publisher_of_iso_34300_register"></a><a class="header" href="#_publisher_of_iso_34300_register">4.2.3  Publisher of ISO 34300 register</a></h3>
+
+<p id="_46976626-946a-5e37-278d-d52bf716a8b0">ISO 34300/RA is responsible for disseminating the contents of the ISO 34300 register to the public.</p>
+
+<p id="_cc7be177-0fdd-dd3a-f568-08a37e4d718c">Changes to the content of the list of entries becomes effective immediately upon publication.</p>
+
+<p id="_a46ae9c6-5bf9-e80e-869e-b58d38035a4c">The ISO 34300/AGS may consult individual ISO 34300/AG members directly concerning particular problems of implementation raised by users or potential users.</p>
+
+<p id="_b89db14a-538e-87c3-fb07-a24126e07294">Data changes of the ISO 34300 register should be published and the history of changes made available.</p>
+</div>
+
+<div id="_advice_to_users_of_the_iso_34300_register"><h3><a class="anchor" href="#_advice_to_users_of_the_iso_34300_register"></a><a class="header" href="#_advice_to_users_of_the_iso_34300_register">4.2.4  Advice to users of the ISO 34300 register</a></h3>
+
+<p id="_b6e4c571-59b3-1177-82ba-ffec9745216e">ISO 34300/RA is responsible for providing advice to the public and ISO member bodies on the application, use and implementation of ISO 34300, thereby seeking to promote its widest possible use.</p>
+</div>
+</div><div id="_other_responsibilities"><h2 id="_1bc48ddf-c491-440e-849a-503755140d0b"><a class="anchor" href="#_other_responsibilities"></a><a class="header" href="#_other_responsibilities">4.3  Other responsibilities</a></h2>
+
+<p id="_6706a596-ba7e-ec66-23ee-3fa9d807cfec">Other responsibilities of the ISO 34300/RA include:</p>
+
+<div class="ol_wrap"><ol type="a" id="_52649db2-3cea-2d62-1433-07b96383ceb8" class="alphabet"><li id="_3c08dfde-a737-4697-ad70-42e592743e3d"><p id="_6b7a8d1d-ebb5-b1e5-d64b-20bee48beff4">indicate in operations that it has been designated as ISO 34300/RA by ISO;</p>
+</li>
+<li id="_be65a2d6-31d0-4067-ab8c-15e4e00cb494"><p id="_a106756d-3dce-2823-ad46-46ae7d784644">provide an annual summary report on activity to ISO/TC 154.</p>
+</li>
+</ol></div>
+</div></div><div id="_iso_34300_advisory_group_2"><h1 id="_06aed47a-2371-40eb-b340-2cbf3ce67744"><a class="anchor" href="#_iso_34300_advisory_group_2"></a><a class="header" href="#_iso_34300_advisory_group_2">5  ISO 34300 advisory group</a></h1><div id="_general_2"><h2 id="_685c6113-1cc2-4923-b3bb-f0db36e07c81"><a class="anchor" href="#_general_2"></a><a class="header" href="#_general_2">5.1  General</a></h2>
+
+<p id="_d998a926-fcc8-4e4d-9d50-a61d41893785">The ISO 34300 advisory group (ISO 34300/AG) is appointed to ensure the operations of the registration authority (ISO 34300/RA) are in accordance with guidelines provided in this document.</p>
+</div><div id="_responsibilities_2"><h2 id="_3341b2fc-2f17-4c8d-a48d-4426f303ab28"><a class="anchor" href="#_responsibilities_2"></a><a class="header" href="#_responsibilities_2">5.2  Responsibilities</a></h2>
+
+<p id="_819097af-1bec-4e1c-106d-2aeb308f6f1d">The ISO 34300/AG is responsible for providing guidance to ISO 34300/RA on handling of updates and data changes to the ISO 34300 register.</p>
+
+<p id="_d47e123a-17d4-e3cf-9b05-7d3acb7d7484">It is also responsible for providing consultation and assistance on the use of ISO 34300 to ISO member bodies.</p>
+</div><div id="_voting_members"><h2 id="_0cf33d2d-ab64-4e68-82ee-d7c7084c5000"><a class="anchor" href="#_voting_members"></a><a class="header" href="#_voting_members">5.3  Voting members</a></h2>
+
+<div id="_general_3"><h3><a class="anchor" href="#_general_3"></a><a class="header" href="#_general_3">5.3.1  General</a></h3>
+
+<p id="_1e55983a-cee4-eff0-7254-25064d137ff7">The ISO 34300/AG voting membership consists of:</p>
+
+<div class="ul_wrap"><ul id="_47c1a8b6-b314-bff6-e0de-c23c924d6c63"><li><p id="_f64b3114-da04-44b8-6136-a2fbc25c2a3b">ISO 34300/AG convenor (no vote)</p>
+</li>
+<li><p id="_aa786a4b-8ea4-a3c6-e655-532d1ee85b24">ISO 34300/AG vice-convenor</p>
+</li>
+<li><p id="_6e3f7af6-a999-f5bb-c63f-02ce6ae61f5b">at least 6 to 12 individually named members representing voting member bodies as follows:</p>
+<div class="ul_wrap"><ul id="_b0816c93-ada9-1217-91e1-e56860b0d0f4"><li><p id="_b5a6313c-6f25-c621-e63c-62ad421064cf">three to six standing members from international organizations other than ISO;</p>
+</li>
+<li><p id="_0408e3bd-99c5-d7a1-4c04-5ce5f4100b1a">three standing members from within ISO/TC 154 participating member bodies (P-members);</p>
+</li>
+<li><p id="_96db5ea1-b01c-bd4e-ba76-4aca48a3f781">three (maximum) rotating members from within ISO/TC 154 participating member bodies (P-members).</p>
+</li>
+</ul></div>
+</li>
+</ul></div>
+
+<p id="_ed0f370c-27ba-aa8a-7bb1-6642434e5759">ISO/TC 154 should review the membership structure of the ISO 34300/AG at regular intervals to ensure that its members fulfil their obligations ( <a href="#ag-member-responsibilities"><span class="citesec">5.5</span></a>).</p>
+
+<p id="_8826664b-c412-a2ff-55e4-74f1740e9995">Recommendations for changes to the structure shall be submitted to ISO/TC 154 for consideration and, if approved, will be implemented by the time of the next plenary meeting.</p>
+
+<p id="_8b8f17de-c7c9-a24a-f680-e9f614e4a5ad">The ISO 34300/AG membership list is available on the ISO 34300/AG ISO Documents website.</p>
+</div>
+
+<div id="_international_organization_other_than_iso_standing_members"><h3><a class="anchor" href="#_international_organization_other_than_iso_standing_members"></a><a class="header" href="#_international_organization_other_than_iso_standing_members">5.3.2  International organization (other than ISO) standing members</a></h3>
+
+<p id="_2c314153-0979-588a-4257-f62e2b7a5ccd">A minimum of three and not more than six international organizations that are not within ISO may be appointed to ISO 34300/AG.</p>
+
+<p id="_580655bf-b720-95e0-e45e-fadb8b2c1d2d">These international organizations are selected based on the role that they can play in achieving the greatest use and promotion of ISO 34300. These international organizations are appointed by ISO/TC 154 as standing members. These international organizations are required to be existing Category A liaisons to ISO/TC 154.</p>
+</div>
+
+<div id="_iso_p_members"><h3><a class="anchor" href="#_iso_p_members"></a><a class="header" href="#_iso_p_members">5.3.3  ISO P-members</a></h3>
+
+<div id="_standing_iso_p_members"><h4><a class="anchor" href="#_standing_iso_p_members"></a><a class="header" href="#_standing_iso_p_members">5.3.3.1  Standing ISO P-members</a></h4>
+
+<p id="_41bd326a-280f-6815-c4d5-2b9ec6dfbe66">Three standing P-members may be appointed to consecutive terms in the ISO 34300/AG. These members should reflect the greatest responsibility and productivity within the technical committee structure for this purpose. The P-members are selected by ISO/TC 154 for three-year periods which can be renewed automatically for consecutive terms. The composition of the standing members is established by ISO/TC 154.</p>
+</div>
+
+<div id="_rotating_iso_p_members"><h4><a class="anchor" href="#_rotating_iso_p_members"></a><a class="header" href="#_rotating_iso_p_members">5.3.3.2  Rotating ISO P-members</a></h4>
+
+<p id="_3992abb9-edfc-9d3c-38b0-8071080376fd">Any P-members from ISO/TC 154 who are not standing members may apply to be a rotating P-member of ISO 34300/AG. ISO/TC 154 selects up to four P-members amongst the candidates taking into account the following considerations.</p>
+
+<div class="ul_wrap"><ul id="_22d192bb-d32f-01d5-5953-af5ea20576cd"><li><p id="_57bd30b8-4ad7-cc80-fa4b-8c5aca9dd790">Up to three rotating P-members may sit on the ISO 34300/AG at one time.</p>
+</li>
+<li><p id="_de29ec7d-4344-18e2-9177-095be56b86eb">The membership term of a rotating P-member is 2 years.</p>
+<div id="_ce2cbfec-e43c-5857-c886-e3845aa0439f" class="Note"><p><span class="note_label">NOTE</span>  Members leaving the ISO 34300/AG may be re-elected an indefinite number of times. It is recognised that all willing P-members have an opportunity to serve on the ISO 34300/AG.</p></div></li>
+</ul></div>
+
+
+
+<div class="ul_wrap"><ul id="_e5303266-7e03-1b56-9ff7-69431e5696ce"><li><p id="_77751e50-eec9-20cf-ac6f-e9201fada03c">Members should be selected in view of the best cultural diversity and geographical representation, for example amongst:</p>
+<div class="ul_wrap"><ul id="_287ed1c1-71ef-5a8a-f936-d7e22ed883b2"><li><p id="_cdc8f7fb-8de8-3bde-a06d-0cece88f3546">African states,</p>
+</li>
+<li><p id="_2319d0c6-a0e4-ec46-d39b-1ce12f4ad4d8">Asia and Pacific states,</p>
+</li>
+<li><p id="_767db50f-5264-4f0f-c88a-49dbeb73dcb2">European states,</p>
+</li>
+<li><p id="_6ccb68ef-f3c7-e1d7-4aca-96698768bca7">North and South American states.</p>
+</li>
+</ul></div>
+</li>
+<li><p id="_a3b34cf8-e029-fe3f-dba3-ebec5d85b71f">Where insufficient nominations are received, the relevant number of seats on the ISO 34300/AG may remain unassigned.</p>
+</li>
+</ul></div>
+
+<p id="_08ead7ad-8c68-0d07-49a2-dd30b8c8e427">At the first election, three members will be elected, of which two will serve two years before leaving and being replaced whilst the other one will serve three years before leaving and being replaced. Those leaving after two years shall be selected by the drawing of lots.</p>
+</div>
+</div>
+</div><div id="_non_voting_members"><h2 id="_86f9de3d-df3d-4ef1-910c-1634a06b4639"><a class="anchor" href="#_non_voting_members"></a><a class="header" href="#_non_voting_members">5.4  Non-voting members</a></h2>
+
+<div id="_associate_members"><h3><a class="anchor" href="#_associate_members"></a><a class="header" href="#_associate_members">5.4.1  Associate members</a></h3>
+
+<p id="_43a75c84-0720-f76d-ae8d-8f907164d36f">At the acceptance of ISO 34300/AG, non-members of ISO/TC 154 P-members and international organizations may be associated with the work of the ISO 34300/AG.</p>
+
+<p id="_8b3d2554-10d4-027c-8f6b-45e2b895acdf">An associate member body has the same status as a voting member but does not participate in voting.</p>
+</div>
+
+<div id="_members_for_information"><h3><a class="anchor" href="#_members_for_information"></a><a class="header" href="#_members_for_information">5.4.2  Members for information</a></h3>
+
+<p id="_c94d3fb5-cc7b-9908-4ce7-06526c244ec9">These members of the ISO 34300/RA are non-voting members participating directly or indirectly in the maintenance of ISO 34300.</p>
+</div>
+
+<div id="_secretariat"><h3><a class="anchor" href="#_secretariat"></a><a class="header" href="#_secretariat">5.4.3  Secretariat</a></h3>
+
+<p id="_abef4a66-3973-d7f2-1b4f-8db1f5d6064a">The ISO 34300/AG is served by a secretariat (ISO 34300/AGS), as designated by ISO 34300/AG.</p>
+</div>
+</div><div id="ag-member-responsibilities"><h2 id="_4ae0ee60-8d7c-47be-a6ae-c0d20df938a4"><a class="anchor" href="#ag-member-responsibilities"></a><a class="header" href="#ag-member-responsibilities">5.5  Member responsibilities</a></h2>
+
+<div id="_voting_members_2"><h3><a class="anchor" href="#_voting_members_2"></a><a class="header" href="#_voting_members_2">5.5.1  Voting members</a></h3>
+
+<p id="_7e9be0f2-4862-4f34-8daf-1287f0dcd09a">Voting members shall have one vote each and shall nominate within their respective organizations:</p>
+
+<div class="ul_wrap"><ul id="_855ac145-eb88-2872-c80d-3bd4c2c3a1be"><li><p id="_045c83d3-be35-a584-4732-80e87b47e983">one person to act as the representative voting member;</p>
+</li>
+<li><p id="_4e63f769-74a4-14ba-b550-7355949f2a7f">one person to act as a substitute to its representative in case of unavailability.</p>
+</li>
+</ul></div>
+
+<p id="_7de2f5f7-e3dd-535a-40d5-dd1a6ebac641">These representatives should preferably be chosen to have the expertise necessary to understand ISO 34300 issues.</p>
+
+<p id="_e000c02a-63d9-42f8-1440-f501e590d4d8">The ISO 34300/AG shall decide upon changes to registration items in the ISO 34300 register under conditions specified in ISO 34300.</p>
+
+<p id="_8751fad4-e62b-e3e8-687a-b6d3b323ca14">Members are expected to vote, respond and comment without delay within specified time limits on ISO 34300/AG matters and attend meetings of the ISO 34300/AG, as required.</p>
+</div>
+
+<div id="_officers"><h3><a class="anchor" href="#_officers"></a><a class="header" href="#_officers">5.5.2  Officers</a></h3>
+
+<p id="_57483a09-95f1-2898-37b0-9f8405a20805">Officers of the ISO 34300/AG include its convenor and vice-convenor. Both roles are nominated by ISO/TC 154.</p>
+
+<p id="_543d0a3a-ebce-defc-7d3c-fe2e3ca170bb">These two officers shall be representatives of the two different membership groups:</p>
+
+<div class="ul_wrap"><ul id="_4bfb1ff7-3315-fc00-0c0d-be51a1343695"><li><p id="_f8c6cbee-475a-a7db-c0ce-b80a6221f3b1">one from the ISO P-members;</p>
+</li>
+<li><p id="_8eba517e-4948-ca7d-df64-d52114c3add7">one from non-ISO international organizations.</p>
+</li>
+</ul></div>
+
+<p id="_37d09b5f-f796-8c96-50e8-aee0977ce775">These nominations will be submitted to ISO/TC 154 for approval.</p>
+
+<p id="_c6c5c649-c1d6-788b-1fcd-2ff3f0112d9b">When necessary, the vice-convenor replaces the convenor and assumes their responsibilities.</p>
+
+<p id="_53a35414-8b8b-8b71-c487-6cc45a90c59c">In accordance with ISO’s neutrality policy, the convenor will not have a vote on ISO 34300/AG matters. Therefore, if the appointment of the convenor leaves a voting member vacancy from one of its member bodies, the member body shall name a new member to the ISO 34300/AG.</p>
+
+<p id="_83e46a79-8f91-1bd1-54b0-fe952b0b2845">After the appointment of new officers, the outgoing and incoming officers should ensure a smooth and efficient handling of the work with the support of the ISO 34300/AGS during a transitional period.</p>
+</div>
+
+<div id="_secretariat_2"><h3><a class="anchor" href="#_secretariat_2"></a><a class="header" href="#_secretariat_2">5.5.3  Secretariat</a></h3>
+
+<p id="_9ea5d0db-7d83-a7cd-d4b9-ec5e6b042a4b">The ISO 34300/AGS is responsible for the administration of maintenance procedures of ISO 34300/AG, including:</p>
+
+<div class="ul_wrap"><ul id="_16d5868f-6dc6-7a31-81ac-06d5e5286bc6"><li><p id="_745778fb-dc3e-3c8c-c1ce-dcf9e7df04d0">updating and maintaining the ISO 34300/AG membership list;</p>
+</li>
+<li><p id="_161eca61-433c-2c74-2f94-1f3ec3e34539">calling meetings of ISO 34300/AG voting and/or non-voting members when necessary;</p>
+</li>
+<li><p id="_71c56391-930a-c728-fcdb-793c75414332">preparing meeting agendas and providing the minutes from meetings;</p>
+</li>
+<li><p id="_e882532e-9309-5b7a-e762-f1d9396a0ec3">consensus procedures and their reporting.</p>
+</li>
+</ul></div>
+
+<p id="_3537e642-6f1d-5383-9d7c-c45974a0fa76">The ISO 34300/AGS is also responsible for maintaining an efficient arrangement concerning communication and documentation to ISO 34300/AG members and other interested parties.</p>
+</div>
+</div></div><div id="_working_procedure"><h1 id="_43da31f1-07bd-4274-8c53-942918d099a8"><a class="anchor" href="#_working_procedure"></a><a class="header" href="#_working_procedure">6  Working procedure</a></h1><div id="_principles"><h2 id="_a29a8124-1af3-4fcd-9ba8-45c6a233e8e8"><a class="anchor" href="#_principles"></a><a class="header" href="#_principles">6.1  Principles</a></h2>
+
+<p id="_d818bae3-4c21-7f90-0912-14584f2c5236">The maintenance procedure shall be as expedient as possible. It generally functions by means of communication technologies. When any of the ISO 34300/AG voting members consider that a meeting is required, the ISO 34300/AGS consults the ISO 34300/AG members about the convening of such a meeting.</p>
+
+<p id="_db76d3d2-e312-7ee3-9d90-2bbca6b025a8">As a general principle, to ensure continuity and stability in the system, code elements shall be changed only for compelling reasons.</p>
+</div><div id="_consultation_phase_and_procedure"><h2 id="_f29e8171-2c21-4176-aac8-256a4a5cec40"><a class="anchor" href="#_consultation_phase_and_procedure"></a><a class="header" href="#_consultation_phase_and_procedure">6.2  Consultation phase and procedure</a></h2>
+
+<p id="_877b791d-1b76-2d2b-8bc7-4b8abe12e02e">Before opening any vote, a consultation period of at least ten working days shall be conducted amongst the ISO 34300/AG members.</p>
+
+<p id="_0dbefaae-ead5-613b-198d-822fa3060937">ISO 34300/AG members are invited to provide comments concerning the subject of consultation during this period.</p>
+
+<p id="_61ac1c47-1526-3f73-52bf-30dc189934a5">Based on findings from this consultation, the consensus phase may be initiated.</p>
+</div><div id="_consensus_phase_and_procedure"><h2 id="_b51d81fe-51b5-46e3-a7b8-eea372fc27db"><a class="anchor" href="#_consensus_phase_and_procedure"></a><a class="header" href="#_consensus_phase_and_procedure">6.3  Consensus phase and procedure</a></h2>
+
+<p id="_2c4f1ca4-63f8-547f-58da-545588a86476">Each voting member of the ISO 34300/AG shall have one vote. Votes shall be cast by the nominated representative or the substitute of each voting member. Members shall actively cast their votes, i.e. yes, no or abstention.</p>
+
+<p id="_5a7179c1-92d6-29ca-3d8a-a3889f6c6239">Agreement to proposed changes shall be obtained by means of remote communication or at a meeting of the ISO 34300/AG, provided that the matter has been included in the draft agenda of the meeting. These agreements shall be confirmed in writing.</p>
+
+<p id="_2092e10b-551c-11c0-62b6-648c35ed891a">The length of the reply period shall be six working days but at the request of the Convenor or at least one ISO 34300/RA voting member, the reply period may be extended.</p>
+
+<p id="_87022938-2eaf-b446-ce43-27b2f57661b9">For the purposes of the ISO 34300/RA and ISO 34300/AG, the term “working days” shall exclude Saturdays and Sundays. The term “working days” shall also exclude the last five days of December.</p>
+
+<p id="_25b20e0f-e95d-ccdf-4a3e-6484169c1e8b">Positive consensus is confirmed once there is a two-thirds majority and at least eight positive votes.</p>
+
+<p id="_d48e4301-14b3-35ac-325e-80cee93894a8">When there is a two-thirds majority of positive votes, but fewer than four positive votes because of the high number of abstentions, a second round of voting is held.</p>
+
+<p id="_552b895e-4a67-b754-2c08-c2f01b02b456">After the second round, there will be no further ballots on the same proposal.</p>
+
+<p id="_3be0c72c-6b18-556c-c6c2-64fcf4a44b9a">Recorded abstentions do not count. Voting members not fulfilling their responsibilities by casting an active vote will be reminded of their responsibilities.</p>
+</div><div id="_reporting"><h2 id="_7826a8b3-3b22-4654-88e3-86f65980e593"><a class="anchor" href="#_reporting"></a><a class="header" href="#_reporting">6.4  Reporting</a></h2>
+
+<p id="_05458005-a098-601a-d809-87af13b9cb6a">ISO 34300/AG is responsible for communicating data change decisions to the ISO 34300/RA.</p>
+</div></div><br /><div id="_maintenance_procedures_for_the_iso_34300_register" class="Section3"><h1 class="Annex" id="_80a250ff-6c12-4d2f-9edd-1b6bdccc9ae0"><a class="anchor" href="#_maintenance_procedures_for_the_iso_34300_register"></a><a class="header" href="#_maintenance_procedures_for_the_iso_34300_register"><b>Annex A</b><br /><span class="obligation">(normative)</span><br /><br /><b>Maintenance procedures for the ISO 34300 register</b></a></h1><div id="_general_4"><h2 id="_9581bf0b-dc13-4c86-a8b7-fadb150d2d91"><a class="anchor" href="#_general_4"></a><a class="header" href="#_general_4">A.1  General</a></h2>
+
+<p id="_c9b2318c-e8fb-e8cf-3dfb-8a5afc40b1e5">The maintenance of the ISO 34300 register follows the following criteria:</p>
+
+<div class="ul_wrap"><ul id="_9505e119-3a55-e13f-7fef-8176f33c2192"><li><p id="_534ad845-2812-cec2-7f5c-8b6856988952">requirements and procedures provided by this document;</p>
+</li>
+<li><p id="_e09e5721-d63c-10c2-387b-0fc8936e4c39">registration operations shall adhere to the requirements stated in <a href="#ISO19135-1"><span class="stdpublisher">ISO </span><span class="stddocNumber">19135</span>-<span class="stddocPartNumber">1</span></a>, in which purpose ISO 34300/AG takes the role of “Control Body” in the concept system of  <a href="#ISO19135-1"><span class="stdpublisher">ISO </span><span class="stddocNumber">19135</span>-<span class="stddocPartNumber">1</span></a>;</p>
+</li>
+<li><p id="_850016de-5cba-1e49-3ad3-45c607308e16">requirements provided in <a href="#change-requests"><span class="citeapp">Clause A.2</span></a> and <a href="#reservation"><span class="citeapp">Clause A.3</span></a>.</p>
+</li>
+</ul></div>
+</div><div id="change-requests"><h2 id="_6aca3240-0cab-4eeb-bdc2-358a06102afa"><a class="anchor" href="#change-requests"></a><a class="header" href="#change-requests">A.2  Change requests</a></h2>
+
+<div id="_general_5"><h3><a class="anchor" href="#_general_5"></a><a class="header" href="#_general_5">A.2.1  General</a></h3>
+
+<p id="_c5a4e59b-2a5a-2dcb-71a0-dad05d43213f">Requests for additions, deletions, and changes of registration items are received by ISO 34300/RA.</p>
+
+<p id="_7610a75a-c9f1-1329-6c35-a63ae0572443">The proposer is responsible for providing justification regarding the eligibility of such change.</p>
+
+<p id="_c92562de-f949-ec40-cb37-011571b76014">The procedure for treating such requests is as follows:</p>
+
+<div class="ol_wrap"><ol type="a" id="_4c757912-4b4d-53e4-2778-a9e0d1b62e17" class="alphabet"><li id="_721746db-d46b-40ec-9c04-870fbf0611f6"><p id="_ed929f18-4dc2-8574-aac3-a5ad62b18b1b">ISO 34300/RA verifies that the request is supported by justification meeting
+the necessary eligibility criteria.<div id="_703c14f8-8dd3-e685-aafc-72d9b6d781f6" class="Note"><p><span class="note_label">NOTE</span>  Meeting the criteria is necessary for consideration but might not be sufficient for inclusion in ISO 34300.</p></div></p>
+
+</li>
+<li id="_d870146c-bcc0-472b-ae2f-9ca561bd3ba0"><p id="_9fedfd6f-6c33-902a-9989-431dcfe0dbb2">ISO 34300/RA initiates a consultation in ISO 34300/AG about the proposed update and possible changes necessary. When ISO 34300/RA consults ISO 34300/AG about the proposed inclusion, deletion or change, and proposes a mechanism to implement such change, ISO 34300/AG is obliged to respond within one month.</p>
+</li>
+<li id="_4d668cdd-a285-42a0-88a1-5f4d41c9c45c"><p id="_83c30a53-b227-2619-3724-66bcfa5c1ec7">Following the consultation, ISO 34300/AG decides through the defined consensus procedure whether the requested change is to be applied.</p>
+<div class="ol_wrap"><ol type="1" id="_5041925c-1771-74ac-5b27-b47e208cb440" class="arabic"><li id="_a8dad751-20b3-4146-8df6-9af1ce515a5a"><p id="_4de2686a-aba8-d9ff-e27c-7e957289e93b">If ISO 34300/AG confirms the adoption of the change, the change will be implemented by the ISO 34300/RA.</p>
+</li>
+<li id="_0a616e30-5a5b-4326-a6cf-968f522a1c4b"><p id="_36e709ea-4ad7-cddf-a0fa-ff9654640af6">Otherwise, the request is rejected and the party that made the request informed.</p>
+</li>
+</ol></div>
+</li>
+</ol></div>
+</div>
+
+<div id="registration-adding-calauth"><h3><a class="anchor" href="#registration-adding-calauth"></a><a class="header" href="#registration-adding-calauth">A.2.2  Registration of a new calendar system and calendar era</a></h3>
+
+<p id="_9c829470-60f7-262c-dec5-ac0f72800458">A calendar system and calendar era is eligible for registration if it meets the requirements stated in ISO 34300.</p>
+
+<p id="_ddab6678-2d8c-67c1-95e1-2315e117d4bf">The ISO 34300/AG will decide upon the addition, on the basis of eligibility and usage justification.</p>
+
+<p id="_ee51a52a-a860-3ea0-8b56-e83e7aa60d78">Code elements will be allocated by the ISO 34300/AG at its discretion.</p>
+
+<p id="_46e11ca6-c872-d377-4bee-af74b2a84108">Since a calendar system requires at least one calendar era, the application and assignment of calendar system and calendar era codes can be performed at once.</p>
+</div>
+
+<div id="_modification_of_a_calendar_system_or_calendar_era_code"><h3><a class="anchor" href="#_modification_of_a_calendar_system_or_calendar_era_code"></a><a class="header" href="#_modification_of_a_calendar_system_or_calendar_era_code">A.2.3  Modification of a calendar system or calendar era code</a></h3>
+
+<p id="_b527ccc2-90c4-21ec-302f-7a18d4b56b13">The ISO 34300/AG will decide upon the modification, on the basis of the information received.</p>
+
+<p id="_5b5784e8-b7eb-c57b-ac74-9aaf30f11a68">The previously assigned code is reserved after modification for backwards-compatibility purposes.</p>
+</div>
+
+<div id="registration-removing-calauth"><h3><a class="anchor" href="#registration-removing-calauth"></a><a class="header" href="#registration-removing-calauth">A.2.4  Removal of a calendar system or a calendar era code</a></h3>
+
+<p id="_cc199d07-7884-4658-491c-ba496c9657fb">The ISO 34300/AG will decide upon the deletion, on the basis of the information received.</p>
+
+<p id="_7c1e1432-f085-6ffb-18d8-8d6059148111">The corresponding code element is reserved.</p>
+</div>
+
+<div id="registration-modify-cal"><h3><a class="anchor" href="#registration-modify-cal"></a><a class="header" href="#registration-modify-cal">A.2.5  Modification of associated data elements to registered calendar systems and calendar era codes</a></h3>
+
+<p id="_a7f46c80-7c9b-c7e1-77d6-319973cf5ccb">The ISO 34300/AG will decide upon the proposed modification based on information received.</p>
+
+<p id="_ec1bf901-1231-8cdb-e635-873a5a060262">A significant change of name may require the ISO 34300/AG to change the code of the registered element concerned. The ISO 34300/AG, however, shall endeavor to maintain stability in the list of codes.</p>
+</div>
+</div><div id="reservation"><h2 id="_5813c005-345e-4d51-8c07-cbe7b79bab70"><a class="anchor" href="#reservation"></a><a class="header" href="#reservation">A.3  Reservation of code elements</a></h2>
+
+<div id="_general_6"><h3><a class="anchor" href="#_general_6"></a><a class="header" href="#_general_6">A.3.1  General</a></h3>
+
+<p id="_755b4be5-a21c-516c-e89b-7d92375d9620">Some code elements are reserved:</p>
+
+<div class="ul_wrap"><ul id="_b7fe2d72-0282-dde7-c588-81f4b8ecf6c2"><li><p id="_0e549293-75fc-7118-06e7-0705497dbe72">for a limited period when their reservation is the result of the deprecation ( <a href="#registration-removing-calauth"><span class="citeapp">A.2.4</span></a>) or the alteration ( <a href="#registration-modify-cal"><span class="citeapp">A.2.5</span></a>) of an entry;</p>
+</li>
+<li><p id="_b9278fe8-fd24-ae75-3050-c1f04224971d">for an indeterminate period when the reservation is the result of the application of international law or of exceptional requests ( <a href="#reservation-exceptional"><span class="citeapp">A.3.3</span></a>).</p>
+</li>
+</ul></div>
+</div>
+
+<div id="_period_of_non_allocation"><h3><a class="anchor" href="#_period_of_non_allocation"></a><a class="header" href="#_period_of_non_allocation">A.3.2  Period of non-allocation</a></h3>
+
+<p id="_d40229e8-c892-2b5a-7d90-3c052ab70532">Code elements that the ISO 34300/AG has altered or deleted should not be reallocated during a period of at least ten years after the change.</p>
+
+<p id="_d94d16c5-b54f-e7c5-ef65-bf47c6efce87">The exact period is determined in each case on the basis of the extent to which the former code element was used.</p>
+</div>
+
+<div id="reservation-exceptional"><h3><a class="anchor" href="#reservation-exceptional"></a><a class="header" href="#reservation-exceptional">A.3.3  Exceptional reservations</a></h3>
+
+<p id="_e4a79244-eb06-cbc0-2e75-429dfebe5bf7">Code elements may be reserved, in exceptional cases, for calendar systems and calendar eras which the ISO 34300/AG has decided not to include in the lists maintained by ISO 34300/RA, but for which an interchange or encoding requirement exists.</p>
+</div>
+
+<div id="_reallocation"><h3><a class="anchor" href="#_reallocation"></a><a class="header" href="#_reallocation">A.3.4  Reallocation</a></h3>
+
+<p id="_bea39ef7-1ef5-9736-007a-69625cf84026">Before reallocating a former code element or a formerly reserved code element, the ISO 34300/AG shall consult, as appropriate, the authority or agency on whose behalf the code element was reserved, and consideration shall be given to difficulties which might arise from the reallocation.</p>
+</div>
+
+<div id="_user_assigned_code_elements"><h3><a class="anchor" href="#_user_assigned_code_elements"></a><a class="header" href="#_user_assigned_code_elements">A.3.5  User-assigned code elements</a></h3>
+
+<p id="_75c25a99-c106-569f-85a4-5cf2ca176872">ISO 34300/RA and ISO 34300/AG do not keep a record of the notifications concerning user-assigned code elements received.</p>
+</div>
+
+<div id="_list_of_reserved_code_elements"><h3><a class="anchor" href="#_list_of_reserved_code_elements"></a><a class="header" href="#_list_of_reserved_code_elements">A.3.6  List of reserved code elements</a></h3>
+
+<p id="_a2c18296-4e00-42f1-4ba7-7d9c7fa427f1">A list of reserved code elements is kept by the ISO 34300/RA.</p>
+</div>
+</div></div><br /><div><h1 class="Section3" id="_fd2c64d1-2ee9-4392-9a69-5aa40f702ef1">Bibliography</h1>
+<p id="ISO639-2" class="Biblio">[1]  ISO 639-2<a class="FootnoteRef" href="#fn:c797c2cc-b042-4e39-b65f-bf88231ccc28" id="fnref:1"><sup>1)</sup></a>, <i><span class="stddocTitle">Codes for the representation of names of languages — Part 2: Alpha-3 code</span></i></p>
+
+</div><aside id="fn:c797c2cc-b042-4e39-b65f-bf88231ccc28" class="footnote"><p><a class="FootnoteRef" href="#fn:c797c2cc-b042-4e39-b65f-bf88231ccc28"><sup>1)</sup></a>Cancelled and replaced by ISO 639:2023.</p><a href="#fnref:1">↩</a></aside></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { preferredFont: "STIX" },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+ });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+  //TOC toggle animation
+$('#toggle').on('click', function(){
+    if( $('nav').is(':visible') ) {
+        $('nav').animate({ 'left': '-353px' }, 'slow', function(){
+            $('nav').hide();
+        });
+        $('body').animate({ 'padding-left': '30px' }, 'slow');
+    }
+    else {
+        $('nav').show();
+        $('nav').animate({ 'left': '0px' }, 'slow');
+        $('body').animate({ 'padding-left': '360px' }, 'slow');
+    }
+});
+</script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div />", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+<script>
+$(".collapse-button").click(function () {
+$(this).toggleClass('expand'); // expand: the class to change the collapse button shape
+// collapse: the class to collapse/expand the li elements with the h2 class
+$(this).closest('li').children(".content").toggleClass('collapse');})
+</script>
+</body></html>

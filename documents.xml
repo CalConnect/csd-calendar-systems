@@ -1,0 +1,409 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>Date and time -- Codes for calendar systems</title><contributor><role type='author'/><organization><name>CalConnect/ISO</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
+  <title format="text/plain" language="en">Date and time — Codes for calendar systems</title>
+  <uri type="xml">documents/cc-34300.xml</uri>
+  <uri type="pdf">documents/cc-34300.pdf</uri>
+  <uri type="html">documents/cc-34300.html</uri>
+  <uri type="rxl">documents/cc-34300.rxl</uri>
+  <docidentifier type="CalConnect" primary="true">CC/WD 34300:2019</docidentifier>
+  <docnumber>34300</docnumber>
+  <date type="published">
+    <on>2019-07-05</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename>Ronald Tse</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename>Jeffrey Lau</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2019-07-05</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>working-draft</stage>
+  </status>
+  <copyright>
+    <from>2019</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.0.0">
+    <doctype>standard</doctype>
+    <editorialgroup>
+      <committee>DATETIME</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
+  <title type="main" format="text/plain" language="en">Date and time — Codes for calendar systems — Guidelines for maintenance</title>
+  <title type="title-intro" format="text/plain" language="en">Date and time</title>
+  <title type="title-main" format="text/plain" language="en">Codes for calendar systems</title>
+  <title type="title-part" format="text/plain" language="en">Guidelines for maintenance</title>
+  <title type="main" format="text/plain" language="fr">Date et heure — Codes pour les systèmes de calendrier — Lignes directrices pour la maintenance</title>
+  <title type="title-intro" format="text/plain" language="fr">Date et heure</title>
+  <title type="title-main" format="text/plain" language="fr">Codes pour les systèmes de calendrier</title>
+  <title type="title-part" format="text/plain" language="fr">Lignes directrices pour la maintenance</title>
+  <uri type="xml">documents/iso-34300-a.xml</uri>
+  <uri type="pdf">documents/iso-34300-a.pdf</uri>
+  <uri type="doc">documents/iso-34300-a.doc</uri>
+  <uri type="html">documents/iso-34300-a.html</uri>
+  <uri type="rxl">documents/iso-34300-a.rxl</uri>
+  <docidentifier type="ISO" primary="true">ISO/AWI 34300-A</docidentifier>
+  <docidentifier type="iso-reference">ISO/AWI 34300-A:2021(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:34300:-A:stage-20.00:en</docidentifier>
+  <docidentifier type="iso-undated">ISO/AWI 34300-A</docidentifier>
+  <docidentifier type="iso-with-lang">ISO/AWI 34300-A(en)</docidentifier>
+  <docnumber>34300</docnumber>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>Technical committee</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Processes, data elements and documents in commerce, industry and administration
+TC 154</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>Workgroup</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Date and time
+WG 5</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Agency</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Technical committee</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Processes, data elements and documents in commerce, industry and administration
+TC 154</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Workgroup</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Date and time
+WG 5</subdivision>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage abbreviation="AWI">20</stage>
+    <substage>00</substage>
+  </status>
+  <copyright>
+    <from>2021</from>
+    <owner>
+      <organization>
+        <name>International Organization for Standardization</name>
+        <abbreviation>ISO</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.0.3">
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical-committee number="154" type="TC">Processes, data elements and documents in commerce, industry and administration</technical-committee>
+      <workgroup number="5" type="WG">Date and time</workgroup>
+      <secretariat>SAC</secretariat>
+    </editorialgroup>
+    <structuredidentifier>
+      <project-number part="A">ISO 34300</project-number>
+    </structuredidentifier>
+    <stagename>International Standard</stagename>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
+  <title type="main" format="text/plain" language="en">Date and time — Codes for calendar systems — Liste d’enregistrement</title>
+  <title type="title-intro" format="text/plain" language="en">Date and time</title>
+  <title type="title-main" format="text/plain" language="en">Codes for calendar systems</title>
+  <title type="title-part" format="text/plain" language="en">Liste d’enregistrement</title>
+  <title type="main" format="text/plain" language="fr">Date et heure — Codes pour les systèmes de calendrier</title>
+  <title type="title-intro" format="text/plain" language="fr">Date et heure</title>
+  <title type="title-main" format="text/plain" language="fr">Codes pour les systèmes de calendrier</title>
+  <uri type="xml">documents/iso-34300-b.xml</uri>
+  <uri type="pdf">documents/iso-34300-b.pdf</uri>
+  <uri type="doc">documents/iso-34300-b.doc</uri>
+  <uri type="html">documents/iso-34300-b.html</uri>
+  <uri type="rxl">documents/iso-34300-b.rxl</uri>
+  <docidentifier type="ISO" primary="true">ISO/AWI 34300-B</docidentifier>
+  <docidentifier type="iso-reference">ISO/AWI 34300-B:2021(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:34300:-B:stage-20.00:en</docidentifier>
+  <docidentifier type="iso-undated">ISO/AWI 34300-B</docidentifier>
+  <docidentifier type="iso-with-lang">ISO/AWI 34300-B(en)</docidentifier>
+  <docnumber>34300</docnumber>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>Technical committee</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Processes, data elements and documents in commerce, industry and administration
+TC 154</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>Workgroup</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Date and time
+WG 5</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Agency</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Technical committee</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Processes, data elements and documents in commerce, industry and administration
+TC 154</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Workgroup</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Date and time
+WG 5</subdivision>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage abbreviation="AWI">20</stage>
+    <substage>00</substage>
+  </status>
+  <copyright>
+    <from>2021</from>
+    <owner>
+      <organization>
+        <name>International Organization for Standardization</name>
+        <abbreviation>ISO</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.0.3">
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical-committee number="154" type="TC">Processes, data elements and documents in commerce, industry and administration</technical-committee>
+      <workgroup number="5" type="WG">Date and time</workgroup>
+      <secretariat>SAC</secretariat>
+    </editorialgroup>
+    <structuredidentifier>
+      <project-number part="B">ISO 34300</project-number>
+    </structuredidentifier>
+    <stagename>International Standard</stagename>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
+  <title type="main" format="text/plain" language="en">Date and time — Codes for calendar systems</title>
+  <title type="title-intro" format="text/plain" language="en">Date and time</title>
+  <title type="title-main" format="text/plain" language="en">Codes for calendar systems</title>
+  <title type="main" format="text/plain" language="fr">Date et heure — Codes pour les systèmes de calendrier</title>
+  <title type="title-intro" format="text/plain" language="fr">Date et heure</title>
+  <title type="title-main" format="text/plain" language="fr">Codes pour les systèmes de calendrier</title>
+  <uri type="xml">documents/iso-34300.xml</uri>
+  <uri type="pdf">documents/iso-34300.pdf</uri>
+  <uri type="doc">documents/iso-34300.doc</uri>
+  <uri type="html">documents/iso-34300.html</uri>
+  <uri type="rxl">documents/iso-34300.rxl</uri>
+  <docidentifier type="ISO" primary="true">ISO/AWI 34300</docidentifier>
+  <docidentifier type="iso-reference">ISO/AWI 34300:2020(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:34300:stage-20.00:en</docidentifier>
+  <docidentifier type="iso-undated">ISO/AWI 34300</docidentifier>
+  <docidentifier type="iso-with-lang">ISO/AWI 34300(en)</docidentifier>
+  <docnumber>34300</docnumber>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>Technical committee</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Processes, data elements and documents in commerce, industry and administration
+TC 154</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>Workgroup</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Date and time
+WG 5</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Agency</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Technical committee</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Processes, data elements and documents in commerce, industry and administration
+TC 154</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Workgroup</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Date and time
+WG 5</subdivision>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage abbreviation="AWI">20</stage>
+    <substage>00</substage>
+  </status>
+  <copyright>
+    <from>2020</from>
+    <owner>
+      <organization>
+        <name>International Organization for Standardization</name>
+        <abbreviation>ISO</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.0.3">
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical-committee number="154" type="TC">Processes, data elements and documents in commerce, industry and administration</technical-committee>
+      <workgroup number="5" type="WG">Date and time</workgroup>
+      <secretariat>SAC</secretariat>
+    </editorialgroup>
+    <structuredidentifier>
+      <project-number>ISO 34300</project-number>
+    </structuredidentifier>
+    <stagename>International Standard</stagename>
+  </ext>
+</bibdata></relation>
+</relaton-collection>

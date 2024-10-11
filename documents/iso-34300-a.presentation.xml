@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iso-standard xmlns="https://www.metanorma.org/ns/iso" type="presentation" version="2.8.7" schema-version="v1.3.4">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">Date and time — Codes for calendar systems — Guidelines for maintenance</title>
+
+<title language="en" format="text/plain" type="title-intro">Date and time</title>
+
+<title language="en" format="text/plain" type="title-main">Codes for calendar systems</title>
+
+<title language="en" format="text/plain" type="title-part">Guidelines for maintenance</title>
+
+
+
+<title language="fr" format="text/plain" type="main">Date et heure — Codes pour les systèmes de calendrier — Lignes directrices pour la maintenance</title>
+
+<title language="fr" format="text/plain" type="title-intro">Date et heure</title>
+
+<title language="fr" format="text/plain" type="title-main">Codes pour les systèmes de calendrier</title>
+
+<title language="fr" format="text/plain" type="title-part">Lignes directrices pour la maintenance</title>
+<docidentifier type="ISO" primary="true">ISO/AWI 34300-A</docidentifier><docidentifier type="iso-reference">ISO/AWI 34300-A:2021(E)</docidentifier><docidentifier type="URN">urn:iso:std:iso:34300:-A:stage-20.00:en</docidentifier><docidentifier type="iso-undated">ISO/AWI 34300-A</docidentifier><docidentifier type="iso-with-lang">ISO/AWI 34300-A(en)</docidentifier><docnumber>34300</docnumber><contributor><role type="author"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>Technical committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision><organization>
+<name>Processes, data elements and documents in commerce, industry and administration</name>
+<tt>TC 154</tt></organization></subdivision></organization></contributor><contributor><role type="author"><description>Workgroup</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision><organization>
+<name>Date and time</name>
+<tt>WG 5</tt></organization></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Technical committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision><organization>
+<name>Processes, data elements and documents in commerce, industry and administration</name>
+<tt>TC 154</tt></organization></subdivision></organization></contributor><contributor><role type="authorizer"><description>Workgroup</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision><organization>
+<name>Date and time</name>
+<tt>WG 5</tt></organization></subdivision></organization></contributor><edition language="">1</edition><edition language="en">first edition</edition><language current="true">en</language><script current="true">Latn</script><status><stage abbreviation="AWI" language="">20</stage><stage abbreviation="AWI" language="en">Working draft</stage><substage>00</substage></status><copyright><from>2021</from><owner><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype language="">international-standard</doctype><doctype language="en">International Standard</doctype><editorialgroup identifier="ISO/TC 154/WG 5"><agency>ISO</agency><technical-committee number="154" type="TC">Processes, data elements and documents in commerce, industry and administration</technical-committee><workgroup number="5" type="WG">Date and time</workgroup><secretariat>SAC</secretariat></editorialgroup><approvalgroup identifier="ISO/TC 154/WG 5"><agency>ISO</agency><technical-committee number="154" type="TC">Processes, data elements and documents in commerce, industry and administration</technical-committee><workgroup number="5" type="WG">Date and time</workgroup></approvalgroup><structuredidentifier><project-number part="A">ISO 34300</project-number></structuredidentifier><stagename abbreviation="AWI">International Standard</stagename></ext></bibdata><localized-strings><localized-string key="term_def_boilerplate" language="en">ISO and IEC maintain terminology databases for use in
+standardization at the following addresses:
+
+* ISO Online browsing platform: available at https://www.iso.org/obp[]
+* IEC Electropedia: available at https://www.electropedia.org[]
+</localized-string><localized-string key="scope" language="en">Scope</localized-string><localized-string key="symbolsabbrev" language="en">Symbols and abbreviated terms</localized-string><localized-string key="abbrev" language="en">Abbreviated terms</localized-string><localized-string key="symbols" language="en">Symbols</localized-string><localized-string key="table_of_contents" language="en">Contents</localized-string><localized-string key="introduction" language="en">Introduction</localized-string><localized-string key="foreword" language="en">Foreword</localized-string><localized-string key="abstract" language="en">Abstract</localized-string><localized-string key="acknowledgements" language="en">Acknowledgements</localized-string><localized-string key="termsdef" language="en">Terms and definitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="en">Terms, definitions, symbols and abbreviated terms</localized-string><localized-string key="termsdefsymbols" language="en">Terms, definitions and symbols</localized-string><localized-string key="termsdefabbrev" language="en">Terms, definitions and abbreviated terms</localized-string><localized-string key="normref" language="en">Normative references</localized-string><localized-string key="bibliography" language="en">Bibliography</localized-string><localized-string key="preface" language="en">Preface</localized-string><localized-string key="section" language="en">Section</localized-string><localized-string key="clause" language="en">Clause</localized-string><localized-string key="annex" language="en">Annex</localized-string><localized-string key="appendix" language="en">Appendix</localized-string><localized-string key="continued" language="en">continued</localized-string><localized-string key="no_terms_boilerplate" language="en">No terms and definitions are listed in this document.
+</localized-string><localized-string key="internal_terms_boilerplate" language="en">For the purposes of this document, the following terms and definitions apply.
+</localized-string><localized-string key="norm_with_refs_pref" language="en">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % apply.
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % and the following apply.
+</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 and %2</localized-string><localized-string key="multiple_and" language="en">%1 and %2</localized-string><localized-string key="binary_or" language="en">%1 or %2</localized-string><localized-string key="multiple_or" language="en">%1 or %2</localized-string><localized-string key="chain_and" language="en">%1 and %2</localized-string><localized-string key="chain_or" language="en">%1 or %2</localized-string><localized-string key="chain_from" language="en">%1 from %2</localized-string><localized-string key="chain_to" language="en">%1 to %2</localized-string><localized-string key="nested_xref" language="en">%1, %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="no_identifier" language="en">(NO ID)</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">EXAMPLE</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of figures</localized-string><localized-string key="toc_tables" language="en">List of tables</localized-string><localized-string key="toc_recommendations" language="en">List of recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="locality.appendix" language="en">Appendix</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="Provision.sg" language="en">Provision</localized-string><localized-string key="Provision.pl" language="en">Provisions</localized-string><localized-string key="Statement.sg" language="en">Statement</localized-string><localized-string key="Statement.pl" language="en">Statements</localized-string><localized-string key="Descriptor.sg" language="en">Descriptor</localized-string><localized-string key="Descriptor.pl" language="en">Descriptors</localized-string><localized-string key="all_rights_reserved" language="en">All rights reserved</localized-string><localized-string key="reference_number" language="en">Reference number</localized-string><localized-string key="reference_number_abbrev" language="en">Ref. No.</localized-string><localized-string key="price_based_on" language="en">Price based on % pages</localized-string><localized-string key="price" language="en">Price</localized-string><localized-string key="date_first_printing" language="en">Date of the first printing</localized-string><localized-string key="date_printing" language="en">Date of the {{ var1 | ordinal_word: '', '' }} printing</localized-string><localized-string key="descriptor" language="en">Descriptor</localized-string><localized-string key="under_preparation" language="en">Under preparation. (Stage at the time of publication %).</localized-string><localized-string key="withdrawn" language="en">Withdrawn.</localized-string><localized-string key="cancelled_and_replaced" language="en">Cancelled and replaced by %.</localized-string><localized-string key="date" language="en">Date</localized-string><localized-string key="index" language="en">Index</localized-string><localized-string key="see" language="en">see</localized-string><localized-string key="see_also" language="en">see also</localized-string><localized-string key="secretariat" language="en">Secretariat</localized-string><localized-string key="edition_ordinal_old" language="en">{{ var1 | ordinal_num: 'edition', '' }} EDITION</localized-string><localized-string key="edition_replacement" language="en">This {{ var1 | ordinal_word: 'edition', '' }} edition supersedes the {{ var2 | ordinal_word: 'edition', '' }} edition</localized-string><localized-string key="termsrelated" language="en">Terms related to</localized-string><localized-string key="availablefrom" language="en">Available from</localized-string><localized-string key="voting_begins_on" language="en">Voting begins on</localized-string><localized-string key="voting_terminates_on" language="en">Voting terminates on</localized-string><localized-string key="corrected_version" language="en">Corrected version</localized-string><localized-string key="fast-track-procedure" language="en">Fast track procedure</localized-string><localized-string key="classification-UDC" language="en">UDC</localized-string><localized-string key="website" language="en">website</localized-string><localized-string key="doctype_dict.international-standard" language="en">International Standard</localized-string><localized-string key="doctype_dict.technical-specification" language="en">Technical Specification</localized-string><localized-string key="doctype_dict.technical-report" language="en">Technical Report</localized-string><localized-string key="doctype_dict.publicly-available-specification" language="en">Publicly Available Specification</localized-string><localized-string key="doctype_dict.international-workshop-agreement" language="en">International Workshop Agreement</localized-string><localized-string key="doctype_dict.guide" language="en">Guide</localized-string><localized-string key="doctype_dict.amendment" language="en">Amendment</localized-string><localized-string key="doctype_dict.technical-corrigendum" language="en">Technical Corrigendum</localized-string><localized-string key="doctype_dict.directive" language="en">Directive</localized-string><localized-string key="doctype_dict.committee-document" language="en">Committee Document</localized-string><localized-string key="doctype_dict.recommendation" language="en">ISO Recommendation</localized-string><localized-string key="doctype_dict.addendum" language="en">Addendum</localized-string><localized-string key="stage_dict.00" language="en">Preliminary work item</localized-string><localized-string key="stage_dict.10" language="en">New work item proposal</localized-string><localized-string key="stage_dict.20" language="en">Working draft</localized-string><localized-string key="stage_dict.30" language="en">Committee draft</localized-string><localized-string key="40.international-standard" language="en">Draft International Standard</localized-string><localized-string key="40.technical-specification" language="en">Draft Technical Specification</localized-string><localized-string key="40.technical-report" language="en">Draft Technical Report</localized-string><localized-string key="40.publicly-available-specification" language="en">Draft Publicly Available Specification</localized-string><localized-string key="40.international-workshop-agreement" language="en">Draft International Workshop Agreement</localized-string><localized-string key="40.guide" language="en">Draft Guide</localized-string><localized-string key="40.amendment" language="en">Draft Amendment</localized-string><localized-string key="40.technical-corrigendum" language="en">Draft Technical Corrigendum</localized-string><localized-string key="40.directive" language="en">Draft Directive</localized-string><localized-string key="50.international-standard" language="en">Final Draft International Standard</localized-string><localized-string key="50.technical-specification" language="en">Final Draft Technical Specification</localized-string><localized-string key="50.technical-report" language="en">Final Draft Technical Report</localized-string><localized-string key="50.publicly-available-specification" language="en">Final Draft Publicly Available Specification</localized-string><localized-string key="50.international-workshop-agreement" language="en">Final Draft International Workshop Agreement</localized-string><localized-string key="50.guide" language="en">Final Draft Guide</localized-string><localized-string key="50.amendment" language="en">Final Draft Amendment</localized-string><localized-string key="50.technical-corrigendum" language="en">Final Draft Technical Corrigendum</localized-string><localized-string key="50.directive" language="en">Final Draft Directive</localized-string><localized-string key="60.international-standard" language="en">International Standard</localized-string><localized-string key="60.technical-specification" language="en">Technical Specification</localized-string><localized-string key="60.technical-report" language="en">Technical Report</localized-string><localized-string key="60.publicly-available-specification" language="en">Publicly Available Specification</localized-string><localized-string key="60.international-workshop-agreement" language="en">International Workshop Agreement</localized-string><localized-string key="60.guide" language="en">Guide</localized-string><localized-string key="60.amendment" language="en">Amendment</localized-string><localized-string key="60.technical-corrigendum" language="en">Technical Corrigendum</localized-string><localized-string key="60.directive" language="en">Directive</localized-string><localized-string key="stage_dict.90" language="en">Review</localized-string><localized-string key="stage_dict.95" language="en">Withdrawal</localized-string><localized-string key="modspec.provision" language="en">Provision</localized-string><localized-string key="modspec.conformancetest" language="en">Conformance test</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><metanorma-extension><presentation-metadata><name>document-scheme</name><value>2013</value></presentation-metadata><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>3</value></presentation-metadata><metanorma><source><semantic__iso-standard type="semantic" version="2.8.7" schema-version="v1.3.4">
+<semantic__bibdata type="standard">
+<semantic__title language="en" format="text/plain" type="main">Date and time — Codes for calendar systems — Guidelines for maintenance</semantic__title>
+
+<semantic__title language="en" format="text/plain" type="title-intro">Date and time</semantic__title>
+
+<semantic__title language="en" format="text/plain" type="title-main">Codes for calendar systems</semantic__title>
+
+<semantic__title language="en" format="text/plain" type="title-part">Guidelines for maintenance</semantic__title>
+
+
+
+<semantic__title language="fr" format="text/plain" type="main">Date et heure — Codes pour les systèmes de calendrier — Lignes directrices pour la maintenance</semantic__title>
+
+<semantic__title language="fr" format="text/plain" type="title-intro">Date et heure</semantic__title>
+
+<semantic__title language="fr" format="text/plain" type="title-main">Codes pour les systèmes de calendrier</semantic__title>
+
+<semantic__title language="fr" format="text/plain" type="title-part">Lignes directrices pour la maintenance</semantic__title>
+<semantic__docidentifier type="ISO" primary="true">ISO/AWI 34300-A</semantic__docidentifier><semantic__docidentifier type="iso-reference">ISO/AWI 34300-A:2021(E)</semantic__docidentifier><semantic__docidentifier type="URN">urn:iso:std:iso:34300:-A:stage-20.00:en</semantic__docidentifier><semantic__docidentifier type="iso-undated">ISO/AWI 34300-A</semantic__docidentifier><semantic__docidentifier type="iso-with-lang">ISO/AWI 34300-A(en)</semantic__docidentifier><semantic__docnumber>34300</semantic__docnumber><semantic__contributor><semantic__role type="author"/><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__abbreviation>ISO</semantic__abbreviation></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="author"><semantic__description>Technical committee</semantic__description></semantic__role><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__subdivision><semantic__organization>
+<semantic__name>Processes, data elements and documents in commerce, industry and administration</semantic__name>
+<semantic__identifier>TC 154</semantic__identifier></semantic__organization></semantic__subdivision></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="author"><semantic__description>Workgroup</semantic__description></semantic__role><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__subdivision><semantic__organization>
+<semantic__name>Date and time</semantic__name>
+<semantic__identifier>WG 5</semantic__identifier></semantic__organization></semantic__subdivision></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="authorizer"><semantic__description>Agency</semantic__description></semantic__role><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__abbreviation>ISO</semantic__abbreviation></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="publisher"/><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__abbreviation>ISO</semantic__abbreviation></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="authorizer"><semantic__description>Technical committee</semantic__description></semantic__role><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__subdivision><semantic__organization>
+<semantic__name>Processes, data elements and documents in commerce, industry and administration</semantic__name>
+<semantic__identifier>TC 154</semantic__identifier></semantic__organization></semantic__subdivision></semantic__organization></semantic__contributor><semantic__contributor><semantic__role type="authorizer"><semantic__description>Workgroup</semantic__description></semantic__role><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__subdivision><semantic__organization>
+<semantic__name>Date and time</semantic__name>
+<semantic__identifier>WG 5</semantic__identifier></semantic__organization></semantic__subdivision></semantic__organization></semantic__contributor><semantic__edition>1</semantic__edition><semantic__language>en</semantic__language><semantic__script>Latn</semantic__script><semantic__status><semantic__stage abbreviation="AWI">20</semantic__stage><semantic__substage>00</semantic__substage></semantic__status><semantic__copyright><semantic__from>2021</semantic__from><semantic__owner><semantic__organization>
+<semantic__name>International Organization for Standardization</semantic__name>
+<semantic__abbreviation>ISO</semantic__abbreviation></semantic__organization></semantic__owner></semantic__copyright><semantic__ext><semantic__doctype>international-standard</semantic__doctype><semantic__editorialgroup><semantic__agency>ISO</semantic__agency><semantic__technical-committee number="154" type="TC">Processes, data elements and documents in commerce, industry and administration</semantic__technical-committee><semantic__workgroup number="5" type="WG">Date and time</semantic__workgroup><semantic__secretariat>SAC</semantic__secretariat></semantic__editorialgroup><semantic__approvalgroup><semantic__agency>ISO</semantic__agency><semantic__technical-committee number="154" type="TC">Processes, data elements and documents in commerce, industry and administration</semantic__technical-committee><semantic__workgroup number="5" type="WG">Date and time</semantic__workgroup></semantic__approvalgroup><semantic__structuredidentifier><semantic__project-number part="A">ISO 34300</semantic__project-number></semantic__structuredidentifier><semantic__stagename abbreviation="AWI">International Standard</semantic__stagename></semantic__ext></semantic__bibdata><semantic__metanorma-extension><semantic__presentation-metadata><semantic__name>document-scheme</semantic__name><semantic__value>2013</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>HTML TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>DOC TOC Heading Levels</semantic__name><semantic__value>3</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>PDF TOC Heading Levels</semantic__name><semantic__value>3</semantic__value></semantic__presentation-metadata></semantic__metanorma-extension>
+<semantic__boilerplate><semantic__copyright-statement>
+
+<semantic__clause id="semantic___240cc6fc-ea89-52c9-57df-ed2dab09d6de" inline-header="false" obligation="normative">
+<semantic__p id="semantic__boilerplate-year">© <semantic__span class="std_publisher">ISO </semantic__span><semantic__span class="date">2021</semantic__span></semantic__p>
+
+<semantic__p id="semantic__boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</semantic__p>
+
+<semantic__p id="semantic__boilerplate-address" align="left">ISO copyright office<semantic__br/> CP 401 • Ch. de Blandonnet 8 <semantic__br/> CH-1214 Vernier, Geneva <semantic__br/> Phone: +41 22 749 01 11 <semantic__br/> Email:  <semantic__link target="mailto:copyright@iso.org"/><semantic__br/> Website: www.iso.org</semantic__p>
+
+<semantic__p id="semantic__boilerplate-place">Published in Switzerland</semantic__p>
+</semantic__clause>
+</semantic__copyright-statement>
+
+<semantic__license-statement>
+
+<semantic__clause id="semantic___warning_for_wds_and_cds" inline-header="false" obligation="normative">
+<semantic__title>Warning for WDs and CDs</semantic__title>
+<semantic__p id="semantic___77616240-d3c7-12bd-abe6-f0df62e81d4f">This document is not an ISO International Standard. It is distributed for review and comment. It is subject to change without notice and may not be referred to as an International Standard.</semantic__p>
+
+<semantic__p id="semantic___87adaa1e-c5fe-db08-1c44-79762ac4e62b">Recipients of this draft are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.</semantic__p>
+</semantic__clause>
+</semantic__license-statement>
+</semantic__boilerplate><semantic__preface><semantic__foreword id="semantic___543fe901-d4f4-6f93-de13-1181217d1922" obligation="informative">
+<semantic__title>Foreword</semantic__title>
+<semantic__p id="semantic___af04a30c-6da7-69ff-6b0b-8b89283f2084">ISO (the International Organization for Standardization) is a worldwide federation of national standards bodies (ISO member bodies). The work of preparing International Standards is normally carried out through ISO technical committees. Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee. International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.</semantic__p>
+
+<semantic__p id="semantic___f1083fe6-457b-ed9f-a5a1-091fed6f8b06">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular the different approval criteria needed for the different types of ISO documents should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see www.iso.org/directives).</semantic__p>
+
+<semantic__p id="semantic___9e049049-8b46-3d3e-97b9-eebd6fb12fcb">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see www.iso.org/patents).</semantic__p>
+
+<semantic__p id="semantic___3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</semantic__p>
+
+<semantic__p id="semantic___de7c4d87-54d1-49a0-0f1e-4d3fa697e2c0">For an explanation on the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see the following URL: www.iso.org/iso/foreword.html.</semantic__p>
+
+<semantic__p id="semantic___979638ff-4690-54f1-927d-cf4ea0d2b2e2">This document was prepared by Technical Committee ISO/TC 154, <semantic__em>Processes, data elements and documents in commerce, industry and administration</semantic__em>.</semantic__p>
+
+<semantic__p id="semantic___432f946f-3adc-15a7-e097-fa935cd35ff5">This document is amongst a series of International Standards dealing with the conversion of systems of writing produced by Technical Committee ISO/TC 154, <semantic__em>Processes, data elements and documents in commerce, industry and administration</semantic__em>, WG 5 <semantic__em>Date and time</semantic__em>.</semantic__p>
+
+<semantic__p id="semantic___397ec012-859c-dd50-8ac1-f4212334f327">This is the first edition of this document.</semantic__p>
+</semantic__foreword></semantic__preface><semantic__sections>
+<semantic__clause id="semantic___scope" type="scope" inline-header="false" obligation="normative">
+<semantic__title>Scope</semantic__title>
+<semantic__p id="semantic___0e7e47f3-45d0-6c60-dc03-a51310711831">This document provides guidelines for the maintenance of ISO 34300 codes for the ISO 34300 registration authority.</semantic__p>
+</semantic__clause>
+
+
+
+<semantic__terms id="semantic___terms_and_definitions" obligation="normative">
+<semantic__title>Terms and definitions</semantic__title><semantic__p id="semantic___0da6ca68-ecc9-b4a3-26a2-cdb6aef1b772">For the purposes of this document, the following terms and definitions apply.</semantic__p>
+<semantic__p id="semantic___13af5450-a71d-e945-782d-afffb0a645ab">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</semantic__p>
+
+<semantic__ul id="semantic___3fb63b94-5696-f10f-fa14-8fb905c53d98"><semantic__li><semantic__p id="semantic___9bcbd305-1125-3ee7-507a-f9b9cd78c680">ISO Online browsing platform: available at <semantic__link target="https://www.iso.org/obp"/></semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___16dd7b4f-969c-d0e1-c933-d9185c774137">IEC Electropedia: available at <semantic__link target="https://www.electropedia.org"/></semantic__p>
+</semantic__li>
+</semantic__ul>
+
+<semantic__term id="semantic__term-code"><semantic__preferred><semantic__expression>
+<semantic__name>code</semantic__name>
+</semantic__expression>
+</semantic__preferred>
+<semantic__definition><semantic__verbal-definition><semantic__p id="semantic___5e8ab9a7-4328-7608-d746-6c540cd00967">data representation in different forms according to a pre-established set of rules</semantic__p></semantic__verbal-definition></semantic__definition>
+
+
+ <semantic__termsource status="identical" type="authoritative"><semantic__origin bibitemid="semantic__ISO639-2" type="inline" citeas="ISO&amp;#xa0;639-2"/></semantic__termsource></semantic__term>
+
+<semantic__term id="semantic__term-registration-item"><semantic__preferred><semantic__expression>
+<semantic__name>registration item</semantic__name>
+</semantic__expression>
+</semantic__preferred>
+<semantic__definition><semantic__verbal-definition><semantic__p id="semantic___c957b0a7-d0b0-fe7f-484c-22800c555c3b">data element in a register</semantic__p></semantic__verbal-definition></semantic__definition>
+ </semantic__term>
+
+<semantic__term id="semantic__term-registration-code"><semantic__preferred><semantic__expression>
+<semantic__name>registration code</semantic__name>
+</semantic__expression>
+</semantic__preferred>
+<semantic__definition><semantic__verbal-definition><semantic__p id="semantic___e08a8c1e-fc6c-943b-d95f-fc63396cc912">code that identifies a <semantic__concept><semantic__refterm>registration item</semantic__refterm><semantic__renderterm>registration item</semantic__renderterm><semantic__xref target="semantic__term-registration-item"/></semantic__concept> within a register</semantic__p></semantic__verbal-definition></semantic__definition>
+ </semantic__term>
+
+<semantic__term id="semantic__term-ISO-34300-registration-authority"><semantic__preferred><semantic__expression>
+<semantic__name>ISO 34300 registration authority</semantic__name>
+</semantic__expression>
+</semantic__preferred><semantic__admitted><semantic__expression>
+<semantic__name>ISO 34300/RA</semantic__name>
+</semantic__expression>
+</semantic__admitted>
+
+
+
+<semantic__definition><semantic__verbal-definition><semantic__p id="semantic___ac86090a-34fb-70ff-7321-aac9713de370">registration authority that manages the <semantic__concept><semantic__refterm>ISO 34300 register</semantic__refterm><semantic__renderterm>ISO 34300 register</semantic__renderterm><semantic__xref target="semantic__term-ISO-34300-register"/></semantic__concept></semantic__p></semantic__verbal-definition></semantic__definition>
+ </semantic__term>
+
+<semantic__term id="semantic__term-ISO-34300-register"><semantic__preferred><semantic__expression>
+<semantic__name>ISO 34300 register</semantic__name>
+</semantic__expression>
+</semantic__preferred>
+<semantic__definition><semantic__verbal-definition><semantic__p id="semantic___656a4ea1-0e4a-3571-f07d-13686e61defb">register containing <semantic__concept><semantic__refterm>ISO 34300 registration item</semantic__refterm><semantic__renderterm>ISO 34300 registration items</semantic__renderterm><semantic__xref target="semantic__term-ISO-34300-registration-item"/></semantic__concept></semantic__p></semantic__verbal-definition></semantic__definition>
+ </semantic__term>
+
+<semantic__term id="semantic__term-ISO-34300-advisory-group"><semantic__preferred><semantic__expression>
+<semantic__name>ISO 34300 advisory group</semantic__name>
+</semantic__expression>
+</semantic__preferred><semantic__admitted><semantic__expression>
+<semantic__name>ISO 34300/AG</semantic__name>
+</semantic__expression>
+</semantic__admitted>
+
+
+
+<semantic__definition><semantic__verbal-definition><semantic__p id="semantic___c3a52a17-17a4-3f62-e50c-fd1f3d9ef7d9">group that provides advice to the <semantic__concept><semantic__refterm>ISO 34300 registration authority</semantic__refterm><semantic__renderterm>ISO 34300 registration authority</semantic__renderterm><semantic__xref target="semantic__term-ISO-34300-registration-authority"/></semantic__concept> on the contents of the  <semantic__concept><semantic__refterm>ISO 34300 register</semantic__refterm><semantic__renderterm>ISO 34300 register</semantic__renderterm><semantic__xref target="semantic__term-ISO-34300-register"/></semantic__concept></semantic__p></semantic__verbal-definition></semantic__definition>
+ </semantic__term>
+
+<semantic__term id="semantic__term-ISO-34300-registration-item"><semantic__preferred><semantic__expression>
+<semantic__name>ISO 34300 registration item</semantic__name>
+</semantic__expression>
+</semantic__preferred>
+<semantic__definition><semantic__verbal-definition><semantic__p id="semantic___637a0bfe-b908-bdd0-9623-268804c1fb0c">registration item identified by a registration code unique to the <semantic__concept><semantic__refterm>ISO 34300 register</semantic__refterm><semantic__renderterm>ISO 34300 register</semantic__renderterm><semantic__xref target="semantic__term-ISO-34300-register"/></semantic__concept></semantic__p></semantic__verbal-definition></semantic__definition>
+ </semantic__term>
+</semantic__terms>
+
+<semantic__clause id="semantic___iso_34300_registration_authority_2" inline-header="false" obligation="normative">
+<semantic__title>ISO 34300 registration authority</semantic__title>
+<semantic__clause id="semantic___general" inline-header="false" obligation="normative">
+<semantic__title>General</semantic__title>
+<semantic__p id="semantic___10135077-b81e-23dd-3df0-d215174a2fc8">ISO has designated a Registration Authority for this International Standard (ISO 34300/RA) to operate under guidelines provided in this document.</semantic__p>
+
+<semantic__p id="semantic___d6aa51a5-9610-c727-3d35-c7489f08608c">ISO 34300 defines the ISO 34300 register, which contains ISO 34300 registration items. Requirements of the ISO 34300 registration item and relevant data models used to represent calendars and calendar eras are also provided in the same document.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___responsibilities" inline-header="false" obligation="normative">
+<semantic__title>Responsibilities</semantic__title>
+<semantic__clause id="semantic___maintenance_of_the_iso_34300_register" inline-header="false" obligation="normative">
+<semantic__title>Maintenance of the ISO 34300 register</semantic__title>
+<semantic__p id="semantic___5d78e992-30f8-0c1a-24dc-06f4a524ccc2">The ISO 34300/RA is responsible for the maintenance of the ISO 34300 register, including code assignments for individual registration items and the information associated with each.</semantic__p>
+
+<semantic__p id="semantic___fdb84c3e-4c24-9ccf-6141-04fa9719f23d">The ISO 34300/RA is also responsible for administering reservations of the codes in the register.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___handling_data_change_requests_for_the_iso_34300_register" inline-header="false" obligation="normative">
+<semantic__title>Handling data change requests for the ISO 34300 register</semantic__title>
+<semantic__p id="semantic___2be85e2a-d0da-468e-6ae9-26550b0b27c8">ISO 34300/RA is responsible for receiving and reviewing applications for data change requests, including the addition, modification and elimination of registration items within the ISO 34300 register.</semantic__p>
+
+<semantic__p id="semantic___d1b3b77e-9cf7-5e1b-ba6a-4704e259ab2c">It is responsible for informing the applicant of the result of ISO 34300/RA actions.</semantic__p>
+
+<semantic__p id="semantic___63bc95cd-41ab-b836-7213-f1fa45b2fef3">It shall propose a practical mechanism to apply the proposed change assignment when the relevant criteria are met according to ISO 34300.</semantic__p>
+
+<semantic__p id="semantic___0b122eff-53b8-0207-fbd5-d36d7d574d5d">After approval by the members of the ISO 34300/AG, the ISO 34300/RA will update and publish the appropriate registrations, with all agreed corrections, if any.</semantic__p>
+
+<semantic__p id="semantic___6aad785a-f90a-df78-e2d7-685100b6c5c6">Data changes performed to the ISO 34300 register should be kept for traceability.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___publisher_of_iso_34300_register" inline-header="false" obligation="normative">
+<semantic__title>Publisher of ISO 34300 register</semantic__title>
+<semantic__p id="semantic___46976626-946a-5e37-278d-d52bf716a8b0">ISO 34300/RA is responsible for disseminating the contents of the ISO 34300 register to the public.</semantic__p>
+
+<semantic__p id="semantic___cc7be177-0fdd-dd3a-f568-08a37e4d718c">Changes to the content of the list of entries becomes effective immediately upon publication.</semantic__p>
+
+<semantic__p id="semantic___a46ae9c6-5bf9-e80e-869e-b58d38035a4c">The ISO 34300/AGS may consult individual ISO 34300/AG members directly concerning particular problems of implementation raised by users or potential users.</semantic__p>
+
+<semantic__p id="semantic___b89db14a-538e-87c3-fb07-a24126e07294">Data changes of the ISO 34300 register should be published and the history of changes made available.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___advice_to_users_of_the_iso_34300_register" inline-header="false" obligation="normative">
+<semantic__title>Advice to users of the ISO 34300 register</semantic__title>
+<semantic__p id="semantic___b6e4c571-59b3-1177-82ba-ffec9745216e">ISO 34300/RA is responsible for providing advice to the public and ISO member bodies on the application, use and implementation of ISO 34300, thereby seeking to promote its widest possible use.</semantic__p>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___other_responsibilities" inline-header="false" obligation="normative">
+<semantic__title>Other responsibilities</semantic__title>
+<semantic__p id="semantic___6706a596-ba7e-ec66-23ee-3fa9d807cfec">Other responsibilities of the ISO 34300/RA include:</semantic__p>
+
+<semantic__ol id="semantic___52649db2-3cea-2d62-1433-07b96383ceb8"><semantic__li><semantic__p id="semantic___6b7a8d1d-ebb5-b1e5-d64b-20bee48beff4">indicate in operations that it has been designated as ISO 34300/RA by ISO;</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___a106756d-3dce-2823-ad46-46ae7d784644">provide an annual summary report on activity to ISO/TC 154.</semantic__p>
+</semantic__li>
+</semantic__ol>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___iso_34300_advisory_group_2" inline-header="false" obligation="normative">
+<semantic__title>ISO 34300 advisory group</semantic__title>
+<semantic__clause id="semantic___general_2" inline-header="false" obligation="normative">
+<semantic__title>General</semantic__title>
+<semantic__p id="semantic___d998a926-fcc8-4e4d-9d50-a61d41893785">The ISO 34300 advisory group (ISO 34300/AG) is appointed to ensure the operations of the registration authority (ISO 34300/RA) are in accordance with guidelines provided in this document.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___responsibilities_2" inline-header="false" obligation="normative">
+<semantic__title>Responsibilities</semantic__title>
+<semantic__p id="semantic___819097af-1bec-4e1c-106d-2aeb308f6f1d">The ISO 34300/AG is responsible for providing guidance to ISO 34300/RA on handling of updates and data changes to the ISO 34300 register.</semantic__p>
+
+<semantic__p id="semantic___d47e123a-17d4-e3cf-9b05-7d3acb7d7484">It is also responsible for providing consultation and assistance on the use of ISO 34300 to ISO member bodies.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___voting_members" inline-header="false" obligation="normative">
+<semantic__title>Voting members</semantic__title>
+<semantic__clause id="semantic___general_3" inline-header="false" obligation="normative">
+<semantic__title>General</semantic__title>
+<semantic__p id="semantic___1e55983a-cee4-eff0-7254-25064d137ff7">The ISO 34300/AG voting membership consists of:</semantic__p>
+
+<semantic__ul id="semantic___47c1a8b6-b314-bff6-e0de-c23c924d6c63"><semantic__li><semantic__p id="semantic___f64b3114-da04-44b8-6136-a2fbc25c2a3b">ISO 34300/AG convenor (no vote)</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___aa786a4b-8ea4-a3c6-e655-532d1ee85b24">ISO 34300/AG vice-convenor</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___6e3f7af6-a999-f5bb-c63f-02ce6ae61f5b">at least 6 to 12 individually named members representing voting member bodies as follows:</semantic__p>
+<semantic__ul id="semantic___b0816c93-ada9-1217-91e1-e56860b0d0f4"><semantic__li><semantic__p id="semantic___b5a6313c-6f25-c621-e63c-62ad421064cf">three to six standing members from international organizations other than ISO;</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___0408e3bd-99c5-d7a1-4c04-5ce5f4100b1a">three standing members from within ISO/TC 154 participating member bodies (P-members);</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___96db5ea1-b01c-bd4e-ba76-4aca48a3f781">three (maximum) rotating members from within ISO/TC 154 participating member bodies (P-members).</semantic__p>
+</semantic__li>
+</semantic__ul>
+</semantic__li>
+</semantic__ul>
+
+<semantic__p id="semantic___ed0f370c-27ba-aa8a-7bb1-6642434e5759">ISO/TC 154 should review the membership structure of the ISO 34300/AG at regular intervals to ensure that its members fulfil their obligations ( <semantic__xref target="semantic__ag-member-responsibilities"/>).</semantic__p>
+
+<semantic__p id="semantic___8826664b-c412-a2ff-55e4-74f1740e9995">Recommendations for changes to the structure shall be submitted to ISO/TC 154 for consideration and, if approved, will be implemented by the time of the next plenary meeting.</semantic__p>
+
+<semantic__p id="semantic___8b8f17de-c7c9-a24a-f680-e9f614e4a5ad">The ISO 34300/AG membership list is available on the ISO 34300/AG ISO Documents website.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___international_organization_other_than_iso_standing_members" inline-header="false" obligation="normative">
+<semantic__title>International organization (other than ISO) standing members</semantic__title>
+<semantic__p id="semantic___2c314153-0979-588a-4257-f62e2b7a5ccd">A minimum of three and not more than six international organizations that are not within ISO may be appointed to ISO 34300/AG.</semantic__p>
+
+<semantic__p id="semantic___580655bf-b720-95e0-e45e-fadb8b2c1d2d">These international organizations are selected based on the role that they can play in achieving the greatest use and promotion of ISO 34300. These international organizations are appointed by ISO/TC 154 as standing members. These international organizations are required to be existing Category A liaisons to ISO/TC 154.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___iso_p_members" inline-header="false" obligation="normative">
+<semantic__title>ISO P-members</semantic__title>
+<semantic__clause id="semantic___standing_iso_p_members" inline-header="false" obligation="normative">
+<semantic__title>Standing ISO P-members</semantic__title>
+<semantic__p id="semantic___41bd326a-280f-6815-c4d5-2b9ec6dfbe66">Three standing P-members may be appointed to consecutive terms in the ISO 34300/AG. These members should reflect the greatest responsibility and productivity within the technical committee structure for this purpose. The P-members are selected by ISO/TC 154 for three-year periods which can be renewed automatically for consecutive terms. The composition of the standing members is established by ISO/TC 154.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___rotating_iso_p_members" inline-header="false" obligation="normative">
+<semantic__title>Rotating ISO P-members</semantic__title>
+<semantic__p id="semantic___3992abb9-edfc-9d3c-38b0-8071080376fd">Any P-members from ISO/TC 154 who are not standing members may apply to be a rotating P-member of ISO 34300/AG. ISO/TC 154 selects up to four P-members amongst the candidates taking into account the following considerations.</semantic__p>
+
+<semantic__ul id="semantic___22d192bb-d32f-01d5-5953-af5ea20576cd"><semantic__li><semantic__p id="semantic___57bd30b8-4ad7-cc80-fa4b-8c5aca9dd790">Up to three rotating P-members may sit on the ISO 34300/AG at one time.</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___de29ec7d-4344-18e2-9177-095be56b86eb">The membership term of a rotating P-member is 2 years.</semantic__p>
+</semantic__li>
+<semantic__note id="semantic___ce2cbfec-e43c-5857-c886-e3845aa0439f"><semantic__p id="semantic___21375901-91c4-ff74-09e3-32b9151e9f44">Members leaving the ISO 34300/AG may be re-elected an indefinite number of times. It is recognised that all willing P-members have an opportunity to serve on the ISO 34300/AG.</semantic__p>
+</semantic__note></semantic__ul>
+
+
+
+<semantic__ul id="semantic___e5303266-7e03-1b56-9ff7-69431e5696ce"><semantic__li><semantic__p id="semantic___77751e50-eec9-20cf-ac6f-e9201fada03c">Members should be selected in view of the best cultural diversity and geographical representation, for example amongst:</semantic__p>
+<semantic__ul id="semantic___287ed1c1-71ef-5a8a-f936-d7e22ed883b2"><semantic__li><semantic__p id="semantic___cdc8f7fb-8de8-3bde-a06d-0cece88f3546">African states,</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___2319d0c6-a0e4-ec46-d39b-1ce12f4ad4d8">Asia and Pacific states,</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___767db50f-5264-4f0f-c88a-49dbeb73dcb2">European states,</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___6ccb68ef-f3c7-e1d7-4aca-96698768bca7">North and South American states.</semantic__p>
+</semantic__li>
+</semantic__ul>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___a3b34cf8-e029-fe3f-dba3-ebec5d85b71f">Where insufficient nominations are received, the relevant number of seats on the ISO 34300/AG may remain unassigned.</semantic__p>
+</semantic__li>
+</semantic__ul>
+
+<semantic__p id="semantic___08ead7ad-8c68-0d07-49a2-dd30b8c8e427">At the first election, three members will be elected, of which two will serve two years before leaving and being replaced whilst the other one will serve three years before leaving and being replaced. Those leaving after two years shall be selected by the drawing of lots.</semantic__p>
+</semantic__clause>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___non_voting_members" inline-header="false" obligation="normative">
+<semantic__title>Non-voting members</semantic__title>
+<semantic__clause id="semantic___associate_members" inline-header="false" obligation="normative">
+<semantic__title>Associate members</semantic__title>
+<semantic__p id="semantic___43a75c84-0720-f76d-ae8d-8f907164d36f">At the acceptance of ISO 34300/AG, non-members of ISO/TC 154 P-members and international organizations may be associated with the work of the ISO 34300/AG.</semantic__p>
+
+<semantic__p id="semantic___8b3d2554-10d4-027c-8f6b-45e2b895acdf">An associate member body has the same status as a voting member but does not participate in voting.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___members_for_information" inline-header="false" obligation="normative">
+<semantic__title>Members for information</semantic__title>
+<semantic__p id="semantic___c94d3fb5-cc7b-9908-4ce7-06526c244ec9">These members of the ISO 34300/RA are non-voting members participating directly or indirectly in the maintenance of ISO 34300.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___secretariat" inline-header="false" obligation="normative">
+<semantic__title>Secretariat</semantic__title>
+<semantic__p id="semantic___abef4a66-3973-d7f2-1b4f-8db1f5d6064a">The ISO 34300/AG is served by a secretariat (ISO 34300/AGS), as designated by ISO 34300/AG.</semantic__p>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic__ag-member-responsibilities" inline-header="false" obligation="normative">
+<semantic__title>Member responsibilities</semantic__title>
+<semantic__clause id="semantic___voting_members_2" inline-header="false" obligation="normative">
+<semantic__title>Voting members</semantic__title>
+<semantic__p id="semantic___7e9be0f2-4862-4f34-8daf-1287f0dcd09a">Voting members shall have one vote each and shall nominate within their respective organizations:</semantic__p>
+
+<semantic__ul id="semantic___855ac145-eb88-2872-c80d-3bd4c2c3a1be"><semantic__li><semantic__p id="semantic___045c83d3-be35-a584-4732-80e87b47e983">one person to act as the representative voting member;</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___4e63f769-74a4-14ba-b550-7355949f2a7f">one person to act as a substitute to its representative in case of unavailability.</semantic__p>
+</semantic__li>
+</semantic__ul>
+
+<semantic__p id="semantic___7de2f5f7-e3dd-535a-40d5-dd1a6ebac641">These representatives should preferably be chosen to have the expertise necessary to understand ISO 34300 issues.</semantic__p>
+
+<semantic__p id="semantic___e000c02a-63d9-42f8-1440-f501e590d4d8">The ISO 34300/AG shall decide upon changes to registration items in the ISO 34300 register under conditions specified in ISO 34300.</semantic__p>
+
+<semantic__p id="semantic___8751fad4-e62b-e3e8-687a-b6d3b323ca14">Members are expected to vote, respond and comment without delay within specified time limits on ISO 34300/AG matters and attend meetings of the ISO 34300/AG, as required.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___officers" inline-header="false" obligation="normative">
+<semantic__title>Officers</semantic__title>
+<semantic__p id="semantic___57483a09-95f1-2898-37b0-9f8405a20805">Officers of the ISO 34300/AG include its convenor and vice-convenor. Both roles are nominated by ISO/TC 154.</semantic__p>
+
+<semantic__p id="semantic___543d0a3a-ebce-defc-7d3c-fe2e3ca170bb">These two officers shall be representatives of the two different membership groups:</semantic__p>
+
+<semantic__ul id="semantic___4bfb1ff7-3315-fc00-0c0d-be51a1343695"><semantic__li><semantic__p id="semantic___f8c6cbee-475a-a7db-c0ce-b80a6221f3b1">one from the ISO P-members;</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___8eba517e-4948-ca7d-df64-d52114c3add7">one from non-ISO international organizations.</semantic__p>
+</semantic__li>
+</semantic__ul>
+
+<semantic__p id="semantic___37d09b5f-f796-8c96-50e8-aee0977ce775">These nominations will be submitted to ISO/TC 154 for approval.</semantic__p>
+
+<semantic__p id="semantic___c6c5c649-c1d6-788b-1fcd-2ff3f0112d9b">When necessary, the vice-convenor replaces the convenor and assumes their responsibilities.</semantic__p>
+
+<semantic__p id="semantic___53a35414-8b8b-8b71-c487-6cc45a90c59c">In accordance with ISO’s neutrality policy, the convenor will not have a vote on ISO 34300/AG matters. Therefore, if the appointment of the convenor leaves a voting member vacancy from one of its member bodies, the member body shall name a new member to the ISO 34300/AG.</semantic__p>
+
+<semantic__p id="semantic___83e46a79-8f91-1bd1-54b0-fe952b0b2845">After the appointment of new officers, the outgoing and incoming officers should ensure a smooth and efficient handling of the work with the support of the ISO 34300/AGS during a transitional period.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___secretariat_2" inline-header="false" obligation="normative">
+<semantic__title>Secretariat</semantic__title>
+<semantic__p id="semantic___9ea5d0db-7d83-a7cd-d4b9-ec5e6b042a4b">The ISO 34300/AGS is responsible for the administration of maintenance procedures of ISO 34300/AG, including:</semantic__p>
+
+<semantic__ul id="semantic___16d5868f-6dc6-7a31-81ac-06d5e5286bc6"><semantic__li><semantic__p id="semantic___745778fb-dc3e-3c8c-c1ce-dcf9e7df04d0">updating and maintaining the ISO 34300/AG membership list;</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___161eca61-433c-2c74-2f94-1f3ec3e34539">calling meetings of ISO 34300/AG voting and/or non-voting members when necessary;</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___71c56391-930a-c728-fcdb-793c75414332">preparing meeting agendas and providing the minutes from meetings;</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___e882532e-9309-5b7a-e762-f1d9396a0ec3">consensus procedures and their reporting.</semantic__p>
+</semantic__li>
+</semantic__ul>
+
+<semantic__p id="semantic___3537e642-6f1d-5383-9d7c-c45974a0fa76">The ISO 34300/AGS is also responsible for maintaining an efficient arrangement concerning communication and documentation to ISO 34300/AG members and other interested parties.</semantic__p>
+</semantic__clause>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___working_procedure" inline-header="false" obligation="normative">
+<semantic__title>Working procedure</semantic__title>
+<semantic__clause id="semantic___principles" inline-header="false" obligation="normative">
+<semantic__title>Principles</semantic__title>
+<semantic__p id="semantic___d818bae3-4c21-7f90-0912-14584f2c5236">The maintenance procedure shall be as expedient as possible. It generally functions by means of communication technologies. When any of the ISO 34300/AG voting members consider that a meeting is required, the ISO 34300/AGS consults the ISO 34300/AG members about the convening of such a meeting.</semantic__p>
+
+<semantic__p id="semantic___db76d3d2-e312-7ee3-9d90-2bbca6b025a8">As a general principle, to ensure continuity and stability in the system, code elements shall be changed only for compelling reasons.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___consultation_phase_and_procedure" inline-header="false" obligation="normative">
+<semantic__title>Consultation phase and procedure</semantic__title>
+<semantic__p id="semantic___877b791d-1b76-2d2b-8bc7-4b8abe12e02e">Before opening any vote, a consultation period of at least ten working days shall be conducted amongst the ISO 34300/AG members.</semantic__p>
+
+<semantic__p id="semantic___0dbefaae-ead5-613b-198d-822fa3060937">ISO 34300/AG members are invited to provide comments concerning the subject of consultation during this period.</semantic__p>
+
+<semantic__p id="semantic___61ac1c47-1526-3f73-52bf-30dc189934a5">Based on findings from this consultation, the consensus phase may be initiated.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___consensus_phase_and_procedure" inline-header="false" obligation="normative">
+<semantic__title>Consensus phase and procedure</semantic__title>
+<semantic__p id="semantic___2c4f1ca4-63f8-547f-58da-545588a86476">Each voting member of the ISO 34300/AG shall have one vote. Votes shall be cast by the nominated representative or the substitute of each voting member. Members shall actively cast their votes, i.e. yes, no or abstention.</semantic__p>
+
+<semantic__p id="semantic___5a7179c1-92d6-29ca-3d8a-a3889f6c6239">Agreement to proposed changes shall be obtained by means of remote communication or at a meeting of the ISO 34300/AG, provided that the matter has been included in the draft agenda of the meeting. These agreements shall be confirmed in writing.</semantic__p>
+
+<semantic__p id="semantic___2092e10b-551c-11c0-62b6-648c35ed891a">The length of the reply period shall be six working days but at the request of the Convenor or at least one ISO 34300/RA voting member, the reply period may be extended.</semantic__p>
+
+<semantic__p id="semantic___87022938-2eaf-b446-ce43-27b2f57661b9">For the purposes of the ISO 34300/RA and ISO 34300/AG, the term “working days” shall exclude Saturdays and Sundays. The term “working days” shall also exclude the last five days of December.</semantic__p>
+
+<semantic__p id="semantic___25b20e0f-e95d-ccdf-4a3e-6484169c1e8b">Positive consensus is confirmed once there is a two-thirds majority and at least eight positive votes.</semantic__p>
+
+<semantic__p id="semantic___d48e4301-14b3-35ac-325e-80cee93894a8">When there is a two-thirds majority of positive votes, but fewer than four positive votes because of the high number of abstentions, a second round of voting is held.</semantic__p>
+
+<semantic__p id="semantic___552b895e-4a67-b754-2c08-c2f01b02b456">After the second round, there will be no further ballots on the same proposal.</semantic__p>
+
+<semantic__p id="semantic___3be0c72c-6b18-556c-c6c2-64fcf4a44b9a">Recorded abstentions do not count. Voting members not fulfilling their responsibilities by casting an active vote will be reminded of their responsibilities.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___reporting" inline-header="false" obligation="normative">
+<semantic__title>Reporting</semantic__title>
+<semantic__p id="semantic___05458005-a098-601a-d809-87af13b9cb6a">ISO 34300/AG is responsible for communicating data change decisions to the ISO 34300/RA.</semantic__p>
+</semantic__clause>
+</semantic__clause>
+
+
+
+
+</semantic__sections><semantic__annex id="semantic___maintenance_procedures_for_the_iso_34300_register" inline-header="false" obligation="normative">
+<semantic__title>Maintenance procedures for the ISO 34300 register</semantic__title>
+<semantic__clause id="semantic___general_4" inline-header="false" obligation="normative">
+<semantic__title>General</semantic__title>
+<semantic__p id="semantic___c9b2318c-e8fb-e8cf-3dfb-8a5afc40b1e5">The maintenance of the ISO 34300 register follows the following criteria:</semantic__p>
+
+<semantic__ul id="semantic___9505e119-3a55-e13f-7fef-8176f33c2192"><semantic__li><semantic__p id="semantic___534ad845-2812-cec2-7f5c-8b6856988952">requirements and procedures provided by this document;</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___e09e5721-d63c-10c2-387b-0fc8936e4c39">registration operations shall adhere to the requirements stated in <semantic__eref type="inline" bibitemid="semantic__ISO19135-1" citeas="ISO 19135-1"/>, in which purpose ISO 34300/AG takes the role of “Control Body” in the concept system of  <semantic__eref type="inline" bibitemid="semantic__ISO19135-1" citeas="ISO 19135-1"/>;</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___850016de-5cba-1e49-3ad3-45c607308e16">requirements provided in <semantic__xref target="semantic__change-requests"/> and <semantic__xref target="semantic__reservation"/>.</semantic__p>
+</semantic__li>
+</semantic__ul>
+</semantic__clause>
+
+<semantic__clause id="semantic__change-requests" inline-header="false" obligation="normative">
+<semantic__title>Change requests</semantic__title>
+<semantic__clause id="semantic___general_5" inline-header="false" obligation="normative">
+<semantic__title>General</semantic__title>
+<semantic__p id="semantic___c5a4e59b-2a5a-2dcb-71a0-dad05d43213f">Requests for additions, deletions, and changes of registration items are received by ISO 34300/RA.</semantic__p>
+
+<semantic__p id="semantic___7610a75a-c9f1-1329-6c35-a63ae0572443">The proposer is responsible for providing justification regarding the eligibility of such change.</semantic__p>
+
+<semantic__p id="semantic___c92562de-f949-ec40-cb37-011571b76014">The procedure for treating such requests is as follows:</semantic__p>
+
+<semantic__ol id="semantic___4c757912-4b4d-53e4-2778-a9e0d1b62e17"><semantic__li><semantic__p id="semantic___ed929f18-4dc2-8574-aac3-a5ad62b18b1b">ISO 34300/RA verifies that the request is supported by justification meeting
+the necessary eligibility criteria.<semantic__note id="semantic___703c14f8-8dd3-e685-aafc-72d9b6d781f6"><semantic__p id="semantic___21964e54-0cbf-e4c1-4214-df7f6894d7ca">Meeting the criteria is necessary for consideration but might not be sufficient for inclusion in ISO 34300.</semantic__p>
+</semantic__note></semantic__p>
+
+</semantic__li>
+<semantic__li><semantic__p id="semantic___9fedfd6f-6c33-902a-9989-431dcfe0dbb2">ISO 34300/RA initiates a consultation in ISO 34300/AG about the proposed update and possible changes necessary. When ISO 34300/RA consults ISO 34300/AG about the proposed inclusion, deletion or change, and proposes a mechanism to implement such change, ISO 34300/AG is obliged to respond within one month.</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___83c30a53-b227-2619-3724-66bcfa5c1ec7">Following the consultation, ISO 34300/AG decides through the defined consensus procedure whether the requested change is to be applied.</semantic__p>
+<semantic__ol id="semantic___5041925c-1771-74ac-5b27-b47e208cb440"><semantic__li><semantic__p id="semantic___4de2686a-aba8-d9ff-e27c-7e957289e93b">If ISO 34300/AG confirms the adoption of the change, the change will be implemented by the ISO 34300/RA.</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___36e709ea-4ad7-cddf-a0fa-ff9654640af6">Otherwise, the request is rejected and the party that made the request informed.</semantic__p>
+</semantic__li>
+</semantic__ol>
+</semantic__li>
+</semantic__ol>
+</semantic__clause>
+
+<semantic__clause id="semantic__registration-adding-calauth" inline-header="false" obligation="normative">
+<semantic__title>Registration of a new calendar system and calendar era</semantic__title>
+<semantic__p id="semantic___9c829470-60f7-262c-dec5-ac0f72800458">A calendar system and calendar era is eligible for registration if it meets the requirements stated in ISO 34300.</semantic__p>
+
+<semantic__p id="semantic___ddab6678-2d8c-67c1-95e1-2315e117d4bf">The ISO 34300/AG will decide upon the addition, on the basis of eligibility and usage justification.</semantic__p>
+
+<semantic__p id="semantic___ee51a52a-a860-3ea0-8b56-e83e7aa60d78">Code elements will be allocated by the ISO 34300/AG at its discretion.</semantic__p>
+
+<semantic__p id="semantic___46e11ca6-c872-d377-4bee-af74b2a84108">Since a calendar system requires at least one calendar era, the application and assignment of calendar system and calendar era codes can be performed at once.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___modification_of_a_calendar_system_or_calendar_era_code" inline-header="false" obligation="normative">
+<semantic__title>Modification of a calendar system or calendar era code</semantic__title>
+<semantic__p id="semantic___b527ccc2-90c4-21ec-302f-7a18d4b56b13">The ISO 34300/AG will decide upon the modification, on the basis of the information received.</semantic__p>
+
+<semantic__p id="semantic___5b5784e8-b7eb-c57b-ac74-9aaf30f11a68">The previously assigned code is reserved after modification for backwards-compatibility purposes.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic__registration-removing-calauth" inline-header="false" obligation="normative">
+<semantic__title>Removal of a calendar system or a calendar era code</semantic__title>
+<semantic__p id="semantic___cc199d07-7884-4658-491c-ba496c9657fb">The ISO 34300/AG will decide upon the deletion, on the basis of the information received.</semantic__p>
+
+<semantic__p id="semantic___7c1e1432-f085-6ffb-18d8-8d6059148111">The corresponding code element is reserved.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic__registration-modify-cal" inline-header="false" obligation="normative">
+<semantic__title>Modification of associated data elements to registered calendar systems and calendar era codes</semantic__title>
+<semantic__p id="semantic___a7f46c80-7c9b-c7e1-77d6-319973cf5ccb">The ISO 34300/AG will decide upon the proposed modification based on information received.</semantic__p>
+
+<semantic__p id="semantic___ec1bf901-1231-8cdb-e635-873a5a060262">A significant change of name may require the ISO 34300/AG to change the code of the registered element concerned. The ISO 34300/AG, however, shall endeavor to maintain stability in the list of codes.</semantic__p>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic__reservation" inline-header="false" obligation="normative">
+<semantic__title>Reservation of code elements</semantic__title>
+<semantic__clause id="semantic___general_6" inline-header="false" obligation="normative">
+<semantic__title>General</semantic__title>
+<semantic__p id="semantic___755b4be5-a21c-516c-e89b-7d92375d9620">Some code elements are reserved:</semantic__p>
+
+<semantic__ul id="semantic___b7fe2d72-0282-dde7-c588-81f4b8ecf6c2"><semantic__li><semantic__p id="semantic___0e549293-75fc-7118-06e7-0705497dbe72">for a limited period when their reservation is the result of the deprecation ( <semantic__xref target="semantic__registration-removing-calauth"/>) or the alteration ( <semantic__xref target="semantic__registration-modify-cal"/>) of an entry;</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___b9278fe8-fd24-ae75-3050-c1f04224971d">for an indeterminate period when the reservation is the result of the application of international law or of exceptional requests ( <semantic__xref target="semantic__reservation-exceptional"/>).</semantic__p>
+</semantic__li>
+</semantic__ul>
+</semantic__clause>
+
+<semantic__clause id="semantic___period_of_non_allocation" inline-header="false" obligation="normative">
+<semantic__title>Period of non-allocation</semantic__title>
+<semantic__p id="semantic___d40229e8-c892-2b5a-7d90-3c052ab70532">Code elements that the ISO 34300/AG has altered or deleted should not be reallocated during a period of at least ten years after the change.</semantic__p>
+
+<semantic__p id="semantic___d94d16c5-b54f-e7c5-ef65-bf47c6efce87">The exact period is determined in each case on the basis of the extent to which the former code element was used.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic__reservation-exceptional" inline-header="false" obligation="normative">
+<semantic__title>Exceptional reservations</semantic__title>
+<semantic__p id="semantic___e4a79244-eb06-cbc0-2e75-429dfebe5bf7">Code elements may be reserved, in exceptional cases, for calendar systems and calendar eras which the ISO 34300/AG has decided not to include in the lists maintained by ISO 34300/RA, but for which an interchange or encoding requirement exists.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___reallocation" inline-header="false" obligation="normative">
+<semantic__title>Reallocation</semantic__title>
+<semantic__p id="semantic___bea39ef7-1ef5-9736-007a-69625cf84026">Before reallocating a former code element or a formerly reserved code element, the ISO 34300/AG shall consult, as appropriate, the authority or agency on whose behalf the code element was reserved, and consideration shall be given to difficulties which might arise from the reallocation.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___user_assigned_code_elements" inline-header="false" obligation="normative">
+<semantic__title>User-assigned code elements</semantic__title>
+<semantic__p id="semantic___75c25a99-c106-569f-85a4-5cf2ca176872">ISO 34300/RA and ISO 34300/AG do not keep a record of the notifications concerning user-assigned code elements received.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___list_of_reserved_code_elements" inline-header="false" obligation="normative">
+<semantic__title>List of reserved code elements</semantic__title>
+<semantic__p id="semantic___a2c18296-4e00-42f1-4ba7-7d9c7fa427f1">A list of reserved code elements is kept by the ISO 34300/RA.</semantic__p>
+</semantic__clause>
+</semantic__clause>
+</semantic__annex><semantic__bibliography><semantic__references id="semantic___normative_references" normative="true" obligation="informative">
+<semantic__title>Normative references</semantic__title><semantic__p id="semantic___21ac2b92-2fe6-317d-983c-a478441ede9f">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</semantic__p>
+
+<semantic__bibitem id="semantic__ISO19135-1" type="standard" schema-version="v1.2.9">
+  <semantic__fetched>2024-10-11</semantic__fetched>
+  
+<semantic__title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</semantic__title>
+
+  
+<semantic__title type="title-main" format="text/plain" language="en" script="Latn">Procedures for item registration</semantic__title>
+
+  
+<semantic__title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Fundamentals</semantic__title>
+
+  
+<semantic__title type="main" format="text/plain" language="en" script="Latn">Geographic information — Procedures for item registration — Part 1: Fundamentals</semantic__title>
+
+  <semantic__uri type="src">https://www.iso.org/standard/54721.html</semantic__uri>
+  <semantic__uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:54721:en</semantic__uri>
+  <semantic__uri type="rss">https://www.iso.org/contents/data/standard/05/47/54721.detail.rss</semantic__uri>
+  <semantic__docidentifier type="ISO" primary="true">ISO 19135-1</semantic__docidentifier>
+  <semantic__docidentifier type="iso-reference">iso-reference ISO 19135-1(E)</semantic__docidentifier>
+  <semantic__docidentifier type="URN">URN urn:iso:std:iso:19135:-1:stage-90.92</semantic__docidentifier><semantic__docidentifier scope="biblio-tag">ISO 19135-1</semantic__docidentifier>
+  <semantic__docnumber>19135</semantic__docnumber>
+  <semantic__contributor>
+    <semantic__role type="publisher"/>
+    <semantic__organization>
+      
+<semantic__name>International Organization for Standardization</semantic__name>
+
+      <semantic__abbreviation>ISO</semantic__abbreviation>
+      <semantic__uri>www.iso.org</semantic__uri>
+    </semantic__organization>
+  </semantic__contributor>
+  <semantic__edition>1</semantic__edition>
+  <semantic__language>en</semantic__language>
+  <semantic__language>fr</semantic__language>
+  <semantic__script>Latn</semantic__script>
+  <semantic__status>
+    <semantic__stage>90</semantic__stage>
+    <semantic__substage>92</semantic__substage>
+  </semantic__status>
+  <semantic__copyright>
+    <semantic__from>2015</semantic__from>
+    <semantic__owner>
+      <semantic__organization>
+        
+<semantic__name>ISO</semantic__name>
+
+      </semantic__organization>
+    </semantic__owner>
+  </semantic__copyright>
+  <semantic__relation type="obsoletes">
+    <semantic__bibitem type="standard">
+      <semantic__formattedref format="text/plain">ISO 19135:2005</semantic__formattedref>
+      <semantic__docidentifier type="ISO" primary="true">ISO 19135:2005</semantic__docidentifier>
+    </semantic__bibitem>
+
+  </semantic__relation>
+  <semantic__relation type="obsoletes">
+    <semantic__bibitem type="standard">
+      <semantic__formattedref format="text/plain">ISO/DIS 19135</semantic__formattedref>
+      <semantic__docidentifier type="ISO" primary="true">ISO/DIS 19135</semantic__docidentifier>
+    </semantic__bibitem>
+
+  </semantic__relation>
+  <semantic__relation type="updates">
+    <semantic__bibitem type="standard">
+      <semantic__formattedref format="text/plain">ISO 19135-1:2015/Amd 1:2021</semantic__formattedref>
+      <semantic__docidentifier type="ISO" primary="true">ISO 19135-1:2015/Amd 1:2021</semantic__docidentifier>
+      <semantic__date type="circulated">
+        <semantic__on>2023-05-25</semantic__on>
+      </semantic__date>
+    </semantic__bibitem>
+
+  </semantic__relation>
+  <semantic__relation type="instanceOf">
+    <semantic__bibitem type="standard">
+      <semantic__fetched>2024-10-11</semantic__fetched>
+      
+<semantic__title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</semantic__title>
+
+      
+<semantic__title type="title-main" format="text/plain" language="en" script="Latn">Procedures for item registration</semantic__title>
+
+      
+<semantic__title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Fundamentals</semantic__title>
+
+      
+<semantic__title type="main" format="text/plain" language="en" script="Latn">Geographic information — Procedures for item registration — Part 1: Fundamentals</semantic__title>
+
+      <semantic__uri type="src">https://www.iso.org/standard/54721.html</semantic__uri>
+      <semantic__uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:54721:en</semantic__uri>
+      <semantic__uri type="rss">https://www.iso.org/contents/data/standard/05/47/54721.detail.rss</semantic__uri>
+      <semantic__docidentifier type="ISO" primary="true">ISO 19135-1:2015</semantic__docidentifier>
+      <semantic__docidentifier type="iso-reference">ISO 19135-1:2015(E)</semantic__docidentifier>
+      <semantic__docidentifier type="URN">urn:iso:std:iso:19135:-1:stage-90.92</semantic__docidentifier>
+      <semantic__docnumber>19135</semantic__docnumber>
+      <semantic__date type="published">
+        <semantic__on>2015-10</semantic__on>
+      </semantic__date>
+      <semantic__contributor>
+        <semantic__role type="publisher"/>
+        <semantic__organization>
+          
+<semantic__name>International Organization for Standardization</semantic__name>
+
+          <semantic__abbreviation>ISO</semantic__abbreviation>
+          <semantic__uri>www.iso.org</semantic__uri>
+        </semantic__organization>
+      </semantic__contributor>
+      <semantic__edition>1</semantic__edition>
+      <semantic__language>en</semantic__language>
+      <semantic__language>fr</semantic__language>
+      <semantic__script>Latn</semantic__script>
+      <semantic__abstract format="text/plain" language="en" script="Latn">ISO 19135-1:2015 specifies procedures to be followed in establishing, maintaining, and publishing registers of unique, unambiguous, and permanent identifiers and meanings that are assigned to items of geographic information. In order to accomplish this purpose, ISO 19135-1:2015 specifies elements that are necessary to manage the registration of these items.</semantic__abstract>
+      <semantic__status>
+        <semantic__stage>90</semantic__stage>
+        <semantic__substage>92</semantic__substage>
+      </semantic__status>
+      <semantic__copyright>
+        <semantic__from>2015</semantic__from>
+        <semantic__owner>
+          <semantic__organization>
+            
+<semantic__name>ISO</semantic__name>
+
+          </semantic__organization>
+        </semantic__owner>
+      </semantic__copyright>
+      <semantic__relation type="obsoletes">
+        <semantic__bibitem type="standard">
+          <semantic__formattedref format="text/plain">ISO 19135:2005</semantic__formattedref>
+          <semantic__docidentifier type="ISO" primary="true">ISO 19135:2005</semantic__docidentifier>
+        </semantic__bibitem>
+
+      </semantic__relation>
+      <semantic__relation type="obsoletes">
+        <semantic__bibitem type="standard">
+          <semantic__formattedref format="text/plain">ISO/DIS 19135</semantic__formattedref>
+          <semantic__docidentifier type="ISO" primary="true">ISO/DIS 19135</semantic__docidentifier>
+        </semantic__bibitem>
+
+      </semantic__relation>
+      <semantic__relation type="updates">
+        <semantic__bibitem type="standard">
+          <semantic__formattedref format="text/plain">ISO 19135-1:2015/Amd 1:2021</semantic__formattedref>
+          <semantic__docidentifier type="ISO" primary="true">ISO 19135-1:2015/Amd 1:2021</semantic__docidentifier>
+          <semantic__date type="circulated">
+            <semantic__on>2023-05-25</semantic__on>
+          </semantic__date>
+        </semantic__bibitem>
+
+      </semantic__relation>
+      <semantic__place>Geneva</semantic__place>
+    </semantic__bibitem>
+
+  </semantic__relation>
+  <semantic__place>Geneva</semantic__place>
+</semantic__bibitem>
+</semantic__references><semantic__references id="semantic___bibliography" normative="false" obligation="informative">
+<semantic__title>Bibliography</semantic__title><semantic__bibitem id="semantic__ISO639-2" type="standard" schema-version="v1.2.9">
+  <semantic__fetched>2024-10-11</semantic__fetched>
+  
+<semantic__title type="title-main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages</semantic__title>
+
+  
+<semantic__title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Alpha-3 code</semantic__title>
+
+  
+<semantic__title type="main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages — Part 2: Alpha-3 code</semantic__title>
+
+  <semantic__uri type="src">https://www.iso.org/standard/4767.html</semantic__uri>
+  <semantic__uri type="rss">https://www.iso.org/contents/data/standard/00/47/4767.detail.rss</semantic__uri>
+  <semantic__docidentifier type="ISO" primary="true">ISO 639-2</semantic__docidentifier>
+  <semantic__docidentifier type="iso-reference">iso-reference ISO 639-2(E)</semantic__docidentifier>
+  <semantic__docidentifier type="URN">URN urn:iso:std:iso:639:-2:stage-95.99</semantic__docidentifier><semantic__docidentifier scope="biblio-tag">ISO 639-2</semantic__docidentifier>
+  <semantic__docnumber>639</semantic__docnumber>
+  <semantic__contributor>
+    <semantic__role type="publisher"/>
+    <semantic__organization>
+      
+<semantic__name>International Organization for Standardization</semantic__name>
+
+      <semantic__abbreviation>ISO</semantic__abbreviation>
+      <semantic__uri>www.iso.org</semantic__uri>
+    </semantic__organization>
+  </semantic__contributor>
+  <semantic__edition>1</semantic__edition>
+  <semantic__note type="Unpublished-Status"><semantic__p id="semantic___b962b5b6-588e-ecdb-8706-79f87f92979b">Cancelled and replaced by ISO 639:2023.</semantic__p></semantic__note><semantic__language>en</semantic__language>
+  <semantic__language>fr</semantic__language>
+  <semantic__script>Latn</semantic__script>
+  <semantic__status>
+    <semantic__stage>95</semantic__stage>
+    <semantic__substage>99</semantic__substage>
+  </semantic__status>
+  <semantic__copyright>
+    <semantic__from>1998</semantic__from>
+    <semantic__owner>
+      <semantic__organization>
+        
+<semantic__name>ISO</semantic__name>
+
+      </semantic__organization>
+    </semantic__owner>
+  </semantic__copyright>
+  <semantic__relation type="updates">
+    <semantic__bibitem type="standard">
+      <semantic__formattedref format="text/plain">ISO 639:2023</semantic__formattedref>
+      <semantic__docidentifier type="ISO" primary="true">ISO 639:2023</semantic__docidentifier>
+      <semantic__date type="circulated">
+        <semantic__on>2023-11-08</semantic__on>
+      </semantic__date>
+    </semantic__bibitem>
+
+  </semantic__relation>
+  <semantic__relation type="instanceOf">
+    <semantic__bibitem type="standard">
+      <semantic__fetched>2024-10-11</semantic__fetched>
+      
+<semantic__title type="title-main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages</semantic__title>
+
+      
+<semantic__title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Alpha-3 code</semantic__title>
+
+      
+<semantic__title type="main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages — Part 2: Alpha-3 code</semantic__title>
+
+      <semantic__uri type="src">https://www.iso.org/standard/4767.html</semantic__uri>
+      <semantic__uri type="rss">https://www.iso.org/contents/data/standard/00/47/4767.detail.rss</semantic__uri>
+      <semantic__docidentifier type="ISO" primary="true">ISO 639-2:1998</semantic__docidentifier>
+      <semantic__docidentifier type="iso-reference">ISO 639-2:1998(E)</semantic__docidentifier>
+      <semantic__docidentifier type="URN">urn:iso:std:iso:639:-2:stage-95.99</semantic__docidentifier>
+      <semantic__docnumber>639</semantic__docnumber>
+      <semantic__date type="published">
+        <semantic__on>1998-11</semantic__on>
+      </semantic__date>
+      <semantic__contributor>
+        <semantic__role type="publisher"/>
+        <semantic__organization>
+          
+<semantic__name>International Organization for Standardization</semantic__name>
+
+          <semantic__abbreviation>ISO</semantic__abbreviation>
+          <semantic__uri>www.iso.org</semantic__uri>
+        </semantic__organization>
+      </semantic__contributor>
+      <semantic__edition>1</semantic__edition>
+      <semantic__note type="Unpublished-Status"><semantic__p id="semantic___00ecf83b-e204-c32e-b94a-7081e916c94f">Cancelled and replaced by ISO 639:2023.</semantic__p></semantic__note><semantic__language>en</semantic__language>
+      <semantic__language>fr</semantic__language>
+      <semantic__script>Latn</semantic__script>
+      <semantic__abstract format="text/plain" language="fr" script="Latn">La présente partie de l’ISO 639 fournit deux jeux de codets à trois caractères pour la représentation des noms de langue, l’un destiné à des applications en terminologie, l’autre destiné à des applications bibliographiques. Les deux jeux de codets sont les mêmes, excepté pour vingt-cinq langues qui ont des codets différents à cause du critère utilisé pour les former . À l’origine, des codets de langues ont été créés à l’usage des bibliothèques, des services documentaires et des éditeurs, pour indiquer la langue dans l’échange d’information, particulièrement entre des systèmes informatisés. Ces codets ont été utilisés largement à l’intérieur de la communauté des bibliothèques, et ils peuvent être adoptés pour toute application qui requiert l’expression de la langue sous forme codée, en terminologie ou en lexicographie. Le code alpha-2 a été créé pour un usage pratique pour la plupart des grandes langues du monde, langues qui sont les plus souvent représentées dans le corpus de la littérature mondiale. De nouveaux codets sont créés quand il devient évident qu’il existe un corpus significatif de littérature dans une langue particulière. Les langages créés pour être utilisés exclusivement par des machines, comme les langages de programmation, ne sont pas inclus dans le présent code.</semantic__abstract>
+      <semantic__status>
+        <semantic__stage>95</semantic__stage>
+        <semantic__substage>99</semantic__substage>
+      </semantic__status>
+      <semantic__copyright>
+        <semantic__from>1998</semantic__from>
+        <semantic__owner>
+          <semantic__organization>
+            
+<semantic__name>ISO</semantic__name>
+
+          </semantic__organization>
+        </semantic__owner>
+      </semantic__copyright>
+      <semantic__relation type="updates">
+        <semantic__bibitem type="standard">
+          <semantic__formattedref format="text/plain">ISO 639:2023</semantic__formattedref>
+          <semantic__docidentifier type="ISO" primary="true">ISO 639:2023</semantic__docidentifier>
+          <semantic__date type="circulated">
+            <semantic__on>2023-11-08</semantic__on>
+          </semantic__date>
+        </semantic__bibitem>
+
+      </semantic__relation>
+      <semantic__place>Geneva</semantic__place>
+    </semantic__bibitem>
+
+  </semantic__relation>
+  <semantic__place>Geneva</semantic__place>
+</semantic__bibitem>
+
+</semantic__references></semantic__bibliography>
+</semantic__iso-standard></source></metanorma><render><preprocess-xslt format="xml">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',xml,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="xml">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="rxl">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',rxl,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="rxl">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="html">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',html,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="html">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="doc">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',doc,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="doc">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="pdf">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',pdf,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="pdf">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+</render><source-highlighter-css>sourcecode table td { padding: 5px; }
+sourcecode table pre { margin: 0; }
+sourcecode, sourcecode .w {
+  color: #444444;
+}
+sourcecode .cp {
+  color: #CC00A3;
+}
+sourcecode .cs {
+  color: #CC00A3;
+}
+sourcecode .c, sourcecode .ch, sourcecode .cd, sourcecode .cm, sourcecode .cpf, sourcecode .c1 {
+  color: #FF0000;
+}
+sourcecode .kc {
+  color: #C34E00;
+}
+sourcecode .kd {
+  color: #0000FF;
+}
+sourcecode .kr {
+  color: #007575;
+}
+sourcecode .k, sourcecode .kn, sourcecode .kp, sourcecode .kt, sourcecode .kv {
+  color: #0000FF;
+}
+sourcecode .s, sourcecode .sb, sourcecode .sc, sourcecode .ld, sourcecode .sd, sourcecode .s2, sourcecode .se, sourcecode .sh, sourcecode .si, sourcecode .sx, sourcecode .sr, sourcecode .s1, sourcecode .ss {
+  color: #009C00;
+}
+sourcecode .sa {
+  color: #0000FF;
+}
+sourcecode .nb, sourcecode .bp {
+  color: #C34E00;
+}
+sourcecode .nt {
+  color: #0000FF;
+}
+
+</source-highlighter-css></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_240cc6fc-ea89-52c9-57df-ed2dab09d6de" inline-header="true" obligation="normative">
+<p id="boilerplate-year">© <span class="std_publisher">ISO </span><span class="date">2021</span></p>
+
+<p id="boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
+
+<p id="boilerplate-address" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8 <br/> CH-1214 Vernier, Geneva <br/> Phone: +41 22 749 01 11 <br/> Email:  <link target="mailto:copyright@iso.org"/><br/> Website: www.iso.org</p>
+
+<p id="boilerplate-place">Published in Switzerland</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_warning_for_wds_and_cds" inline-header="false" obligation="normative">
+<title depth="1">Warning for WDs and CDs</title>
+<p id="_77616240-d3c7-12bd-abe6-f0df62e81d4f">This document is not an ISO International Standard. It is distributed for review and comment. It is subject to change without notice and may not be referred to as an International Standard.</p>
+
+<p id="_87adaa1e-c5fe-db08-1c44-79762ac4e62b">Recipients of this draft are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.</p>
+</clause>
+</license-statement>
+</boilerplate><preface><clause type="toc" id="_5c71860b-f3c6-449e-8c2d-e6a37a7bf45a" displayorder="1"><title depth="1">Contents</title></clause>
+<foreword id="_543fe901-d4f4-6f93-de13-1181217d1922" obligation="informative" displayorder="2">
+<title>Foreword</title>
+<p id="_af04a30c-6da7-69ff-6b0b-8b89283f2084">ISO (the International Organization for Standardization) is a worldwide federation of national standards bodies (ISO member bodies). The work of preparing International Standards is normally carried out through ISO technical committees. Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee. International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.</p>
+
+<p id="_f1083fe6-457b-ed9f-a5a1-091fed6f8b06">The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular the different approval criteria needed for the different types of ISO documents should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see www.iso.org/directives).</p>
+
+<p id="_9e049049-8b46-3d3e-97b9-eebd6fb12fcb">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see www.iso.org/patents).</p>
+
+<p id="_3ab973f1-2a74-b4ca-84d1-ea4900a47843">Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.</p>
+
+<p id="_de7c4d87-54d1-49a0-0f1e-4d3fa697e2c0">For an explanation on the voluntary nature of standards, the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT) see the following URL: www.iso.org/iso/foreword.html.</p>
+
+<p id="_979638ff-4690-54f1-927d-cf4ea0d2b2e2">This document was prepared by Technical Committee ISO/TC 154, <em>Processes, data elements and documents in commerce, industry and administration</em>.</p>
+
+<p id="_432f946f-3adc-15a7-e097-fa935cd35ff5">This document is amongst a series of International Standards dealing with the conversion of systems of writing produced by Technical Committee ISO/TC 154, <em>Processes, data elements and documents in commerce, industry and administration</em>, WG 5 <em>Date and time</em>.</p>
+
+<p id="_397ec012-859c-dd50-8ac1-f4212334f327">This is the first edition of this document.</p>
+</foreword></preface><sections><p class="zzSTDTitle1" displayorder="3"><span class="boldtitle">Date and time — Codes for calendar systems — </span><span class="nonboldtitle">Part A:</span> <span class="boldtitle">Guidelines for maintenance</span></p>
+<clause id="_scope" type="scope" inline-header="false" obligation="normative" displayorder="4">
+<title depth="1">1<tab/><review date="2024-10-11" reviewer="Metanorma" id="_0c33f2c8-5241-450d-92e9-4d4a9c889bfc"><p><strong>Metadata warnings:<strong/> <p>Document date is missing.</p></strong></p></review>Scope</title>
+<p id="_0e7e47f3-45d0-6c60-dc03-a51310711831">This document provides guidelines for the maintenance of ISO 34300 codes for the ISO 34300 registration authority.</p>
+</clause>
+
+
+
+<terms id="_terms_and_definitions" obligation="normative" displayorder="6">
+<title depth="1">3<tab/>Terms and definitions</title><p id="_0da6ca68-ecc9-b4a3-26a2-cdb6aef1b772">For the purposes of this document, the following terms and definitions apply.</p>
+<p id="_13af5450-a71d-e945-782d-afffb0a645ab">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p>
+
+<ul id="_3fb63b94-5696-f10f-fa14-8fb905c53d98"><li><p id="_9bcbd305-1125-3ee7-507a-f9b9cd78c680">ISO Online browsing platform: available at <link target="https://www.iso.org/obp"/></p>
+</li>
+<li><p id="_16dd7b4f-969c-d0e1-c933-d9185c774137">IEC Electropedia: available at <link target="https://www.electropedia.org"/></p>
+</li>
+</ul>
+
+<term id="term-code"><name>3.1</name><preferred><strong>code</strong></preferred>
+<definition><p id="_5e8ab9a7-4328-7608-d746-6c540cd00967">data representation in different forms according to a pre-established set of rules</p></definition>
+
+
+ <termsource status="identical" type="authoritative">[SOURCE: <xref type="inline" target="ISO639-2"><span class="stdpublisher">ISO </span><span class="stddocNumber">639</span>-<span class="stddocPartNumber">2</span></xref>]</termsource></term>
+
+<term id="term-registration-item"><name>3.2</name><preferred><strong>registration item</strong></preferred>
+<definition><p id="_c957b0a7-d0b0-fe7f-484c-22800c555c3b">data element in a register</p></definition>
+ </term>
+
+<term id="term-registration-code"><name>3.3</name><preferred><strong>registration code</strong></preferred>
+<definition><p id="_e08a8c1e-fc6c-943b-d95f-fc63396cc912">code that identifies a <em>registration item</em> (<xref target="term-registration-item"><span class="citesec">3.2</span></xref>) within a register</p></definition>
+ </term>
+
+<term id="term-ISO-34300-registration-authority"><name>3.4</name><preferred><strong>ISO 34300 registration authority</strong></preferred><admitted>ISO 34300/RA</admitted>
+
+
+
+<definition><p id="_ac86090a-34fb-70ff-7321-aac9713de370">registration authority that manages the <em>ISO 34300 register</em> (<xref target="term-ISO-34300-register"><span class="citesec">3.5</span></xref>)</p></definition>
+ </term>
+
+<term id="term-ISO-34300-register"><name>3.5</name><preferred><strong>ISO 34300 register</strong></preferred>
+<definition><p id="_656a4ea1-0e4a-3571-f07d-13686e61defb">register containing <em>ISO 34300 registration items</em> (<xref target="term-ISO-34300-registration-item"><span class="citesec">3.7</span></xref>)</p></definition>
+ </term>
+
+<term id="term-ISO-34300-advisory-group"><name>3.6</name><preferred><strong>ISO 34300 advisory group</strong></preferred><admitted>ISO 34300/AG</admitted>
+
+
+
+<definition><p id="_c3a52a17-17a4-3f62-e50c-fd1f3d9ef7d9">group that provides advice to the <em>ISO 34300 registration authority</em> (<xref target="term-ISO-34300-registration-authority"><span class="citesec">3.4</span></xref>) on the contents of the  <em>ISO 34300 register</em> (<xref target="term-ISO-34300-register"><span class="citesec">3.5</span></xref>)</p></definition>
+ </term>
+
+<term id="term-ISO-34300-registration-item"><name>3.7</name><preferred><strong>ISO 34300 registration item</strong></preferred>
+<definition><p id="_637a0bfe-b908-bdd0-9623-268804c1fb0c">registration item identified by a registration code unique to the <em>ISO 34300 register</em> (<xref target="term-ISO-34300-register"><span class="citesec">3.5</span></xref>)</p></definition>
+ </term>
+</terms>
+
+<clause id="_iso_34300_registration_authority_2" inline-header="false" obligation="normative" displayorder="7">
+<title depth="1">4<tab/>ISO 34300 registration authority</title>
+<clause id="_general" inline-header="false" obligation="normative">
+<title depth="2">4.1<tab/>General</title>
+<p id="_10135077-b81e-23dd-3df0-d215174a2fc8">ISO has designated a Registration Authority for this International Standard (ISO 34300/RA) to operate under guidelines provided in this document.</p>
+
+<p id="_d6aa51a5-9610-c727-3d35-c7489f08608c">ISO 34300 defines the ISO 34300 register, which contains ISO 34300 registration items. Requirements of the ISO 34300 registration item and relevant data models used to represent calendars and calendar eras are also provided in the same document.</p>
+</clause>
+
+<clause id="_responsibilities" inline-header="false" obligation="normative">
+<title depth="2">4.2<tab/>Responsibilities</title>
+<clause id="_maintenance_of_the_iso_34300_register" inline-header="false" obligation="normative">
+<title depth="3">4.2.1<tab/>Maintenance of the ISO 34300 register</title>
+<p id="_5d78e992-30f8-0c1a-24dc-06f4a524ccc2">The ISO 34300/RA is responsible for the maintenance of the ISO 34300 register, including code assignments for individual registration items and the information associated with each.</p>
+
+<p id="_fdb84c3e-4c24-9ccf-6141-04fa9719f23d">The ISO 34300/RA is also responsible for administering reservations of the codes in the register.</p>
+</clause>
+
+<clause id="_handling_data_change_requests_for_the_iso_34300_register" inline-header="false" obligation="normative">
+<title depth="3">4.2.2<tab/>Handling data change requests for the ISO 34300 register</title>
+<p id="_2be85e2a-d0da-468e-6ae9-26550b0b27c8">ISO 34300/RA is responsible for receiving and reviewing applications for data change requests, including the addition, modification and elimination of registration items within the ISO 34300 register.</p>
+
+<p id="_d1b3b77e-9cf7-5e1b-ba6a-4704e259ab2c">It is responsible for informing the applicant of the result of ISO 34300/RA actions.</p>
+
+<p id="_63bc95cd-41ab-b836-7213-f1fa45b2fef3">It shall propose a practical mechanism to apply the proposed change assignment when the relevant criteria are met according to ISO 34300.</p>
+
+<p id="_0b122eff-53b8-0207-fbd5-d36d7d574d5d">After approval by the members of the ISO 34300/AG, the ISO 34300/RA will update and publish the appropriate registrations, with all agreed corrections, if any.</p>
+
+<p id="_6aad785a-f90a-df78-e2d7-685100b6c5c6">Data changes performed to the ISO 34300 register should be kept for traceability.</p>
+</clause>
+
+<clause id="_publisher_of_iso_34300_register" inline-header="false" obligation="normative">
+<title depth="3">4.2.3<tab/>Publisher of ISO 34300 register</title>
+<p id="_46976626-946a-5e37-278d-d52bf716a8b0">ISO 34300/RA is responsible for disseminating the contents of the ISO 34300 register to the public.</p>
+
+<p id="_cc7be177-0fdd-dd3a-f568-08a37e4d718c">Changes to the content of the list of entries becomes effective immediately upon publication.</p>
+
+<p id="_a46ae9c6-5bf9-e80e-869e-b58d38035a4c">The ISO 34300/AGS may consult individual ISO 34300/AG members directly concerning particular problems of implementation raised by users or potential users.</p>
+
+<p id="_b89db14a-538e-87c3-fb07-a24126e07294">Data changes of the ISO 34300 register should be published and the history of changes made available.</p>
+</clause>
+
+<clause id="_advice_to_users_of_the_iso_34300_register" inline-header="false" obligation="normative">
+<title depth="3">4.2.4<tab/>Advice to users of the ISO 34300 register</title>
+<p id="_b6e4c571-59b3-1177-82ba-ffec9745216e">ISO 34300/RA is responsible for providing advice to the public and ISO member bodies on the application, use and implementation of ISO 34300, thereby seeking to promote its widest possible use.</p>
+</clause>
+</clause>
+
+<clause id="_other_responsibilities" inline-header="false" obligation="normative">
+<title depth="2">4.3<tab/>Other responsibilities</title>
+<p id="_6706a596-ba7e-ec66-23ee-3fa9d807cfec">Other responsibilities of the ISO 34300/RA include:</p>
+
+<ol id="_52649db2-3cea-2d62-1433-07b96383ceb8" type="alphabet"><li id="_3c08dfde-a737-4697-ad70-42e592743e3d" label="a"><p id="_6b7a8d1d-ebb5-b1e5-d64b-20bee48beff4">indicate in operations that it has been designated as ISO 34300/RA by ISO;</p>
+</li>
+<li id="_be65a2d6-31d0-4067-ab8c-15e4e00cb494" label="b"><p id="_a106756d-3dce-2823-ad46-46ae7d784644">provide an annual summary report on activity to ISO/TC 154.</p>
+</li>
+</ol>
+</clause>
+</clause>
+
+<clause id="_iso_34300_advisory_group_2" inline-header="false" obligation="normative" displayorder="8">
+<title depth="1">5<tab/>ISO 34300 advisory group</title>
+<clause id="_general_2" inline-header="false" obligation="normative">
+<title depth="2">5.1<tab/>General</title>
+<p id="_d998a926-fcc8-4e4d-9d50-a61d41893785">The ISO 34300 advisory group (ISO 34300/AG) is appointed to ensure the operations of the registration authority (ISO 34300/RA) are in accordance with guidelines provided in this document.</p>
+</clause>
+
+<clause id="_responsibilities_2" inline-header="false" obligation="normative">
+<title depth="2">5.2<tab/>Responsibilities</title>
+<p id="_819097af-1bec-4e1c-106d-2aeb308f6f1d">The ISO 34300/AG is responsible for providing guidance to ISO 34300/RA on handling of updates and data changes to the ISO 34300 register.</p>
+
+<p id="_d47e123a-17d4-e3cf-9b05-7d3acb7d7484">It is also responsible for providing consultation and assistance on the use of ISO 34300 to ISO member bodies.</p>
+</clause>
+
+<clause id="_voting_members" inline-header="false" obligation="normative">
+<title depth="2">5.3<tab/>Voting members</title>
+<clause id="_general_3" inline-header="false" obligation="normative">
+<title depth="3">5.3.1<tab/>General</title>
+<p id="_1e55983a-cee4-eff0-7254-25064d137ff7">The ISO 34300/AG voting membership consists of:</p>
+
+<ul id="_47c1a8b6-b314-bff6-e0de-c23c924d6c63"><li><p id="_f64b3114-da04-44b8-6136-a2fbc25c2a3b">ISO 34300/AG convenor (no vote)</p>
+</li>
+<li><p id="_aa786a4b-8ea4-a3c6-e655-532d1ee85b24">ISO 34300/AG vice-convenor</p>
+</li>
+<li><p id="_6e3f7af6-a999-f5bb-c63f-02ce6ae61f5b">at least 6 to 12 individually named members representing voting member bodies as follows:</p>
+<ul id="_b0816c93-ada9-1217-91e1-e56860b0d0f4"><li><p id="_b5a6313c-6f25-c621-e63c-62ad421064cf">three to six standing members from international organizations other than ISO;</p>
+</li>
+<li><p id="_0408e3bd-99c5-d7a1-4c04-5ce5f4100b1a">three standing members from within ISO/TC 154 participating member bodies (P-members);</p>
+</li>
+<li><p id="_96db5ea1-b01c-bd4e-ba76-4aca48a3f781">three (maximum) rotating members from within ISO/TC 154 participating member bodies (P-members).</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<p id="_ed0f370c-27ba-aa8a-7bb1-6642434e5759">ISO/TC 154 should review the membership structure of the ISO 34300/AG at regular intervals to ensure that its members fulfil their obligations ( <xref target="ag-member-responsibilities"><span class="citesec">5.5</span></xref>).</p>
+
+<p id="_8826664b-c412-a2ff-55e4-74f1740e9995">Recommendations for changes to the structure shall be submitted to ISO/TC 154 for consideration and, if approved, will be implemented by the time of the next plenary meeting.</p>
+
+<p id="_8b8f17de-c7c9-a24a-f680-e9f614e4a5ad">The ISO 34300/AG membership list is available on the ISO 34300/AG ISO Documents website.</p>
+</clause>
+
+<clause id="_international_organization_other_than_iso_standing_members" inline-header="false" obligation="normative">
+<title depth="3">5.3.2<tab/>International organization (other than ISO) standing members</title>
+<p id="_2c314153-0979-588a-4257-f62e2b7a5ccd">A minimum of three and not more than six international organizations that are not within ISO may be appointed to ISO 34300/AG.</p>
+
+<p id="_580655bf-b720-95e0-e45e-fadb8b2c1d2d">These international organizations are selected based on the role that they can play in achieving the greatest use and promotion of ISO 34300. These international organizations are appointed by ISO/TC 154 as standing members. These international organizations are required to be existing Category A liaisons to ISO/TC 154.</p>
+</clause>
+
+<clause id="_iso_p_members" inline-header="false" obligation="normative">
+<title depth="3">5.3.3<tab/>ISO P-members</title>
+<clause id="_standing_iso_p_members" inline-header="false" obligation="normative">
+<title depth="4">5.3.3.1<tab/>Standing ISO P-members</title>
+<p id="_41bd326a-280f-6815-c4d5-2b9ec6dfbe66">Three standing P-members may be appointed to consecutive terms in the ISO 34300/AG. These members should reflect the greatest responsibility and productivity within the technical committee structure for this purpose. The P-members are selected by ISO/TC 154 for three-year periods which can be renewed automatically for consecutive terms. The composition of the standing members is established by ISO/TC 154.</p>
+</clause>
+
+<clause id="_rotating_iso_p_members" inline-header="false" obligation="normative">
+<title depth="4">5.3.3.2<tab/>Rotating ISO P-members</title>
+<p id="_3992abb9-edfc-9d3c-38b0-8071080376fd">Any P-members from ISO/TC 154 who are not standing members may apply to be a rotating P-member of ISO 34300/AG. ISO/TC 154 selects up to four P-members amongst the candidates taking into account the following considerations.</p>
+
+<ul id="_22d192bb-d32f-01d5-5953-af5ea20576cd"><li><p id="_57bd30b8-4ad7-cc80-fa4b-8c5aca9dd790">Up to three rotating P-members may sit on the ISO 34300/AG at one time.</p>
+</li>
+<li><p id="_de29ec7d-4344-18e2-9177-095be56b86eb">The membership term of a rotating P-member is 2 years.</p>
+</li>
+<note id="_ce2cbfec-e43c-5857-c886-e3845aa0439f"><name>NOTE</name><p id="_21375901-91c4-ff74-09e3-32b9151e9f44">Members leaving the ISO 34300/AG may be re-elected an indefinite number of times. It is recognised that all willing P-members have an opportunity to serve on the ISO 34300/AG.</p>
+</note></ul>
+
+
+
+<ul id="_e5303266-7e03-1b56-9ff7-69431e5696ce"><li><p id="_77751e50-eec9-20cf-ac6f-e9201fada03c">Members should be selected in view of the best cultural diversity and geographical representation, for example amongst:</p>
+<ul id="_287ed1c1-71ef-5a8a-f936-d7e22ed883b2"><li><p id="_cdc8f7fb-8de8-3bde-a06d-0cece88f3546">African states,</p>
+</li>
+<li><p id="_2319d0c6-a0e4-ec46-d39b-1ce12f4ad4d8">Asia and Pacific states,</p>
+</li>
+<li><p id="_767db50f-5264-4f0f-c88a-49dbeb73dcb2">European states,</p>
+</li>
+<li><p id="_6ccb68ef-f3c7-e1d7-4aca-96698768bca7">North and South American states.</p>
+</li>
+</ul>
+</li>
+<li><p id="_a3b34cf8-e029-fe3f-dba3-ebec5d85b71f">Where insufficient nominations are received, the relevant number of seats on the ISO 34300/AG may remain unassigned.</p>
+</li>
+</ul>
+
+<p id="_08ead7ad-8c68-0d07-49a2-dd30b8c8e427">At the first election, three members will be elected, of which two will serve two years before leaving and being replaced whilst the other one will serve three years before leaving and being replaced. Those leaving after two years shall be selected by the drawing of lots.</p>
+</clause>
+</clause>
+</clause>
+
+<clause id="_non_voting_members" inline-header="false" obligation="normative">
+<title depth="2">5.4<tab/>Non-voting members</title>
+<clause id="_associate_members" inline-header="false" obligation="normative">
+<title depth="3">5.4.1<tab/>Associate members</title>
+<p id="_43a75c84-0720-f76d-ae8d-8f907164d36f">At the acceptance of ISO 34300/AG, non-members of ISO/TC 154 P-members and international organizations may be associated with the work of the ISO 34300/AG.</p>
+
+<p id="_8b3d2554-10d4-027c-8f6b-45e2b895acdf">An associate member body has the same status as a voting member but does not participate in voting.</p>
+</clause>
+
+<clause id="_members_for_information" inline-header="false" obligation="normative">
+<title depth="3">5.4.2<tab/>Members for information</title>
+<p id="_c94d3fb5-cc7b-9908-4ce7-06526c244ec9">These members of the ISO 34300/RA are non-voting members participating directly or indirectly in the maintenance of ISO 34300.</p>
+</clause>
+
+<clause id="_secretariat" inline-header="false" obligation="normative">
+<title depth="3">5.4.3<tab/>Secretariat</title>
+<p id="_abef4a66-3973-d7f2-1b4f-8db1f5d6064a">The ISO 34300/AG is served by a secretariat (ISO 34300/AGS), as designated by ISO 34300/AG.</p>
+</clause>
+</clause>
+
+<clause id="ag-member-responsibilities" inline-header="false" obligation="normative">
+<title depth="2">5.5<tab/>Member responsibilities</title>
+<clause id="_voting_members_2" inline-header="false" obligation="normative">
+<title depth="3">5.5.1<tab/>Voting members</title>
+<p id="_7e9be0f2-4862-4f34-8daf-1287f0dcd09a">Voting members shall have one vote each and shall nominate within their respective organizations:</p>
+
+<ul id="_855ac145-eb88-2872-c80d-3bd4c2c3a1be"><li><p id="_045c83d3-be35-a584-4732-80e87b47e983">one person to act as the representative voting member;</p>
+</li>
+<li><p id="_4e63f769-74a4-14ba-b550-7355949f2a7f">one person to act as a substitute to its representative in case of unavailability.</p>
+</li>
+</ul>
+
+<p id="_7de2f5f7-e3dd-535a-40d5-dd1a6ebac641">These representatives should preferably be chosen to have the expertise necessary to understand ISO 34300 issues.</p>
+
+<p id="_e000c02a-63d9-42f8-1440-f501e590d4d8">The ISO 34300/AG shall decide upon changes to registration items in the ISO 34300 register under conditions specified in ISO 34300.</p>
+
+<p id="_8751fad4-e62b-e3e8-687a-b6d3b323ca14">Members are expected to vote, respond and comment without delay within specified time limits on ISO 34300/AG matters and attend meetings of the ISO 34300/AG, as required.</p>
+</clause>
+
+<clause id="_officers" inline-header="false" obligation="normative">
+<title depth="3">5.5.2<tab/>Officers</title>
+<p id="_57483a09-95f1-2898-37b0-9f8405a20805">Officers of the ISO 34300/AG include its convenor and vice-convenor. Both roles are nominated by ISO/TC 154.</p>
+
+<p id="_543d0a3a-ebce-defc-7d3c-fe2e3ca170bb">These two officers shall be representatives of the two different membership groups:</p>
+
+<ul id="_4bfb1ff7-3315-fc00-0c0d-be51a1343695"><li><p id="_f8c6cbee-475a-a7db-c0ce-b80a6221f3b1">one from the ISO P-members;</p>
+</li>
+<li><p id="_8eba517e-4948-ca7d-df64-d52114c3add7">one from non-ISO international organizations.</p>
+</li>
+</ul>
+
+<p id="_37d09b5f-f796-8c96-50e8-aee0977ce775">These nominations will be submitted to ISO/TC 154 for approval.</p>
+
+<p id="_c6c5c649-c1d6-788b-1fcd-2ff3f0112d9b">When necessary, the vice-convenor replaces the convenor and assumes their responsibilities.</p>
+
+<p id="_53a35414-8b8b-8b71-c487-6cc45a90c59c">In accordance with ISO’s neutrality policy, the convenor will not have a vote on ISO 34300/AG matters. Therefore, if the appointment of the convenor leaves a voting member vacancy from one of its member bodies, the member body shall name a new member to the ISO 34300/AG.</p>
+
+<p id="_83e46a79-8f91-1bd1-54b0-fe952b0b2845">After the appointment of new officers, the outgoing and incoming officers should ensure a smooth and efficient handling of the work with the support of the ISO 34300/AGS during a transitional period.</p>
+</clause>
+
+<clause id="_secretariat_2" inline-header="false" obligation="normative">
+<title depth="3">5.5.3<tab/>Secretariat</title>
+<p id="_9ea5d0db-7d83-a7cd-d4b9-ec5e6b042a4b">The ISO 34300/AGS is responsible for the administration of maintenance procedures of ISO 34300/AG, including:</p>
+
+<ul id="_16d5868f-6dc6-7a31-81ac-06d5e5286bc6"><li><p id="_745778fb-dc3e-3c8c-c1ce-dcf9e7df04d0">updating and maintaining the ISO 34300/AG membership list;</p>
+</li>
+<li><p id="_161eca61-433c-2c74-2f94-1f3ec3e34539">calling meetings of ISO 34300/AG voting and/or non-voting members when necessary;</p>
+</li>
+<li><p id="_71c56391-930a-c728-fcdb-793c75414332">preparing meeting agendas and providing the minutes from meetings;</p>
+</li>
+<li><p id="_e882532e-9309-5b7a-e762-f1d9396a0ec3">consensus procedures and their reporting.</p>
+</li>
+</ul>
+
+<p id="_3537e642-6f1d-5383-9d7c-c45974a0fa76">The ISO 34300/AGS is also responsible for maintaining an efficient arrangement concerning communication and documentation to ISO 34300/AG members and other interested parties.</p>
+</clause>
+</clause>
+</clause>
+
+<clause id="_working_procedure" inline-header="false" obligation="normative" displayorder="9">
+<title depth="1">6<tab/>Working procedure</title>
+<clause id="_principles" inline-header="false" obligation="normative">
+<title depth="2">6.1<tab/>Principles</title>
+<p id="_d818bae3-4c21-7f90-0912-14584f2c5236">The maintenance procedure shall be as expedient as possible. It generally functions by means of communication technologies. When any of the ISO 34300/AG voting members consider that a meeting is required, the ISO 34300/AGS consults the ISO 34300/AG members about the convening of such a meeting.</p>
+
+<p id="_db76d3d2-e312-7ee3-9d90-2bbca6b025a8">As a general principle, to ensure continuity and stability in the system, code elements shall be changed only for compelling reasons.</p>
+</clause>
+
+<clause id="_consultation_phase_and_procedure" inline-header="false" obligation="normative">
+<title depth="2">6.2<tab/>Consultation phase and procedure</title>
+<p id="_877b791d-1b76-2d2b-8bc7-4b8abe12e02e">Before opening any vote, a consultation period of at least ten working days shall be conducted amongst the ISO 34300/AG members.</p>
+
+<p id="_0dbefaae-ead5-613b-198d-822fa3060937">ISO 34300/AG members are invited to provide comments concerning the subject of consultation during this period.</p>
+
+<p id="_61ac1c47-1526-3f73-52bf-30dc189934a5">Based on findings from this consultation, the consensus phase may be initiated.</p>
+</clause>
+
+<clause id="_consensus_phase_and_procedure" inline-header="false" obligation="normative">
+<title depth="2">6.3<tab/>Consensus phase and procedure</title>
+<p id="_2c4f1ca4-63f8-547f-58da-545588a86476">Each voting member of the ISO 34300/AG shall have one vote. Votes shall be cast by the nominated representative or the substitute of each voting member. Members shall actively cast their votes, i.e. yes, no or abstention.</p>
+
+<p id="_5a7179c1-92d6-29ca-3d8a-a3889f6c6239">Agreement to proposed changes shall be obtained by means of remote communication or at a meeting of the ISO 34300/AG, provided that the matter has been included in the draft agenda of the meeting. These agreements shall be confirmed in writing.</p>
+
+<p id="_2092e10b-551c-11c0-62b6-648c35ed891a">The length of the reply period shall be six working days but at the request of the Convenor or at least one ISO 34300/RA voting member, the reply period may be extended.</p>
+
+<p id="_87022938-2eaf-b446-ce43-27b2f57661b9">For the purposes of the ISO 34300/RA and ISO 34300/AG, the term “working days” shall exclude Saturdays and Sundays. The term “working days” shall also exclude the last five days of December.</p>
+
+<p id="_25b20e0f-e95d-ccdf-4a3e-6484169c1e8b">Positive consensus is confirmed once there is a two-thirds majority and at least eight positive votes.</p>
+
+<p id="_d48e4301-14b3-35ac-325e-80cee93894a8">When there is a two-thirds majority of positive votes, but fewer than four positive votes because of the high number of abstentions, a second round of voting is held.</p>
+
+<p id="_552b895e-4a67-b754-2c08-c2f01b02b456">After the second round, there will be no further ballots on the same proposal.</p>
+
+<p id="_3be0c72c-6b18-556c-c6c2-64fcf4a44b9a">Recorded abstentions do not count. Voting members not fulfilling their responsibilities by casting an active vote will be reminded of their responsibilities.</p>
+</clause>
+
+<clause id="_reporting" inline-header="false" obligation="normative">
+<title depth="2">6.4<tab/>Reporting</title>
+<p id="_05458005-a098-601a-d809-87af13b9cb6a">ISO 34300/AG is responsible for communicating data change decisions to the ISO 34300/RA.</p>
+</clause>
+</clause>
+
+
+
+
+<references id="_normative_references" normative="true" obligation="informative" displayorder="5">
+<title depth="1">2<tab/>Normative references</title><p id="_21ac2b92-2fe6-317d-983c-a478441ede9f">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+
+<bibitem id="ISO19135-1" type="standard" schema-version="v1.2.9"><formattedref><em><span class="stddocTitle">Geographic information — Procedures for item registration — Part 1: Fundamentals</span></em></formattedref><uri type="src">https://www.iso.org/standard/54721.html</uri><uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:54721:en</uri><uri type="rss">https://www.iso.org/contents/data/standard/05/47/54721.detail.rss</uri><docidentifier type="ISO" primary="true">ISO 19135-1</docidentifier><docidentifier type="iso-reference">iso-reference ISO 19135-1(E)</docidentifier><docidentifier type="URN">URN urn:iso:std:iso:19135:-1:stage-90.92</docidentifier><docidentifier scope="biblio-tag">ISO 19135-1</docidentifier><biblio-tag>ISO 19135-1, </biblio-tag></bibitem>
+</references></sections><annex id="_maintenance_procedures_for_the_iso_34300_register" inline-header="false" obligation="normative" displayorder="10">
+<title><strong>Annex A</strong><br/><span class="obligation">(normative)</span><br/><br/><strong>Maintenance procedures for the ISO 34300 register</strong></title>
+<clause id="_general_4" inline-header="false" obligation="normative">
+<title depth="2">A.1<tab/>General</title>
+<p id="_c9b2318c-e8fb-e8cf-3dfb-8a5afc40b1e5">The maintenance of the ISO 34300 register follows the following criteria:</p>
+
+<ul id="_9505e119-3a55-e13f-7fef-8176f33c2192"><li><p id="_534ad845-2812-cec2-7f5c-8b6856988952">requirements and procedures provided by this document;</p>
+</li>
+<li><p id="_e09e5721-d63c-10c2-387b-0fc8936e4c39">registration operations shall adhere to the requirements stated in <xref type="inline" target="ISO19135-1"><span class="stdpublisher">ISO </span><span class="stddocNumber">19135</span>-<span class="stddocPartNumber">1</span></xref>, in which purpose ISO 34300/AG takes the role of “Control Body” in the concept system of  <xref type="inline" target="ISO19135-1"><span class="stdpublisher">ISO </span><span class="stddocNumber">19135</span>-<span class="stddocPartNumber">1</span></xref>;</p>
+</li>
+<li><p id="_850016de-5cba-1e49-3ad3-45c607308e16">requirements provided in <xref target="change-requests"><span class="citeapp">Clause A.2</span></xref> and <xref target="reservation"><span class="citeapp">Clause A.3</span></xref>.</p>
+</li>
+</ul>
+</clause>
+
+<clause id="change-requests" inline-header="false" obligation="normative">
+<title depth="2">A.2<tab/>Change requests</title>
+<clause id="_general_5" inline-header="false" obligation="normative">
+<title depth="3">A.2.1<tab/>General</title>
+<p id="_c5a4e59b-2a5a-2dcb-71a0-dad05d43213f">Requests for additions, deletions, and changes of registration items are received by ISO 34300/RA.</p>
+
+<p id="_7610a75a-c9f1-1329-6c35-a63ae0572443">The proposer is responsible for providing justification regarding the eligibility of such change.</p>
+
+<p id="_c92562de-f949-ec40-cb37-011571b76014">The procedure for treating such requests is as follows:</p>
+
+<ol id="_4c757912-4b4d-53e4-2778-a9e0d1b62e17" type="alphabet"><li id="_721746db-d46b-40ec-9c04-870fbf0611f6" label="a"><p id="_ed929f18-4dc2-8574-aac3-a5ad62b18b1b">ISO 34300/RA verifies that the request is supported by justification meeting
+the necessary eligibility criteria.<note id="_703c14f8-8dd3-e685-aafc-72d9b6d781f6"><name>NOTE</name><p id="_21964e54-0cbf-e4c1-4214-df7f6894d7ca">Meeting the criteria is necessary for consideration but might not be sufficient for inclusion in ISO 34300.</p>
+</note></p>
+
+</li>
+<li id="_d870146c-bcc0-472b-ae2f-9ca561bd3ba0" label="b"><p id="_9fedfd6f-6c33-902a-9989-431dcfe0dbb2">ISO 34300/RA initiates a consultation in ISO 34300/AG about the proposed update and possible changes necessary. When ISO 34300/RA consults ISO 34300/AG about the proposed inclusion, deletion or change, and proposes a mechanism to implement such change, ISO 34300/AG is obliged to respond within one month.</p>
+</li>
+<li id="_4d668cdd-a285-42a0-88a1-5f4d41c9c45c" label="c"><p id="_83c30a53-b227-2619-3724-66bcfa5c1ec7">Following the consultation, ISO 34300/AG decides through the defined consensus procedure whether the requested change is to be applied.</p>
+<ol id="_5041925c-1771-74ac-5b27-b47e208cb440" type="arabic"><li id="_a8dad751-20b3-4146-8df6-9af1ce515a5a" label="1"><p id="_4de2686a-aba8-d9ff-e27c-7e957289e93b">If ISO 34300/AG confirms the adoption of the change, the change will be implemented by the ISO 34300/RA.</p>
+</li>
+<li id="_0a616e30-5a5b-4326-a6cf-968f522a1c4b" label="2"><p id="_36e709ea-4ad7-cddf-a0fa-ff9654640af6">Otherwise, the request is rejected and the party that made the request informed.</p>
+</li>
+</ol>
+</li>
+</ol>
+</clause>
+
+<clause id="registration-adding-calauth" inline-header="false" obligation="normative">
+<title depth="3">A.2.2<tab/>Registration of a new calendar system and calendar era</title>
+<p id="_9c829470-60f7-262c-dec5-ac0f72800458">A calendar system and calendar era is eligible for registration if it meets the requirements stated in ISO 34300.</p>
+
+<p id="_ddab6678-2d8c-67c1-95e1-2315e117d4bf">The ISO 34300/AG will decide upon the addition, on the basis of eligibility and usage justification.</p>
+
+<p id="_ee51a52a-a860-3ea0-8b56-e83e7aa60d78">Code elements will be allocated by the ISO 34300/AG at its discretion.</p>
+
+<p id="_46e11ca6-c872-d377-4bee-af74b2a84108">Since a calendar system requires at least one calendar era, the application and assignment of calendar system and calendar era codes can be performed at once.</p>
+</clause>
+
+<clause id="_modification_of_a_calendar_system_or_calendar_era_code" inline-header="false" obligation="normative">
+<title depth="3">A.2.3<tab/>Modification of a calendar system or calendar era code</title>
+<p id="_b527ccc2-90c4-21ec-302f-7a18d4b56b13">The ISO 34300/AG will decide upon the modification, on the basis of the information received.</p>
+
+<p id="_5b5784e8-b7eb-c57b-ac74-9aaf30f11a68">The previously assigned code is reserved after modification for backwards-compatibility purposes.</p>
+</clause>
+
+<clause id="registration-removing-calauth" inline-header="false" obligation="normative">
+<title depth="3">A.2.4<tab/>Removal of a calendar system or a calendar era code</title>
+<p id="_cc199d07-7884-4658-491c-ba496c9657fb">The ISO 34300/AG will decide upon the deletion, on the basis of the information received.</p>
+
+<p id="_7c1e1432-f085-6ffb-18d8-8d6059148111">The corresponding code element is reserved.</p>
+</clause>
+
+<clause id="registration-modify-cal" inline-header="false" obligation="normative">
+<title depth="3">A.2.5<tab/>Modification of associated data elements to registered calendar systems and calendar era codes</title>
+<p id="_a7f46c80-7c9b-c7e1-77d6-319973cf5ccb">The ISO 34300/AG will decide upon the proposed modification based on information received.</p>
+
+<p id="_ec1bf901-1231-8cdb-e635-873a5a060262">A significant change of name may require the ISO 34300/AG to change the code of the registered element concerned. The ISO 34300/AG, however, shall endeavor to maintain stability in the list of codes.</p>
+</clause>
+</clause>
+
+<clause id="reservation" inline-header="false" obligation="normative">
+<title depth="2">A.3<tab/>Reservation of code elements</title>
+<clause id="_general_6" inline-header="false" obligation="normative">
+<title depth="3">A.3.1<tab/>General</title>
+<p id="_755b4be5-a21c-516c-e89b-7d92375d9620">Some code elements are reserved:</p>
+
+<ul id="_b7fe2d72-0282-dde7-c588-81f4b8ecf6c2"><li><p id="_0e549293-75fc-7118-06e7-0705497dbe72">for a limited period when their reservation is the result of the deprecation ( <xref target="registration-removing-calauth"><span class="citeapp">A.2.4</span></xref>) or the alteration ( <xref target="registration-modify-cal"><span class="citeapp">A.2.5</span></xref>) of an entry;</p>
+</li>
+<li><p id="_b9278fe8-fd24-ae75-3050-c1f04224971d">for an indeterminate period when the reservation is the result of the application of international law or of exceptional requests ( <xref target="reservation-exceptional"><span class="citeapp">A.3.3</span></xref>).</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_period_of_non_allocation" inline-header="false" obligation="normative">
+<title depth="3">A.3.2<tab/>Period of non-allocation</title>
+<p id="_d40229e8-c892-2b5a-7d90-3c052ab70532">Code elements that the ISO 34300/AG has altered or deleted should not be reallocated during a period of at least ten years after the change.</p>
+
+<p id="_d94d16c5-b54f-e7c5-ef65-bf47c6efce87">The exact period is determined in each case on the basis of the extent to which the former code element was used.</p>
+</clause>
+
+<clause id="reservation-exceptional" inline-header="false" obligation="normative">
+<title depth="3">A.3.3<tab/>Exceptional reservations</title>
+<p id="_e4a79244-eb06-cbc0-2e75-429dfebe5bf7">Code elements may be reserved, in exceptional cases, for calendar systems and calendar eras which the ISO 34300/AG has decided not to include in the lists maintained by ISO 34300/RA, but for which an interchange or encoding requirement exists.</p>
+</clause>
+
+<clause id="_reallocation" inline-header="false" obligation="normative">
+<title depth="3">A.3.4<tab/>Reallocation</title>
+<p id="_bea39ef7-1ef5-9736-007a-69625cf84026">Before reallocating a former code element or a formerly reserved code element, the ISO 34300/AG shall consult, as appropriate, the authority or agency on whose behalf the code element was reserved, and consideration shall be given to difficulties which might arise from the reallocation.</p>
+</clause>
+
+<clause id="_user_assigned_code_elements" inline-header="false" obligation="normative">
+<title depth="3">A.3.5<tab/>User-assigned code elements</title>
+<p id="_75c25a99-c106-569f-85a4-5cf2ca176872">ISO 34300/RA and ISO 34300/AG do not keep a record of the notifications concerning user-assigned code elements received.</p>
+</clause>
+
+<clause id="_list_of_reserved_code_elements" inline-header="false" obligation="normative">
+<title depth="3">A.3.6<tab/>List of reserved code elements</title>
+<p id="_a2c18296-4e00-42f1-4ba7-7d9c7fa427f1">A list of reserved code elements is kept by the ISO 34300/RA.</p>
+</clause>
+</clause>
+</annex><bibliography><references id="_bibliography" normative="false" obligation="informative" displayorder="11">
+<title depth="1">Bibliography</title><bibitem id="ISO639-2" type="standard" schema-version="v1.2.9"><formattedref><em><span class="stddocTitle">Codes for the representation of names of languages — Part 2: Alpha-3 code</span></em></formattedref><uri type="src">https://www.iso.org/standard/4767.html</uri><uri type="rss">https://www.iso.org/contents/data/standard/00/47/4767.detail.rss</uri><docidentifier type="metanorma-ordinal">[1]</docidentifier><docidentifier type="ISO" primary="true">ISO 639-2</docidentifier><docidentifier type="iso-reference">iso-reference ISO 639-2(E)</docidentifier><docidentifier type="URN">URN urn:iso:std:iso:639:-2:stage-95.99</docidentifier><docidentifier scope="biblio-tag">ISO 639-2</docidentifier><note type="Unpublished-Status">
+  <p id="_b962b5b6-588e-ecdb-8706-79f87f92979b">Cancelled and replaced by ISO 639:2023.</p>
+</note><biblio-tag>[1]<tab/>ISO 639-2<fn reference="c797c2cc-b042-4e39-b65f-bf88231ccc28"><p>Cancelled and replaced by ISO 639:2023.</p></fn>, </biblio-tag></bibitem>
+
+</references></bibliography>
+</iso-standard>
